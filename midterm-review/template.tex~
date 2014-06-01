@@ -1,0 +1,98 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%Skeleton LaTeX file: double column format.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%REMEMBER THAT THERES IS AN EIGHT PAGE SIZE RESTRICTION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%% Sample file for ME Project Papers for Evaluation by Supervisor and Reader
+\documentstyle[twocolumn]{article}
+\pagestyle{empty}
+\setlength{\topmargin}{ 0.25in}
+\setlength{\columnsep}{2.0pc}
+\setlength{\footheight}{0.0in}
+\setlength{\headheight}{0.0in}
+\setlength{\headsep}{0.0in}
+\setlength{\oddsidemargin}{-.19in}
+\setlength{\parindent}{1pc}
+\textheight 8.75in
+\textwidth 6.8in
+\begin{document}
+\title{\large \bf Privacy Preserving Static Analysis }
+\author{Soham Ghosh\\Department of Computer Science \& Automation\\Indian Institute of Science} 
+\date{28^{th} September, 2013}
+\maketitle
+\thispagestyle{empty}
+\bibliographystyle{unsrt}
+\begin{abstract}
+The purpose of this project is to provide static analysis as a service while not surrendering your code to a stranger. When we submit our code to a third party for finding bugs it
+ is possible that someone with malicious intent may steal and misuse our code. So this project suggests a way to avoid this by sending obfuscated code instead of the original code. 
+ But in doing so one has to ensure that all bugs in the original code can be mapped to those found in the analysis of the obfuscated version. That is to say that no new bugs are 
+ introduced and also no existing bugs are removed as result of the obfuscation. So to ensure this certain standard obfuscation techniques have to be relaxed and some techniques need 
+ to be more rigid as may be required for a particular bug in consideration.
+ 
+ But in doing so raises an important question that - Are we weakening our obfuscation? So the other part of the project deals with measurement of obfuscation. Here we define a new 
+ concept called Entropy for a program. Basically the entropy is a measure of the uncertainity within a program, meaning difficulty at a particular program point in  analysing a 
+ data value or deciding which control path to take. Here we use the concept of program slicing in determining the entropy of a instruction and then summing up the values for each 
+ and every instruction we get the overall entropy of the program.
+\end{abstract}
+\section{Introduction}
+Static analysis, also called static code analysis, is a method of computer program debugging that is done by examining the code without executing the program. Static analysis finds 
+several applications, in compilers, in tools that help programmers understand and modify programs, and in tools that help programmers verify that programs satisfies certain 
+properties of interest. As software systems and codebases have become larger and more complex there has been a lot of practical interest in using static analysis to assist in 
+detecting software bugs. Over the past few years several static analysis tools have been developed for finding bugs. The most popular among these are: Coverity SAVE \cite{coverity},
+Klocwork Insight \cite{klocwork}, Parasoft \cite{parasoft} etc. But all of these tools are very expensive, as such it is not always possible for small companies and startups to buy
+these tools. One way to avoid this is by using open source analysis tools like: FindBugs \cite{findbugs}, Saturn \cite{saturn}, Chess \cite{chess} etc. But in general it is observed
+that open source tools do not perform as good as the paid tools. So in exchange of using open source tool these companies have to compromise their software quality and productivity.
+ 
+One way to solve the above problem is by providing static analysis as a service. In this method some third parties provide static analysis as a sevice instead of selling their tools.
+The software development companies can easily send their codes to these parties and get their codes analysed and debugged. The cost of this service is evidently much cheaper than 
+buying a static analysis tool. But there is a crucial drawback in this system, which is loss of confidentiality. It is possible that someone within these third parties with malicious 
+intent can get hold of the original code and misuse it or even sell it for his own gain. So we propose Privacy Preserving Static Analysis. The concept of privacy preserving static 
+analysis is that it ensures the same results of applying static analysis on the original code without revealing the original code to the static analyser.
+
+So the basic idea of privacy preserving static analysis is to somehow modify the code before sending it to the static analysis service provider such that it is very hard to reverse 
+engineer the modified code. A natural idea that comes is code obfuscation. Obfuscation is a technique used to transform source code so that it becomes more difficult to understand 
+and harder to reverse engineer. It is a popular technique in the industry as it is used to protect source binaries before final deployment. There has been a significant amount of work
+in the field of obfuscation. Obfuscation techniques are of several types based on: control flow obfuscation \cite{controlflowobf}, manufacturing opaque predicates \cite{collberg}, 
+design obfuscation \cite{designobf} etc. Collberg \cite{collberg} and Batchelder \cite{jbco} suggest obfuscatation techniques specific to java bytecode. There are quite a few 
+Obfuscation tools which are available in market like: Proguard \cite{proguard}, Zelix KlassMaster \cite{zelix}, JBCO \cite{jbco}etc.
+
+Using the concept of code obfuscation to protect our original code, we describe the proposed system of privacy preserving static analysis. The software developer obfuscates his code 
+and sends it to the static analysis service provider. During the obfuscation procedure the software developer should maintain a map between the original code and the obfuscated code, 
+which will be used later on for remapping. The static analyser on receiving the obfuscated code performs static analysis on it and sends back a summary of bugs found in the obfuscated 
+code back to the software developer. The software developer, using the map it maintained, maps back the bugs in the summary to the respective bugs in the original code. Thus the 
+developer gets the list of bugs in his code without ever revealing his code to the static analysis service provider.
+
+But unfortunately the above process does not work so simply. This is because code obfuscatation does not preserve bugs. By running static analysis on several benchmark programs and 
+their obfuscated versions and then comparing the defects found in the original and obfuscated versions, we have seen that the list of defects found do not match. Obfuscation leads to 
+introduction of several new bugs which were not present in the original code. But it is even more interesting to observe that obfuscation also results in loss of defects which were 
+present in the original code. So we need to fix the various obfuscation techniques in order to ensure preservation of bugs.
+
+The fixes that need to be applied to the obfuscation techniques depend upon the requirements of various bug checkers. Based on these requirements we have to sometimes relax our 
+obfuscatation techniques and then again we may even have to make the obfuscatation techniques more complex. But doing all these raises an important question: How are we affecting the 
+overall obfuscation of the source program? It is possible that the fixes may weaken the entire obfuscatation of the software or it may even strengthen it. So in order to guarantee that
+ our proposed approach does not weaken the obfuscatation, we need some metric to compare the obfuscation strength of two obfuscated versions of the same code. Collberg \cite{collberg} 
+measures potent and resilient opaque predicates but in a qualitative way. Some other measures of program obfuscatation can relate to instruction count, data-flow, control-flow as 
+distinguished in \cite{sutter} or it may be cyclomatic complexity as mentioned in \cite{McCabe}. Most of the prior works measure code obfuscatation qualitatively rather than 
+quantatively. A very recent work \cite{entropy} suggests on measuring the entropy of an obfuscated code, but unfortunately it only deals with control flow obfuscatations. So even such 
+a metric is not enough to compare two obfuscated versions of the same code based on different obfuscatation techniques.
+
+To address this problem, we propose a metric to measure code obfuscatation and also to compare obfuscated versions of same code irrespective of obfusccation techniques used. Using any 
+program we can construct a program dependence graph, which shows both data dependencies and control dependencies. For e.g., suppose we have a program P and its corresponding program 
+dependence graph is G. Now the program P is obfuscated to give a program P' and let its corresponding program dependence graph be G'. Then transforming graph G' back to G can be thought 
+of as reverse engineering obfuscated program P' to P. This problem of transforming one graph to another using some specific set of operations can be mapped to very a popular problem in 
+the field of graph theory known as Graph Minor \cite{graphminor}. Although this is a NP-Complete problem, but there exist some approximation algorithms such as \cite{Demaine05}. Using 
+these approximation algorithms we can compute the approximate cost of transforming one program dependence graph to its minor. This cost can be assosciated to the cost of reverse 
+engineering and in turn can be used as a metric for code obfuscatation.
+
+As a part of this project we are developing a tool to implement privacy preserving static analysis. The tool will contain an obfuscator specifically modified to preserve bugs. This 
+requires analysing newly introduced and missing bugs to find out the cause of their presence or absence and finally coming up with fixes in the obfuscator to solve this problem. The 
+tool will also contain an implementation of the proposed method to calculate and compare obfuscated code.
+\section{Related Works}
+%%%%%%%%%%%%%  This can be followed by several other sections
+\section{Conclusions}
+\bibliography{citation}
+\bibliographystyle{plain}
+\end{document}
+
+

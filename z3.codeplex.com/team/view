@@ -1,0 +1,496 @@
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" class="">
+    
+    
+    
+    
+
+    
+    <head>
+        <meta id="CompatabilityMode" http-equiv="X-UA-Compatible" content="IE=edge" />
+	    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link href="http://download-codeplex.sec.s-msft.com/css/v20552/i2035719/StyleSheet.ashx" id="MasterCss" rel="stylesheet" type="text/css" />
+        <link rel="SHORTCUT ICON" href="http://www.codeplex.com/favicon.ico" />
+        <title>Z3 - People</title>
+        
+        <!--
+        Third party scripts and code linked to or referenced from this website are licensed to you by the parties that own such code,
+        not by Microsoft.  See ASP.NET Ajax CDN Terms of Use – http://www.asp.net/ajaxlibrary/CDN.ashx.
+        -->
+        <script src="http://ajax.aspnetcdn.com/ajax/jquery/jquery-1.4.4.min.js" type="text/javascript"></script>
+        <script src="http://ajax.aspnetcdn.com/ajax/jquery.ui/1.8.6/jquery-ui.min.js" type="text/javascript"></script>
+        
+        
+    <style type="text/css">.SideBar, .SideBarPadding{display:none;}.MainContent{width:auto;}.SiteContentTable{width:100%;}</style>
+    <style id="ProjectStyles" type="text/css">
+        .SiteHeader, .SiteHeaderLeft {
+            height:45px !important;
+            overflow:hidden;
+        }
+        .SiteContent 
+        {
+            padding: 0 0 1em 0;
+            margin-top:0;
+            min-height:225px;
+            border-right: 1px solid lightgrey;
+            border-left: 1px solid lightgrey;
+            border-bottom: 1px solid lightgrey;
+        }
+        .IE table.MinWidthContent
+        {
+	        table-layout: auto !important;	
+        }
+    </style>
+    
+    
+    <div id="LeaveProjectPanel" class="modal" style="display:none">
+            <div class="row">
+                <h2>Leave Project<a href="javascript:return false;" class="close">X</a></h2>
+            </div>
+            <div class="modal_info">
+                <p>Are you sure you want to leave this project?</p>
+                <p class="modal_buttons">
+                    <input type="button" id="CloseCancel" value="Cancel" class="cancel" />
+                    <input type="button" id="CloseOk" value="Leave Project" class="ok" />
+                </p>
+                <div class="ClearBoth"></div>
+            </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("#LeaveProjectPanel #CloseOk").click(function() {
+                CodePlex.UpdateProgress.show();
+                $.ajax({
+                    type: 'DELETE',
+                    url: 'http://z3.codeplex.com/team/leave',
+                    dataType: 'json',
+                    success: function(data) {
+                        window.location = data.RedirectUrl;
+                    }
+                });
+            });
+        });
+        
+        function leaveProject() {
+            OpenDialog('#LeaveProjectPanel', true, '41em');
+        }
+    </script>
+
+    
+    
+    <meta id="WTProjectName" name="WT.pi" content="z3"/>
+    
+
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href='http://z3.codeplex.com/rsd' />
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml" title="WLWManifest" href='/wlwmanifest.xml' />
+    
+    
+        <link rel="alternate" type="application/rss+xml" title="Z3" url="http://z3.codeplex.com/project/feeds/rss"/>
+    
+        
+        <link rel="alternate" type="application/rss+xml" title="Z3&#32;-&#32;Discussions" url="http://z3.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2fforum%2fz3"/>
+        
+        <link rel="alternate" type="application/rss+xml" title="Z3&#32;-&#32;Issues" url="http://z3.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2fworkitem%2fz3"/>
+        
+        <link rel="alternate" type="application/rss+xml" title="Z3&#32;-&#32;Downloads" url="http://z3.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2frelease%2fz3"/>
+        <link rel="alternate" type="application/rss+xml" title="Z3&#32;-&#32;Reviews" url="http://z3.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2freview%2fz3"/>
+        
+    
+        <link rel="alternate" type="application/rss+xml" title="Z3&#32;-&#32;Source&#32;code" url="http://z3.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2fsourcecontrol%2fz3"/>
+        <link rel="alternate" type="application/rss+xml" title="Z3&#32;-&#32;Wiki" url="http://z3.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2fwiki%2fz3"/>
+    
+        
+    
+        <meta content="summary" name="twitter:card"></meta><meta content="@CodePlex" name="twitter:site"></meta><meta content="http://z3.codeplex.com/team/view?ProjectName=z3" name="twitter:url"></meta><meta content="Z3" name="twitter:title"></meta><meta content="Z3 is a high-performance theorem prover being developed at Microsoft Research. " name="twitter:description"></meta><meta content="http://www.codeplex.com/favicon.ico" name="twitter:image"></meta>
+    
+
+    </head>
+    
+    <body>
+        <script src="http://download-codeplex.sec.s-msft.com/scripts/v20552/i7/ScriptLoader.ashx" type="text/javascript"></script>
+        <form id="aspnetForm" autocomplete="off" method="POST" enctype="multipart/form-data">
+            <input name="__RequestVerificationToken" type="hidden" value="SN74KUgBlYW8ryOXQKZDVnkEZDbhACR5cPJnvIetjWF_vlozkAqhEJrZxPa1hURoA1gqwjBFiI-EUHT0XuNy8GxwhIimkOBUPKqpyDNgCL2y2yx_riAPGnVdiA8w_A0X6fRhbA2" />
+            
+            <div id="UpdateProgressPanel" class="loading_animation" style="display:none;">
+                <div class="row">
+                    <h2 class="anim_h2">
+                        <span id="UpdateProgressText">Updating...</span>
+                        <span id="animatedLoadingIconContainer">
+                            <img id="animatedLoadingIcon" src="http://download-codeplex.sec.s-msft.com/Images/v20552/loading_animation.gif" class="anim_img"/>
+                        </span>
+                    </h2>
+                </div>
+            </div>
+            
+            <div style="display:none;">
+                
+                    <script type="text/javascript">
+                        $loadScript("https://siterecruit.comscore.com/sr/codeplex/broker.js");
+                    </script>
+
+                
+                
+                <img id="BlankImage" style="width:0;height:0;" src="http://download-codeplex.sec.s-msft.com/Images/v20552/blank.png" onload="self.logoImageLoaded=true;"/>
+
+                <script language="javascript" type="text/javascript">
+                    var date = new Date();
+                    var timezoneOffset = date.getTimezoneOffset() / 60 * -1;
+                    var timezoneOffsetCookie = getCookie("TimezoneOffset");
+                    var firstTimeSetTimezoneCookie = false;
+
+                    if (timezoneOffsetCookie == null || timezoneOffsetCookie != timezoneOffset) {
+                        firstTimeSetTimezoneCookie = true;
+                        document.cookie = "TimezoneOffset=" + timezoneOffset + '; domain=.codeplex.com;expires=Wed, 11 Jun 2014 23:09:06 UTC';
+                    }
+                </script>
+                
+                
+                    <noscript>
+                        <a href="http://www.omniture.com" title="Web Analytics"><img src="http://msstonojstemp.112.2O7.net/b/ss/msstonojstemp/1/H.20.2--NS/0" height="1" width="1" border="0" alt="" /></a>
+                    </noscript>
+                
+            </div>
+            
+            <div id="header">
+                <div id="header_wrap" class="row">
+                    <p id="logo"><a href="http://www.codeplex.com">Code<span class="semi">Plex</span></a><span id="tagline">Project Hosting for Open Source Software</span></p>
+                    
+
+<ul id="nav">
+
+    <li><a href="/site/register/new" id="registerLink" class="ZoomFix">Register</a></li>
+    <li ><a class="SignInLink" href="https://www.codeplex.com/site/login?RedirectUrl=http%3a%2f%2fz3.codeplex.com%2fteam%2fview" id="signInLink">Sign In</a></li>
+  
+    <li class="last"><a class="rss_site_icon" href="http://www.codeplex.com/site/feeds/rss" type="application/rss+xml" rel="Alternate" title="CodePlex Site Activity"></a></li>
+</ul>
+                    <input id="searchsite" name="searchsite" maxlength="500" type="text" value="" /><span id="search_mag"><a id="submitSearch" name="submitSearch" class="magnify" title="Search" href="#"></a></span>
+                    <script>
+	$(document).ready(function() {
+    var searchButton = $('#submitSearch'),
+        searchBar = $('#searchsite');
+
+    // Register our own handler for the search event while we wait for the SearchBox script to load.
+    searchButton.bind('click.backupSearchBox', doProjectSearch);
+    searchBar.bind('keypress.backupSearchBox', function(e) { if ($keyCode(e) === 13) { doProjectSearch(); return false; } });
+
+    function cleanupSearchEvents() {
+        // If the SearchBox was loaded, unregister our handlers.
+        if (epx_loaded) {
+            searchButton.unbind('.backupSearchBox');
+            searchBar.unbind('.backupSearchBox');
+        }
+    }
+
+    $loadScript('http://i4.services.social.microsoft.com/search/Widgets/SearchBox.jss?appid=1000&scopeid=1&boxId=searchsite&btnId=submitSearch&watermark=Search%20all%20projects&overrideWatermark=true&searchLocation=%2fsite%2fsearch&allowEmptySearch=true&focusOnInit=False&minimumTermLength=3', cleanupSearchEvents);
+})
+function doProjectSearch() {
+    
+    var url = '/site/search';
+
+    //If search term is not same as watermark
+    if($('#searchsite').val() != 'Search all projects')    
+    {        
+        url = url + '?query=' + encodeURIComponent($('#searchsite').val());
+    }
+
+    
+    var callback = '';
+    if (callback.length > 0 && eval('typeof ' + callback) != 'undefined')
+        url += eval(callback + '()');
+
+    window.location.href = url;
+    return false;
+}
+</script>
+                </div>
+            </div>
+            
+            <div id="wrap">
+                
+    <div id="sub_heading" class="row">
+        
+        <div id="ProjectHeader">
+            <div id="project_title_row" class="row">
+                <div id="project_logo">
+                    
+    
+    <h1><a href="http://z3.codeplex.com/"><img src="http://download-codeplex.sec.s-msft.com/Download?ProjectName=z3&DownloadId=491381&Build=20552" alt="Z3" /></a></h1>
+
+                </div>
+            </div>
+        </div>
+        
+        <div id="ProjectDetailsDiv">
+            
+        </div>
+		<div class="clear"></div>
+        
+
+<ul id="page_box_links">
+	<li id="homeTabCell" style="width: 63px;"><a id="homeTab" href="http://z3.codeplex.com/" class="box_home">home</a><div></div></li>
+    
+	<li id="sourceTabCell" style="width:113px;"><a id="sourceTab" href="http://z3.codeplex.com/SourceControl/latest" class="box_source">source code</a><div></div></li>
+    
+	<li id="releasesTabCell" style="width:105px;"><a id="releasesTab" href="http://z3.codeplex.com/releases" class="box_downloads">downloads</a><div></div></li>
+    
+    <li id="documentationTabCell" style="width:143px;"><a id="documentationTab" href="http://z3.codeplex.com/documentation" class="box_documentation">documentation</a><div></div></li>
+    
+	<li id="discussionTabCell" style="width:112px;"><a id="discussionTab" href="http://z3.codeplex.com/discussions" class="box_discussions">discussions</a><div></div></li>
+    
+	<li id="workItemsTabCell" style="width:70px;"><a id="workItemsTab" href="http://z3.codeplex.com/workitem/list/basic" class="box_issue">issues</a><div></div></li>
+    
+	<li id="peopleTabCell" style="width:70px;"><a id="peopleTab" href="http://z3.codeplex.com/team/view" class="people_active">people</a><div></div></li>
+	<li id="licenseTabCell" style="width:70px;"><a id="licenseTab" href="http://z3.codeplex.com/license" class="box_license">license</a><div></div></li>
+    
+    <span class="stretch"></span>
+</ul>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#page_box_links').applyLastClassToList();
+    });
+</script>
+		    <div class="clear"></div>
+            
+    
+
+<div>
+    
+    <div id="actionBar" class="action_bar">
+        <ul id="actionBar_ul" class="actionBar_sublinks subtab_right" style="vertical-align: middle;">
+
+            
+        </ul>
+    </div>
+</div>
+        
+
+    </div>
+    
+    
+    
+    <div id="ProjectMembers" class="top_border">
+        <div class="ProjectMembersLeft" style="float: left;">
+            
+<div id="CoordinatorsContainer" style="margin-bottom: 10px;">
+    <h2>Coordinators</h2>
+    <div class="UserRow StandardPaddingBottom ">
+	<div class="UserAvatar">
+		<img class="avatar" src="http://download-codeplex.sec.s-msft.com/download/Avatar.ashx?DownloadId=491388" alt="Avatar" title="Avatar" />
+	</div><div class="UserDetails">
+		<div>
+			<a href="http://www.codeplex.com/site/users/view/leodemoura" target="_blank" class="UserAvatarLink">leodemoura</a>
+		</div><div class="SubText">
+			Project Member since <span class="smartDate dateOnlyNoShort" title="9/27/2012 8:54:26 AM" LocalTimeTicks="1348761266">Sep 27, 2012</span>
+		</div>
+	</div><div class="ClearBoth">
+
+	</div>
+</div>
+        <div class="UserRow StandardPaddingBottom ">
+	<div class="UserAvatar">
+		<img class="avatar" src="http://download-codeplex.sec.s-msft.com/Images/v20552/avatar-small.png" alt="Avatar" title="Avatar" />
+	</div><div class="UserDetails">
+		<div>
+			<a href="http://www.codeplex.com/site/users/view/Microsoft" target="_blank" class="UserAvatarLink">Microsoft</a>
+		</div><div class="SubText">
+			Project Member since <span class="smartDate dateOnlyNoShort" title="9/27/2012 8:54:26 AM" LocalTimeTicks="1348761266">Sep 27, 2012</span>
+		</div>
+	</div><div class="ClearBoth">
+
+	</div>
+</div>
+        <div class="UserRow StandardPaddingBottom ">
+	<div class="UserAvatar">
+		<img class="avatar" src="http://download-codeplex.sec.s-msft.com/Images/v20552/avatar-small.png" alt="Avatar" title="Avatar" />
+	</div><div class="UserDetails">
+		<div>
+			<a href="http://www.codeplex.com/site/users/view/NBjorner" target="_blank" class="UserAvatarLink">NBjorner</a>
+		</div><div class="SubText">
+			Project Member since <span class="smartDate dateOnlyNoShort" title="10/3/2012 6:18:25 PM" LocalTimeTicks="1349313505">Oct 3, 2012</span>
+		</div>
+	</div><div class="ClearBoth">
+
+	</div>
+</div>
+        <div class="UserRow StandardPaddingBottom ">
+	<div class="UserAvatar">
+		<img class="avatar" src="http://download-codeplex.sec.s-msft.com/download/Avatar.ashx?DownloadId=500264" alt="Avatar" title="Avatar" />
+	</div><div class="UserDetails">
+		<div>
+			<a href="http://www.codeplex.com/site/users/view/wintersteiger" target="_blank" class="UserAvatarLink">wintersteiger</a>
+		</div><div class="SubText">
+			Project Member since <span class="smartDate dateOnlyNoShort" title="10/3/2012 2:12:45 PM" LocalTimeTicks="1349298765">Oct 3, 2012</span>
+		</div>
+	</div><div class="ClearBoth">
+
+	</div>
+</div>
+        
+</div> 
+<div id="DevelopersContainer" style="margin-bottom: 10px;">
+    <h2>Developers</h2>
+    <div class="UserRow StandardPaddingBottom ">
+	<div class="UserAvatar">
+		<img class="avatar" src="http://download-codeplex.sec.s-msft.com/Images/v20552/avatar-small.png" alt="Avatar" title="Avatar" />
+	</div><div class="UserDetails">
+		<div>
+			<a href="http://www.codeplex.com/site/users/view/jjb" target="_blank" class="UserAvatarLink">jjb</a>
+		</div><div class="SubText">
+			Project Member since <span class="smartDate dateOnlyNoShort" title="10/22/2012 3:25:31 AM" LocalTimeTicks="1350901531">Oct 22, 2012</span>
+		</div>
+	</div><div class="ClearBoth">
+
+	</div>
+</div>
+        <div class="UserRow StandardPaddingBottom ">
+	<div class="UserAvatar">
+		<img class="avatar" src="http://download-codeplex.sec.s-msft.com/Images/v20552/avatar-small.png" alt="Avatar" title="Avatar" />
+	</div><div class="UserDetails">
+		<div>
+			<a href="http://www.codeplex.com/site/users/view/kenmcmil" target="_blank" class="UserAvatarLink">kenmcmil</a>
+		</div><div class="SubText">
+			Project Member since <span class="smartDate dateOnlyNoShort" title="11/20/2012 10:10:10 PM" LocalTimeTicks="1353478210">Nov 20, 2012</span>
+		</div>
+	</div><div class="ClearBoth">
+
+	</div>
+</div>
+        <div class="UserRow StandardPaddingBottom ">
+	<div class="UserAvatar">
+		<img class="avatar" src="http://download-codeplex.sec.s-msft.com/Images/v20552/avatar-small.png" alt="Avatar" title="Avatar" />
+	</div><div class="UserDetails">
+		<div>
+			<a href="http://www.codeplex.com/site/users/view/Z3BuildServer" target="_blank" class="UserAvatarLink">Z3BuildServer</a>
+		</div><div class="SubText">
+			Project Member since <span class="smartDate dateOnlyNoShort" title="10/30/2012 7:31:20 PM" LocalTimeTicks="1351650680">Oct 30, 2012</span>
+		</div>
+	</div><div class="ClearBoth">
+
+	</div>
+</div>
+        
+</div> 
+<div id="EditorsContainer" style="margin-bottom: 10px;">
+    <h2>Editors</h2>
+    
+    <div id="EditorsContainerTitle" class="NoItemsMessage">No editors</div>        
+    
+</div>             
+        </div>
+        <div class="ProjectMembersRight">
+            
+
+<div id="RecentFollowerContainer">    
+    <h2>Recent Followers</h2>
+    
+            <ul class="numbers" style="position: relative">
+                <ul class="pagination_pages">
+	<li><span class="Selected">1</span></li><li><a onclick="CodePlexPaging.loadPage(&#39;http://z3.codeplex.com/team/recentfollowers&#39;, &#39;RecentFollowerContainer&#39;, 1);return false;" href="#">2</a></li><li><a onclick="CodePlexPaging.loadPage(&#39;http://z3.codeplex.com/team/recentfollowers&#39;, &#39;RecentFollowerContainer&#39;, 2);return false;" href="#">3</a></li><li><a onclick="CodePlexPaging.loadPage(&#39;http://z3.codeplex.com/team/recentfollowers&#39;, &#39;RecentFollowerContainer&#39;, 3);return false;" href="#">4</a></li><li><a onclick="CodePlexPaging.loadPage(&#39;http://z3.codeplex.com/team/recentfollowers&#39;, &#39;RecentFollowerContainer&#39;, 4);return false;" href="#">5</a></li>
+</ul>
+            </ul>
+    <div class="UserRow StandardPaddingBottom ">
+	<div class="UserAvatar">
+		<img class="avatar" src="http://download-codeplex.sec.s-msft.com/Images/v20552/avatar-small.png" alt="Avatar" title="Avatar" />
+	</div><div class="UserDetails">
+		<div>
+			<a href="http://www.codeplex.com/site/users/view/fmcgoohan" target="_blank" class="UserAvatarLink">fmcgoohan</a>
+		</div><div class="SubText">
+			Follower since <span class="smartDate dateOnlyNoShort" title="6/2/2013 3:38:24 AM" LocalTimeTicks="1370169504">Jun 2, 2013</span>
+		</div>
+	</div><div class="ClearBoth">
+
+	</div>
+</div>
+        <div class="UserRow StandardPaddingBottom ">
+	<div class="UserAvatar">
+		<img class="avatar" src="http://download-codeplex.sec.s-msft.com/Images/v20552/avatar-small.png" alt="Avatar" title="Avatar" />
+	</div><div class="UserDetails">
+		<div>
+			<a href="http://www.codeplex.com/site/users/view/aetos" target="_blank" class="UserAvatarLink">aetos</a>
+		</div><div class="SubText">
+			Follower since <span class="smartDate dateOnlyNoShort" title="5/9/2013 7:10:38 AM" LocalTimeTicks="1368108638">May 9, 2013</span>
+		</div>
+	</div><div class="ClearBoth">
+
+	</div>
+</div>
+        <div class="UserRow StandardPaddingBottom ">
+	<div class="UserAvatar">
+		<img class="avatar" src="http://download-codeplex.sec.s-msft.com/Images/v20552/avatar-small.png" alt="Avatar" title="Avatar" />
+	</div><div class="UserDetails">
+		<div>
+			<a href="http://www.codeplex.com/site/users/view/godbyk" target="_blank" class="UserAvatarLink">godbyk</a>
+		</div><div class="SubText">
+			Follower since <span class="smartDate dateOnlyNoShort" title="5/9/2013 4:11:33 AM" LocalTimeTicks="1368097893">May 9, 2013</span>
+		</div>
+	</div><div class="ClearBoth">
+
+	</div>
+</div>
+        <div class="UserRow StandardPaddingBottom ">
+	<div class="UserAvatar">
+		<img class="avatar" src="http://download-codeplex.sec.s-msft.com/download/Avatar.ashx?DownloadId=682210" alt="Avatar" title="Avatar" />
+	</div><div class="UserDetails">
+		<div>
+			<a href="http://www.codeplex.com/site/users/view/hmadrigal" target="_blank" class="UserAvatarLink">hmadrigal</a>
+		</div><div class="SubText">
+			Follower since <span class="smartDate dateOnlyNoShort" title="5/8/2013 11:28:44 PM" LocalTimeTicks="1368080924">May 8, 2013</span>
+		</div>
+	</div><div class="ClearBoth">
+
+	</div>
+</div>
+        <div class="UserRow StandardPaddingBottom ">
+	<div class="UserAvatar">
+		<img class="avatar" src="http://download-codeplex.sec.s-msft.com/Images/v20552/avatar-small.png" alt="Avatar" title="Avatar" />
+	</div><div class="UserDetails">
+		<div>
+			<a href="http://www.codeplex.com/site/users/view/aL3891" target="_blank" class="UserAvatarLink">aL3891</a>
+		</div><div class="SubText">
+			Follower since <span class="smartDate dateOnlyNoShort" title="5/8/2013 7:11:54 PM" LocalTimeTicks="1368065514">May 8, 2013</span>
+		</div>
+	</div><div class="ClearBoth">
+
+	</div>
+</div>
+        
+</div>
+        </div>
+    </div>
+    
+    <script>
+        if ($('#actionBar_ul').children().length == 0) {
+            $('#ProjectMembers').removeClass('top_border');
+        }
+    </script>
+
+
+        
+        
+                
+                <div class="clear"></div>
+                
+                <div id="footer">
+                    <div class="row">
+                        <hr />
+                        <ul>
+                            <li>© 2006-2013 Microsoft</li>
+                            <li><a href="http://www.codeplex.com/site/help">Get Help</a></li>
+                            <li><a href="/site/legal/privacy">Privacy Statement</a></li>
+                            <li><a href="http://www.codeplex.com/site/legal/terms">Terms of Use</a></li>
+                            <li><a href="http://www.codeplex.com/site/legal/conduct">Code of Conduct</a></li>
+                            <li><a href="http://www.lakequincy.com" target="_blank">Advertise With Us</a></li>
+                            <li>Version 6.4.2013.20552</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </body>
+
+</html>

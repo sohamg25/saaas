@@ -1,0 +1,301 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.1.18)  31 OCT 2013 18:09
+entering extended mode
+ %&-line parsing enabled.
+**report_article.tex
+(./report_article.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, loaded.
+(/usr/share/texmf-texlive/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texmf-texlive/tex/latex/base/size10.clo
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/etc/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: dvips.def on input line 91.
+
+(/usr/share/texmf-texlive/tex/latex/graphics/dvips.def
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(/usr/share/texmf-texlive/tex/latex/listings/listings.sty
+\lst@mode=\count87
+\lst@gtempboxa=\box26
+\lst@token=\toks15
+\lst@length=\count88
+\lst@currlwidth=\dimen105
+\lst@column=\count89
+\lst@pos=\count90
+\lst@lostspace=\dimen106
+\lst@width=\dimen107
+\lst@newlines=\count91
+\lst@lineno=\count92
+\lst@maxwidth=\dimen108
+
+(/usr/share/texmf-texlive/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
+\c@lstnumber=\count93
+\lst@skipnumbers=\count94
+\lst@framebox=\box27
+)
+(/usr/share/texmf-texlive/tex/latex/listings/listings.cfg
+File: listings.cfg 2007/02/22 1.4 listings configuration
+))
+Package: listings 2007/02/22 1.4 (Carsten Heinz)
+
+(/usr/share/texmf-texlive/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip43
+\subfigcapskip=\skip44
+\subfigcaptopadj=\dimen109
+\subfigbottomskip=\skip45
+\subfigcapmargin=\dimen110
+\subfiglabelskip=\skip46
+\c@subfigure=\count95
+\c@lofdepth=\count96
+\c@subtable=\count97
+\c@lotdepth=\count98
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/share/texmf-texlive/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip47
+\subfig@bottom=\skip48
+)
+(./report_article.aux
+
+LaTeX Warning: Label `fig:missingdefects' multiply defined.
+
+
+LaTeX Warning: Label `fig:missingdefects' multiply defined.
+
+)
+\openout1 = `report_article.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+\c@lstlisting=\count99
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 29.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 29.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 29.
+ [1
+
+
+]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 102.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 102.
+
+Underfull \vbox (badness 1735) has occurred while \output is active []
+
+
+Underfull \vbox (badness 1735) has occurred while \output is active []
+
+ [2]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 178.
+
+
+(/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 178.
+
+Underfull \hbox (badness 10000) in paragraph at lines 216--216
+[]\OT1/cmr/m/n/10 Unsynchronized get method,
+ []
+
+
+Underfull \hbox (badness 1960) in paragraph at lines 260--260
+[]\OT1/cmr/m/n/10 class names are ob-fus-cated with ran-dom
+ []
+
+
+Underfull \hbox (badness 2469) in paragraph at lines 260--260
+[]\OT1/cmr/m/n/10 field names are ob-fus-cated with ran-dom
+ []
+
+File: ./prog1.eps Graphic file (type eps)
+<./prog1.eps>
+Underfull \hbox (badness 1852) in paragraph at lines 271--271
+[]\OT1/cmr/m/n/8 (a) Orig-i-nal Pro-gram con-
+ []
+
+File: ./prog2.eps Graphic file (type eps)
+<./prog2.eps>
+Underfull \hbox (badness 1062) in paragraph at lines 275--275
+[]\OT1/cmr/m/n/8 (b) Ob-fus-cated Pro-gram with
+ []
+
+File: ./prog3.eps Graphic file (type eps)
+<./prog3.eps>
+File: ./prog4.eps Graphic file (type eps)
+ <./prog4.eps>
+File: ./prog5.eps Graphic file (type eps)
+ <./prog5.eps>
+File: ./prog6.eps Graphic file (type eps)
+ <./prog6.eps> [3]
+Underfull \vbox (badness 2158) has occurred while \output is active []
+
+
+Underfull \vbox (badness 2158) has occurred while \output is active []
+
+ [4]
+Underfull \hbox (badness 1215) in paragraph at lines 594--596
+\OT1/cmr/m/n/10 ing Static Anal-y-sis is shown in Fig-ure 4[]. We
+ []
+
+File: ./architecture2.eps Graphic file (type eps)
+<./architecture2.eps>
+Underfull \hbox (badness 7030) in paragraph at lines 619--624
+[]\OT1/cmr/m/n/10 Another es-sen-tial part of the tool is the
+ []
+
+[5]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6]
+(./report_article.bbl
+Overfull \hbox (39.5802pt too wide) in paragraph at lines 11--15
+\OT1/cmr/m/it/10 http://www.sable.mcgill.ca/publications/techreports/sable-
+ []
+
+
+Underfull \hbox (badness 1048) in paragraph at lines 24--30
+\OT1/cmr/m/n/10 Reuven Lazarus, William Pugh, and Kristin
+ []
+
+
+Underfull \hbox (badness 1168) in paragraph at lines 39--45
+\OT1/cmr/m/it/10 The-ory and prac-tice of soft-ware, 14th in-ter-
+ []
+
+
+Underfull \hbox (badness 1762) in paragraph at lines 39--45
+\OT1/cmr/m/it/10 na-tional con-fer-ence on Tools and al-go-rithms
+ []
+
+
+Underfull \hbox (badness 1521) in paragraph at lines 68--71
+[]\OT1/cmr/m/n/10 Apache Soft-ware Foun-da-tion.  Lucene.  In
+ []
+
+
+Underfull \hbox (badness 1215) in paragraph at lines 73--76
+[]\OT1/cmr/m/n/10 Apache Soft-ware Foun-da-tion.  Tom-cat.  In
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--81
+[]\OT1/cmr/m/n/10 Eclipse Foun-da-tion.  Eclipse ide.  In
+ []
+
+
+Underfull \hbox (badness 1596) in paragraph at lines 89--92
+\OT1/cmr/m/n/10 en-tropy mea-sures for code ob-fus-ca-tion.  In
+ []
+
+
+Underfull \hbox (badness 5696) in paragraph at lines 100--104
+[]\OT1/cmr/m/n/10 S Gold-wasser, S Mi-cali, and C Rack-off.
+ []
+
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 111--114
+[]\OT1/cmr/m/n/10 Coverity Inc.  Cover-ity save: Cover-
+ []
+
+
+Underfull \hbox (badness 3323) in paragraph at lines 111--114
+\OT1/cmr/m/n/10 ity static anal-y-sis ver-i-fi-ca-tion en-gine.  In
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--119
+[]\OT1/cmr/m/n/10 Klockwork.  Klock-work in-sight.  In
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--124
+[]\OT1/cmr/m/n/10 Eric Lafor-tune.  Pro-guard.  In
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--147
+[]\OT1/cmr/m/n/10 Parasoft.  Para-soft dottest.  In
+ []
+
+
+Underfull \hbox (badness 4229) in paragraph at lines 149--154
+[]\OT1/cmr/m/n/10 Raluca Ada Popa, Cather-ine M. S. Red-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--160
+[]\OT1/cmr/m/n/10 Rupak Ma-jum-dar Sai Deep Tetali,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 192--195
+[]\OT1/cmr/m/n/10 Zelix.  Klass-mas-ter.  In
+ []
+
+) [8] (./report_article.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 1975 strings out of 495062
+ 27204 string characters out of 1182644
+ 91746 words of memory out of 3000000
+ 5175 multiletter control sequences out of 15000+50000
+ 8707 words of font info for 31 fonts, out of 3000000 for 9000
+ 28 hyphenation exceptions out of 8191
+ 26i,10n,32p,339b,281s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+Output written on report_article.dvi (8 pages, 49516 bytes).

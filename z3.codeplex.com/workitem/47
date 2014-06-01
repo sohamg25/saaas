@@ -1,0 +1,660 @@
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" class="">
+    
+    
+    
+    
+
+    
+    <head>
+        <meta id="CompatabilityMode" http-equiv="X-UA-Compatible" content="IE=edge" />
+	    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link href="http://download-codeplex.sec.s-msft.com/css/v20552/i1972231/StyleSheet.ashx" id="MasterCss" rel="stylesheet" type="text/css" />
+        <link rel="SHORTCUT ICON" href="http://www.codeplex.com/favicon.ico" />
+        <title>Z3 - View Issue &#35;47&#58; assertion violation&#58; s.m_qhead &#61;&#61; s.m_trail.size&#40;&#41;</title>
+        
+        <!--
+        Third party scripts and code linked to or referenced from this website are licensed to you by the parties that own such code,
+        not by Microsoft.  See ASP.NET Ajax CDN Terms of Use – http://www.asp.net/ajaxlibrary/CDN.ashx.
+        -->
+        <script src="http://ajax.aspnetcdn.com/ajax/jquery/jquery-1.4.4.min.js" type="text/javascript"></script>
+        <script src="http://ajax.aspnetcdn.com/ajax/jquery.ui/1.8.6/jquery-ui.min.js" type="text/javascript"></script>
+        
+        
+    <style type="text/css">.SideBar, .SideBarPadding{display:none;}.MainContent{width:auto;}.SiteContentTable{width:100%;}</style>
+    <style id="ProjectStyles" type="text/css">
+        .SiteHeader, .SiteHeaderLeft {
+            height:45px !important;
+            overflow:hidden;
+        }
+        .SiteContent 
+        {
+            padding: 0 0 1em 0;
+            margin-top:0;
+            min-height:225px;
+            border-right: 1px solid lightgrey;
+            border-left: 1px solid lightgrey;
+            border-bottom: 1px solid lightgrey;
+        }
+        .IE table.MinWidthContent
+        {
+	        table-layout: auto !important;	
+        }
+    </style>
+    
+    
+    
+    
+    <meta id="WTProjectName" name="WT.pi" content="z3"/>
+    
+
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href='http://z3.codeplex.com/rsd' />
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml" title="WLWManifest" href='/wlwmanifest.xml' />
+    
+    
+        <link rel="alternate" type="application/rss+xml" title="Z3" url="http://z3.codeplex.com/project/feeds/rss"/>
+    
+        
+        <link rel="alternate" type="application/rss+xml" title="Z3&#32;-&#32;Discussions" url="http://z3.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2fforum%2fz3"/>
+        
+        <link rel="alternate" type="application/rss+xml" title="Z3&#32;-&#32;Issues" url="http://z3.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2fworkitem%2fz3"/>
+        
+        <link rel="alternate" type="application/rss+xml" title="Z3&#32;-&#32;Downloads" url="http://z3.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2frelease%2fz3"/>
+        <link rel="alternate" type="application/rss+xml" title="Z3&#32;-&#32;Reviews" url="http://z3.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2freview%2fz3"/>
+        
+    
+        <link rel="alternate" type="application/rss+xml" title="Z3&#32;-&#32;Source&#32;code" url="http://z3.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2fsourcecontrol%2fz3"/>
+        <link rel="alternate" type="application/rss+xml" title="Z3&#32;-&#32;Wiki" url="http://z3.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2fwiki%2fz3"/>
+    
+        
+    
+    <meta content="summary" name="twitter:card"></meta><meta content="@CodePlex" name="twitter:site"></meta><meta content="http://z3.codeplex.com/workitem/47?ProjectName=z3" name="twitter:url"></meta><meta content="assertion violation&amp;#58; s.m_qhead &amp;#61;&amp;#61; s.m_trail.size&amp;#40;&amp;#41;" name="twitter:title"></meta><meta content="Version&amp;#58;&amp;#13;&amp;#10;End of master branch built with Z3DEBUG&amp;#61;1 and _EXTERNAL_RELEASE&amp;#61;1, plus cherry-picked changes&amp;#58;&amp;#13;&amp;#10;https&amp;#58;&amp;#47;&amp;#47;z3.codeplex.com&amp;#47;SourceControl&amp;#47;changeset&amp;#47;110fa0b7fb711418fe2be67f033e8ed70b354972&amp;#13;&amp;#10;https&amp;#58;&amp;#47;&amp;#47;z3.codeplex.com&amp;#47;SourceControl&amp;#47;changeset&amp;#47;f4f1c63abb4a6fd0df908e376b0ab014bce3d9da&amp;#13;&amp;#10;&amp;#10;Reproduces independently of cherry picked changes, but does depend on _EXTERNAL_RELEASE being defined.&amp;#10;ASSERTION VIOLATION&amp;#10;File&amp;#58; ..&amp;#47;src&amp;#47;sat&amp;#47;sat_asymm_branch.cpp&amp;#10;Line&amp;#58; 79&amp;#10;s.m_qhead &amp;#61;&amp;#61; s.m_trail.size&amp;#40;&amp;#41;&amp;#10;&amp;#10;Problematic input&amp;#58;&amp;#10;&amp;#40;set-logic QF_BV&amp;#41;&amp;#10;&amp;#40;define-sort bv64 &amp;#40;&amp;#41; &amp;#40;_ BitVec 64&amp;#41;&amp;#41;&amp;#10;&amp;#40;declare-fun chartab_addr&amp;#33;56 &amp;#40;&amp;#41; bv64&amp;#41;&amp;#10;&amp;#40;define-fun tmp&amp;#33;58 &amp;#40;&amp;#41; bv64 &amp;#40;bvadd chartab_addr&amp;#33;56 &amp;#35;x0000000000000100&amp;#41;&amp;#41;&amp;#10;&amp;#40;define-fun tmp&amp;#33;65 &amp;#40;&amp;#41; Bool &amp;#40;bvule chartab_addr&amp;#33;56 tmp&amp;#33;58&amp;#41;&amp;#41;&amp;#10;&amp;#40;assert tmp&amp;#33;65&amp;#41;&amp;#10;&amp;#40;declare-fun str_addr&amp;#33;12 &amp;#40;&amp;#41; bv64&amp;#41;&amp;#10;&amp;#40;define-fun tmp&amp;#33;66 &amp;#40;&amp;#41; Bool &amp;#40;bvult tmp&amp;#33;58 str_addr&amp;#33;12&amp;#41;&amp;#41;&amp;#10;&amp;#40;assert tmp&amp;#33;66&amp;#41;&amp;#10;&amp;#40;declare-fun _param_1_addr&amp;#33;10 &amp;#40;&amp;#41; bv64&amp;#41;&amp;#10;&amp;#40;declare-fun p_addr&amp;#33;31 &amp;#40;&amp;#41; bv64&amp;#41;&amp;#10;&amp;#40;define-fun tmp&amp;#33;69 &amp;#40;&amp;#41; Bool &amp;#40;bvult _param_1_addr&amp;#33;10 p_addr&amp;#33;31&amp;#41;&amp;#41;&amp;#10;&amp;#40;assert tmp&amp;#33;69&amp;#41;&amp;#10;&amp;#40;define-sort bv32 &amp;#40;&amp;#41; &amp;#40;_ BitVec 32&amp;#41;&amp;#41;&amp;#10;&amp;#40;define-sort bv8 &amp;#40;&amp;#41; &amp;#40;_ BitVec 8&amp;#41;&amp;#41;&amp;#10;&amp;#40;declare-fun str_addr_12_D0_15_D0&amp;#33;50 &amp;#40;&amp;#41; bv8&amp;#41;&amp;#10;&amp;#40;define-fun tmp&amp;#33;52 &amp;#40;&amp;#41; bv32 &amp;#40;&amp;#40;_ zero_extend 24&amp;#41; str_addr_12_D0_15_D0&amp;#33;50&amp;#41;&amp;#41;&amp;#10;&amp;#40;define-fun tmp&amp;#33;53 &amp;#40;&amp;#41; Bool &amp;#40;bvsge tmp&amp;#33;52 &amp;#35;x00000080&amp;#41;&amp;#41;&amp;#10;&amp;#40;define-fun tmp&amp;#33;55 &amp;#40;&amp;#41; Bool &amp;#40;not tmp&amp;#33;53&amp;#41;&amp;#41;&amp;#10;&amp;#40;assert tmp&amp;#33;55&amp;#41;&amp;#10;&amp;#40;define-fun tmp&amp;#33;59 &amp;#40;&amp;#41; bv64 &amp;#40;&amp;#40;_ zero_extend 56&amp;#41; str_addr_12_D0_15_D0&amp;#33;50&amp;#41;&amp;#41;&amp;#10;&amp;#40;define-fun tmp&amp;#33;60 &amp;#40;&amp;#41; bv64 &amp;#40;bvadd chartab_addr&amp;#33;56 tmp&amp;#33;59&amp;#41;&amp;#41;&amp;#10;&amp;#40;define-fun tmp&amp;#33;61 &amp;#40;&amp;#41; Bool &amp;#40;bvult tmp&amp;#33;60 chartab_addr&amp;#33;56&amp;#41;&amp;#41;&amp;#10;&amp;#40;assert tmp&amp;#33;61&amp;#41;&amp;#10;&amp;#40;check-sat&amp;#41;&amp;#10;&amp;#10;stack&amp;#58;&amp;#10;2  0x0000000000b2a416 in sat&amp;#58;&amp;#58;asymm_branch&amp;#58;&amp;#58;operator&amp;#40;&amp;#41; &amp;#40;this&amp;#61;0x7fffffffc8b0, force&amp;#61;false&amp;#41; at third-party&amp;#47;z3&amp;#47;src&amp;#47;sat&amp;#47;sat_asymm_branch.cpp&amp;#58;79&amp;#10;3  0x0000000000b0a22f in sat&amp;#58;&amp;#58;solver&amp;#58;&amp;#58;simplify_problem &amp;#40;this&amp;#61;0x7fffffffc418&amp;#41; at third-party&amp;#47;z3&amp;#47;src&amp;#47;sat&amp;#47;sat_solver.cpp&amp;#58;882&amp;#10;4  0x0000000000b0963f in sat&amp;#58;&amp;#58;solver&amp;#58;&amp;#58;check &amp;#40;this&amp;#61;0x7fffffffc418&amp;#41; at third-party&amp;#47;z3&amp;#47;src&amp;#47;sat&amp;#47;sat_solver.cpp&amp;#58;698&amp;#10;5  0x0000000000a17091 in sat_tactic&amp;#58;&amp;#58;imp&amp;#58;&amp;#58;operator&amp;#40;&amp;#41; &amp;#40;this&amp;#61;0x7fffffffc400, g&amp;#61;..., result&amp;#61;..., mc&amp;#61;..., pc&amp;#61;..., core&amp;#61;...&amp;#41; at third-party&amp;#47;z3&amp;#47;src&amp;#47;sat&amp;#47;tactic&amp;#47;sat_tactic.cpp&amp;#58;70&amp;#10;6  0x0000000000a1787d in sat_tactic&amp;#58;&amp;#58;operator&amp;#40;&amp;#41; &amp;#40;this&amp;#61;0x13bf778, g&amp;#61;..., result&amp;#61;..., mc&amp;#61;..., pc&amp;#61;..., core&amp;#61;...&amp;#41; at third-party&amp;#47;z3&amp;#47;src&amp;#47;sat&amp;#47;tactic&amp;#47;sat_tactic.cpp&amp;#58;174&amp;#10;7  0x0000000000bdacf6 in cleanup_tactical&amp;#58;&amp;#58;operator&amp;#40;&amp;#41; &amp;#40;this&amp;#61;0x13bf7c8, in&amp;#61;..., result&amp;#61;..., mc&amp;#61;..., pc&amp;#61;..., core&amp;#61;...&amp;#41; at third-party&amp;#47;z3&amp;#47;src&amp;#47;tactic&amp;#47;tactical.cpp&amp;#58;1206&amp;#10;8  0x0000000000bdb371 in cond_tactical&amp;#58;&amp;#58;operator&amp;#40;&amp;#41; &amp;#40;this&amp;#61;0x13c0f68, in&amp;#61;..., result&amp;#61;..., mc&amp;#61;..., pc&amp;#61;..., core&amp;#61;...&amp;#41; at third-party&amp;#47;z3&amp;#47;src&amp;#47;tactic&amp;#47;tactical.cpp&amp;#58;1303&amp;#10;9  0x0000000000bd4dc6 in and_then_tactical&amp;#58;&amp;#58;operator&amp;#40;&amp;#41; &amp;#40;this&amp;#61;0x13c4948, in&amp;#61;..., result&amp;#61;..., mc&amp;#61;..., pc&amp;#61;..., core&amp;#61;...&amp;#41; at third-party&amp;#47;z3&amp;#47;src&amp;#47;tactic&amp;#47;tactical.cpp&amp;#58;176&amp;#10;10 0x0000000000bd4dc6 in and_then_tactical&amp;#58;&amp;#58;operator&amp;#40;&amp;#41; &amp;#40;this&amp;#61;0x13c4988, in&amp;#61;..., result&amp;#61;..., mc&amp;#61;..., pc&amp;#61;..., core&amp;#61;...&amp;#41; at third-party&amp;#47;z3&amp;#47;src&amp;#47;tactic&amp;#47;tactical.cpp&amp;#58;176&amp;#10;11 0x0000000000bdb371 in cond_tactical&amp;#58;&amp;#58;operator&amp;#40;&amp;#41; &amp;#40;this&amp;#61;0x13c6198, in&amp;#61;..., result&amp;#61;..., mc&amp;#61;..., pc&amp;#61;..., core&amp;#61;...&amp;#41; at third-party&amp;#47;z3&amp;#47;src&amp;#47;tactic&amp;#47;tactical.cpp&amp;#58;1303&amp;#10;12 0x0000000000bdb335 in cond_tactical&amp;#58;&amp;#58;operator&amp;#40;&amp;#41; &amp;#40;this&amp;#61;0x13c6218, in&amp;#61;..., result&amp;#61;..., mc&amp;#61;..., pc&amp;#61;..., core&amp;#61;...&amp;#41; at third-party&amp;#47;z3&amp;#47;src&amp;#47;tactic&amp;#47;tactical.cpp&amp;#58;1301&amp;#10;13 0x0000000000bd4dc6 in and_then_tactical&amp;#58;&amp;#58;operator&amp;#40;&amp;#41; &amp;#40;this&amp;#61;0x13c6268, in&amp;#61;..., result&amp;#61;..., mc&amp;#61;..., pc&amp;#61;..., core&amp;#61;...&amp;#41; at third-party&amp;#47;z3&amp;#47;src&amp;#47;tactic&amp;#47;tactical.cpp&amp;#58;176&amp;#10;14 0x0000000000bd942a in unary_tactical&amp;#58;&amp;#58;operator&amp;#40;&amp;#41; &amp;#40;this&amp;#61;0x13c62a8, in&amp;#61;..., result&amp;#61;..., mc&amp;#61;..., pc&amp;#61;..., core&amp;#61;...&amp;#41; at third-party&amp;#47;z3&amp;#47;src&amp;#47;tactic&amp;#47;tactical.cpp&amp;#58;989&amp;#10;15 0x0000000000be7864 in exec &amp;#40;t&amp;#61;..., in&amp;#61;..., result&amp;#61;..., mc&amp;#61;..., pc&amp;#61;..., core&amp;#61;...&amp;#41; at third-party&amp;#47;z3&amp;#47;src&amp;#47;tactic&amp;#47;tactic.cpp&amp;#58;180&amp;#10;16 0x0000000000be7ad8 in check_sat &amp;#40;t&amp;#61;..., g&amp;#61;..., md&amp;#61;..., pr&amp;#61;..., core&amp;#61;..., reason_unknown&amp;#61;...&amp;#41; at third-party&amp;#47;z3&amp;#47;src&amp;#47;tactic&amp;#47;tactic.cpp&amp;#58;202&amp;#10;&amp;#40;gdb&amp;#41; p s.m_qhead&amp;#10;&amp;#36;2 &amp;#61; 262&amp;#10;&amp;#40;gdb&amp;#41; p s.m_trail.size&amp;#40;&amp;#41;&amp;#10;&amp;#36;3 &amp;#61; 265&amp;#10;" name="twitter:description"></meta><meta content="http://www.codeplex.com/favicon.ico" name="twitter:image"></meta>
+    
+
+    </head>
+    
+    <body>
+        <script src="http://download-codeplex.sec.s-msft.com/scripts/v20552/i7/ScriptLoader.ashx" type="text/javascript"></script>
+        <form id="aspnetForm" autocomplete="off" method="POST" enctype="multipart/form-data">
+            <input name="__RequestVerificationToken" type="hidden" value="qV5rjb7NeeNcUJ2MgJCVVrAIvaxa3M8zYX-M_Ivl41Wlff5E5mSjQnTlOrP1gs9eM-mXodv1kk-lG8uQy8U1P_TccOgDzzhprTNHqG2srxtJHZe04IPkFptO3uBWdBKsXKx50g2" />
+            
+            <div id="UpdateProgressPanel" class="loading_animation" style="display:none;">
+                <div class="row">
+                    <h2 class="anim_h2">
+                        <span id="UpdateProgressText">Updating...</span>
+                        <span id="animatedLoadingIconContainer">
+                            <img id="animatedLoadingIcon" src="http://download-codeplex.sec.s-msft.com/Images/v20552/loading_animation.gif" class="anim_img"/>
+                        </span>
+                    </h2>
+                </div>
+            </div>
+            
+            <div style="display:none;">
+                
+                    <script type="text/javascript">
+                        $loadScript("https://siterecruit.comscore.com/sr/codeplex/broker.js");
+                    </script>
+
+                
+                
+                <img id="BlankImage" style="width:0;height:0;" src="http://download-codeplex.sec.s-msft.com/Images/v20552/blank.png" onload="self.logoImageLoaded=true;"/>
+
+                <script language="javascript" type="text/javascript">
+                    var date = new Date();
+                    var timezoneOffset = date.getTimezoneOffset() / 60 * -1;
+                    var timezoneOffsetCookie = getCookie("TimezoneOffset");
+                    var firstTimeSetTimezoneCookie = false;
+
+                    if (timezoneOffsetCookie == null || timezoneOffsetCookie != timezoneOffset) {
+                        firstTimeSetTimezoneCookie = true;
+                        document.cookie = "TimezoneOffset=" + timezoneOffset + '; domain=.codeplex.com;expires=Wed, 11 Jun 2014 23:11:12 UTC';
+                    }
+                </script>
+                
+                
+                    <noscript>
+                        <a href="http://www.omniture.com" title="Web Analytics"><img src="http://msstonojstemp.112.2O7.net/b/ss/msstonojstemp/1/H.20.2--NS/0" height="1" width="1" border="0" alt="" /></a>
+                    </noscript>
+                
+            </div>
+            
+            <div id="header">
+                <div id="header_wrap" class="row">
+                    <p id="logo"><a href="http://www.codeplex.com">Code<span class="semi">Plex</span></a><span id="tagline">Project Hosting for Open Source Software</span></p>
+                    
+
+<ul id="nav">
+
+    <li><a href="/site/register/new" id="registerLink" class="ZoomFix">Register</a></li>
+    <li ><a class="SignInLink" href="https://www.codeplex.com/site/login?RedirectUrl=http%3a%2f%2fz3.codeplex.com%2fworkitem%2f47" id="signInLink">Sign In</a></li>
+  
+    <li class="last"><a class="rss_site_icon" href="http://www.codeplex.com/site/feeds/rss" type="application/rss+xml" rel="Alternate" title="CodePlex Site Activity"></a></li>
+</ul>
+                    <input id="searchsite" name="searchsite" maxlength="500" type="text" value="" /><span id="search_mag"><a id="submitSearch" name="submitSearch" class="magnify" title="Search" href="#"></a></span>
+                    <script>
+	$(document).ready(function() {
+    var searchButton = $('#submitSearch'),
+        searchBar = $('#searchsite');
+
+    // Register our own handler for the search event while we wait for the SearchBox script to load.
+    searchButton.bind('click.backupSearchBox', doProjectSearch);
+    searchBar.bind('keypress.backupSearchBox', function(e) { if ($keyCode(e) === 13) { doProjectSearch(); return false; } });
+
+    function cleanupSearchEvents() {
+        // If the SearchBox was loaded, unregister our handlers.
+        if (epx_loaded) {
+            searchButton.unbind('.backupSearchBox');
+            searchBar.unbind('.backupSearchBox');
+        }
+    }
+
+    $loadScript('http://i4.services.social.microsoft.com/search/Widgets/SearchBox.jss?appid=1000&scopeid=1&boxId=searchsite&btnId=submitSearch&watermark=Search%20all%20projects&overrideWatermark=true&searchLocation=%2fsite%2fsearch&allowEmptySearch=true&focusOnInit=False&minimumTermLength=3', cleanupSearchEvents);
+})
+function doProjectSearch() {
+    
+    var url = '/site/search';
+
+    //If search term is not same as watermark
+    if($('#searchsite').val() != 'Search all projects')    
+    {        
+        url = url + '?query=' + encodeURIComponent($('#searchsite').val());
+    }
+
+    
+    var callback = '';
+    if (callback.length > 0 && eval('typeof ' + callback) != 'undefined')
+        url += eval(callback + '()');
+
+    window.location.href = url;
+    return false;
+}
+</script>
+                </div>
+            </div>
+            
+            <div id="wrap">
+                
+    <div id="sub_heading" class="row">
+        
+        <div id="ProjectHeader">
+            <div id="project_title_row" class="row">
+                <div id="project_logo">
+                    
+    
+    <h1><a href="http://z3.codeplex.com/"><img src="http://download-codeplex.sec.s-msft.com/Download?ProjectName=z3&DownloadId=491381&Build=20552" alt="Z3" /></a></h1>
+
+                </div>
+            </div>
+        </div>
+        
+        <div id="ProjectDetailsDiv">
+            
+        </div>
+		<div class="clear"></div>
+        
+
+<ul id="page_box_links">
+	<li id="homeTabCell" style="width: 63px;"><a id="homeTab" href="http://z3.codeplex.com/" class="box_home">home</a><div></div></li>
+    
+	<li id="sourceTabCell" style="width:113px;"><a id="sourceTab" href="http://z3.codeplex.com/SourceControl/latest" class="box_source">source code</a><div></div></li>
+    
+	<li id="releasesTabCell" style="width:105px;"><a id="releasesTab" href="http://z3.codeplex.com/releases" class="box_downloads">downloads</a><div></div></li>
+    
+    <li id="documentationTabCell" style="width:143px;"><a id="documentationTab" href="http://z3.codeplex.com/documentation" class="box_documentation">documentation</a><div></div></li>
+    
+	<li id="discussionTabCell" style="width:112px;"><a id="discussionTab" href="http://z3.codeplex.com/discussions" class="box_discussions">discussions</a><div></div></li>
+    
+	<li id="workItemsTabCell" style="width:70px;"><a id="workItemsTab" href="http://z3.codeplex.com/workitem/list/basic" class="issue_active">issues</a><div></div></li>
+    
+	<li id="peopleTabCell" style="width:70px;"><a id="peopleTab" href="http://z3.codeplex.com/team/view" class="box_people">people</a><div></div></li>
+	<li id="licenseTabCell" style="width:70px;"><a id="licenseTab" href="http://z3.codeplex.com/license" class="box_license">license</a><div></div></li>
+    
+    <span class="stretch"></span>
+</ul>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#page_box_links').applyLastClassToList();
+    });
+</script>
+		    <div class="clear"></div>
+            
+    
+
+<div id="workitem_sub_menu">
+    <ul class="page_box_sublinks">
+        
+            <li><a id="BasicLink" href="http://z3.codeplex.com/workitem/list/basic">Basic View</a></li>
+        
+            <li class="last"><a id="AdvancedLink" href="http://z3.codeplex.com/workitem/list/advanced">Advanced View</a></li>
+        
+    </ul>
+    
+    <div id="actionBar_placeholder">
+        
+
+<div>
+    
+    <div id="actionBar" class="action_bar">
+        <ul id="actionBar_ul" class="actionBar_sublinks subtab_right" style="vertical-align: middle;">
+
+            
+
+                <li id="li_actionbar_newitem" data-action-id="actionbar_newitem" data-action-type="Navigate" class="actionBar_sublinks" data-options-id="b35a193e-a1e2-4e8e-99a4-b1fce8544b53">
+                
+                    <script class="options" defer="defer" id="b35a193e-a1e2-4e8e-99a4-b1fce8544b53" type="application/json">{"navigate-url":"http://z3.codeplex.com/WorkItem/Create"}</script> 
+                    
+                    <div class="actionBar_custom_content"></div>
+
+                    <a href="#" id="actionbar_newitem" title="Create a new issue." class="action_bar_item_link">
+                        <img id="img_actionbar_newitem" class="action_bar_item_image" src="http://download-codeplex.sec.s-msft.com/Images/v20552/actionbar_newitem.png" style="vertical-align: middle" />
+                        New Issue
+                    </a>
+
+                </li>
+
+            
+
+                <li id="li_actionbar_subscribe" data-action-id="actionbar_subscribe" data-action-type="PopUp" class="actionBar_sublinks" data-options-id="f8548c19-6db2-4b56-b5fc-878a1cb99ce8">
+                
+                    <script class="options" defer="defer" id="f8548c19-6db2-4b56-b5fc-878a1cb99ce8" type="application/json">{}</script> 
+                    
+                    <div class="actionBar_custom_content">
+
+<div id="rssHoverDiv" class="HoverPanel LeftHoverWidth" style="display: none">
+        <ul id="3_FeedsPanel" class="RssFeedsPanel">
+            <li>
+                <a id="ProjectRssLink" href="http://z3.codeplex.com/project/feeds/rss" class="ArrowSmall NoUnderline">All Project Updates</a>
+            </li>
+            
+            <li>
+                <a id="DiscussionRssLink" href="http://z3.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2fforum%2fz3" class="ArrowSmall NoUnderline">Discussions</a>
+            </li>
+            
+            <li>
+                <a id="IssueTrackerRssLink" href="http://z3.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2fworkitem%2fz3" class="ArrowSmall NoUnderline">Issue Tracker</a>
+            </li>
+            
+            <li>
+                <a id="ReleasesRssLink" href="http://z3.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2frelease%2fz3" class="ArrowSmall NoUnderline">Downloads</a>
+            </li>
+            <li>
+                <a id="ReviewsRssLink" href="http://z3.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2freview%2fz3" class="ArrowSmall NoUnderline">Reviews</a>
+            </li>
+            
+            <li>
+                <a id="SourceControlRssLink" href="http://z3.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2fsourcecontrol%2fz3" class="ArrowSmall NoUnderline">Source Code</a>
+            </li>
+            <li>
+                <a id="WikiRssLink" href="http://z3.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2fwiki%2fz3" class="ArrowSmall NoUnderline">Wiki &amp; Documentation</a>
+            </li>
+        </ul>
+</div></div>
+
+                    <a href="#" id="actionbar_subscribe" title="Subscribe to project updates in RSS feeds." class="action_bar_item_link">
+                        <img id="img_actionbar_subscribe" class="action_bar_item_image" src="http://download-codeplex.sec.s-msft.com/Images/v20552/actionbar_subscribe.png" style="vertical-align: middle" />
+                        Subscribe
+                    </a>
+
+                </li>
+
+            
+        </ul>
+    </div>
+</div>
+    </div>
+    <div style="clear:both"></div>
+</div>
+
+<script type="text/javascript">
+    function goToCreateItem() {
+        $('#actionbar_newitem').click();
+    }
+</script>
+        
+
+    </div>
+    
+    
+    
+        <div id="ErrorPanel" class="modal" style="display: none">
+            <div class="row">
+                <h2><span class="title">Woops...</span><a href="#" class="close">X</a></h2>
+            </div>
+            <div class="modal_info">
+                <p id="Message">An unexpected error has occured.</p>
+                <p class="modal_buttons">
+                    <input type="button" id="Ok" value="Ok" class="ok" />
+                </p>
+                <div class="ClearBoth"></div>
+            </div>
+        </div>
+        <div id="PageIsDirtyPanel" class="modal" style="display: none">
+            <div class="row">
+                <h2><span class="title">Are you sure?</span><a href="#" class="close">X</a></h2>
+            </div>
+            <div class="modal_info">
+                <p>There is an unsaved comment in progress. You will lose your changes if you continue. Are you sure you want to reopen the work item?</p>
+                <p class="modal_buttons">
+                    <input type="button" value="Reopen" class="ok" />
+                    <input type="button" value="Cancel" class="cancel" />
+                </p>
+                <div class="ClearBoth"></div>
+            </div>
+        </div>
+
+        <script type="text/javascript">
+            $(document).ready(function() {
+                setupUnsavedData();
+                
+                $('.votebox').voting({ 
+                    voteUrl: "http://z3.codeplex.com/workitem/vote",
+                    loginUrl: 'https://www.codeplex.com/site/login?RedirectUrl=http%3a%2f%2fz3.codeplex.com%2fworkitem%2f47'
+                });
+                
+                
+                
+                $("#ChangeStatusCancel").click(function () {
+                    $('#changeStatusHoverDiv').hide();
+                    $('#li_actionbar_closeitem .action_bar_popup_arrow').hide();
+                });
+                
+                
+            });
+            
+            function UpdateReasonClosed() {
+                var $link = $("#ReasonClosedLink"),
+                    $reasonClosedSelect = $("#workItemReasonClosedDropDown"),
+                    currentValue,
+                    newValue,
+                    newLinkLocation;
+
+                // We need to update the link text and target to reflect the selection
+                currentValue = $link.text();
+                newValue = $reasonClosedSelect.val();
+                newLinkLocation = $link.attr('href').replace("ReasonClosed=" + encodeURIComponent(currentValue), "ReasonClosed=" + encodeURIComponent(newValue));
+                $link.text(newValue);
+                $link.attr('href', newLinkLocation);
+                $link.parent().parent().show();
+            }
+            
+            function isWorkItemOpen() {
+                return $('#actionbar_closeitem').attr("title") == 'Close the issue.';
+            }
+
+            
+            $(document).ready(function() {
+                var focus = $getQuerystring('FocusElement', '');
+                if (focus != '')
+                    $('#'+focus).focus();
+            });
+        </script>
+
+    	<div id="left_column" class="issue_tracker_detail issuetracker_basic_view">
+    		<div class="issue_title WordWrapBreakWord">
+                <div class="issue_title_votebox">
+                    
+
+<div class="votebox" d:workItemId="47">
+    
+        <div id="VoteCountLabel_WorkItemId47" class="vote_bg_open">1</div>
+        <p class="vote" id="VotedLabel_WorkItemId47" style="display: none;">Voted</p>
+        
+                <a id="VoteLink47" class="vote_loggedout" href="#" title="You must be logged in to use this feature.">Vote</a>
+            
+</div>
+                </div>
+                <h1 id="workItemTitle" class="page_title">assertion violation&#58; s.m_qhead &#61;&#61; s.m_trail.size&#40;&#41;</h1>
+            </div>
+            <div class="clear"></div>
+
+    		<h2>description</h2>
+            <div class="markDownOutput " id="descriptionContent">Version:<br />
+End of master branch built with Z3DEBUG=1 and _EXTERNAL_RELEASE=1, plus cherry-picked changes:<br />
+<a href="https://z3.codeplex.com/SourceControl/changeset/110fa0b7fb711418fe2be67f033e8ed70b354972" rel="nofollow">https://z3.codeplex.com/SourceControl/changeset/110fa0b7fb711418fe2be67f033e8ed70b354972</a><br />
+<a href="https://z3.codeplex.com/SourceControl/changeset/f4f1c63abb4a6fd0df908e376b0ab014bce3d9da" rel="nofollow">https://z3.codeplex.com/SourceControl/changeset/f4f1c63abb4a6fd0df908e376b0ab014bce3d9da</a><br />
+<br />
+Reproduces independently of cherry picked changes, but does depend on _EXTERNAL_RELEASE being defined.<br />
+<pre><code>ASSERTION VIOLATION
+File: ../src/sat/sat_asymm_branch.cpp
+Line: 79
+s.m_qhead == s.m_trail.size()</code></pre>
+
+Problematic input:<br />
+<pre><code>(set-logic QF_BV)
+(define-sort bv64 () (_ BitVec 64))
+(declare-fun chartab_addr!56 () bv64)
+(define-fun tmp!58 () bv64 (bvadd chartab_addr!56 #x0000000000000100))
+(define-fun tmp!65 () Bool (bvule chartab_addr!56 tmp!58))
+(assert tmp!65)
+(declare-fun str_addr!12 () bv64)
+(define-fun tmp!66 () Bool (bvult tmp!58 str_addr!12))
+(assert tmp!66)
+(declare-fun _param_1_addr!10 () bv64)
+(declare-fun p_addr!31 () bv64)
+(define-fun tmp!69 () Bool (bvult _param_1_addr!10 p_addr!31))
+(assert tmp!69)
+(define-sort bv32 () (_ BitVec 32))
+(define-sort bv8 () (_ BitVec 8))
+(declare-fun str_addr_12_D0_15_D0!50 () bv8)
+(define-fun tmp!52 () bv32 ((_ zero_extend 24) str_addr_12_D0_15_D0!50))
+(define-fun tmp!53 () Bool (bvsge tmp!52 #x00000080))
+(define-fun tmp!55 () Bool (not tmp!53))
+(assert tmp!55)
+(define-fun tmp!59 () bv64 ((_ zero_extend 56) str_addr_12_D0_15_D0!50))
+(define-fun tmp!60 () bv64 (bvadd chartab_addr!56 tmp!59))
+(define-fun tmp!61 () Bool (bvult tmp!60 chartab_addr!56))
+(assert tmp!61)
+(check-sat)</code></pre>
+
+stack:<br />
+<pre><code>#2  0x0000000000b2a416 in sat::asymm_branch::operator() (this=0x7fffffffc8b0, force=false) at third-party/z3/src/sat/sat_asymm_branch.cpp:79
+#3  0x0000000000b0a22f in sat::solver::simplify_problem (this=0x7fffffffc418) at third-party/z3/src/sat/sat_solver.cpp:882
+#4  0x0000000000b0963f in sat::solver::check (this=0x7fffffffc418) at third-party/z3/src/sat/sat_solver.cpp:698
+#5  0x0000000000a17091 in sat_tactic::imp::operator() (this=0x7fffffffc400, g=..., result=..., mc=..., pc=..., core=...) at third-party/z3/src/sat/tactic/sat_tactic.cpp:70
+#6  0x0000000000a1787d in sat_tactic::operator() (this=0x13bf778, g=..., result=..., mc=..., pc=..., core=...) at third-party/z3/src/sat/tactic/sat_tactic.cpp:174
+#7  0x0000000000bdacf6 in cleanup_tactical::operator() (this=0x13bf7c8, in=..., result=..., mc=..., pc=..., core=...) at third-party/z3/src/tactic/tactical.cpp:1206
+#8  0x0000000000bdb371 in cond_tactical::operator() (this=0x13c0f68, in=..., result=..., mc=..., pc=..., core=...) at third-party/z3/src/tactic/tactical.cpp:1303
+#9  0x0000000000bd4dc6 in and_then_tactical::operator() (this=0x13c4948, in=..., result=..., mc=..., pc=..., core=...) at third-party/z3/src/tactic/tactical.cpp:176
+#10 0x0000000000bd4dc6 in and_then_tactical::operator() (this=0x13c4988, in=..., result=..., mc=..., pc=..., core=...) at third-party/z3/src/tactic/tactical.cpp:176
+#11 0x0000000000bdb371 in cond_tactical::operator() (this=0x13c6198, in=..., result=..., mc=..., pc=..., core=...) at third-party/z3/src/tactic/tactical.cpp:1303
+#12 0x0000000000bdb335 in cond_tactical::operator() (this=0x13c6218, in=..., result=..., mc=..., pc=..., core=...) at third-party/z3/src/tactic/tactical.cpp:1301
+#13 0x0000000000bd4dc6 in and_then_tactical::operator() (this=0x13c6268, in=..., result=..., mc=..., pc=..., core=...) at third-party/z3/src/tactic/tactical.cpp:176
+#14 0x0000000000bd942a in unary_tactical::operator() (this=0x13c62a8, in=..., result=..., mc=..., pc=..., core=...) at third-party/z3/src/tactic/tactical.cpp:989
+#15 0x0000000000be7864 in exec (t=..., in=..., result=..., mc=..., pc=..., core=...) at third-party/z3/src/tactic/tactic.cpp:180
+#16 0x0000000000be7ad8 in check_sat (t=..., g=..., md=..., pr=..., core=..., reason_unknown=...) at third-party/z3/src/tactic/tactic.cpp:202
+
+
+(gdb) p s.m_qhead
+$2 = 262
+(gdb) p s.m_trail.size()
+$3 = 265</code></pre>
+
+</div>
+
+            <div class="hidden">
+                <h2>file attachments</h2>
+                
+
+<div id="file_attachments">
+    
+	    <p>No files are attached</p>
+    
+</div>
+            </div>
+
+            <div id="ClosedDiv" class="Closed" style="display:none;">
+                <div class="StandardPadding ModalBackgroundLight">
+                    Closed <span id="ClosedOnDateTimeComment" class="smartDate"></span>
+                    by <a id="ClosedByLink" href="http://www.codeplex.com/site/users/view/"></a><br />
+                    <div id="ClosedCommentLabel">
+                        <div class="markDownOutput "></div>
+                    </div>
+                </div>
+                <br />
+            </div>
+
+            
+<div id="comments">
+	<h2>comments</h2>
+    <div id="CommentsList">
+        
+    </div>
+</div>
+
+
+            <fieldset class="narrow row inline">
+                <div class="row">
+                    
+                        <p><a id="LoginLink" href="https://www.codeplex.com/site/login?RedirectUrl=http%3a%2f%2fz3.codeplex.com%2fworkitem%2f47%3fFocusElement%3dCommentTextBox">Sign in to add a comment or to set email notifications</a></p>
+                    
+                    <div class="clear"></div>
+                </div>
+
+                
+            </fieldset>
+        </div>
+    
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $(document).keyboardShortcuts({
+                    createItem: goToCreateItem,
+                    previousItem: goToPreviousItem,
+                    nextItem: goToNextItem
+                    
+                });
+            });
+        </script>
+
+    
+        
+    
+    <div id="right_sidebar_noborder" >
+        
+<div style="margin-bottom: 10px; float: right">
+            <span style="margin-right: 1.5em">Item <span id="CurrentItemIndexLabel">1</span> of <span id="TotalItemCountLabel">3</span></span>
+            <span class="NextPrevious">
+                
+                <span id="PreviousItemLabel" class="disabled">Previous</span>
+                
+                |
+                
+                <a id="NextItemLink" href="http://z3.codeplex.com/workitem/42">Next</a>
+                
+            </span>
+    </div>
+    
+<div class="clear"></div>
+    <script type="text/javascript">
+        function goToPreviousItem() {
+            $goToLinkHref('PreviousItemLink');
+        }
+        function goToNextItem() {
+            $goToLinkHref('NextItemLink');
+        }
+    </script>
+
+
+<div class="right_sidebar_table">
+    <h2>work item details</h2>
+
+    <table>
+        <tr>
+            <td class="left">Item number:</td>
+            <td class="right">47</td>
+        </tr>
+        <tr>
+            <td class="left">User comments:</td>
+            <td class="right">0</td>
+        </tr>
+        <tr>
+            <td class="left">Status:</td>
+            <td class="right"><a id="StatusLink" href="http://z3.codeplex.com/workitem/list/advanced?Status=Proposed">Proposed</a></td>
+        </tr>
+        <tr style="display: none">
+            <td class="left">Reason Closed:</td>
+            <td class="right"><a id="ReasonClosedLink" href="http://z3.codeplex.com/workitem/list/advanced?status=Closed&ReasonClosed=Unassigned">Unassigned</a></td>
+        </tr>
+        <tr class="hidden">
+            <td class="left">Type:</td>
+            <td class="right"><a id="TypeLink" href="http://z3.codeplex.com/workitem/list/advanced?Type=Unassigned">Unassigned</a></td>
+        </tr>
+        <tr class="hidden">
+            <td class="left">Impact:</td>
+            <td class="right"><a id="ImpactLink" href="http://z3.codeplex.com/workitem/list/advanced?Priority=Unassigned">Unassigned</a></td>
+        </tr>
+        <tr class="hidden">
+            <td class="left">Release:</td>
+            <td class="right">
+                
+                <a id="ReleaseLink" href="http://z3.codeplex.com/workitem/list/advanced?Release=Unassigned">Unassigned</a>
+            </td>
+        </tr>
+        <tr class="hidden">
+            <td class="left">Assigned to:</td>
+            <td class="right">
+                
+                <a id="AssignedToLink" href="http://z3.codeplex.com/workitem/list/advanced?AssignedTo=Unassigned">Unassigned</a>
+            </td>
+        </tr>
+        <tr class="hidden">
+            <td class="left">Component:</td>
+            <td class="right">
+                <a id="ComponentLink" href="http://z3.codeplex.com/workitem/list/advanced?Component="></a>
+            </td>
+        </tr>
+        <tr>
+            <td class="left">Reported on:<br />Reported by:<br /></td>
+            <td class="right"><span id="ReportedOnDateTime" class="smartDate" title="6/10/2013 9:00:46 PM" LocalTimeTicks="1370923246">Mon at 9:00 PM</span><br />
+                <a id="ReportedByLink" class="author" href="http://www.codeplex.com/site/users/view/dvitek">dvitek</a>
+                
+            </td>
+        </tr>
+        <tr>
+	        <td class="left">Updated on:<br />Updated by:</td>
+            <td class="right"><span id="UpdatedOnDateTime" class="smartDate" title="6/10/2013 9:00:46 PM" LocalTimeTicks="1370923246">Mon at 9:00 PM</span><br />
+	            <a id="UpdatedByLink" class="author" href="http://www.codeplex.com/site/users/view/dvitek">dvitek</a>
+            </td>
+        </tr>
+        <tr class="hidden">
+	        <td class="left">Closed on:<br />Closed by:</td>
+            <td class="right"><span id="ClosedOnDateTime" class="smartDate">n/a</span><br />
+	            <a id="ClosedByAnchor" class="author" style="display: none;" href="http://www.codeplex.com/site/users/view/"></a>
+                <span id="ClosedByNA" style="display: block;">n/a</span>
+            </td>
+        </tr>
+        
+    </table>
+</div>
+
+
+<p><a title="Keyboard Shortcuts" class="keyboard_icon" href="#" onclick="$(document).trigger('shortcuts');return false;"></a><a href="#" onclick="$(document).trigger('shortcuts');return false;">Keyboard shortcuts</a> are available for this page.</p>
+
+    </div>
+
+        
+                
+                <div class="clear"></div>
+                
+                <div id="footer">
+                    <div class="row">
+                        <hr />
+                        <ul>
+                            <li>© 2006-2013 Microsoft</li>
+                            <li><a href="http://www.codeplex.com/site/help">Get Help</a></li>
+                            <li><a href="/site/legal/privacy">Privacy Statement</a></li>
+                            <li><a href="http://www.codeplex.com/site/legal/terms">Terms of Use</a></li>
+                            <li><a href="http://www.codeplex.com/site/legal/conduct">Code of Conduct</a></li>
+                            <li><a href="http://www.lakequincy.com" target="_blank">Advertise With Us</a></li>
+                            <li>Version 6.4.2013.20552</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </body>
+
+</html>

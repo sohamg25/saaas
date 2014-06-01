@@ -1,0 +1,1210 @@
+Found plugin: /home/shashi/saaas/findbugs/plugin/webCloudClient.jar
+Found plugin: /home/shashi/saaas/findbugs/plugin/findbugsCommunalCloud.jar
+Found plugin: /home/shashi/saaas/findbugs/optionalPlugin/bugCollectionCloud.jar
+Found plugin: /home/shashi/saaas/findbugs/optionalPlugin/noUpdateChecks.jar
+Found plugin: /home/shashi/saaas/findbugs/optionalPlugin/poweruser.jar
+Loading edu.umd.cs.findbugs.plugins.core
+Registering detector: edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures
+Registering detector: edu.umd.cs.findbugs.detect.NoteSuppressedWarnings
+Registering detector: edu.umd.cs.findbugs.detect.NoteAnnotationRetention
+Registering detector: edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers
+Registering detector: edu.umd.cs.findbugs.detect.BuildInterproceduralCallGraph
+Registering detector: edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase
+Registering detector: edu.umd.cs.findbugs.detect.SynchronizeAndNullCheckField
+Registering detector: edu.umd.cs.findbugs.detect.InitializeNonnullFieldsInConstructor
+Registering detector: edu.umd.cs.findbugs.detect.BooleanReturnNull
+Registering detector: edu.umd.cs.findbugs.detect.NoteJCIPAnnotation
+Registering detector: edu.umd.cs.findbugs.detect.Methods
+Registering detector: edu.umd.cs.findbugs.detect.ReflectiveClasses
+Registering detector: edu.umd.cs.findbugs.detect.CalledMethods
+Registering detector: edu.umd.cs.findbugs.detect.ConfusionBetweenInheritedAndOuterMethod
+Registering detector: edu.umd.cs.findbugs.detect.SynchronizationOnSharedBuiltinConstant
+Registering detector: edu.umd.cs.findbugs.detect.NoteCheckReturnValueAnnotations
+Registering detector: edu.umd.cs.findbugs.detect.FieldItemSummary
+Registering detector: edu.umd.cs.findbugs.detect.NoteNonNullAnnotations
+Registering detector: edu.umd.cs.findbugs.detect.NoteUnconditionalParamDerefs
+Registering detector: edu.umd.cs.findbugs.detect.NoteNonnullReturnValues
+Registering detector: edu.umd.cs.findbugs.detect.SynchronizeOnClassLiteralNotGetClass
+Registering detector: edu.umd.cs.findbugs.detect.InfiniteRecursiveLoop
+Registering detector: edu.umd.cs.findbugs.detect.InfiniteLoop
+Registering detector: edu.umd.cs.findbugs.detect.VolatileUsage
+Registering detector: edu.umd.cs.findbugs.detect.InheritanceUnsafeGetResource
+Registering detector: edu.umd.cs.findbugs.detect.EmptyZipFileEntry
+Registering detector: edu.umd.cs.findbugs.detect.DoInsideDoPrivileged
+Registering detector: edu.umd.cs.findbugs.detect.HugeSharedStringConstants
+Registering detector: edu.umd.cs.findbugs.detect.FinalizerNullsFields
+Registering detector: edu.umd.cs.findbugs.detect.InconsistentAnnotations
+Registering detector: edu.umd.cs.findbugs.detect.RepeatedConditionals
+Registering detector: edu.umd.cs.findbugs.detect.CallToUnsupportedMethod
+Registering detector: edu.umd.cs.findbugs.detect.FormatStringChecker
+Registering detector: edu.umd.cs.findbugs.detect.LostLoggerDueToWeakReference
+Registering detector: edu.umd.cs.findbugs.detect.TestingGround
+Registering detector: edu.umd.cs.findbugs.detect.TestingGround2
+Registering detector: edu.umd.cs.findbugs.detect.NoiseNullDeref
+Registering detector: edu.umd.cs.findbugs.detect.Noise
+Registering detector: edu.umd.cs.findbugs.detect.EqualsOperandShouldHaveClassCompatibleWithThis
+Registering detector: edu.umd.cs.findbugs.detect.ResolveAllReferences
+Registering detector: edu.umd.cs.findbugs.detect.CheckImmutableAnnotation
+Registering detector: edu.umd.cs.findbugs.detect.DontCatchIllegalMonitorStateException
+Registering detector: edu.umd.cs.findbugs.detect.FindFloatMath
+Registering detector: edu.umd.cs.findbugs.detect.CloneIdiom
+Registering detector: edu.umd.cs.findbugs.detect.ComparatorIdiom
+Registering detector: edu.umd.cs.findbugs.detect.FindFieldSelfAssignment
+Registering detector: edu.umd.cs.findbugs.detect.FindSelfComparison
+Registering detector: edu.umd.cs.findbugs.detect.FindSelfComparison2
+Registering detector: edu.umd.cs.findbugs.detect.DroppedException
+Registering detector: edu.umd.cs.findbugs.detect.LoadOfKnownNullValue
+Registering detector: edu.umd.cs.findbugs.detect.DumbMethodInvocations
+Registering detector: edu.umd.cs.findbugs.detect.URLProblems
+Registering detector: edu.umd.cs.findbugs.detect.DumbMethods
+Registering detector: edu.umd.cs.findbugs.detect.NumberConstructor
+Registering detector: edu.umd.cs.findbugs.detect.FindSqlInjection
+Registering detector: edu.umd.cs.findbugs.detect.FindDoubleCheck
+Registering detector: edu.umd.cs.findbugs.detect.FindFinalizeInvocations
+Registering detector: edu.umd.cs.findbugs.detect.FindHEmismatch
+Registering detector: edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical
+Registering detector: edu.umd.cs.findbugs.detect.FindNakedNotify
+Registering detector: edu.umd.cs.findbugs.detect.FindReturnRef
+Registering detector: edu.umd.cs.findbugs.detect.FindRunInvocations
+Registering detector: edu.umd.cs.findbugs.detect.SwitchFallthrough
+Registering detector: edu.umd.cs.findbugs.detect.FindSpinLoop
+Registering detector: edu.umd.cs.findbugs.detect.FindNonShortCircuit
+Registering detector: edu.umd.cs.findbugs.detect.FindTwoLockWait
+Registering detector: edu.umd.cs.findbugs.detect.FindUnconditionalWait
+Registering detector: edu.umd.cs.findbugs.detect.FindUninitializedGet
+Registering detector: edu.umd.cs.findbugs.detect.DontUseEnum
+Registering detector: edu.umd.cs.findbugs.detect.FindUnsyncGet
+Registering detector: edu.umd.cs.findbugs.detect.InitializationChain
+Registering detector: edu.umd.cs.findbugs.detect.IteratorIdioms
+Registering detector: edu.umd.cs.findbugs.detect.PreferZeroLengthArrays
+Registering detector: edu.umd.cs.findbugs.detect.SynchronizingOnContentsOfFieldToProtectField
+Registering detector: edu.umd.cs.findbugs.detect.MutableLock
+Registering detector: edu.umd.cs.findbugs.detect.MutableStaticFields
+Registering detector: edu.umd.cs.findbugs.detect.Naming
+Registering detector: edu.umd.cs.findbugs.detect.ReadReturnShouldBeChecked
+Registering detector: edu.umd.cs.findbugs.detect.SerializableIdiom
+Registering detector: edu.umd.cs.findbugs.detect.StartInConstructor
+Registering detector: edu.umd.cs.findbugs.detect.FindBadForLoop
+Registering detector: edu.umd.cs.findbugs.detect.ExplicitSerialization
+Registering detector: edu.umd.cs.findbugs.detect.UnreadFields
+Registering detector: edu.umd.cs.findbugs.detect.WaitInLoop
+Registering detector: edu.umd.cs.findbugs.detect.FindNullDeref
+Registering detector: edu.umd.cs.findbugs.detect.FindNullDerefsInvolvingNonShortCircuitEvaluation
+Registering detector: edu.umd.cs.findbugs.detect.FindOpenStream
+Registering detector: edu.umd.cs.findbugs.detect.FindUselessControlFlow
+Registering detector: edu.umd.cs.findbugs.detect.FindUnreleasedLock
+Registering detector: edu.umd.cs.findbugs.detect.FindRefComparison
+Registering detector: edu.umd.cs.findbugs.detect.FindMismatchedWaitOrNotify
+Registering detector: edu.umd.cs.findbugs.detect.FindEmptySynchronizedBlock
+Registering detector: edu.umd.cs.findbugs.detect.FindInconsistentSync2
+Registering detector: edu.umd.cs.findbugs.detect.FindLocalSelfAssignment2
+Registering detector: edu.umd.cs.findbugs.detect.IncompatMask
+Registering detector: edu.umd.cs.findbugs.detect.LazyInit
+Registering detector: edu.umd.cs.findbugs.detect.FindJSR166LockMonitorenter
+Registering detector: edu.umd.cs.findbugs.detect.FindUncalledPrivateMethods
+Registering detector: edu.umd.cs.findbugs.detect.UncallableMethodOfAnonymousClass
+Registering detector: edu.umd.cs.findbugs.detect.StringConcatenation
+Registering detector: edu.umd.cs.findbugs.detect.InefficientToArray
+Registering detector: edu.umd.cs.findbugs.detect.InvalidJUnitTest
+Registering detector: edu.umd.cs.findbugs.detect.BadlyOverriddenAdapter
+Registering detector: edu.umd.cs.findbugs.detect.BadResultSetAccess
+Registering detector: edu.umd.cs.findbugs.detect.SuperfluousInstanceOf
+Registering detector: edu.umd.cs.findbugs.detect.BadAppletConstructor
+Registering detector: edu.umd.cs.findbugs.detect.SuspiciousThreadInterrupted
+Registering detector: edu.umd.cs.findbugs.detect.FindDeadLocalStores
+Registering detector: edu.umd.cs.findbugs.detect.FindMaskedFields
+Registering detector: edu.umd.cs.findbugs.detect.WrongMapIterator
+Registering detector: edu.umd.cs.findbugs.detect.InstantiateStaticClass
+Registering detector: edu.umd.cs.findbugs.detect.RuntimeExceptionCapture
+Registering detector: edu.umd.cs.findbugs.detect.FindFloatEquality
+Registering detector: edu.umd.cs.findbugs.detect.FindUnsatisfiedObligation
+Registering detector: edu.umd.cs.findbugs.detect.UnnecessaryMath
+Registering detector: edu.umd.cs.findbugs.detect.FindCircularDependencies
+Registering detector: edu.umd.cs.findbugs.detect.RedundantInterfaces
+Registering detector: edu.umd.cs.findbugs.detect.MultithreadedInstanceAccess
+Registering detector: edu.umd.cs.findbugs.detect.PublicSemaphores
+Registering detector: edu.umd.cs.findbugs.detect.BadUseOfReturnValue
+Registering detector: edu.umd.cs.findbugs.detect.MethodReturnCheck
+Registering detector: edu.umd.cs.findbugs.detect.IDivResultCastToDouble
+Registering detector: edu.umd.cs.findbugs.detect.FindBadCast2
+Registering detector: edu.umd.cs.findbugs.detect.FindUseOfNonSerializableValue
+Registering detector: edu.umd.cs.findbugs.detect.FindNonSerializableStoreIntoSession
+Registering detector: edu.umd.cs.findbugs.detect.FindNonSerializableValuePassedToWriteObject
+Registering detector: edu.umd.cs.findbugs.detect.BadSyntaxForRegularExpression
+Registering detector: edu.umd.cs.findbugs.detect.VarArgsProblems
+Registering detector: edu.umd.cs.findbugs.detect.FindPuzzlers
+Registering detector: edu.umd.cs.findbugs.detect.IntCast2LongAsInstant
+Registering detector: edu.umd.cs.findbugs.detect.FindSleepWithLockHeld
+Registering detector: edu.umd.cs.findbugs.detect.InefficientMemberAccess
+Registering detector: edu.umd.cs.findbugs.detect.DuplicateBranches
+Registering detector: edu.umd.cs.findbugs.detect.XMLFactoryBypass
+Registering detector: edu.umd.cs.findbugs.detect.UselessSubclassMethod
+Registering detector: edu.umd.cs.findbugs.detect.ConfusedInheritance
+Registering detector: edu.umd.cs.findbugs.detect.QuestionableBooleanAssignment
+Registering detector: edu.umd.cs.findbugs.detect.TrainUnconditionalDerefParams
+Registering detector: edu.umd.cs.findbugs.detect.TrainLongInstantfParams
+Registering detector: edu.umd.cs.findbugs.detect.TrainFieldStoreTypes
+Registering detector: edu.umd.cs.findbugs.detect.TrainNonNullAnnotations
+Registering detector: edu.umd.cs.findbugs.detect.CheckCalls
+Registering detector: edu.umd.cs.findbugs.detect.FindBugsSummaryStats
+Registering detector: edu.umd.cs.findbugs.detect.AppendingToAnObjectOutputStream
+Registering detector: edu.umd.cs.findbugs.detect.TestASM
+Registering detector: edu.umd.cs.findbugs.detect.FindUnrelatedTypesInGenericContainer
+Registering detector: edu.umd.cs.findbugs.detect.StaticCalendarDetector
+Registering detector: edu.umd.cs.findbugs.detect.TestDataflowAnalysis
+Registering detector: edu.umd.cs.findbugs.detect.CheckTypeQualifiers
+Registering detector: edu.umd.cs.findbugs.detect.CrossSiteScripting
+Registering detector: edu.umd.cs.findbugs.detect.DontIgnoreResultOfPutIfAbsent
+Registering detector: edu.umd.cs.findbugs.detect.ReadOfInstanceFieldInMethodInvokedByConstructorInSuperclass
+Registering detector: edu.umd.cs.findbugs.detect.AtomicityProblem
+Registering detector: edu.umd.cs.findbugs.detect.CheckExpectedWarnings
+Registering detector: edu.umd.cs.findbugs.detect.DefaultEncodingDetector
+Loading edu.umd.cs.findbugs.plugins.webCloud
+Loading edu.umd.cs.findbugs.plugins.findbugsCommunalCloud
+6 classes scanned
+Adding referenced classes
+Added 0 referenced classes
+Total of 2 packages
+  RedundantNullCheckOrg$Foo1
+  java/lang/Throwable
+  java/lang/Integer
+  java/lang/Object
+  java/lang/StringBuilder
+  java/lang/CloneNotSupportedException
+  java/io/PrintStream
+  java/io/IOException
+  Foo
+  Foo2
+  java/lang/IllegalArgumentException
+  java/lang/String
+  RedundantNullCheckOrg
+  java/lang/Class
+  java/lang/InterruptedException
+  RedundantNullCheck
+  java/lang/System
+  IgnoreExcept
+Adding plugin edu.umd.cs.findbugs.plugins.core to execution plan
+Adding plugin edu.umd.cs.findbugs.plugins.webCloud to execution plan
+Adding plugin edu.umd.cs.findbugs.plugins.findbugsCommunalCloud to execution plan
+Dependences force enabling of edu.umd.cs.findbugs.detect.NoteNonnullReturnValues
+Dependences force enabling of edu.umd.cs.findbugs.detect.NoteUnconditionalParamDerefs
+2 passes in execution plan
+     0 : Pass 0: 18 classes
+XFactory cached methods: 493/495
+Descriptor factory: 303/493/9084
+     0 0/2  0/18 RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.NoteSuppressedWarnings to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.FindBugsSummaryStats to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.EqualsOperandShouldHaveClassCompatibleWithThis to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.FieldItemSummary to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.NoteAnnotationRetention to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.NoteJCIPAnnotation to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.Methods to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.ReflectiveClasses to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.CalledMethods to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.NoteCheckReturnValueAnnotations to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.NoteNonNullAnnotations to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.ExplicitSerialization to RedundantNullCheckOrg$Foo1
+      34 usecs/byte      30 msec     872 bytes  0 pass RedundantNullCheckOrg$Foo1
+     0 0/2  1/18 java/lang/Throwable
+Applying edu.umd.cs.findbugs.detect.NoteSuppressedWarnings to java/lang/Throwable
+Applying edu.umd.cs.findbugs.detect.FindBugsSummaryStats to java/lang/Throwable
+Applying edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical to java/lang/Throwable
+Applying edu.umd.cs.findbugs.detect.EqualsOperandShouldHaveClassCompatibleWithThis to java/lang/Throwable
+Applying edu.umd.cs.findbugs.detect.FieldItemSummary to java/lang/Throwable
+Applying edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures to java/lang/Throwable
+Applying edu.umd.cs.findbugs.detect.NoteAnnotationRetention to java/lang/Throwable
+Applying edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers to java/lang/Throwable
+Applying edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase to java/lang/Throwable
+Applying edu.umd.cs.findbugs.detect.NoteJCIPAnnotation to java/lang/Throwable
+Applying edu.umd.cs.findbugs.detect.Methods to java/lang/Throwable
+Applying edu.umd.cs.findbugs.detect.ReflectiveClasses to java/lang/Throwable
+Applying edu.umd.cs.findbugs.detect.CalledMethods to java/lang/Throwable
+Applying edu.umd.cs.findbugs.detect.NoteCheckReturnValueAnnotations to java/lang/Throwable
+Applying edu.umd.cs.findbugs.detect.NoteNonNullAnnotations to java/lang/Throwable
+Applying edu.umd.cs.findbugs.detect.ExplicitSerialization to java/lang/Throwable
+     0 0/2  2/18 java/lang/Integer
+Applying edu.umd.cs.findbugs.detect.NoteSuppressedWarnings to java/lang/Integer
+Applying edu.umd.cs.findbugs.detect.FindBugsSummaryStats to java/lang/Integer
+Applying edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical to java/lang/Integer
+Applying edu.umd.cs.findbugs.detect.EqualsOperandShouldHaveClassCompatibleWithThis to java/lang/Integer
+Applying edu.umd.cs.findbugs.detect.FieldItemSummary to java/lang/Integer
+Applying edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures to java/lang/Integer
+Applying edu.umd.cs.findbugs.detect.NoteAnnotationRetention to java/lang/Integer
+Applying edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers to java/lang/Integer
+Applying edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase to java/lang/Integer
+Applying edu.umd.cs.findbugs.detect.NoteJCIPAnnotation to java/lang/Integer
+Applying edu.umd.cs.findbugs.detect.Methods to java/lang/Integer
+Applying edu.umd.cs.findbugs.detect.ReflectiveClasses to java/lang/Integer
+Applying edu.umd.cs.findbugs.detect.CalledMethods to java/lang/Integer
+Applying edu.umd.cs.findbugs.detect.NoteCheckReturnValueAnnotations to java/lang/Integer
+Applying edu.umd.cs.findbugs.detect.NoteNonNullAnnotations to java/lang/Integer
+Applying edu.umd.cs.findbugs.detect.ExplicitSerialization to java/lang/Integer
+     0 0/2  3/18 java/lang/Object
+Applying edu.umd.cs.findbugs.detect.NoteSuppressedWarnings to java/lang/Object
+Applying edu.umd.cs.findbugs.detect.FindBugsSummaryStats to java/lang/Object
+Applying edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical to java/lang/Object
+Applying edu.umd.cs.findbugs.detect.EqualsOperandShouldHaveClassCompatibleWithThis to java/lang/Object
+Applying edu.umd.cs.findbugs.detect.FieldItemSummary to java/lang/Object
+Applying edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures to java/lang/Object
+Applying edu.umd.cs.findbugs.detect.NoteAnnotationRetention to java/lang/Object
+Applying edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers to java/lang/Object
+Applying edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase to java/lang/Object
+Applying edu.umd.cs.findbugs.detect.NoteJCIPAnnotation to java/lang/Object
+Applying edu.umd.cs.findbugs.detect.Methods to java/lang/Object
+Applying edu.umd.cs.findbugs.detect.ReflectiveClasses to java/lang/Object
+Applying edu.umd.cs.findbugs.detect.CalledMethods to java/lang/Object
+Applying edu.umd.cs.findbugs.detect.NoteCheckReturnValueAnnotations to java/lang/Object
+Applying edu.umd.cs.findbugs.detect.NoteNonNullAnnotations to java/lang/Object
+Applying edu.umd.cs.findbugs.detect.ExplicitSerialization to java/lang/Object
+     0 0/2  4/18 java/lang/StringBuilder
+Applying edu.umd.cs.findbugs.detect.NoteSuppressedWarnings to java/lang/StringBuilder
+Applying edu.umd.cs.findbugs.detect.FindBugsSummaryStats to java/lang/StringBuilder
+Applying edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical to java/lang/StringBuilder
+Applying edu.umd.cs.findbugs.detect.EqualsOperandShouldHaveClassCompatibleWithThis to java/lang/StringBuilder
+Applying edu.umd.cs.findbugs.detect.FieldItemSummary to java/lang/StringBuilder
+Applying edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures to java/lang/StringBuilder
+Applying edu.umd.cs.findbugs.detect.NoteAnnotationRetention to java/lang/StringBuilder
+Applying edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers to java/lang/StringBuilder
+Applying edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase to java/lang/StringBuilder
+Applying edu.umd.cs.findbugs.detect.NoteJCIPAnnotation to java/lang/StringBuilder
+Applying edu.umd.cs.findbugs.detect.Methods to java/lang/StringBuilder
+Applying edu.umd.cs.findbugs.detect.ReflectiveClasses to java/lang/StringBuilder
+Applying edu.umd.cs.findbugs.detect.CalledMethods to java/lang/StringBuilder
+Applying edu.umd.cs.findbugs.detect.NoteCheckReturnValueAnnotations to java/lang/StringBuilder
+Applying edu.umd.cs.findbugs.detect.NoteNonNullAnnotations to java/lang/StringBuilder
+Applying edu.umd.cs.findbugs.detect.ExplicitSerialization to java/lang/StringBuilder
+     0 0/2  5/18 java/lang/CloneNotSupportedException
+Applying edu.umd.cs.findbugs.detect.NoteSuppressedWarnings to java/lang/CloneNotSupportedException
+Applying edu.umd.cs.findbugs.detect.FindBugsSummaryStats to java/lang/CloneNotSupportedException
+Applying edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical to java/lang/CloneNotSupportedException
+Applying edu.umd.cs.findbugs.detect.EqualsOperandShouldHaveClassCompatibleWithThis to java/lang/CloneNotSupportedException
+Applying edu.umd.cs.findbugs.detect.FieldItemSummary to java/lang/CloneNotSupportedException
+Applying edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures to java/lang/CloneNotSupportedException
+Applying edu.umd.cs.findbugs.detect.NoteAnnotationRetention to java/lang/CloneNotSupportedException
+Applying edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers to java/lang/CloneNotSupportedException
+Applying edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase to java/lang/CloneNotSupportedException
+Applying edu.umd.cs.findbugs.detect.NoteJCIPAnnotation to java/lang/CloneNotSupportedException
+Applying edu.umd.cs.findbugs.detect.Methods to java/lang/CloneNotSupportedException
+Applying edu.umd.cs.findbugs.detect.ReflectiveClasses to java/lang/CloneNotSupportedException
+Applying edu.umd.cs.findbugs.detect.CalledMethods to java/lang/CloneNotSupportedException
+Applying edu.umd.cs.findbugs.detect.NoteCheckReturnValueAnnotations to java/lang/CloneNotSupportedException
+Applying edu.umd.cs.findbugs.detect.NoteNonNullAnnotations to java/lang/CloneNotSupportedException
+Applying edu.umd.cs.findbugs.detect.ExplicitSerialization to java/lang/CloneNotSupportedException
+     0 0/2  6/18 java/io/PrintStream
+Applying edu.umd.cs.findbugs.detect.NoteSuppressedWarnings to java/io/PrintStream
+Applying edu.umd.cs.findbugs.detect.FindBugsSummaryStats to java/io/PrintStream
+Applying edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical to java/io/PrintStream
+Applying edu.umd.cs.findbugs.detect.EqualsOperandShouldHaveClassCompatibleWithThis to java/io/PrintStream
+Applying edu.umd.cs.findbugs.detect.FieldItemSummary to java/io/PrintStream
+Applying edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures to java/io/PrintStream
+Applying edu.umd.cs.findbugs.detect.NoteAnnotationRetention to java/io/PrintStream
+Applying edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers to java/io/PrintStream
+Applying edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase to java/io/PrintStream
+Applying edu.umd.cs.findbugs.detect.NoteJCIPAnnotation to java/io/PrintStream
+Applying edu.umd.cs.findbugs.detect.Methods to java/io/PrintStream
+Applying edu.umd.cs.findbugs.detect.ReflectiveClasses to java/io/PrintStream
+Applying edu.umd.cs.findbugs.detect.CalledMethods to java/io/PrintStream
+Applying edu.umd.cs.findbugs.detect.NoteCheckReturnValueAnnotations to java/io/PrintStream
+Applying edu.umd.cs.findbugs.detect.NoteNonNullAnnotations to java/io/PrintStream
+Applying edu.umd.cs.findbugs.detect.ExplicitSerialization to java/io/PrintStream
+     0 0/2  7/18 java/io/IOException
+Applying edu.umd.cs.findbugs.detect.NoteSuppressedWarnings to java/io/IOException
+Applying edu.umd.cs.findbugs.detect.FindBugsSummaryStats to java/io/IOException
+Applying edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical to java/io/IOException
+Applying edu.umd.cs.findbugs.detect.EqualsOperandShouldHaveClassCompatibleWithThis to java/io/IOException
+Applying edu.umd.cs.findbugs.detect.FieldItemSummary to java/io/IOException
+Applying edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures to java/io/IOException
+Applying edu.umd.cs.findbugs.detect.NoteAnnotationRetention to java/io/IOException
+Applying edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers to java/io/IOException
+Applying edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase to java/io/IOException
+Applying edu.umd.cs.findbugs.detect.NoteJCIPAnnotation to java/io/IOException
+Applying edu.umd.cs.findbugs.detect.Methods to java/io/IOException
+Applying edu.umd.cs.findbugs.detect.ReflectiveClasses to java/io/IOException
+Applying edu.umd.cs.findbugs.detect.CalledMethods to java/io/IOException
+Applying edu.umd.cs.findbugs.detect.NoteCheckReturnValueAnnotations to java/io/IOException
+Applying edu.umd.cs.findbugs.detect.NoteNonNullAnnotations to java/io/IOException
+Applying edu.umd.cs.findbugs.detect.ExplicitSerialization to java/io/IOException
+     0 0/2  8/18 Foo
+Applying edu.umd.cs.findbugs.detect.NoteSuppressedWarnings to Foo
+Applying edu.umd.cs.findbugs.detect.FindBugsSummaryStats to Foo
+Applying edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical to Foo
+Applying edu.umd.cs.findbugs.detect.EqualsOperandShouldHaveClassCompatibleWithThis to Foo
+Applying edu.umd.cs.findbugs.detect.FieldItemSummary to Foo
+Applying edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures to Foo
+Applying edu.umd.cs.findbugs.detect.NoteAnnotationRetention to Foo
+Applying edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers to Foo
+Applying edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase to Foo
+Applying edu.umd.cs.findbugs.detect.NoteJCIPAnnotation to Foo
+Applying edu.umd.cs.findbugs.detect.Methods to Foo
+Applying edu.umd.cs.findbugs.detect.ReflectiveClasses to Foo
+Applying edu.umd.cs.findbugs.detect.CalledMethods to Foo
+Applying edu.umd.cs.findbugs.detect.NoteCheckReturnValueAnnotations to Foo
+Applying edu.umd.cs.findbugs.detect.NoteNonNullAnnotations to Foo
+Applying edu.umd.cs.findbugs.detect.ExplicitSerialization to Foo
+     0 0/2  9/18 Foo2
+Applying edu.umd.cs.findbugs.detect.NoteSuppressedWarnings to Foo2
+Applying edu.umd.cs.findbugs.detect.FindBugsSummaryStats to Foo2
+Applying edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical to Foo2
+Applying edu.umd.cs.findbugs.detect.EqualsOperandShouldHaveClassCompatibleWithThis to Foo2
+Applying edu.umd.cs.findbugs.detect.FieldItemSummary to Foo2
+Applying edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures to Foo2
+Applying edu.umd.cs.findbugs.detect.NoteAnnotationRetention to Foo2
+Applying edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers to Foo2
+Applying edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase to Foo2
+Applying edu.umd.cs.findbugs.detect.NoteJCIPAnnotation to Foo2
+Applying edu.umd.cs.findbugs.detect.Methods to Foo2
+Applying edu.umd.cs.findbugs.detect.ReflectiveClasses to Foo2
+Applying edu.umd.cs.findbugs.detect.CalledMethods to Foo2
+Applying edu.umd.cs.findbugs.detect.NoteCheckReturnValueAnnotations to Foo2
+Applying edu.umd.cs.findbugs.detect.NoteNonNullAnnotations to Foo2
+Applying edu.umd.cs.findbugs.detect.ExplicitSerialization to Foo2
+     0 0/2  10/18 java/lang/IllegalArgumentException
+Applying edu.umd.cs.findbugs.detect.NoteSuppressedWarnings to java/lang/IllegalArgumentException
+Applying edu.umd.cs.findbugs.detect.FindBugsSummaryStats to java/lang/IllegalArgumentException
+Applying edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical to java/lang/IllegalArgumentException
+Applying edu.umd.cs.findbugs.detect.EqualsOperandShouldHaveClassCompatibleWithThis to java/lang/IllegalArgumentException
+Applying edu.umd.cs.findbugs.detect.FieldItemSummary to java/lang/IllegalArgumentException
+Applying edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures to java/lang/IllegalArgumentException
+Applying edu.umd.cs.findbugs.detect.NoteAnnotationRetention to java/lang/IllegalArgumentException
+Applying edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers to java/lang/IllegalArgumentException
+Applying edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase to java/lang/IllegalArgumentException
+Applying edu.umd.cs.findbugs.detect.NoteJCIPAnnotation to java/lang/IllegalArgumentException
+Applying edu.umd.cs.findbugs.detect.Methods to java/lang/IllegalArgumentException
+Applying edu.umd.cs.findbugs.detect.ReflectiveClasses to java/lang/IllegalArgumentException
+Applying edu.umd.cs.findbugs.detect.CalledMethods to java/lang/IllegalArgumentException
+Applying edu.umd.cs.findbugs.detect.NoteCheckReturnValueAnnotations to java/lang/IllegalArgumentException
+Applying edu.umd.cs.findbugs.detect.NoteNonNullAnnotations to java/lang/IllegalArgumentException
+Applying edu.umd.cs.findbugs.detect.ExplicitSerialization to java/lang/IllegalArgumentException
+     0 0/2  11/18 java/lang/String
+Applying edu.umd.cs.findbugs.detect.NoteSuppressedWarnings to java/lang/String
+Applying edu.umd.cs.findbugs.detect.FindBugsSummaryStats to java/lang/String
+Applying edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical to java/lang/String
+Applying edu.umd.cs.findbugs.detect.EqualsOperandShouldHaveClassCompatibleWithThis to java/lang/String
+Applying edu.umd.cs.findbugs.detect.FieldItemSummary to java/lang/String
+Applying edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures to java/lang/String
+Applying edu.umd.cs.findbugs.detect.NoteAnnotationRetention to java/lang/String
+Applying edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers to java/lang/String
+Applying edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase to java/lang/String
+Applying edu.umd.cs.findbugs.detect.NoteJCIPAnnotation to java/lang/String
+Applying edu.umd.cs.findbugs.detect.Methods to java/lang/String
+Applying edu.umd.cs.findbugs.detect.ReflectiveClasses to java/lang/String
+Applying edu.umd.cs.findbugs.detect.CalledMethods to java/lang/String
+Applying edu.umd.cs.findbugs.detect.NoteCheckReturnValueAnnotations to java/lang/String
+Applying edu.umd.cs.findbugs.detect.NoteNonNullAnnotations to java/lang/String
+Applying edu.umd.cs.findbugs.detect.ExplicitSerialization to java/lang/String
+     0 0/2  12/18 RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.NoteSuppressedWarnings to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.FindBugsSummaryStats to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.EqualsOperandShouldHaveClassCompatibleWithThis to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.FieldItemSummary to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.NoteAnnotationRetention to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.NoteJCIPAnnotation to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.Methods to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.ReflectiveClasses to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.CalledMethods to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.NoteCheckReturnValueAnnotations to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.NoteNonNullAnnotations to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.ExplicitSerialization to RedundantNullCheckOrg
+     0 0/2  13/18 java/lang/Class
+Applying edu.umd.cs.findbugs.detect.NoteSuppressedWarnings to java/lang/Class
+Applying edu.umd.cs.findbugs.detect.FindBugsSummaryStats to java/lang/Class
+Applying edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical to java/lang/Class
+Applying edu.umd.cs.findbugs.detect.EqualsOperandShouldHaveClassCompatibleWithThis to java/lang/Class
+Applying edu.umd.cs.findbugs.detect.FieldItemSummary to java/lang/Class
+Applying edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures to java/lang/Class
+Applying edu.umd.cs.findbugs.detect.NoteAnnotationRetention to java/lang/Class
+Applying edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers to java/lang/Class
+Applying edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase to java/lang/Class
+Applying edu.umd.cs.findbugs.detect.NoteJCIPAnnotation to java/lang/Class
+Applying edu.umd.cs.findbugs.detect.Methods to java/lang/Class
+Applying edu.umd.cs.findbugs.detect.ReflectiveClasses to java/lang/Class
+Applying edu.umd.cs.findbugs.detect.CalledMethods to java/lang/Class
+Applying edu.umd.cs.findbugs.detect.NoteCheckReturnValueAnnotations to java/lang/Class
+Applying edu.umd.cs.findbugs.detect.NoteNonNullAnnotations to java/lang/Class
+Applying edu.umd.cs.findbugs.detect.ExplicitSerialization to java/lang/Class
+     0 0/2  14/18 java/lang/InterruptedException
+Applying edu.umd.cs.findbugs.detect.NoteSuppressedWarnings to java/lang/InterruptedException
+Applying edu.umd.cs.findbugs.detect.FindBugsSummaryStats to java/lang/InterruptedException
+Applying edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical to java/lang/InterruptedException
+Applying edu.umd.cs.findbugs.detect.EqualsOperandShouldHaveClassCompatibleWithThis to java/lang/InterruptedException
+Applying edu.umd.cs.findbugs.detect.FieldItemSummary to java/lang/InterruptedException
+Applying edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures to java/lang/InterruptedException
+Applying edu.umd.cs.findbugs.detect.NoteAnnotationRetention to java/lang/InterruptedException
+Applying edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers to java/lang/InterruptedException
+Applying edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase to java/lang/InterruptedException
+Applying edu.umd.cs.findbugs.detect.NoteJCIPAnnotation to java/lang/InterruptedException
+Applying edu.umd.cs.findbugs.detect.Methods to java/lang/InterruptedException
+Applying edu.umd.cs.findbugs.detect.ReflectiveClasses to java/lang/InterruptedException
+Applying edu.umd.cs.findbugs.detect.CalledMethods to java/lang/InterruptedException
+Applying edu.umd.cs.findbugs.detect.NoteCheckReturnValueAnnotations to java/lang/InterruptedException
+Applying edu.umd.cs.findbugs.detect.NoteNonNullAnnotations to java/lang/InterruptedException
+Applying edu.umd.cs.findbugs.detect.ExplicitSerialization to java/lang/InterruptedException
+     0 0/2  15/18 RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.NoteSuppressedWarnings to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.FindBugsSummaryStats to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.EqualsOperandShouldHaveClassCompatibleWithThis to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.FieldItemSummary to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.NoteAnnotationRetention to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.NoteJCIPAnnotation to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.Methods to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.ReflectiveClasses to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.CalledMethods to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.NoteCheckReturnValueAnnotations to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.NoteNonNullAnnotations to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.ExplicitSerialization to RedundantNullCheck
+     0 0/2  16/18 java/lang/System
+Applying edu.umd.cs.findbugs.detect.NoteSuppressedWarnings to java/lang/System
+Applying edu.umd.cs.findbugs.detect.FindBugsSummaryStats to java/lang/System
+Applying edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical to java/lang/System
+Applying edu.umd.cs.findbugs.detect.EqualsOperandShouldHaveClassCompatibleWithThis to java/lang/System
+Applying edu.umd.cs.findbugs.detect.FieldItemSummary to java/lang/System
+Applying edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures to java/lang/System
+Applying edu.umd.cs.findbugs.detect.NoteAnnotationRetention to java/lang/System
+Applying edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers to java/lang/System
+Applying edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase to java/lang/System
+Applying edu.umd.cs.findbugs.detect.NoteJCIPAnnotation to java/lang/System
+Applying edu.umd.cs.findbugs.detect.Methods to java/lang/System
+Applying edu.umd.cs.findbugs.detect.ReflectiveClasses to java/lang/System
+Applying edu.umd.cs.findbugs.detect.CalledMethods to java/lang/System
+Applying edu.umd.cs.findbugs.detect.NoteCheckReturnValueAnnotations to java/lang/System
+Applying edu.umd.cs.findbugs.detect.NoteNonNullAnnotations to java/lang/System
+Applying edu.umd.cs.findbugs.detect.ExplicitSerialization to java/lang/System
+     0 0/2  17/18 IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.NoteSuppressedWarnings to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.FindBugsSummaryStats to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.EqualsOperandShouldHaveClassCompatibleWithThis to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.FieldItemSummary to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.NoteAnnotationRetention to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.NoteJCIPAnnotation to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.Methods to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.ReflectiveClasses to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.CalledMethods to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.NoteCheckReturnValueAnnotations to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.NoteNonNullAnnotations to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.ExplicitSerialization to IgnoreExcept
+     1 : Pass 1: 6 classes
+XFactory cached methods: 493/821
+Descriptor factory: 303/493/10267
+     1 1/2  0/6 Foo
+Applying edu.umd.cs.findbugs.detect.FindUseOfNonSerializableValue to Foo
+Applying edu.umd.cs.findbugs.detect.NoteNonnullReturnValues to Foo
+Applying edu.umd.cs.findbugs.detect.NoteUnconditionalParamDerefs to Foo
+Applying edu.umd.cs.findbugs.detect.UnreadFields to Foo
+Applying edu.umd.cs.findbugs.detect.ReadOfInstanceFieldInMethodInvokedByConstructorInSuperclass to Foo
+Applying edu.umd.cs.findbugs.detect.FindUninitializedGet to Foo
+Applying edu.umd.cs.findbugs.detect.FindMaskedFields to Foo
+Applying edu.umd.cs.findbugs.detect.DontIgnoreResultOfPutIfAbsent to Foo
+Applying edu.umd.cs.findbugs.detect.FindNullDeref to Foo
+Applying edu.umd.cs.findbugs.detect.SynchronizeAndNullCheckField to Foo
+Applying edu.umd.cs.findbugs.detect.InitializeNonnullFieldsInConstructor to Foo
+Applying edu.umd.cs.findbugs.detect.BooleanReturnNull to Foo
+Applying edu.umd.cs.findbugs.detect.ConfusionBetweenInheritedAndOuterMethod to Foo
+Applying edu.umd.cs.findbugs.detect.SynchronizationOnSharedBuiltinConstant to Foo
+Applying edu.umd.cs.findbugs.detect.SynchronizeOnClassLiteralNotGetClass to Foo
+Applying edu.umd.cs.findbugs.detect.InfiniteRecursiveLoop to Foo
+Applying edu.umd.cs.findbugs.detect.InfiniteLoop to Foo
+Applying edu.umd.cs.findbugs.detect.VolatileUsage to Foo
+Applying edu.umd.cs.findbugs.detect.InheritanceUnsafeGetResource to Foo
+Applying edu.umd.cs.findbugs.detect.EmptyZipFileEntry to Foo
+Applying edu.umd.cs.findbugs.detect.DoInsideDoPrivileged to Foo
+Applying edu.umd.cs.findbugs.detect.HugeSharedStringConstants to Foo
+Applying edu.umd.cs.findbugs.detect.FinalizerNullsFields to Foo
+Applying edu.umd.cs.findbugs.detect.InconsistentAnnotations to Foo
+Applying edu.umd.cs.findbugs.detect.RepeatedConditionals to Foo
+Applying edu.umd.cs.findbugs.detect.FormatStringChecker to Foo
+Applying edu.umd.cs.findbugs.detect.LostLoggerDueToWeakReference to Foo
+Applying edu.umd.cs.findbugs.detect.CheckImmutableAnnotation to Foo
+Applying edu.umd.cs.findbugs.detect.DontCatchIllegalMonitorStateException to Foo
+Applying edu.umd.cs.findbugs.detect.CloneIdiom to Foo
+Applying edu.umd.cs.findbugs.detect.ComparatorIdiom to Foo
+Applying edu.umd.cs.findbugs.detect.FindFieldSelfAssignment to Foo
+Applying edu.umd.cs.findbugs.detect.FindSelfComparison to Foo
+Applying edu.umd.cs.findbugs.detect.FindSelfComparison2 to Foo
+Applying edu.umd.cs.findbugs.detect.DroppedException to Foo
+Applying edu.umd.cs.findbugs.detect.LoadOfKnownNullValue to Foo
+Applying edu.umd.cs.findbugs.detect.DumbMethodInvocations to Foo
+Applying edu.umd.cs.findbugs.detect.URLProblems to Foo
+Applying edu.umd.cs.findbugs.detect.DumbMethods to Foo
+Applying edu.umd.cs.findbugs.detect.NumberConstructor to Foo
+Applying edu.umd.cs.findbugs.detect.FindSqlInjection to Foo
+Applying edu.umd.cs.findbugs.detect.FindDoubleCheck to Foo
+Applying edu.umd.cs.findbugs.detect.FindFinalizeInvocations to Foo
+Applying edu.umd.cs.findbugs.detect.FindHEmismatch to Foo
+Applying edu.umd.cs.findbugs.detect.FindNakedNotify to Foo
+Applying edu.umd.cs.findbugs.detect.FindReturnRef to Foo
+Applying edu.umd.cs.findbugs.detect.FindRunInvocations to Foo
+Applying edu.umd.cs.findbugs.detect.SwitchFallthrough to Foo
+Applying edu.umd.cs.findbugs.detect.FindSpinLoop to Foo
+Applying edu.umd.cs.findbugs.detect.FindNonShortCircuit to Foo
+Applying edu.umd.cs.findbugs.detect.FindTwoLockWait to Foo
+Applying edu.umd.cs.findbugs.detect.FindUnconditionalWait to Foo
+Applying edu.umd.cs.findbugs.detect.DontUseEnum to Foo
+Applying edu.umd.cs.findbugs.detect.FindUnsyncGet to Foo
+Applying edu.umd.cs.findbugs.detect.InitializationChain to Foo
+Applying edu.umd.cs.findbugs.detect.IteratorIdioms to Foo
+Applying edu.umd.cs.findbugs.detect.PreferZeroLengthArrays to Foo
+Applying edu.umd.cs.findbugs.detect.SynchronizingOnContentsOfFieldToProtectField to Foo
+Applying edu.umd.cs.findbugs.detect.MutableLock to Foo
+Applying edu.umd.cs.findbugs.detect.MutableStaticFields to Foo
+Applying edu.umd.cs.findbugs.detect.Naming to Foo
+Applying edu.umd.cs.findbugs.detect.ReadReturnShouldBeChecked to Foo
+Applying edu.umd.cs.findbugs.detect.SerializableIdiom to Foo
+Applying edu.umd.cs.findbugs.detect.StartInConstructor to Foo
+Applying edu.umd.cs.findbugs.detect.FindBadForLoop to Foo
+Applying edu.umd.cs.findbugs.detect.WaitInLoop to Foo
+Applying edu.umd.cs.findbugs.detect.FindNullDerefsInvolvingNonShortCircuitEvaluation to Foo
+Applying edu.umd.cs.findbugs.detect.FindOpenStream to Foo
+Applying edu.umd.cs.findbugs.detect.FindUselessControlFlow to Foo
+Applying edu.umd.cs.findbugs.detect.FindUnreleasedLock to Foo
+Applying edu.umd.cs.findbugs.detect.FindRefComparison to Foo
+Applying edu.umd.cs.findbugs.detect.FindMismatchedWaitOrNotify to Foo
+Applying edu.umd.cs.findbugs.detect.FindEmptySynchronizedBlock to Foo
+Applying edu.umd.cs.findbugs.detect.FindInconsistentSync2 to Foo
+Applying edu.umd.cs.findbugs.detect.FindLocalSelfAssignment2 to Foo
+Applying edu.umd.cs.findbugs.detect.IncompatMask to Foo
+Applying edu.umd.cs.findbugs.detect.LazyInit to Foo
+Applying edu.umd.cs.findbugs.detect.FindJSR166LockMonitorenter to Foo
+Applying edu.umd.cs.findbugs.detect.FindUncalledPrivateMethods to Foo
+Applying edu.umd.cs.findbugs.detect.UncallableMethodOfAnonymousClass to Foo
+Applying edu.umd.cs.findbugs.detect.StringConcatenation to Foo
+Applying edu.umd.cs.findbugs.detect.InefficientToArray to Foo
+Applying edu.umd.cs.findbugs.detect.InvalidJUnitTest to Foo
+Applying edu.umd.cs.findbugs.detect.BadlyOverriddenAdapter to Foo
+Applying edu.umd.cs.findbugs.detect.BadResultSetAccess to Foo
+Applying edu.umd.cs.findbugs.detect.SuperfluousInstanceOf to Foo
+Applying edu.umd.cs.findbugs.detect.SuspiciousThreadInterrupted to Foo
+Applying edu.umd.cs.findbugs.detect.FindDeadLocalStores to Foo
+Applying edu.umd.cs.findbugs.detect.WrongMapIterator to Foo
+Applying edu.umd.cs.findbugs.detect.InstantiateStaticClass to Foo
+Applying edu.umd.cs.findbugs.detect.RuntimeExceptionCapture to Foo
+Applying edu.umd.cs.findbugs.detect.FindFloatEquality to Foo
+Applying edu.umd.cs.findbugs.detect.FindUnsatisfiedObligation to Foo
+Applying edu.umd.cs.findbugs.detect.UnnecessaryMath to Foo
+Applying edu.umd.cs.findbugs.detect.RedundantInterfaces to Foo
+Applying edu.umd.cs.findbugs.detect.MultithreadedInstanceAccess to Foo
+Applying edu.umd.cs.findbugs.detect.BadUseOfReturnValue to Foo
+Applying edu.umd.cs.findbugs.detect.MethodReturnCheck to Foo
+Applying edu.umd.cs.findbugs.detect.IDivResultCastToDouble to Foo
+Applying edu.umd.cs.findbugs.detect.FindBadCast2 to Foo
+Applying edu.umd.cs.findbugs.detect.BadSyntaxForRegularExpression to Foo
+Applying edu.umd.cs.findbugs.detect.VarArgsProblems to Foo
+Applying edu.umd.cs.findbugs.detect.FindPuzzlers to Foo
+Applying edu.umd.cs.findbugs.detect.IntCast2LongAsInstant to Foo
+Applying edu.umd.cs.findbugs.detect.FindSleepWithLockHeld to Foo
+Applying edu.umd.cs.findbugs.detect.DuplicateBranches to Foo
+Applying edu.umd.cs.findbugs.detect.XMLFactoryBypass to Foo
+Applying edu.umd.cs.findbugs.detect.ConfusedInheritance to Foo
+Applying edu.umd.cs.findbugs.detect.QuestionableBooleanAssignment to Foo
+Applying edu.umd.cs.findbugs.detect.AppendingToAnObjectOutputStream to Foo
+Applying edu.umd.cs.findbugs.detect.FindUnrelatedTypesInGenericContainer to Foo
+Applying edu.umd.cs.findbugs.detect.StaticCalendarDetector to Foo
+Applying edu.umd.cs.findbugs.detect.CheckTypeQualifiers to Foo
+Applying edu.umd.cs.findbugs.detect.CrossSiteScripting to Foo
+Applying edu.umd.cs.findbugs.detect.AtomicityProblem to Foo
+Applying edu.umd.cs.findbugs.detect.DefaultEncodingDetector to Foo
+     391 usecs/byte     127 msec     325 bytes  1 pass Foo
+     1 1/2  1/6 Foo2
+Applying edu.umd.cs.findbugs.detect.FindUseOfNonSerializableValue to Foo2
+Applying edu.umd.cs.findbugs.detect.NoteNonnullReturnValues to Foo2
+Applying edu.umd.cs.findbugs.detect.NoteUnconditionalParamDerefs to Foo2
+Applying edu.umd.cs.findbugs.detect.UnreadFields to Foo2
+Applying edu.umd.cs.findbugs.detect.ReadOfInstanceFieldInMethodInvokedByConstructorInSuperclass to Foo2
+Applying edu.umd.cs.findbugs.detect.FindUninitializedGet to Foo2
+Applying edu.umd.cs.findbugs.detect.FindMaskedFields to Foo2
+Applying edu.umd.cs.findbugs.detect.DontIgnoreResultOfPutIfAbsent to Foo2
+Applying edu.umd.cs.findbugs.detect.FindNullDeref to Foo2
+Applying edu.umd.cs.findbugs.detect.SynchronizeAndNullCheckField to Foo2
+Applying edu.umd.cs.findbugs.detect.InitializeNonnullFieldsInConstructor to Foo2
+Applying edu.umd.cs.findbugs.detect.BooleanReturnNull to Foo2
+Applying edu.umd.cs.findbugs.detect.ConfusionBetweenInheritedAndOuterMethod to Foo2
+Applying edu.umd.cs.findbugs.detect.SynchronizationOnSharedBuiltinConstant to Foo2
+Applying edu.umd.cs.findbugs.detect.SynchronizeOnClassLiteralNotGetClass to Foo2
+Applying edu.umd.cs.findbugs.detect.InfiniteRecursiveLoop to Foo2
+Applying edu.umd.cs.findbugs.detect.InfiniteLoop to Foo2
+Applying edu.umd.cs.findbugs.detect.VolatileUsage to Foo2
+Applying edu.umd.cs.findbugs.detect.InheritanceUnsafeGetResource to Foo2
+Applying edu.umd.cs.findbugs.detect.EmptyZipFileEntry to Foo2
+Applying edu.umd.cs.findbugs.detect.DoInsideDoPrivileged to Foo2
+Applying edu.umd.cs.findbugs.detect.HugeSharedStringConstants to Foo2
+Applying edu.umd.cs.findbugs.detect.FinalizerNullsFields to Foo2
+Applying edu.umd.cs.findbugs.detect.InconsistentAnnotations to Foo2
+Applying edu.umd.cs.findbugs.detect.RepeatedConditionals to Foo2
+Applying edu.umd.cs.findbugs.detect.FormatStringChecker to Foo2
+Applying edu.umd.cs.findbugs.detect.LostLoggerDueToWeakReference to Foo2
+Applying edu.umd.cs.findbugs.detect.CheckImmutableAnnotation to Foo2
+Applying edu.umd.cs.findbugs.detect.DontCatchIllegalMonitorStateException to Foo2
+Applying edu.umd.cs.findbugs.detect.CloneIdiom to Foo2
+Applying edu.umd.cs.findbugs.detect.ComparatorIdiom to Foo2
+Applying edu.umd.cs.findbugs.detect.FindFieldSelfAssignment to Foo2
+Applying edu.umd.cs.findbugs.detect.FindSelfComparison to Foo2
+Applying edu.umd.cs.findbugs.detect.FindSelfComparison2 to Foo2
+Applying edu.umd.cs.findbugs.detect.DroppedException to Foo2
+Applying edu.umd.cs.findbugs.detect.LoadOfKnownNullValue to Foo2
+Applying edu.umd.cs.findbugs.detect.DumbMethodInvocations to Foo2
+Applying edu.umd.cs.findbugs.detect.URLProblems to Foo2
+Applying edu.umd.cs.findbugs.detect.DumbMethods to Foo2
+Applying edu.umd.cs.findbugs.detect.NumberConstructor to Foo2
+Applying edu.umd.cs.findbugs.detect.FindSqlInjection to Foo2
+Applying edu.umd.cs.findbugs.detect.FindDoubleCheck to Foo2
+Applying edu.umd.cs.findbugs.detect.FindFinalizeInvocations to Foo2
+Applying edu.umd.cs.findbugs.detect.FindHEmismatch to Foo2
+Applying edu.umd.cs.findbugs.detect.FindNakedNotify to Foo2
+Applying edu.umd.cs.findbugs.detect.FindReturnRef to Foo2
+Applying edu.umd.cs.findbugs.detect.FindRunInvocations to Foo2
+Applying edu.umd.cs.findbugs.detect.SwitchFallthrough to Foo2
+Applying edu.umd.cs.findbugs.detect.FindSpinLoop to Foo2
+Applying edu.umd.cs.findbugs.detect.FindNonShortCircuit to Foo2
+Applying edu.umd.cs.findbugs.detect.FindTwoLockWait to Foo2
+Applying edu.umd.cs.findbugs.detect.FindUnconditionalWait to Foo2
+Applying edu.umd.cs.findbugs.detect.DontUseEnum to Foo2
+Applying edu.umd.cs.findbugs.detect.FindUnsyncGet to Foo2
+Applying edu.umd.cs.findbugs.detect.InitializationChain to Foo2
+Applying edu.umd.cs.findbugs.detect.IteratorIdioms to Foo2
+Applying edu.umd.cs.findbugs.detect.PreferZeroLengthArrays to Foo2
+Applying edu.umd.cs.findbugs.detect.SynchronizingOnContentsOfFieldToProtectField to Foo2
+Applying edu.umd.cs.findbugs.detect.MutableLock to Foo2
+Applying edu.umd.cs.findbugs.detect.MutableStaticFields to Foo2
+Applying edu.umd.cs.findbugs.detect.Naming to Foo2
+Applying edu.umd.cs.findbugs.detect.ReadReturnShouldBeChecked to Foo2
+Applying edu.umd.cs.findbugs.detect.SerializableIdiom to Foo2
+Applying edu.umd.cs.findbugs.detect.StartInConstructor to Foo2
+Applying edu.umd.cs.findbugs.detect.FindBadForLoop to Foo2
+Applying edu.umd.cs.findbugs.detect.WaitInLoop to Foo2
+Applying edu.umd.cs.findbugs.detect.FindNullDerefsInvolvingNonShortCircuitEvaluation to Foo2
+Applying edu.umd.cs.findbugs.detect.FindOpenStream to Foo2
+Applying edu.umd.cs.findbugs.detect.FindUselessControlFlow to Foo2
+Applying edu.umd.cs.findbugs.detect.FindUnreleasedLock to Foo2
+Applying edu.umd.cs.findbugs.detect.FindRefComparison to Foo2
+Applying edu.umd.cs.findbugs.detect.FindMismatchedWaitOrNotify to Foo2
+Applying edu.umd.cs.findbugs.detect.FindEmptySynchronizedBlock to Foo2
+Applying edu.umd.cs.findbugs.detect.FindInconsistentSync2 to Foo2
+Applying edu.umd.cs.findbugs.detect.FindLocalSelfAssignment2 to Foo2
+Applying edu.umd.cs.findbugs.detect.IncompatMask to Foo2
+Applying edu.umd.cs.findbugs.detect.LazyInit to Foo2
+Applying edu.umd.cs.findbugs.detect.FindJSR166LockMonitorenter to Foo2
+Applying edu.umd.cs.findbugs.detect.FindUncalledPrivateMethods to Foo2
+Applying edu.umd.cs.findbugs.detect.UncallableMethodOfAnonymousClass to Foo2
+Applying edu.umd.cs.findbugs.detect.StringConcatenation to Foo2
+Applying edu.umd.cs.findbugs.detect.InefficientToArray to Foo2
+Applying edu.umd.cs.findbugs.detect.InvalidJUnitTest to Foo2
+Applying edu.umd.cs.findbugs.detect.BadlyOverriddenAdapter to Foo2
+Applying edu.umd.cs.findbugs.detect.BadResultSetAccess to Foo2
+Applying edu.umd.cs.findbugs.detect.SuperfluousInstanceOf to Foo2
+Applying edu.umd.cs.findbugs.detect.SuspiciousThreadInterrupted to Foo2
+Applying edu.umd.cs.findbugs.detect.FindDeadLocalStores to Foo2
+Applying edu.umd.cs.findbugs.detect.WrongMapIterator to Foo2
+Applying edu.umd.cs.findbugs.detect.InstantiateStaticClass to Foo2
+Applying edu.umd.cs.findbugs.detect.RuntimeExceptionCapture to Foo2
+Applying edu.umd.cs.findbugs.detect.FindFloatEquality to Foo2
+Applying edu.umd.cs.findbugs.detect.FindUnsatisfiedObligation to Foo2
+Applying edu.umd.cs.findbugs.detect.UnnecessaryMath to Foo2
+Applying edu.umd.cs.findbugs.detect.RedundantInterfaces to Foo2
+Applying edu.umd.cs.findbugs.detect.MultithreadedInstanceAccess to Foo2
+Applying edu.umd.cs.findbugs.detect.BadUseOfReturnValue to Foo2
+Applying edu.umd.cs.findbugs.detect.MethodReturnCheck to Foo2
+Applying edu.umd.cs.findbugs.detect.IDivResultCastToDouble to Foo2
+Applying edu.umd.cs.findbugs.detect.FindBadCast2 to Foo2
+Applying edu.umd.cs.findbugs.detect.BadSyntaxForRegularExpression to Foo2
+Applying edu.umd.cs.findbugs.detect.VarArgsProblems to Foo2
+Applying edu.umd.cs.findbugs.detect.FindPuzzlers to Foo2
+Applying edu.umd.cs.findbugs.detect.IntCast2LongAsInstant to Foo2
+Applying edu.umd.cs.findbugs.detect.FindSleepWithLockHeld to Foo2
+Applying edu.umd.cs.findbugs.detect.DuplicateBranches to Foo2
+Applying edu.umd.cs.findbugs.detect.XMLFactoryBypass to Foo2
+Applying edu.umd.cs.findbugs.detect.ConfusedInheritance to Foo2
+Applying edu.umd.cs.findbugs.detect.QuestionableBooleanAssignment to Foo2
+Applying edu.umd.cs.findbugs.detect.AppendingToAnObjectOutputStream to Foo2
+Applying edu.umd.cs.findbugs.detect.FindUnrelatedTypesInGenericContainer to Foo2
+Applying edu.umd.cs.findbugs.detect.StaticCalendarDetector to Foo2
+Applying edu.umd.cs.findbugs.detect.CheckTypeQualifiers to Foo2
+Applying edu.umd.cs.findbugs.detect.CrossSiteScripting to Foo2
+Applying edu.umd.cs.findbugs.detect.AtomicityProblem to Foo2
+Applying edu.umd.cs.findbugs.detect.DefaultEncodingDetector to Foo2
+     1 1/2  2/6 RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.FindUseOfNonSerializableValue to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.NoteNonnullReturnValues to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.NoteUnconditionalParamDerefs to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.UnreadFields to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.ReadOfInstanceFieldInMethodInvokedByConstructorInSuperclass to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.FindUninitializedGet to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.FindMaskedFields to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.DontIgnoreResultOfPutIfAbsent to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.FindNullDeref to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.SynchronizeAndNullCheckField to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.InitializeNonnullFieldsInConstructor to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.BooleanReturnNull to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.ConfusionBetweenInheritedAndOuterMethod to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.SynchronizationOnSharedBuiltinConstant to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.SynchronizeOnClassLiteralNotGetClass to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.InfiniteRecursiveLoop to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.InfiniteLoop to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.VolatileUsage to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.InheritanceUnsafeGetResource to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.EmptyZipFileEntry to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.DoInsideDoPrivileged to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.HugeSharedStringConstants to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.FinalizerNullsFields to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.InconsistentAnnotations to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.RepeatedConditionals to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.FormatStringChecker to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.LostLoggerDueToWeakReference to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.CheckImmutableAnnotation to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.DontCatchIllegalMonitorStateException to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.CloneIdiom to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.ComparatorIdiom to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.FindFieldSelfAssignment to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.FindSelfComparison to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.FindSelfComparison2 to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.DroppedException to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.LoadOfKnownNullValue to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.DumbMethodInvocations to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.URLProblems to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.DumbMethods to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.NumberConstructor to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.FindSqlInjection to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.FindDoubleCheck to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.FindFinalizeInvocations to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.FindHEmismatch to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.FindNakedNotify to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.FindReturnRef to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.FindRunInvocations to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.SwitchFallthrough to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.FindSpinLoop to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.FindNonShortCircuit to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.FindTwoLockWait to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.FindUnconditionalWait to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.DontUseEnum to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.FindUnsyncGet to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.InitializationChain to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.IteratorIdioms to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.PreferZeroLengthArrays to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.SynchronizingOnContentsOfFieldToProtectField to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.MutableLock to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.MutableStaticFields to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.Naming to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.ReadReturnShouldBeChecked to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.SerializableIdiom to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.StartInConstructor to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.FindBadForLoop to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.WaitInLoop to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.FindNullDerefsInvolvingNonShortCircuitEvaluation to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.FindOpenStream to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.FindUselessControlFlow to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.FindUnreleasedLock to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.FindRefComparison to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.FindMismatchedWaitOrNotify to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.FindEmptySynchronizedBlock to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.FindInconsistentSync2 to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.FindLocalSelfAssignment2 to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.IncompatMask to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.LazyInit to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.FindJSR166LockMonitorenter to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.FindUncalledPrivateMethods to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.UncallableMethodOfAnonymousClass to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.StringConcatenation to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.InefficientToArray to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.InvalidJUnitTest to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.BadlyOverriddenAdapter to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.BadResultSetAccess to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.SuperfluousInstanceOf to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.SuspiciousThreadInterrupted to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.FindDeadLocalStores to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.WrongMapIterator to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.InstantiateStaticClass to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.RuntimeExceptionCapture to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.FindFloatEquality to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.FindUnsatisfiedObligation to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.UnnecessaryMath to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.RedundantInterfaces to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.MultithreadedInstanceAccess to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.BadUseOfReturnValue to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.MethodReturnCheck to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.IDivResultCastToDouble to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.FindBadCast2 to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.BadSyntaxForRegularExpression to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.VarArgsProblems to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.FindPuzzlers to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.IntCast2LongAsInstant to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.FindSleepWithLockHeld to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.DuplicateBranches to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.XMLFactoryBypass to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.ConfusedInheritance to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.QuestionableBooleanAssignment to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.AppendingToAnObjectOutputStream to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.FindUnrelatedTypesInGenericContainer to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.StaticCalendarDetector to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.CheckTypeQualifiers to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.CrossSiteScripting to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.AtomicityProblem to RedundantNullCheckOrg
+Applying edu.umd.cs.findbugs.detect.DefaultEncodingDetector to RedundantNullCheckOrg
+     1 1/2  3/6 RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.FindUseOfNonSerializableValue to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.NoteNonnullReturnValues to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.NoteUnconditionalParamDerefs to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.UnreadFields to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.ReadOfInstanceFieldInMethodInvokedByConstructorInSuperclass to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.FindUninitializedGet to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.FindMaskedFields to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.DontIgnoreResultOfPutIfAbsent to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.FindNullDeref to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.SynchronizeAndNullCheckField to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.InitializeNonnullFieldsInConstructor to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.BooleanReturnNull to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.ConfusionBetweenInheritedAndOuterMethod to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.SynchronizationOnSharedBuiltinConstant to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.SynchronizeOnClassLiteralNotGetClass to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.InfiniteRecursiveLoop to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.InfiniteLoop to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.VolatileUsage to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.InheritanceUnsafeGetResource to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.EmptyZipFileEntry to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.DoInsideDoPrivileged to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.HugeSharedStringConstants to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.FinalizerNullsFields to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.InconsistentAnnotations to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.RepeatedConditionals to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.FormatStringChecker to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.LostLoggerDueToWeakReference to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.CheckImmutableAnnotation to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.DontCatchIllegalMonitorStateException to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.CloneIdiom to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.ComparatorIdiom to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.FindFieldSelfAssignment to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.FindSelfComparison to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.FindSelfComparison2 to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.DroppedException to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.LoadOfKnownNullValue to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.DumbMethodInvocations to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.URLProblems to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.DumbMethods to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.NumberConstructor to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.FindSqlInjection to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.FindDoubleCheck to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.FindFinalizeInvocations to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.FindHEmismatch to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.FindNakedNotify to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.FindReturnRef to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.FindRunInvocations to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.SwitchFallthrough to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.FindSpinLoop to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.FindNonShortCircuit to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.FindTwoLockWait to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.FindUnconditionalWait to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.DontUseEnum to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.FindUnsyncGet to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.InitializationChain to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.IteratorIdioms to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.PreferZeroLengthArrays to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.SynchronizingOnContentsOfFieldToProtectField to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.MutableLock to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.MutableStaticFields to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.Naming to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.ReadReturnShouldBeChecked to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.SerializableIdiom to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.StartInConstructor to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.FindBadForLoop to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.WaitInLoop to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.FindNullDerefsInvolvingNonShortCircuitEvaluation to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.FindOpenStream to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.FindUselessControlFlow to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.FindUnreleasedLock to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.FindRefComparison to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.FindMismatchedWaitOrNotify to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.FindEmptySynchronizedBlock to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.FindInconsistentSync2 to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.FindLocalSelfAssignment2 to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.IncompatMask to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.LazyInit to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.FindJSR166LockMonitorenter to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.FindUncalledPrivateMethods to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.UncallableMethodOfAnonymousClass to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.StringConcatenation to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.InefficientToArray to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.InvalidJUnitTest to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.BadlyOverriddenAdapter to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.BadResultSetAccess to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.SuperfluousInstanceOf to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.SuspiciousThreadInterrupted to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.FindDeadLocalStores to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.WrongMapIterator to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.InstantiateStaticClass to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.RuntimeExceptionCapture to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.FindFloatEquality to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.FindUnsatisfiedObligation to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.UnnecessaryMath to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.RedundantInterfaces to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.MultithreadedInstanceAccess to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.BadUseOfReturnValue to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.MethodReturnCheck to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.IDivResultCastToDouble to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.FindBadCast2 to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.BadSyntaxForRegularExpression to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.VarArgsProblems to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.FindPuzzlers to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.IntCast2LongAsInstant to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.FindSleepWithLockHeld to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.DuplicateBranches to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.XMLFactoryBypass to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.ConfusedInheritance to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.QuestionableBooleanAssignment to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.AppendingToAnObjectOutputStream to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.FindUnrelatedTypesInGenericContainer to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.StaticCalendarDetector to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.CheckTypeQualifiers to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.CrossSiteScripting to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.AtomicityProblem to RedundantNullCheck
+Applying edu.umd.cs.findbugs.detect.DefaultEncodingDetector to RedundantNullCheck
+      81 usecs/byte      57 msec     698 bytes  1 pass RedundantNullCheck
+     1 1/2  4/6 IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.FindUseOfNonSerializableValue to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.NoteNonnullReturnValues to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.NoteUnconditionalParamDerefs to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.UnreadFields to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.ReadOfInstanceFieldInMethodInvokedByConstructorInSuperclass to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.FindUninitializedGet to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.FindMaskedFields to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.DontIgnoreResultOfPutIfAbsent to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.FindNullDeref to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.SynchronizeAndNullCheckField to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.InitializeNonnullFieldsInConstructor to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.BooleanReturnNull to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.ConfusionBetweenInheritedAndOuterMethod to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.SynchronizationOnSharedBuiltinConstant to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.SynchronizeOnClassLiteralNotGetClass to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.InfiniteRecursiveLoop to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.InfiniteLoop to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.VolatileUsage to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.InheritanceUnsafeGetResource to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.EmptyZipFileEntry to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.DoInsideDoPrivileged to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.HugeSharedStringConstants to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.FinalizerNullsFields to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.InconsistentAnnotations to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.RepeatedConditionals to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.FormatStringChecker to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.LostLoggerDueToWeakReference to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.CheckImmutableAnnotation to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.DontCatchIllegalMonitorStateException to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.CloneIdiom to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.ComparatorIdiom to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.FindFieldSelfAssignment to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.FindSelfComparison to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.FindSelfComparison2 to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.DroppedException to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.LoadOfKnownNullValue to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.DumbMethodInvocations to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.URLProblems to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.DumbMethods to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.NumberConstructor to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.FindSqlInjection to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.FindDoubleCheck to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.FindFinalizeInvocations to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.FindHEmismatch to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.FindNakedNotify to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.FindReturnRef to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.FindRunInvocations to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.SwitchFallthrough to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.FindSpinLoop to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.FindNonShortCircuit to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.FindTwoLockWait to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.FindUnconditionalWait to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.DontUseEnum to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.FindUnsyncGet to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.InitializationChain to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.IteratorIdioms to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.PreferZeroLengthArrays to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.SynchronizingOnContentsOfFieldToProtectField to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.MutableLock to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.MutableStaticFields to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.Naming to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.ReadReturnShouldBeChecked to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.SerializableIdiom to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.StartInConstructor to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.FindBadForLoop to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.WaitInLoop to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.FindNullDerefsInvolvingNonShortCircuitEvaluation to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.FindOpenStream to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.FindUselessControlFlow to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.FindUnreleasedLock to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.FindRefComparison to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.FindMismatchedWaitOrNotify to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.FindEmptySynchronizedBlock to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.FindInconsistentSync2 to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.FindLocalSelfAssignment2 to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.IncompatMask to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.LazyInit to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.FindJSR166LockMonitorenter to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.FindUncalledPrivateMethods to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.UncallableMethodOfAnonymousClass to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.StringConcatenation to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.InefficientToArray to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.InvalidJUnitTest to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.BadlyOverriddenAdapter to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.BadResultSetAccess to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.SuperfluousInstanceOf to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.SuspiciousThreadInterrupted to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.FindDeadLocalStores to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.WrongMapIterator to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.InstantiateStaticClass to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.RuntimeExceptionCapture to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.FindFloatEquality to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.FindUnsatisfiedObligation to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.UnnecessaryMath to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.RedundantInterfaces to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.MultithreadedInstanceAccess to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.BadUseOfReturnValue to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.MethodReturnCheck to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.IDivResultCastToDouble to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.FindBadCast2 to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.BadSyntaxForRegularExpression to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.VarArgsProblems to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.FindPuzzlers to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.IntCast2LongAsInstant to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.FindSleepWithLockHeld to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.DuplicateBranches to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.XMLFactoryBypass to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.ConfusedInheritance to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.QuestionableBooleanAssignment to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.AppendingToAnObjectOutputStream to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.FindUnrelatedTypesInGenericContainer to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.StaticCalendarDetector to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.CheckTypeQualifiers to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.CrossSiteScripting to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.AtomicityProblem to IgnoreExcept
+Applying edu.umd.cs.findbugs.detect.DefaultEncodingDetector to IgnoreExcept
+     1 1/2  5/6 RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.FindUseOfNonSerializableValue to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.NoteNonnullReturnValues to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.NoteUnconditionalParamDerefs to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.UnreadFields to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.ReadOfInstanceFieldInMethodInvokedByConstructorInSuperclass to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.FindUninitializedGet to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.FindMaskedFields to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.DontIgnoreResultOfPutIfAbsent to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.FindNullDeref to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.SynchronizeAndNullCheckField to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.InitializeNonnullFieldsInConstructor to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.BooleanReturnNull to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.ConfusionBetweenInheritedAndOuterMethod to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.SynchronizationOnSharedBuiltinConstant to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.SynchronizeOnClassLiteralNotGetClass to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.InfiniteRecursiveLoop to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.InfiniteLoop to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.VolatileUsage to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.InheritanceUnsafeGetResource to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.EmptyZipFileEntry to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.DoInsideDoPrivileged to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.HugeSharedStringConstants to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.FinalizerNullsFields to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.InconsistentAnnotations to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.RepeatedConditionals to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.FormatStringChecker to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.LostLoggerDueToWeakReference to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.CheckImmutableAnnotation to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.DontCatchIllegalMonitorStateException to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.CloneIdiom to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.ComparatorIdiom to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.FindFieldSelfAssignment to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.FindSelfComparison to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.FindSelfComparison2 to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.DroppedException to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.LoadOfKnownNullValue to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.DumbMethodInvocations to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.URLProblems to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.DumbMethods to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.NumberConstructor to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.FindSqlInjection to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.FindDoubleCheck to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.FindFinalizeInvocations to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.FindHEmismatch to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.FindNakedNotify to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.FindReturnRef to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.FindRunInvocations to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.SwitchFallthrough to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.FindSpinLoop to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.FindNonShortCircuit to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.FindTwoLockWait to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.FindUnconditionalWait to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.DontUseEnum to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.FindUnsyncGet to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.InitializationChain to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.IteratorIdioms to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.PreferZeroLengthArrays to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.SynchronizingOnContentsOfFieldToProtectField to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.MutableLock to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.MutableStaticFields to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.Naming to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.ReadReturnShouldBeChecked to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.SerializableIdiom to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.StartInConstructor to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.FindBadForLoop to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.WaitInLoop to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.FindNullDerefsInvolvingNonShortCircuitEvaluation to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.FindOpenStream to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.FindUselessControlFlow to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.FindUnreleasedLock to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.FindRefComparison to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.FindMismatchedWaitOrNotify to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.FindEmptySynchronizedBlock to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.FindInconsistentSync2 to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.FindLocalSelfAssignment2 to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.IncompatMask to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.LazyInit to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.FindJSR166LockMonitorenter to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.FindUncalledPrivateMethods to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.UncallableMethodOfAnonymousClass to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.StringConcatenation to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.InefficientToArray to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.InvalidJUnitTest to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.BadlyOverriddenAdapter to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.BadResultSetAccess to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.SuperfluousInstanceOf to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.SuspiciousThreadInterrupted to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.FindDeadLocalStores to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.WrongMapIterator to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.InstantiateStaticClass to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.RuntimeExceptionCapture to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.FindFloatEquality to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.FindUnsatisfiedObligation to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.UnnecessaryMath to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.RedundantInterfaces to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.MultithreadedInstanceAccess to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.BadUseOfReturnValue to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.MethodReturnCheck to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.IDivResultCastToDouble to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.FindBadCast2 to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.BadSyntaxForRegularExpression to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.VarArgsProblems to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.FindPuzzlers to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.IntCast2LongAsInstant to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.FindSleepWithLockHeld to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.DuplicateBranches to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.XMLFactoryBypass to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.ConfusedInheritance to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.QuestionableBooleanAssignment to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.AppendingToAnObjectOutputStream to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.FindUnrelatedTypesInGenericContainer to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.StaticCalendarDetector to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.CheckTypeQualifiers to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.CrossSiteScripting to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.AtomicityProblem to RedundantNullCheckOrg$Foo1
+Applying edu.umd.cs.findbugs.detect.DefaultEncodingDetector to RedundantNullCheckOrg$Foo1
+      28 usecs/byte      25 msec     872 bytes  1 pass RedundantNullCheckOrg$Foo1
+Analysis completed

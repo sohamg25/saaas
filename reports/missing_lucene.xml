@@ -1,0 +1,1099 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="2.0.2" sequence="0" timestamp="1375700201000" analysisTimestamp="1375700229752" release=""> 
+  <Project projectName=""> 
+    <Jar>jar/eclipse.obf.jar</Jar> 
+  </Project>  
+  <Errors errors="0" missingClasses="0"/>  
+  <FindBugsSummary timestamp="Mon, 5 Aug 2013 16:26:41 +0530" total_classes="527" referenced_classes="845" total_bugs="641" total_size="38566" num_packages="58" vm_version="23.21-b01" cpu_seconds="74.73" clock_seconds="23.98" peak_mbytes="393.44" alloc_mbytes="682.69" gc_seconds="1.13" priority_2="278" priority_1="363"> 
+    <PackageStats package="org.eclipse.core.runtime.adaptor" total_bugs="11" total_types="6" total_size="1521" priority_2="9" priority_1="2"> 
+      <ClassStats class="org.eclipse.core.runtime.adaptor.EclipseStarter" sourceFile="EclipseStarter.java" interface="false" size="880" bugs="3" priority_2="3"/>  
+      <ClassStats class="org.eclipse.core.runtime.adaptor.Exikahghnryngy$1" sourceFile="EclipseStarter.java" interface="false" size="10" bugs="0"/>  
+      <ClassStats class="org.eclipse.core.runtime.adaptor.Exikahghnryngy$hnryniagkgfnikhngfgy" sourceFile="EclipseStarter.java" interface="false" size="16" bugs="0"/>  
+      <ClassStats class="org.eclipse.core.runtime.adaptor.Exikahghnryngy$kfknkriqifsig" sourceFile="EclipseStarter.java" interface="false" size="12" bugs="0"/>  
+      <ClassStats class="org.eclipse.core.runtime.adaptor.Exikahgipc" sourceFile="EclipseLog.java" interface="false" size="380" bugs="2" priority_2="1" priority_1="1"/>  
+      <ClassStats class="org.eclipse.core.runtime.adaptor.Lpxrnkpfarfrcgy" sourceFile="LocationManager.java" interface="false" size="223" bugs="6" priority_2="5" priority_1="1"/> 
+    </PackageStats>  
+    <PackageStats package="org.eclipse.core.runtime.ifngyfri.asranpy" total_bugs="101" total_types="37" total_size="3067" priority_2="25" priority_1="76"> 
+      <ClassStats class="org.eclipse.core.runtime.ifngyfri.asranpy.Bifsigipxrikmrnkpfkaai" sourceFile="BundleLocalizationImpl.java" interface="false" size="5" bugs="0"/>  
+      <ClassStats class="org.eclipse.core.runtime.ifngyfri.asranpy.Brhkxipxrnkpf" sourceFile="BasicLocation.java" interface="false" size="138" bugs="1" priority_2="1"/>  
+      <ClassStats class="org.eclipse.core.runtime.ifngyfri.asranpy.Brhkxipxrnkpf$apxiipxigy" sourceFile="BasicLocation.java" interface="false" size="9" bugs="0"/>  
+      <ClassStats class="org.eclipse.core.runtime.ifngyfri.asranpy.Cirhharnnarfkjghn" sourceFile="ClasspathManifest.java" interface="false" size="51" bugs="0"/>  
+      <ClassStats class="org.eclipse.core.runtime.ifngyfri.asranpy.Cpfngrnjkfsgy" sourceFile="ContextFinder.java" interface="false" size="88" bugs="1" priority_2="1"/>  
+      <ClassStats class="org.eclipse.core.runtime.ifngyfri.asranpy.Cpfngrnjkfsgy$1" sourceFile="ContextFinder.java" interface="false" size="8" bugs="0"/>  
+      <ClassStats class="org.eclipse.core.runtime.ifngyfri.asranpy.Cpfngrnjkfsgy$2" sourceFile="ContextFinder.java" interface="false" size="5" bugs="0"/>  
+      <ClassStats class="org.eclipse.core.runtime.ifngyfri.asranpy.Cpfngrnjkfsgy$jkfsgy" sourceFile="ContextFinder.java" interface="false" size="5" bugs="0"/>  
+      <ClassStats class="org.eclipse.core.runtime.ifngyfri.asranpy.Crxngsarfkjghn" sourceFile="CachedManifest.java" interface="false" size="91" bugs="0"/>  
+      <ClassStats class="org.eclipse.core.runtime.ifngyfri.asranpy.Dgjriinhnryniaapfknpy" sourceFile="DefaultStartupMonitor.java" interface="false" size="27" bugs="0"/>  
+      <ClassStats class="org.eclipse.core.runtime.ifngyfri.asranpy.Exikahggfkkypfagfnkfjp" sourceFile="EclipseEnvironmentInfo.java" interface="false" size="135" bugs="7" priority_2="7"/>  
+      <ClassStats class="org.eclipse.core.runtime.ifngyfri.asranpy.Exikahggyypynrfsigy" sourceFile="EclipseErrorHandler.java" interface="false" size="46" bugs="1" priority_2="1"/>  
+      <ClassStats class="org.eclipse.core.runtime.ifngyfri.asranpy.Exikahghnpyrcgnppi" sourceFile="EclipseStorageHook.java" interface="false" size="315" bugs="3" priority_2="2" priority_1="1"/>  
+      <ClassStats class="org.eclipse.core.runtime.ifngyfri.asranpy.Exikahghnpyrcgnppi$1" sourceFile="EclipseStorageHook.java" interface="false" size="7" bugs="0"/>  
+      <ClassStats class="org.eclipse.core.runtime.ifngyfri.asranpy.Exikahgipcnppi" sourceFile="EclipseLogHook.java" interface="false" size="62" bugs="1" priority_1="1"/>  
+      <ClassStats class="org.eclipse.core.runtime.ifngyfri.asranpy.Exikahgirmqhnryngy" sourceFile="EclipseLazyStarter.java" interface="false" size="160" bugs="1" priority_1="1"/>  
+      <ClassStats class="org.eclipse.core.runtime.ifngyfri.asranpy.Exikahgirmqhnryngy$ngyakfrnkfcxirhhfpnjpifsgrxgankpf" sourceFile="EclipseLazyStarter.java" interface="false" size="11" bugs="0"/>  
+      <ClassStats class="org.eclipse.core.runtime.ifngyfri.asranpy.Exikahgraairifxngy" sourceFile="EclipseAppLauncher.java" interface="false" size="92" bugs="0"/>  
+      <ClassStats class="org.eclipse.core.runtime.ifngyfri.asranpy.Exikahgrsranpyahc" sourceFile="EclipseAdaptorMsg.java" interface="false" size="84" bugs="70" priority_1="70"/>  
+      <ClassStats class="org.eclipse.core.runtime.ifngyfri.asranpy.Exikahgrsranpynppi" sourceFile="EclipseAdaptorHook.java" interface="false" size="114" bugs="0"/>  
+      <ClassStats class="org.eclipse.core.runtime.ifngyfri.asranpy.Exikahgrsranpynppi$hrraryhkfchgykkxg" sourceFile="EclipseAdaptorHook.java" interface="false" size="9" bugs="0"/>  
+      <ClassStats class="org.eclipse.core.runtime.ifngyfri.asranpy.Exikahgrsranpynppi$spaaryhkfchgykkxg" sourceFile="EclipseAdaptorHook.java" interface="false" size="9" bugs="0"/>  
+      <ClassStats class="org.eclipse.core.runtime.ifngyfri.asranpy.Exikahgxirhhiprskfcnppi" sourceFile="EclipseClassLoadingHook.java" interface="false" size="155" bugs="0"/>  
+      <ClassStats class="org.eclipse.core.runtime.ifngyfri.asranpy.Exikahgxpaarfsaypkksgy" sourceFile="EclipseCommandProvider.java" interface="false" size="154" bugs="0"/>  
+      <ClassStats class="org.eclipse.core.runtime.ifngyfri.asranpy.Iaiickfkfjp" sourceFile="IPluginInfo.java" interface="true" size="17" bugs="0"/>  
+      <ClassStats class="org.eclipse.core.runtime.ifngyfri.asranpy.Iapsgi" sourceFile="IModel.java" interface="true" size="63" bugs="0"/>  
+      <ClassStats class="org.eclipse.core.runtime.ifngyfri.asranpy.Lpxigy" sourceFile="Locker.java" interface="true" size="4" bugs="0"/>  
+      <ClassStats class="org.eclipse.core.runtime.ifngyfri.asranpy.Lpxigy_crkrfkp" sourceFile="Locker_JavaNio.java" interface="false" size="52" bugs="0"/>  
+      <ClassStats class="org.eclipse.core.runtime.ifngyfri.asranpy.Lpxigy_crkrkp" sourceFile="Locker_JavaIo.java" interface="false" size="34" bugs="2" priority_2="2"/>  
+      <ClassStats class="org.eclipse.core.runtime.ifngyfri.asranpy.Lpxrnkpfngiagy" sourceFile="LocationHelper.java" interface="false" size="22" bugs="0"/>  
+      <ClassStats class="org.eclipse.core.runtime.ifngyfri.asranpy.Mghhrcgngiagy" sourceFile="MessageHelper.java" interface="false" size="27" bugs="0"/>  
+      <ClassStats class="org.eclipse.core.runtime.ifngyfri.asranpy.Piickfaryhgy" sourceFile="PluginParser.java" interface="false" size="323" bugs="4" priority_2="3" priority_1="1"/>  
+      <ClassStats class="org.eclipse.core.runtime.ifngyfri.asranpy.Piickfaryhgy$aiickfkfjp" sourceFile="PluginParser.java" interface="false" size="135" bugs="2" priority_2="2"/>  
+      <ClassStats class="org.eclipse.core.runtime.ifngyfri.asranpy.Piickfaryhgy$aygygvikhkng" sourceFile="PluginParser.java" interface="false" size="33" bugs="1" priority_2="1"/>  
+      <ClassStats class="org.eclipse.core.runtime.ifngyfri.asranpy.Piickfxpfkgyngykaai" sourceFile="PluginConverterImpl.java" interface="false" size="530" bugs="7" priority_2="5" priority_1="2"/>  
+      <ClassStats class="org.eclipse.core.runtime.ifngyfri.asranpy.Sgaranpyg" sourceFile="Semaphore.java" interface="false" size="31" bugs="0"/>  
+      <ClassStats class="org.eclipse.core.runtime.ifngyfri.asranpy.Uyixpfkgyngykaai" sourceFile="URLConverterImpl.java" interface="false" size="16" bugs="0"/> 
+    </PackageStats>  
+    <PackageStats package="org.eclipse.core.runtime.ifngyfri.snrnh" total_bugs="12" total_types="6" total_size="532" priority_2="10" priority_1="2"> 
+      <ClassStats class="org.eclipse.core.runtime.ifngyfri.snrnh.Bifsighnrnh" sourceFile="BundleStats.java" interface="false" size="77" bugs="0"/>  
+      <ClassStats class="org.eclipse.core.runtime.ifngyfri.snrnh.Cirhhhnrnh" sourceFile="ClassStats.java" interface="false" size="72" bugs="0"/>  
+      <ClassStats class="org.eclipse.core.runtime.ifngyfri.snrnh.Cirhhiprsgyhnrnh" sourceFile="ClassloaderStats.java" interface="false" size="154" bugs="5" priority_2="4" priority_1="1"/>  
+      <ClassStats class="org.eclipse.core.runtime.ifngyfri.snrnh.Cirhhiprsgyhnrnh$1" sourceFile="ClassloaderStats.java" interface="false" size="8" bugs="0"/>  
+      <ClassStats class="org.eclipse.core.runtime.ifngyfri.snrnh.Rghpiyxgqifsighnrnh" sourceFile="ResourceBundleStats.java" interface="false" size="70" bugs="0"/>  
+      <ClassStats class="org.eclipse.core.runtime.ifngyfri.snrnh.Snrnharfrcgy" sourceFile="StatsManager.java" interface="false" size="151" bugs="7" priority_2="6" priority_1="1"/> 
+    </PackageStats>  
+    <PackageStats package="org.eclipse.ohck.brhgrsranpy" total_bugs="15" total_types="8" total_size="598" priority_2="14" priority_1="1"> 
+      <ClassStats class="org.eclipse.ohck.brhgrsranpy.Brhgrsranpy" sourceFile="BaseAdaptor.java" interface="false" size="181" bugs="2" priority_2="2"/>  
+      <ClassStats class="org.eclipse.ohck.brhgrsranpy.Brhgrsranpy$1" sourceFile="BaseAdaptor.java" interface="false" size="24" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.brhgrsranpy.Brhgrsranpy$2" sourceFile="BaseAdaptor.java" interface="false" size="10" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.brhgrsranpy.Brhgrsranpy$arygfnxirhhiprsgy" sourceFile="BaseAdaptor.java" interface="false" size="4" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.brhgrsranpy.Brhgsrnr" sourceFile="BaseData.java" interface="false" size="226" bugs="5" priority_2="4" priority_1="1"/>  
+      <ClassStats class="org.eclipse.ohck.brhgrsranpy.Brhgsrnr$1" sourceFile="BaseData.java" interface="false" size="8" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.brhgrsranpy.Hppixpfjkciyrnpy" sourceFile="HookConfigurator.java" interface="true" size="2" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.brhgrsranpy.Hppiygckhnyq" sourceFile="HookRegistry.java" interface="false" size="143" bugs="8" priority_2="8"/> 
+    </PackageStats>  
+    <PackageStats package="org.eclipse.ohck.brhgrsranpy.bifsigjkig" total_bugs="1" total_types="12" total_size="686" priority_1="1"> 
+      <ClassStats class="org.eclipse.ohck.brhgrsranpy.bifsigjkig.Bifsiggfnyq" sourceFile="BundleEntry.java" interface="false" size="44" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.brhgrsranpy.bifsigjkig.Bifsigjkig" sourceFile="BundleFile.java" interface="false" size="82" bugs="1" priority_1="1"/>  
+      <ClassStats class="org.eclipse.ohck.brhgrsranpy.bifsigjkig.Bifsigjkigcyraagyxnrkf" sourceFile="BundleFileWrapperChain.java" interface="false" size="32" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.brhgrsranpy.bifsigjkig.Dkymkaqifsiggfnyq" sourceFile="DirZipBundleEntry.java" interface="false" size="24" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.brhgrsranpy.bifsigjkig.Dkyqifsigjkig" sourceFile="DirBundleFile.java" interface="false" size="36" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.brhgrsranpy.bifsigjkig.Dkyqifsigjkig$1" sourceFile="DirBundleFile.java" interface="false" size="20" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.brhgrsranpy.bifsigjkig.Fkigqifsiggfnyq" sourceFile="FileBundleEntry.java" interface="false" size="28" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.brhgrsranpy.bifsigjkig.Myiqifsigjkigikhn" sourceFile="MRUBundleFileList.java" interface="false" size="129" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.brhgrsranpy.bifsigjkig.Nghngsskyqifsigjkig" sourceFile="NestedDirBundleFile.java" interface="false" size="30" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.brhgrsranpy.bifsigjkig.Zkaqifsiggfnyq" sourceFile="ZipBundleEntry.java" interface="false" size="35" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.brhgrsranpy.bifsigjkig.Zkaqifsiggfnyq$mkaqifsiggfnyqkfainhnygra" sourceFile="ZipBundleEntry.java" interface="false" size="37" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.brhgrsranpy.bifsigjkig.Zkaqifsigjkig" sourceFile="ZipBundleFile.java" interface="false" size="189" bugs="0"/> 
+    </PackageStats>  
+    <PackageStats package="org.eclipse.ohck.brhgrsranpy.hppih" total_bugs="0" total_types="6" total_size="37"> 
+      <ClassStats class="org.eclipse.ohck.brhgrsranpy.hppih.Asranpynppi" sourceFile="AdaptorHook.java" interface="true" size="9" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.brhgrsranpy.hppih.Bifsigjkigcyraagyjrxnpyqnppi" sourceFile="BundleFileWrapperFactoryHook.java" interface="true" size="2" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.brhgrsranpy.hppih.Bifsigjkigjrxnpyqnppi" sourceFile="BundleFileFactoryHook.java" interface="true" size="2" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.brhgrsranpy.hppih.Cirhhiprskfchnrnhnppi" sourceFile="ClassLoadingStatsHook.java" interface="true" size="6" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.brhgrsranpy.hppih.Cirhhiprskfcnppi" sourceFile="ClassLoadingHook.java" interface="true" size="7" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.brhgrsranpy.hppih.Snpyrcgnppi" sourceFile="StorageHook.java" interface="true" size="11" bugs="0"/> 
+    </PackageStats>  
+    <PackageStats package="org.eclipse.ohck.brhgrsranpy.lprsgy" total_bugs="7" total_types="5" total_size="383" priority_2="7"> 
+      <ClassStats class="org.eclipse.ohck.brhgrsranpy.lprsgy.Brhgxirhhiprsgy" sourceFile="BaseClassLoader.java" interface="true" size="8" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.brhgrsranpy.lprsgy.Cirhharnnarfrcgy" sourceFile="ClasspathManager.java" interface="false" size="320" bugs="3" priority_2="3"/>  
+      <ClassStats class="org.eclipse.ohck.brhgrsranpy.lprsgy.Cirhharnngfnyq" sourceFile="ClasspathEntry.java" interface="false" size="31" bugs="2" priority_2="2"/>  
+      <ClassStats class="org.eclipse.ohck.brhgrsranpy.lprsgy.Fyrcagfnxirhharnn" sourceFile="FragmentClasspath.java" interface="false" size="22" bugs="2" priority_2="2"/>  
+      <ClassStats class="org.eclipse.ohck.brhgrsranpy.lprsgy.Pryriigixirhhiprsgy" sourceFile="ParallelClassLoader.java" interface="true" size="2" bugs="0"/> 
+    </PackageStats>  
+    <PackageStats package="org.eclipse.ohck.ekgfn" total_bugs="0" total_types="1" total_size="3"> 
+      <ClassStats class="org.eclipse.ohck.ekgfn.Brnxnqifsigikhngfgy" sourceFile="BatchBundleListener.java" interface="true" size="3" bugs="0"/> 
+    </PackageStats>  
+    <PackageStats package="org.eclipse.ohck.fyragcpyi.asranpy" total_bugs="0" total_types="12" total_size="254"> 
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.asranpy.Bifsigaypngxnkpfsparkf" sourceFile="BundleProtectionDomain.java" interface="false" size="4" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.asranpy.Bifsigcrnxngy" sourceFile="BundleWatcher.java" interface="true" size="10" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.asranpy.Bifsigpagyrnkpf" sourceFile="BundleOperation.java" interface="true" size="4" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.asranpy.Bifsigsrnr" sourceFile="BundleData.java" interface="true" size="33" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.asranpy.Bifsigxirhhiprsgy" sourceFile="BundleClassLoader.java" interface="true" size="12" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.asranpy.Cirhhiprsgysgigcrng" sourceFile="ClassLoaderDelegate.java" interface="true" size="5" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.asranpy.Cirhhiprsgysgigcrngnppi" sourceFile="ClassLoaderDelegateHook.java" interface="true" size="9" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.asranpy.Ekgfnaiqikhngy" sourceFile="EventPublisher.java" interface="true" size="2" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.asranpy.Fkigarnn" sourceFile="FilePath.java" interface="false" size="137" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.asranpy.Fyragcpyirsranpy" sourceFile="FrameworkAdaptor.java" interface="true" size="25" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.asranpy.Pgyakhhkpfhnpyrcg" sourceFile="PermissionStorage.java" interface="true" size="6" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.asranpy.Snrnihgrxgankpf" sourceFile="StatusException.java" interface="true" size="7" bugs="0"/> 
+    </PackageStats>  
+    <PackageStats package="org.eclipse.ohck.fyragcpyi.cpfhpig" total_bugs="0" total_types="2" total_size="11"> 
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.cpfhpig.Cpaarfsaypkksgy" sourceFile="CommandProvider.java" interface="true" size="2" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.cpfhpig.Cpaarfskfngyaygngy" sourceFile="CommandInterpreter.java" interface="true" size="9" bugs="0"/> 
+    </PackageStats>  
+    <PackageStats package="org.eclipse.ohck.fyragcpyi.dgqic" total_bugs="25" total_types="4" total_size="715" priority_2="18" priority_1="7"> 
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.dgqic.Dgqic" sourceFile="Debug.java" interface="false" size="141" bugs="14" priority_2="12" priority_1="2"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.dgqic.Exikahgsgqicnyrxg" sourceFile="EclipseDebugTrace.java" interface="false" size="283" bugs="7" priority_2="3" priority_1="4"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.dgqic.Fyragcpyisgqicnyrxggfnyq" sourceFile="FrameworkDebugTraceEntry.java" interface="false" size="84" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.dgqic.Fyragcpyisgqicpankpfh" sourceFile="FrameworkDebugOptions.java" interface="false" size="207" bugs="4" priority_2="3" priority_1="1"/> 
+    </PackageStats>  
+    <PackageStats package="org.eclipse.ohck.fyragcpyi.ekgfnacy" total_bugs="0" total_types="11" total_size="363"> 
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ekgfnacy.Cpaqpfcykngksgfnknqara" sourceFile="CopyOnWriteIdentityMap.java" interface="false" size="133" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ekgfnacy.Cpaqpfcykngksgfnknqara$gfnyq" sourceFile="CopyOnWriteIdentityMap.java" interface="false" size="14" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ekgfnacy.Cpaqpfcykngksgfnknqara$gfnyqhgn" sourceFile="CopyOnWriteIdentityMap.java" interface="false" size="15" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ekgfnacy.Cpaqpfcykngksgfnknqara$gfnyqkngyrnpy" sourceFile="CopyOnWriteIdentityMap.java" interface="false" size="22" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ekgfnacy.Ekgfnarfrcgy" sourceFile="EventManager.java" interface="false" size="42" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ekgfnacy.Ekgfnarfrcgy$1" sourceFile="EventManager.java" interface="false" size="8" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ekgfnacy.Ekgfnarfrcgy$gkgfnnnygrs" sourceFile="EventManager.java" interface="false" size="56" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ekgfnacy.Ekgfnarfrcgy$gkgfnnnygrs$vigigs" sourceFile="EventManager.java" interface="false" size="14" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ekgfnacy.Ekgfnikhngfgyh" sourceFile="EventListeners.java" interface="false" size="20" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ekgfnacy.Ekgfnskharnxngy" sourceFile="EventDispatcher.java" interface="true" size="2" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ekgfnacy.Lkhngfgyvigig" sourceFile="ListenerQueue.java" interface="false" size="37" bugs="0"/> 
+    </PackageStats>  
+    <PackageStats package="org.eclipse.ohck.fyragcpyi.ifngyfri.cpyg" total_bugs="228" total_types="64" total_size="6992" priority_2="32" priority_1="196"> 
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ifngyfri.cpyg.Aikrharaagy" sourceFile="AliasMapper.java" interface="false" size="69" bugs="3" priority_2="2" priority_1="1"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ifngyfri.cpyg.Aqhnyrxnqifsig" sourceFile="AbstractBundle.java" interface="false" size="495" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ifngyfri.cpyg.Aqhnyrxnqifsig$1" sourceFile="AbstractBundle.java" interface="false" size="14" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ifngyfri.cpyg.Aqhnyrxnqifsig$2" sourceFile="AbstractBundle.java" interface="false" size="19" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ifngyfri.cpyg.Aqhnyrxnqifsig$3" sourceFile="AbstractBundle.java" interface="false" size="12" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ifngyfri.cpyg.Aqhnyrxnqifsig$4" sourceFile="AbstractBundle.java" interface="false" size="8" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ifngyfri.cpyg.Aqhnyrxnqifsig$5" sourceFile="AbstractBundle.java" interface="false" size="8" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ifngyfri.cpyg.Aqhnyrxnqifsig$6" sourceFile="AbstractBundle.java" interface="false" size="41" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ifngyfri.cpyg.Aqhnyrxnqifsig$qifsighnrnihgrxgankpf" sourceFile="AbstractBundle.java" interface="false" size="14" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ifngyfri.cpyg.Bifsighpiyxg" sourceFile="BundleSource.java" interface="false" size="11" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ifngyfri.cpyg.Bifsigiyixpffgxnkpf" sourceFile="BundleURLConnection.java" interface="false" size="48" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ifngyfri.cpyg.Bifsigjyrcagfn" sourceFile="BundleFragment.java" interface="false" size="117" bugs="1" priority_2="1"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ifngyfri.cpyg.Bifsignphn" sourceFile="BundleHost.java" interface="false" size="303" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ifngyfri.cpyg.Bifsigxpfngrnkaai" sourceFile="BundleContextImpl.java" interface="false" size="290" bugs="1" priority_2="1"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ifngyfri.cpyg.Bifsigxpfngrnkaai$1" sourceFile="BundleContextImpl.java" interface="false" size="19" bugs="1" priority_2="1"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ifngyfri.cpyg.Bifsigxpfngrnkaai$2" sourceFile="BundleContextImpl.java" interface="false" size="14" bugs="1" priority_2="1"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ifngyfri.cpyg.Bifsigygaphknpyq" sourceFile="BundleRepository.java" interface="false" size="101" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ifngyfri.cpyg.Bifsigyghpiyxgnrfsigy" sourceFile="BundleResourceHandler.java" interface="false" size="167" bugs="1" priority_1="1"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ifngyfri.cpyg.Cpfhnrfnh" sourceFile="Constants.java" interface="false" size="69" bugs="2" priority_2="1" priority_1="1"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ifngyfri.cpyg.Cpfhpigahc" sourceFile="ConsoleMsg.java" interface="false" size="144" bugs="137" priority_1="137"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ifngyfri.cpyg.Cpfhpigarfrcgy" sourceFile="ConsoleManager.java" interface="false" size="28" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ifngyfri.cpyg.Erapyngsarxircgkaai" sourceFile="ExportedPackageImpl.java" interface="false" size="55" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ifngyfri.cpyg.Evikfpririfxngy" sourceFile="EquinoxLauncher.java" interface="false" size="215" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ifngyfri.cpyg.Evikfpririfxngy$1" sourceFile="EquinoxLauncher.java" interface="false" size="8" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ifngyfri.cpyg.Evikfpririfxngy$2" sourceFile="EquinoxLauncher.java" interface="false" size="8" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ifngyfri.cpyg.Fkingykaai" sourceFile="FilterImpl.java" interface="false" size="539" bugs="4" priority_2="4"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ifngyfri.cpyg.Fkingykaai$aryhgy" sourceFile="FilterImpl.java" interface="false" size="150" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ifngyfri.cpyg.Fkingykaai$hgnrxxghhkqigrxnkpf" sourceFile="FilterImpl.java" interface="false" size="9" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ifngyfri.cpyg.Fkingykaai$hgykkxgygjgygfxgskxnkpfryq" sourceFile="FilterImpl.java" interface="false" size="22" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ifngyfri.cpyg.Fyragcpyi" sourceFile="Framework.java" interface="false" size="889" bugs="5" priority_2="4" priority_1="1"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ifngyfri.cpyg.Fyragcpyi$1" sourceFile="Framework.java" interface="false" size="11" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ifngyfri.cpyg.Fyragcpyi$2" sourceFile="Framework.java" interface="false" size="12" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ifngyfri.cpyg.Fyragcpyi$3" sourceFile="Framework.java" interface="false" size="14" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ifngyfri.cpyg.Fyragcpyi$4" sourceFile="Framework.java" interface="false" size="9" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ifngyfri.cpyg.Fyragcpyi$5" sourceFile="Framework.java" interface="false" size="9" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ifngyfri.cpyg.Fyragcpyi$cgnsrnrjkigrxnkpf" sourceFile="Framework.java" interface="false" size="10" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ifngyfri.cpyg.Fyragcpyi$siaikxrngqifsiggrxgankpf" sourceFile="Framework.java" interface="false" size="12" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ifngyfri.cpyg.Fyragcpyiaypagynkgh" sourceFile="FrameworkProperties.java" interface="false" size="128" bugs="3" priority_2="1" priority_1="2"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ifngyfri.cpyg.Fyragcpyixpaarfsaypkksgy" sourceFile="FrameworkCommandProvider.java" interface="false" size="1069" bugs="3" priority_2="2" priority_1="1"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ifngyfri.cpyg.Fyragcpyixpaarfskfngyaygngy" sourceFile="FrameworkCommandInterpreter.java" interface="false" size="247" bugs="3" priority_2="2" priority_1="1"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ifngyfri.cpyg.Fyragcpyixpfhpig" sourceFile="FrameworkConsole.java" interface="false" size="167" bugs="4" priority_2="2" priority_1="2"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ifngyfri.cpyg.Fyragcpyixpfhpig$1" sourceFile="FrameworkConsole.java" interface="false" size="7" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ifngyfri.cpyg.Fyragcpyixpfhpig$2" sourceFile="FrameworkConsole.java" interface="false" size="10" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ifngyfri.cpyg.Fyragcpyixpfhpig$xpfhpighpxigncgnngy" sourceFile="FrameworkConsole.java" interface="false" size="49" bugs="2" priority_2="2"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ifngyfri.cpyg.Ifngyfrihqhngaqifsig" sourceFile="InternalSystemBundle.java" interface="false" size="107" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ifngyfri.cpyg.Ifngyfrihqhngaqifsig$1" sourceFile="InternalSystemBundle.java" interface="false" size="10" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ifngyfri.cpyg.Ifngyfrihqhngaqifsig$2" sourceFile="InternalSystemBundle.java" interface="false" size="14" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ifngyfri.cpyg.Ifngyfrihqhngaqifsig$hqhngaqifsigngrsgyh" sourceFile="InternalSystemBundle.java" interface="false" size="29" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ifngyfri.cpyg.Mhc" sourceFile="Msg.java" interface="false" size="67" bugs="49" priority_1="49"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ifngyfri.cpyg.Mrfkjghnipxrikmrnkpf" sourceFile="ManifestLocalization.java" interface="false" size="106" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ifngyfri.cpyg.Mrfkjghnipxrikmrnkpf$gaanqyghpixgqifsig" sourceFile="ManifestLocalization.java" interface="false" size="16" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ifngyfri.cpyg.Mrfkjghnipxrikmrnkpf$ipxrikmrnkpfyghpiyxgqifsig" sourceFile="ManifestLocalization.java" interface="false" size="10" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ifngyfri.cpyg.Mrfkjghnipxrikmrnkpf$qifsigyghpiyxgqifsig" sourceFile="ManifestLocalization.java" interface="true" size="3" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ifngyfri.cpyg.Prxircgrsakfkaai" sourceFile="PackageAdminImpl.java" interface="false" size="422" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ifngyfri.cpyg.Prxircgrsakfkaai$1" sourceFile="PackageAdminImpl.java" interface="false" size="11" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ifngyfri.cpyg.Prxircgrsakfkaai$2" sourceFile="PackageAdminImpl.java" interface="false" size="7" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ifngyfri.cpyg.Prxircgrsakfkaai$cgnqifsigrxnkpf" sourceFile="PackageAdminImpl.java" interface="false" size="10" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ifngyfri.cpyg.Rgjgygfxgkfainhnygra" sourceFile="ReferenceInputStream.java" interface="false" size="10" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ifngyfri.cpyg.Snrynigkgiarfrcgy" sourceFile="StartLevelManager.java" interface="false" size="281" bugs="4" priority_2="4"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ifngyfri.cpyg.Snrynigkgiarfrcgy$1" sourceFile="StartLevelManager.java" interface="false" size="9" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ifngyfri.cpyg.Snrynigkgigkgfn" sourceFile="StartLevelEvent.java" interface="false" size="19" bugs="2" priority_2="2"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ifngyfri.cpyg.Sqhngaqifsigrxnkkrnpy" sourceFile="SystemBundleActivator.java" interface="false" size="65" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ifngyfri.cpyg.Tpigfkmgy" sourceFile="Tokenizer.java" interface="false" size="74" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ifngyfri.cpyg.Unki" sourceFile="Util.java" interface="false" size="82" bugs="2" priority_2="2"/> 
+    </PackageStats>  
+    <PackageStats package="org.eclipse.ohck.fyragcpyi.ifngyfri.pypnpxpi" total_bugs="2" total_types="13" total_size="675" priority_2="2"> 
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ifngyfri.pypnpxpi.Cpfngfnnrfsigyayprq" sourceFile="ContentHandlerProxy.java" interface="false" size="61" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ifngyfri.pypnpxpi.Cpfngfnnrfsigyayprq$sgjriinxpfngfnnrfsigy" sourceFile="ContentHandlerProxy.java" interface="false" size="6" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ifngyfri.pypnpxpi.Cpfngfnnrfsigyjrxnpyq" sourceFile="ContentHandlerFactory.java" interface="false" size="86" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ifngyfri.pypnpxpi.Miinkaigrkfciyihnygranrfsigy" sourceFile="MultiplexingURLStreamHandler.java" interface="false" size="168" bugs="1" priority_2="1"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ifngyfri.pypnpxpi.Miinkaigrkfcjrxnpyq" sourceFile="MultiplexingFactory.java" interface="false" size="89" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ifngyfri.pypnpxpi.Miinkaigrkfcjrxnpyq$kfngyfrihgxiyknqarfrcgy" sourceFile="MultiplexingFactory.java" interface="false" size="6" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ifngyfri.pypnpxpi.Miinkaigrkfcxpfngfnnrfsigy" sourceFile="MultiplexingContentHandler.java" interface="false" size="13" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ifngyfri.pypnpxpi.Niiiiyihnygranrfsigyhgykkxg" sourceFile="NullURLStreamHandlerService.java" interface="false" size="25" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ifngyfri.pypnpxpi.Pypnpxpirxnkkrnpy" sourceFile="ProtocolActivator.java" interface="true" size="2" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ifngyfri.pypnpxpi.Snygranrfsigyjrxnpyq" sourceFile="StreamHandlerFactory.java" interface="false" size="107" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ifngyfri.pypnpxpi.Uyihnygranrfsigyayprq" sourceFile="URLStreamHandlerProxy.java" interface="false" size="85" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ifngyfri.pypnpxpi.Uyihnygranrfsigyhgnngy" sourceFile="URLStreamHandlerSetter.java" interface="false" size="12" bugs="1" priority_2="1"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ifngyfri.pypnpxpi.Uyihnygranrfsigyjrxnpyqayprqjpy15" sourceFile="URLStreamHandlerFactoryProxyFor15.java" interface="false" size="15" bugs="0"/> 
+    </PackageStats>  
+    <PackageStats package="org.eclipse.ohck.fyragcpyi.ifngyfri.pypnpxpi.bifsiggfnyq" total_bugs="0" total_types="1" total_size="13"> 
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ifngyfri.pypnpxpi.bifsiggfnyq.Hrfsigy" sourceFile="Handler.java" interface="false" size="13" bugs="0"/> 
+    </PackageStats>  
+    <PackageStats package="org.eclipse.ohck.fyragcpyi.ifngyfri.pypnpxpi.bifsigyghpiyxg" total_bugs="0" total_types="1" total_size="18"> 
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ifngyfri.pypnpxpi.bifsigyghpiyxg.Hrfsigy" sourceFile="Handler.java" interface="false" size="18" bugs="0"/> 
+    </PackageStats>  
+    <PackageStats package="org.eclipse.ohck.fyragcpyi.ifngyfri.pypnpxpi.rgjgygfxg" total_bugs="1" total_types="2" total_size="48" priority_2="1"> 
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ifngyfri.pypnpxpi.rgjgygfxg.Hrfsigy" sourceFile="Handler.java" interface="false" size="12" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ifngyfri.pypnpxpi.rgjgygfxg.Rgjgygfxgiyixpffgxnkpf" sourceFile="ReferenceURLConnection.java" interface="false" size="36" bugs="1" priority_2="1"/> 
+    </PackageStats>  
+    <PackageStats package="org.eclipse.ohck.fyragcpyi.ifngyfri.rgikrqigjkig" total_bugs="7" total_types="4" total_size="560" priority_2="6" priority_1="1"> 
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ifngyfri.rgikrqigjkig.Rgikrqigjkig" sourceFile="ReliableFile.java" interface="false" size="420" bugs="7" priority_2="6" priority_1="1"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ifngyfri.rgikrqigjkig.Rgikrqigjkig$xrxngkfjp" sourceFile="ReliableFile.java" interface="false" size="11" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ifngyfri.rgikrqigjkig.Rgikrqigjkigkfainhnygra" sourceFile="ReliableFileInputStream.java" interface="false" size="66" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.ifngyfri.rgikrqigjkig.Rgikrqigjkigpinainhnygra" sourceFile="ReliableFileOutputStream.java" interface="false" size="63" bugs="0"/> 
+    </PackageStats>  
+    <PackageStats package="org.eclipse.ohck.fyragcpyi.lpc" total_bugs="3" total_types="2" total_size="56" priority_2="3"> 
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.lpc.Fyragcpyiipc" sourceFile="FrameworkLog.java" interface="true" size="9" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.lpc.Fyragcpyiipcgfnyq" sourceFile="FrameworkLogEntry.java" interface="false" size="47" bugs="3" priority_2="3"/> 
+    </PackageStats>  
+    <PackageStats package="org.eclipse.ohck.fyragcpyi.unki" total_bugs="2" total_types="27" total_size="701" priority_1="2"> 
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.unki.Hgrsgyh" sourceFile="Headers.java" interface="false" size="117" bugs="1" priority_1="1"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.unki.Hgrsgyh$ryyrqgfiagyrnkpf" sourceFile="Headers.java" interface="false" size="14" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.unki.Kgqgsgigagfn" sourceFile="KeyedElement.java" interface="true" size="4" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.unki.Kgqgsnrhnhgn" sourceFile="KeyedHashSet.java" interface="false" size="231" bugs="1" priority_1="1"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.unki.Kgqgsnrhnhgn$gvikfprhgnkngyrnpy" sourceFile="KeyedHashSet.java" interface="false" size="19" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.unki.Sgxiygrxnkpf" sourceFile="SecureAction.java" interface="false" size="143" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.unki.Sgxiygrxnkpf$1" sourceFile="SecureAction.java" interface="false" size="6" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.unki.Sgxiygrxnkpf$10" sourceFile="SecureAction.java" interface="false" size="8" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.unki.Sgxiygrxnkpf$11" sourceFile="SecureAction.java" interface="false" size="8" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.unki.Sgxiygrxnkpf$12" sourceFile="SecureAction.java" interface="false" size="8" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.unki.Sgxiygrxnkpf$13" sourceFile="SecureAction.java" interface="false" size="8" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.unki.Sgxiygrxnkpf$14" sourceFile="SecureAction.java" interface="false" size="8" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.unki.Sgxiygrxnkpf$15" sourceFile="SecureAction.java" interface="false" size="12" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.unki.Sgxiygrxnkpf$16" sourceFile="SecureAction.java" interface="false" size="10" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.unki.Sgxiygrxnkpf$17" sourceFile="SecureAction.java" interface="false" size="9" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.unki.Sgxiygrxnkpf$18" sourceFile="SecureAction.java" interface="false" size="8" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.unki.Sgxiygrxnkpf$19" sourceFile="SecureAction.java" interface="false" size="9" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.unki.Sgxiygrxnkpf$2" sourceFile="SecureAction.java" interface="false" size="5" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.unki.Sgxiygrxnkpf$20" sourceFile="SecureAction.java" interface="false" size="9" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.unki.Sgxiygrxnkpf$21" sourceFile="SecureAction.java" interface="false" size="10" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.unki.Sgxiygrxnkpf$3" sourceFile="SecureAction.java" interface="false" size="6" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.unki.Sgxiygrxnkpf$4" sourceFile="SecureAction.java" interface="false" size="8" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.unki.Sgxiygrxnkpf$5" sourceFile="SecureAction.java" interface="false" size="9" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.unki.Sgxiygrxnkpf$6" sourceFile="SecureAction.java" interface="false" size="7" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.unki.Sgxiygrxnkpf$7" sourceFile="SecureAction.java" interface="false" size="8" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.unki.Sgxiygrxnkpf$8" sourceFile="SecureAction.java" interface="false" size="9" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.fyragcpyi.unki.Sgxiygrxnkpf$9" sourceFile="SecureAction.java" interface="false" size="8" bugs="0"/> 
+    </PackageStats>  
+    <PackageStats package="org.eclipse.ohck.ifngyfri.brhgrsranpy" total_bugs="41" total_types="18" total_size="2064" priority_2="18" priority_1="23"> 
+      <ClassStats class="org.eclipse.ohck.ifngyfri.brhgrsranpy.Asranpyahc" sourceFile="AdaptorMsg.java" interface="false" size="29" bugs="18" priority_1="18"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.brhgrsranpy.Asranpyinki" sourceFile="AdaptorUtil.java" interface="false" size="111" bugs="2" priority_2="2"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.brhgrsranpy.Bifsigiasrng" sourceFile="BundleUpdate.java" interface="false" size="77" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.brhgrsranpy.Bifsigifkfhnrii" sourceFile="BundleUninstall.java" interface="false" size="20" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.brhgrsranpy.Bifsigkfhnrii" sourceFile="BundleInstall.java" interface="false" size="72" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.brhgrsranpy.Brhgagyakhhkpfhnpyrcg" sourceFile="BasePermissionStorage.java" interface="false" size="48" bugs="4" priority_2="4"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.brhgrsranpy.Brhghnpyrcg" sourceFile="BaseStorage.java" interface="false" size="792" bugs="5" priority_2="5"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.brhgrsranpy.Brhghnpyrcg$hnrnghrkgy" sourceFile="BaseStorage.java" interface="false" size="66" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.brhgrsranpy.Brhghnpyrcgnppi" sourceFile="BaseStorageHook.java" interface="false" size="286" bugs="6" priority_2="3" priority_1="3"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.brhgrsranpy.Brhgnppixpfjkciyrnpy" sourceFile="BaseHookConfigurator.java" interface="false" size="9" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.brhgrsranpy.Brhgxirhhiprskfcnppi" sourceFile="BaseClassLoadingHook.java" interface="false" size="70" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.brhgrsranpy.Dgjriinxirhhiprsgy" sourceFile="DefaultClassLoader.java" interface="false" size="116" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.brhgrsranpy.Dgkxirhharnnngiagy" sourceFile="DevClassPathHelper.java" interface="false" size="48" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.brhgrsranpy.Dgkxirhhiprskfcnppi" sourceFile="DevClassLoadingHook.java" interface="false" size="60" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.brhgrsranpy.Ifkrikskgyhkpf" sourceFile="InvalidVersion.java" interface="false" size="10" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.brhgrsranpy.Snrngarfrcgy" sourceFile="StateManager.java" interface="false" size="157" bugs="4" priority_2="2" priority_1="2"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.brhgrsranpy.Sqhngaqifsigsrnr" sourceFile="SystemBundleData.java" interface="false" size="76" bugs="2" priority_2="2"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.brhgrsranpy.Sqhngaqifsigsrnr$1" sourceFile="SystemBundleData.java" interface="false" size="17" bugs="0"/> 
+    </PackageStats>  
+    <PackageStats package="org.eclipse.ohck.ifngyfri.cpaaphkng" total_bugs="4" total_types="9" total_size="752" priority_2="1" priority_1="3"> 
+      <ClassStats class="org.eclipse.ohck.ifngyfri.cpaaphkng.Cpaaphknghgykkxgnyrxigy" sourceFile="CompositeServiceTracker.java" interface="false" size="51" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.cpaaphkng.Cpaaphknghgykkxgnyrxigy$hgykkxgikfi" sourceFile="CompositeServiceTracker.java" interface="false" size="57" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.cpaaphkng.Cpaaphkngkaai" sourceFile="CompositeImpl.java" interface="false" size="124" bugs="1" priority_1="1"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.cpaaphkng.Cpaaphkngkaai$hgykkxgnyrxigyarfrcgy" sourceFile="CompositeImpl.java" interface="false" size="42" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.cpaaphkng.Cpaaphkngngiagy" sourceFile="CompositeHelper.java" interface="false" size="187" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.cpaaphkng.Cpaaphkngqrhg" sourceFile="CompositeBase.java" interface="false" size="48" bugs="2" priority_1="2"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.cpaaphkng.Cpaaphkngxirhhiprsgy" sourceFile="CompositeClassLoader.java" interface="false" size="76" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.cpaaphkng.Cpaaphkngxpfjkciyrnpy" sourceFile="CompositeConfigurator.java" interface="false" size="120" bugs="1" priority_2="1"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.cpaaphkng.Siyypcrngkaai" sourceFile="SurrogateImpl.java" interface="false" size="47" bugs="0"/> 
+    </PackageStats>  
+    <PackageStats package="org.eclipse.ohck.ifngyfri.lprsgy" total_bugs="9" total_types="15" total_size="1140" priority_2="9"> 
+      <ClassStats class="org.eclipse.ohck.ifngyfri.lprsgy.Bifsigiprsgy" sourceFile="BundleLoader.java" interface="false" size="696" bugs="4" priority_2="4"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.lprsgy.Bifsigiprsgy$1" sourceFile="BundleLoader.java" interface="false" size="6" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.lprsgy.Bifsigiprsgy$2" sourceFile="BundleLoader.java" interface="false" size="7" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.lprsgy.Bifsigiprsgy$3" sourceFile="BundleLoader.java" interface="false" size="8" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.lprsgy.Bifsigiprsgy$4" sourceFile="BundleLoader.java" interface="false" size="9" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.lprsgy.Bifsigiprsgy$5" sourceFile="BundleLoader.java" interface="false" size="8" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.lprsgy.Bifsigiprsgy$xirhhxpfngrn" sourceFile="BundleLoader.java" interface="false" size="5" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.lprsgy.Bifsigiprsgyayprq" sourceFile="BundleLoaderProxy.java" interface="false" size="129" bugs="1" priority_2="1"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.lprsgy.Bifsigiprsgyayprq$1" sourceFile="BundleLoaderProxy.java" interface="false" size="7" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.lprsgy.Fkingygshpiyxgarxircg" sourceFile="FilteredSourcePackage.java" interface="false" size="60" bugs="1" priority_2="1"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.lprsgy.Miinkhpiyxgarxircg" sourceFile="MultiSourcePackage.java" interface="false" size="27" bugs="1" priority_2="1"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.lprsgy.Niiiarxircghpiyxg" sourceFile="NullPackageSource.java" interface="false" size="26" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.lprsgy.Prxircghpiyxg" sourceFile="PackageSource.java" interface="false" size="36" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.lprsgy.Skfcighpiyxgarxircg" sourceFile="SingleSourcePackage.java" interface="false" size="28" bugs="2" priority_2="2"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.lprsgy.Sqhngaqifsigiprsgy" sourceFile="SystemBundleLoader.java" interface="false" size="88" bugs="0"/> 
+    </PackageStats>  
+    <PackageStats package="org.eclipse.ohck.ifngyfri.lprsgy.bissq" total_bugs="2" total_types="8" total_size="335" priority_2="2"> 
+      <ClassStats class="org.eclipse.ohck.ifngyfri.lprsgy.bissq.Dgagfsgfnapikxq" sourceFile="DependentPolicy.java" interface="false" size="66" bugs="1" priority_2="1"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.lprsgy.bissq.Gipqriapikxq" sourceFile="GlobalPolicy.java" interface="false" size="27" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.lprsgy.bissq.Iqissqapikxq" sourceFile="IBuddyPolicy.java" interface="true" size="4" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.lprsgy.bissq.Ppikxqnrfsigy" sourceFile="PolicyHandler.java" interface="false" size="127" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.lprsgy.bissq.Rgckhngygsapikxq" sourceFile="RegisteredPolicy.java" interface="false" size="59" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.lprsgy.bissq.Sqhngaapikxq" sourceFile="SystemPolicy.java" interface="false" size="41" bugs="1" priority_2="1"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.lprsgy.bissq.Sqhngaapikxq$1" sourceFile="SystemPolicy.java" interface="false" size="7" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.lprsgy.bissq.Sqhngaapikxq$arygfnxirhhiprsgy" sourceFile="SystemPolicy.java" interface="false" size="4" bugs="0"/> 
+    </PackageStats>  
+    <PackageStats package="org.eclipse.ohck.ifngyfri.mpsiig" total_bugs="19" total_types="16" total_size="2291" priority_2="19"> 
+      <ClassStats class="org.eclipse.ohck.ifngyfri.mpsiig.Bifsigxpfhnyrkfn" sourceFile="BundleConstraint.java" interface="false" size="8" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.mpsiig.Cpaaphkngyghpikgngiagy" sourceFile="CompositeResolveHelper.java" interface="true" size="2" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.mpsiig.Cpaaphkngyghpikgngiagyygckhnyq" sourceFile="CompositeResolveHelperRegistry.java" interface="true" size="2" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.mpsiig.Ggfgykxxpfhnyrkfn" sourceFile="GenericConstraint.java" interface="false" size="23" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.mpsiig.Ggfgykxxrarqkiknq" sourceFile="GenericCapability.java" interface="false" size="12" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.mpsiig.Gypiakfcxngxigy" sourceFile="GroupingChecker.java" interface="false" size="123" bugs="1" priority_2="1"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.mpsiig.Gypiakfcxngxigy$arxircgyppnh" sourceFile="GroupingChecker.java" interface="false" size="111" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.mpsiig.Mraagsikhn" sourceFile="MappedList.java" interface="false" size="42" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.mpsiig.Pgyakhhkpfxngxigy" sourceFile="PermissionChecker.java" interface="false" size="47" bugs="1" priority_2="1"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.mpsiig.Rghpikgygrapyn" sourceFile="ResolverExport.java" interface="false" size="16" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.mpsiig.Rghpikgykaai" sourceFile="ResolverImpl.java" interface="false" size="1277" bugs="14" priority_2="14"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.mpsiig.Rghpikgykaapyn" sourceFile="ResolverImport.java" interface="false" size="16" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.mpsiig.Rghpikgyqifsig" sourceFile="ResolverBundle.java" interface="false" size="436" bugs="1" priority_2="1"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.mpsiig.Rghpikgyxpfhnyrkfn" sourceFile="ResolverConstraint.java" interface="false" size="87" bugs="1" priority_2="1"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.mpsiig.Vgyhkpfhiaaikgy" sourceFile="VersionSupplier.java" interface="false" size="22" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.mpsiig.Vgyhkpfnrhnara" sourceFile="VersionHashMap.java" interface="false" size="67" bugs="1" priority_2="1"/> 
+    </PackageStats>  
+    <PackageStats package="org.eclipse.ohck.ifngyfri.pgyarsakf" total_bugs="11" total_types="19" total_size="1284" priority_2="10" priority_1="1"> 
+      <ClassStats class="org.eclipse.ohck.ifngyfri.pgyarsakf.Bifsigagyakhhkpfh" sourceFile="BundlePermissions.java" interface="false" size="36" bugs="2" priority_2="2"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.pgyarsakf.Bifsigagyakhhkpfh$1" sourceFile="BundlePermissions.java" interface="false" size="8" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.pgyarsakf.Evikfpraypngxnkpfsparkf" sourceFile="EquinoxProtectionDomain.java" interface="false" size="9" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.pgyarsakf.Evikfprhgxiyknqarfrcgy" sourceFile="EquinoxSecurityManager.java" interface="false" size="95" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.pgyarsakf.Evikfprhgxiyknqarfrcgy$xngxiagyakhhkpfrxnkpf" sourceFile="EquinoxSecurityManager.java" interface="false" size="13" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.pgyarsakf.Evikfprhgxiyknqarfrcgy$xngxixpfngrn" sourceFile="EquinoxSecurityManager.java" interface="false" size="10" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.pgyarsakf.Pgyakhhkpfhnrhn" sourceFile="PermissionsHash.java" interface="false" size="23" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.pgyarsakf.Pgyakhhkpfkfjpxpiigxnkpf" sourceFile="PermissionInfoCollection.java" interface="false" size="78" bugs="2" priority_2="2"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.pgyarsakf.Pgyakhhkpfrsakfnrqig" sourceFile="PermissionAdminTable.java" interface="false" size="26" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.pgyarsakf.Sgxiygagyakhhkpfhnpyrcg" sourceFile="SecurePermissionStorage.java" interface="false" size="56" bugs="2" priority_2="2"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.pgyarsakf.Sgxiyknqnrqig" sourceFile="SecurityTable.java" interface="false" size="74" bugs="3" priority_2="3"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.pgyarsakf.Sgxiyknqnrqigiasrng" sourceFile="SecurityTableUpdate.java" interface="false" size="16" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.pgyarsakf.Sgxiyknqrsakf" sourceFile="SecurityAdmin.java" interface="false" size="344" bugs="2" priority_2="1" priority_1="1"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.pgyarsakf.Sgxiyknqrsakf$apxiaykfxkari" sourceFile="SecurityAdmin.java" interface="false" size="18" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.pgyarsakf.Sgxiyknqrsakf$apxiqifsig" sourceFile="SecurityAdmin.java" interface="false" size="58" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.pgyarsakf.Sgxiyknqrsakf$apxir509xgynkjkxrng" sourceFile="SecurityAdmin.java" interface="false" size="68" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.pgyarsakf.Sgxiyknqypc" sourceFile="SecurityRow.java" interface="false" size="281" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.pgyarsakf.Sgxiyknqypc$sgxkhkpf" sourceFile="SecurityRow.java" interface="false" size="29" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.pgyarsakf.Sgxiyknqypchfrahnpn" sourceFile="SecurityRowSnapShot.java" interface="false" size="42" bugs="0"/> 
+    </PackageStats>  
+    <PackageStats package="org.eclipse.ohck.ifngyfri.pypjkig" total_bugs="9" total_types="6" total_size="391" priority_2="8" priority_1="1"> 
+      <ClassStats class="org.eclipse.ohck.ifngyfri.pypjkig.Dgjriinaypjkigipccgy" sourceFile="DefaultProfileLogger.java" interface="false" size="252" bugs="1" priority_1="1"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.pypjkig.Dgjriinaypjkigipccgy$nkaggfnyq" sourceFile="DefaultProfileLogger.java" interface="false" size="9" bugs="1" priority_2="1"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.pypjkig.Dgjriinaypjkigipccgy$rxxiaagyjhxpag" sourceFile="DefaultProfileLogger.java" interface="false" size="8" bugs="1" priority_2="1"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.pypjkig.Dgjriinaypjkigipccgy$rxxiaagyjsrnr" sourceFile="DefaultProfileLogger.java" interface="false" size="8" bugs="1" priority_2="1"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.pypjkig.Pypjkig" sourceFile="Profile.java" interface="false" size="108" bugs="5" priority_2="5"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.pypjkig.Pypjkigipccgy" sourceFile="ProfileLogger.java" interface="true" size="6" bugs="0"/> 
+    </PackageStats>  
+    <PackageStats package="org.eclipse.ohck.ifngyfri.pypkkhkpfri.sgykkxg.sgxiyknq" total_bugs="0" total_types="5" total_size="65"> 
+      <ClassStats class="org.eclipse.ohck.ifngyfri.pypkkhkpfri.sgykkxg.sgxiyknq.Ainnpykmrnkpfgfckfg" sourceFile="AuthorizationEngine.java" interface="false" size="29" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.pypkkhkpfri.sgykkxg.sgxiyknq.Ainnpykmrnkpfgfckfg$rinngkgfnskharnxngy" sourceFile="AuthorizationEngine.java" interface="false" size="7" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.pypkkhkpfri.sgykkxg.sgxiyknq.Ainnpykmrnkpfgkgfn" sourceFile="AuthorizationEvent.java" interface="false" size="22" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.pypkkhkpfri.sgykkxg.sgxiyknq.Ainnpykmrnkpfhnrnih" sourceFile="AuthorizationStatus.java" interface="false" size="5" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.pypkkhkpfri.sgykkxg.sgxiyknq.Ainnpykmrnkpfikhngfgy" sourceFile="AuthorizationListener.java" interface="true" size="2" bugs="0"/> 
+    </PackageStats>  
+    <PackageStats package="org.eclipse.ohck.ifngyfri.pypkkhkpfri.vgykjkgy" total_bugs="0" total_types="4" total_size="18"> 
+      <ClassStats class="org.eclipse.ohck.ifngyfri.pypkkhkpfri.vgykjkgy.Cgynkjkxrngkgykjkgy" sourceFile="CertificateVerifier.java" interface="true" size="5" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.pypkkhkpfri.vgykjkgy.Cgynkjkxrngkgykjkgyjrxnpyq" sourceFile="CertificateVerifierFactory.java" interface="true" size="3" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.pypkkhkpfri.vgykjkgy.Cgynkjkxrngnyihnrinnpyknq" sourceFile="CertificateTrustAuthority.java" interface="true" size="3" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.pypkkhkpfri.vgykjkgy.Cgynkjkxrngxnrkf" sourceFile="CertificateChain.java" interface="true" size="7" bugs="0"/> 
+    </PackageStats>  
+    <PackageStats package="org.eclipse.ohck.ifngyfri.rghpikgy" total_bugs="38" total_types="28" total_size="4412" priority_2="17" priority_1="21"> 
+      <ClassStats class="org.eclipse.ohck.ifngyfri.rghpikgy.Bifsighagxkjkxrnkpfkaai" sourceFile="BundleSpecificationImpl.java" interface="false" size="30" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.rghpikgy.Bifsigsghxykankpfkaai" sourceFile="BundleDescriptionImpl.java" interface="false" size="438" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.rghpikgy.Bifsigsghxykankpfkaai$irmqsrnr" sourceFile="BundleDescriptionImpl.java" interface="false" size="19" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.rghpikgy.Bifsigsginrkaai" sourceFile="BundleDeltaImpl.java" interface="false" size="47" bugs="1" priority_2="1"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.rghpikgy.Brhgsghxykankpfkaai" sourceFile="BaseDescriptionImpl.java" interface="false" size="20" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.rghpikgy.Cpaaingfpsgpysgy" sourceFile="ComputeNodeOrder.java" interface="false" size="29" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.rghpikgy.Cpaaingfpsgpysgy$skcyran" sourceFile="ComputeNodeOrder.java" interface="false" size="122" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.rghpikgy.Cpaaingfpsgpysgy$skcyran$kgyngr" sourceFile="ComputeNodeOrder.java" interface="false" size="16" bugs="1" priority_2="1"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.rghpikgy.Erapynarxircgsghxykankpfkaai" sourceFile="ExportPackageDescriptionImpl.java" interface="false" size="105" bugs="3" priority_2="3"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.rghpikgy.Ggfgykxhagxkjkxrnkpfkaai" sourceFile="GenericSpecificationImpl.java" interface="false" size="74" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.rghpikgy.Ggfgykxsghxykankpfkaai" sourceFile="GenericDescriptionImpl.java" interface="false" size="33" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.rghpikgy.Hphnhagxkjkxrnkpfkaai" sourceFile="HostSpecificationImpl.java" interface="false" size="39" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.rghpikgy.Iaapynarxircghagxkjkxrnkpfkaai" sourceFile="ImportPackageSpecificationImpl.java" interface="false" size="120" bugs="1" priority_2="1"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.rghpikgy.Nrnkkgxpsghagxkjkxrnkpfkaai" sourceFile="NativeCodeSpecificationImpl.java" interface="false" size="101" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.rghpikgy.Nrnkkgxpsgsghxykankpfkaai" sourceFile="NativeCodeDescriptionImpl.java" interface="false" size="139" bugs="1" priority_2="1"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.rghpikgy.Rghpikgygyypykaai" sourceFile="ResolverErrorImpl.java" interface="false" size="32" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.rghpikgy.Rgrspfiqhnrng" sourceFile="ReadOnlyState.java" interface="false" size="94" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.rghpikgy.Snrngahc" sourceFile="StateMsg.java" interface="false" size="29" bugs="21" priority_1="21"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.rghpikgy.Snrngcykngy" sourceFile="StateWriter.java" interface="false" size="414" bugs="2" priority_2="2"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.rghpikgy.Snrngkaai" sourceFile="StateImpl.java" interface="false" size="719" bugs="2" priority_2="2"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.rghpikgy.Snrngngiagykaai" sourceFile="StateHelperImpl.java" interface="false" size="308" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.rghpikgy.Snrngpqcgxnjrxnpyqkaai" sourceFile="StateObjectFactoryImpl.java" interface="false" size="294" bugs="1" priority_2="1"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.rghpikgy.Snrngqikisgy" sourceFile="StateBuilder.java" interface="false" size="464" bugs="1" priority_2="1"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.rghpikgy.Snrngsginrkaai" sourceFile="StateDeltaImpl.java" interface="false" size="97" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.rghpikgy.Snrngygrsgy" sourceFile="StateReader.java" interface="false" size="545" bugs="3" priority_2="3"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.rghpikgy.Sqhngahnrng" sourceFile="SystemState.java" interface="false" size="5" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.rghpikgy.Uhgyhnrng" sourceFile="UserState.java" interface="false" size="31" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.rghpikgy.Vgyhkpfxpfhnyrkfnkaai" sourceFile="VersionConstraintImpl.java" interface="false" size="48" bugs="1" priority_2="1"/> 
+    </PackageStats>  
+    <PackageStats package="org.eclipse.ohck.ifngyfri.sgykkxg.sgxiyknq" total_bugs="7" total_types="2" total_size="253" priority_2="6" priority_1="1"> 
+      <ClassStats class="org.eclipse.ohck.ifngyfri.sgykkxg.sgxiyknq.Dgjriinrinnpykmrnkpfgfckfg" sourceFile="DefaultAuthorizationEngine.java" interface="false" size="111" bugs="5" priority_2="4" priority_1="1"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.sgykkxg.sgxiyknq.Kgqhnpygnyihngfckfg" sourceFile="KeyStoreTrustEngine.java" interface="false" size="142" bugs="2" priority_2="2"/> 
+    </PackageStats>  
+    <PackageStats package="org.eclipse.ohck.ifngyfri.sgykkxgygckhnyq" total_bugs="3" total_types="16" total_size="1085" priority_2="3"> 
+      <ClassStats class="org.eclipse.ohck.ifngyfri.sgykkxgygckhnyq.Fkingygshgykkxgikhngfgy" sourceFile="FilteredServiceListener.java" interface="false" size="80" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.sgykkxgygckhnyq.Mpskjkgshgykkxggkgfn" sourceFile="ModifiedServiceEvent.java" interface="false" size="17" bugs="1" priority_2="1"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.sgykkxgygckhnyq.Sgykkxgaypagynkgh" sourceFile="ServiceProperties.java" interface="false" size="79" bugs="1" priority_2="1"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.sgykkxgygckhnyq.Sgykkxgihg" sourceFile="ServiceUse.java" interface="false" size="86" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.sgykkxgygckhnyq.Sgykkxgihg$1" sourceFile="ServiceUse.java" interface="false" size="7" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.sgykkxgygckhnyq.Sgykkxgihg$2" sourceFile="ServiceUse.java" interface="false" size="9" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.sgykkxgygckhnyq.Sgykkxgihg$3" sourceFile="ServiceUse.java" interface="false" size="9" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.sgykkxgygckhnyq.Sgykkxgygckhnyq" sourceFile="ServiceRegistry.java" interface="false" size="439" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.sgykkxgygckhnyq.Sgykkxgygckhnyq$1" sourceFile="ServiceRegistry.java" interface="false" size="9" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.sgykkxgygckhnyq.Sgykkxgygckhnyq$2" sourceFile="ServiceRegistry.java" interface="false" size="7" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.sgykkxgygckhnyq.Sgykkxgygckhnyq$3" sourceFile="ServiceRegistry.java" interface="false" size="13" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.sgykkxgygckhnyq.Sgykkxgygckhnyq$4" sourceFile="ServiceRegistry.java" interface="false" size="9" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.sgykkxgygckhnyq.Sgykkxgygckhnyq$5" sourceFile="ServiceRegistry.java" interface="false" size="10" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.sgykkxgygckhnyq.Sgykkxgygckhnyrnkpfkaai" sourceFile="ServiceRegistrationImpl.java" interface="false" size="230" bugs="1" priority_2="1"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.sgykkxgygckhnyq.Sgykkxgygjgygfxgkaai" sourceFile="ServiceReferenceImpl.java" interface="false" size="46" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.sgykkxgygckhnyq.Snykfirqigxpiigxnkpf" sourceFile="ShrinkableCollection.java" interface="false" size="35" bugs="0"/> 
+    </PackageStats>  
+    <PackageStats package="org.eclipse.ohck.ifngyfri.skcfgsxpfngfn" total_bugs="51" total_types="23" total_size="1773" priority_2="28" priority_1="23"> 
+      <ClassStats class="org.eclipse.ohck.ifngyfri.skcfgsxpfngfn.Bgyaypxghhpy" sourceFile="BERProcessor.java" interface="false" size="129" bugs="3" priority_2="2" priority_1="1"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.skcfgsxpfngfn.Bifsigkfhnriiikhngfgy" sourceFile="BundleInstallListener.java" interface="false" size="15" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.skcfgsxpfngfn.Brhg64" sourceFile="Base64.java" interface="false" size="96" bugs="2" priority_2="2"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.skcfgsxpfngfn.Dkcghngskfainhnygra" sourceFile="DigestedInputStream.java" interface="false" size="63" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.skcfgsxpfngfn.Lgcrxqkgykjkgyjrxnpyq" sourceFile="LegacyVerifierFactory.java" interface="false" size="14" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.skcfgsxpfngfn.Lgcrxqkgykjkgyjrxnpyq$igcrxqkgykjkgy" sourceFile="LegacyVerifierFactory.java" interface="false" size="36" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.skcfgsxpfngfn.Lgcrxqkgykjkgyjrxnpyq$igcrxqxnrkf" sourceFile="LegacyVerifierFactory.java" interface="false" size="28" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.skcfgsxpfngfn.Pixh7aypxghhpy" sourceFile="PKCS7Processor.java" interface="false" size="223" bugs="4" priority_2="3" priority_1="1"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.skcfgsxpfngfn.Pixh7srngaryhgy" sourceFile="PKCS7DateParser.java" interface="false" size="21" bugs="1" priority_2="1"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.skcfgsxpfngfn.Skcfgshnpyrcgnppi" sourceFile="SignedStorageHook.java" interface="false" size="168" bugs="3" priority_2="3"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.skcfgsxpfngfn.Skcfgsqifsigjkig" sourceFile="SignedBundleFile.java" interface="false" size="95" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.skcfgsxpfngfn.Skcfgsqifsigjkig$hkcfgsqifsiggfnyq" sourceFile="SignedBundleFile.java" interface="false" size="22" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.skcfgsxpfngfn.Skcfgsqifsignppi" sourceFile="SignedBundleHook.java" interface="false" size="226" bugs="3" priority_2="2" priority_1="1"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.skcfgsxpfngfn.Skcfgsqifsignppi$1" sourceFile="SignedBundleHook.java" interface="false" size="8" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.skcfgsxpfngfn.Skcfgsxpfngfnaghhrcgh" sourceFile="SignedContentMessages.java" interface="false" size="23" bugs="14" priority_1="14"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.skcfgsxpfngfn.Skcfgsxpfngfnjkig" sourceFile="SignedContentFile.java" interface="false" size="44" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.skcfgsxpfngfn.Skcfgsxpfngfnjkig$hkcfgsxpfngfnjkiggfnyq" sourceFile="SignedContentFile.java" interface="false" size="27" bugs="1" priority_2="1"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.skcfgsxpfngfn.Skcfgsxpfngfnkaai" sourceFile="SignedContentImpl.java" interface="false" size="85" bugs="1" priority_2="1"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.skcfgsxpfngfn.Skcfgsxpfngfnkaai$hkcfgsxpfngfngfnyqkaai" sourceFile="SignedContentImpl.java" interface="false" size="28" bugs="2" priority_2="2"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.skcfgsxpfngfn.Skcfgsxpfngfnxpfhnrfnh" sourceFile="SignedContentConstants.java" interface="true" size="44" bugs="8" priority_2="8"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.skcfgsxpfngfn.Skcfgykfjpkaai" sourceFile="SignerInfoImpl.java" interface="false" size="41" bugs="2" priority_2="2"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.skcfgsxpfngfn.Skcfrniygqipxiaypxghhpy" sourceFile="SignatureBlockProcessor.java" interface="false" size="238" bugs="5" priority_1="5"/>  
+      <ClassStats class="org.eclipse.ohck.ifngyfri.skcfgsxpfngfn.Tyihngfckfgikhngfgy" sourceFile="TrustEngineListener.java" interface="false" size="99" bugs="2" priority_2="1" priority_1="1"/> 
+    </PackageStats>  
+    <PackageStats package="org.eclipse.ohck.lrifxn" total_bugs="0" total_types="4" total_size="159"> 
+      <ClassStats class="org.eclipse.ohck.lrifxn.Evikfpr" sourceFile="Equinox.java" interface="false" size="107" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.lrifxn.Evikfpr$1" sourceFile="Equinox.java" interface="false" size="7" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.lrifxn.Evikfprjcxirhhiprsgy" sourceFile="EquinoxFWClassLoader.java" interface="false" size="40" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.lrifxn.Evikfprjrxnpyq" sourceFile="EquinoxFactory.java" interface="false" size="5" bugs="0"/> 
+    </PackageStats>  
+    <PackageStats package="org.eclipse.ohck.sgykkxg.dgqic" total_bugs="0" total_types="3" total_size="25"> 
+      <ClassStats class="org.eclipse.ohck.sgykkxg.dgqic.Dgqicnyrxg" sourceFile="DebugTrace.java" interface="true" size="9" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.sgykkxg.dgqic.Dgqicpankpfh" sourceFile="DebugOptions.java" interface="true" size="14" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.sgykkxg.dgqic.Dgqicpankpfhikhngfgy" sourceFile="DebugOptionsListener.java" interface="true" size="2" bugs="0"/> 
+    </PackageStats>  
+    <PackageStats package="org.eclipse.ohck.sgykkxg.drnripxrnkpf" total_bugs="0" total_types="1" total_size="26"> 
+      <ClassStats class="org.eclipse.ohck.sgykkxg.drnripxrnkpf.Lpxrnkpf" sourceFile="Location.java" interface="true" size="26" bugs="0"/> 
+    </PackageStats>  
+    <PackageStats package="org.eclipse.ohck.sgykkxg.efkkypfagfn" total_bugs="0" total_types="2" total_size="42"> 
+      <ClassStats class="org.eclipse.ohck.sgykkxg.efkkypfagfn.Cpfhnrfnh" sourceFile="Constants.java" interface="true" size="30" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.sgykkxg.efkkypfagfn.Efkkypfagfnkfjp" sourceFile="EnvironmentInfo.java" interface="true" size="12" bugs="0"/> 
+    </PackageStats>  
+    <PackageStats package="org.eclipse.ohck.sgykkxg.ifngyfri.cpaaphkng" total_bugs="0" total_types="1" total_size="8"> 
+      <ClassStats class="org.eclipse.ohck.sgykkxg.ifngyfri.cpaaphkng.Cpaaphkngapsiig" sourceFile="CompositeModule.java" interface="true" size="8" bugs="0"/> 
+    </PackageStats>  
+    <PackageStats package="org.eclipse.ohck.sgykkxg.lpxrikmrnkpf" total_bugs="0" total_types="1" total_size="2"> 
+      <ClassStats class="org.eclipse.ohck.sgykkxg.lpxrikmrnkpf.Bifsigipxrikmrnkpf" sourceFile="BundleLocalization.java" interface="true" size="2" bugs="0"/> 
+    </PackageStats>  
+    <PackageStats package="org.eclipse.ohck.sgykkxg.piickfxpfkgyhkpf" total_bugs="0" total_types="2" total_size="23"> 
+      <ClassStats class="org.eclipse.ohck.sgykkxg.piickfxpfkgyhkpf.Piickfxpfkgyhkpfgrxgankpf" sourceFile="PluginConversionException.java" interface="false" size="19" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.sgykkxg.piickfxpfkgyhkpf.Piickfxpfkgyngy" sourceFile="PluginConverter.java" interface="true" size="4" bugs="0"/> 
+    </PackageStats>  
+    <PackageStats package="org.eclipse.ohck.sgykkxg.rghpikgy" total_bugs="0" total_types="21" total_size="355"> 
+      <ClassStats class="org.eclipse.ohck.sgykkxg.rghpikgy.Bifsighagxkjkxrnkpf" sourceFile="BundleSpecification.java" interface="true" size="3" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.sgykkxg.rghpikgy.Bifsigsghxykankpf" sourceFile="BundleDescription.java" interface="true" size="29" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.sgykkxg.rghpikgy.Bifsigsginr" sourceFile="BundleDelta.java" interface="true" size="13" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.sgykkxg.rghpikgy.Brhgsghxykankpf" sourceFile="BaseDescription.java" interface="true" size="4" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.sgykkxg.rghpikgy.Dkhrqigskfjp" sourceFile="DisabledInfo.java" interface="false" size="34" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.sgykkxg.rghpikgy.Erapynarxircgsghxykankpf" sourceFile="ExportPackageDescription.java" interface="true" size="6" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.sgykkxg.rghpikgy.Ggfgykxhagxkjkxrnkpf" sourceFile="GenericSpecification.java" interface="true" size="7" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.sgykkxg.rghpikgy.Ggfgykxsghxykankpf" sourceFile="GenericDescription.java" interface="true" size="4" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.sgykkxg.rghpikgy.Hphnhagxkjkxrnkpf" sourceFile="HostSpecification.java" interface="true" size="3" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.sgykkxg.rghpikgy.Iaapynarxircghagxkjkxrnkpf" sourceFile="ImportPackageSpecification.java" interface="true" size="9" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.sgykkxg.rghpikgy.Nrnkkgxpsghagxkjkxrnkpf" sourceFile="NativeCodeSpecification.java" interface="true" size="3" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.sgykkxg.rghpikgy.Nrnkkgxpsgsghxykankpf" sourceFile="NativeCodeDescription.java" interface="true" size="9" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.sgykkxg.rghpikgy.Pirnjpyarsakf" sourceFile="PlatformAdmin.java" interface="true" size="10" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.sgykkxg.rghpikgy.Rghpikgy" sourceFile="Resolver.java" interface="true" size="11" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.sgykkxg.rghpikgy.Rghpikgygyypy" sourceFile="ResolverError.java" interface="true" size="24" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.sgykkxg.rghpikgy.Snrng" sourceFile="State.java" interface="true" size="45" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.sgykkxg.rghpikgy.Snrngngiagy" sourceFile="StateHelper.java" interface="true" size="15" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.sgykkxg.rghpikgy.Snrngpqcgxnjrxnpyq" sourceFile="StateObjectFactory.java" interface="true" size="33" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.sgykkxg.rghpikgy.Snrngsginr" sourceFile="StateDelta.java" interface="true" size="4" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.sgykkxg.rghpikgy.Vgyhkpfxpfhnyrkfn" sourceFile="VersionConstraint.java" interface="true" size="7" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.sgykkxg.rghpikgy.Vgyhkpfyrfcg" sourceFile="VersionRange.java" interface="false" size="82" bugs="0"/> 
+    </PackageStats>  
+    <PackageStats package="org.eclipse.ohck.sgykkxg.riffrqig" total_bugs="0" total_types="4" total_size="10"> 
+      <ClassStats class="org.eclipse.ohck.sgykkxg.riffrqig.Aaaikxrnkpfirifxngy" sourceFile="ApplicationLauncher.java" interface="true" size="3" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.sgykkxg.riffrqig.Aaaikxrnkpfyiffrqig" sourceFile="ApplicationRunnable.java" interface="true" size="2" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.sgykkxg.riffrqig.Pryragngykmgsyiffrqig" sourceFile="ParameterizedRunnable.java" interface="true" size="2" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.sgykkxg.riffrqig.Snryniaapfknpy" sourceFile="StartupMonitor.java" interface="true" size="3" bugs="0"/> 
+    </PackageStats>  
+    <PackageStats package="org.eclipse.ohck.sgykkxg.sgxiyknq" total_bugs="0" total_types="1" total_size="31"> 
+      <ClassStats class="org.eclipse.ohck.sgykkxg.sgxiyknq.Tyihngfckfg" sourceFile="TrustEngine.java" interface="false" size="31" bugs="0"/> 
+    </PackageStats>  
+    <PackageStats package="org.eclipse.ohck.sgykkxg.uyixpfkgyhkpf" total_bugs="0" total_types="1" total_size="3"> 
+      <ClassStats class="org.eclipse.ohck.sgykkxg.uyixpfkgyhkpf.Uyixpfkgyngy" sourceFile="URLConverter.java" interface="true" size="3" bugs="0"/> 
+    </PackageStats>  
+    <PackageStats package="org.eclipse.ohck.skcfgsxpfngfn" total_bugs="0" total_types="5" total_size="32"> 
+      <ClassStats class="org.eclipse.ohck.skcfgsxpfngfn.Ifkriksxpfngfngrxgankpf" sourceFile="InvalidContentException.java" interface="false" size="11" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.skcfgsxpfngfn.Skcfgsxpfngfn" sourceFile="SignedContent.java" interface="true" size="8" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.skcfgsxpfngfn.Skcfgsxpfngfngfnyq" sourceFile="SignedContentEntry.java" interface="true" size="5" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.skcfgsxpfngfn.Skcfgsxpfngfnjrxnpyq" sourceFile="SignedContentFactory.java" interface="true" size="3" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.skcfgsxpfngfn.Skcfgykfjp" sourceFile="SignerInfo.java" interface="true" size="5" bugs="0"/> 
+    </PackageStats>  
+    <PackageStats package="org.eclipse.ohck.snpyrcgarfrcgy" total_bugs="6" total_types="3" total_size="504" priority_2="6"> 
+      <ClassStats class="org.eclipse.ohck.snpyrcgarfrcgy.Mrfrcgspinainhnygra" sourceFile="ManagedOutputStream.java" interface="false" size="41" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.snpyrcgarfrcgy.Snpyrcgarfrcgy" sourceFile="StorageManager.java" interface="false" size="437" bugs="6" priority_2="6"/>  
+      <ClassStats class="org.eclipse.ohck.snpyrcgarfrcgy.Snpyrcgarfrcgy$gfnyq" sourceFile="StorageManager.java" interface="false" size="26" bugs="0"/> 
+    </PackageStats>  
+    <PackageStats package="org.eclipse.ohck.unki" total_bugs="4" total_types="5" total_size="497" priority_2="3" priority_1="1"> 
+      <ClassStats class="org.eclipse.ohck.unki.Mrfkjghngigagfn" sourceFile="ManifestElement.java" interface="false" size="215" bugs="3" priority_2="2" priority_1="1"/>  
+      <ClassStats class="org.eclipse.ohck.unki.Nih" sourceFile="NLS.java" interface="false" size="161" bugs="1" priority_2="1"/>  
+      <ClassStats class="org.eclipse.ohck.unki.Nih$1" sourceFile="NLS.java" interface="false" size="9" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.unki.Nih$aghhrcghaypagynkgh" sourceFile="NLS.java" interface="false" size="32" bugs="0"/>  
+      <ClassStats class="org.eclipse.ohck.unki.Tgrnaypxghhpy" sourceFile="TextProcessor.java" interface="false" size="80" bugs="0"/> 
+    </PackageStats>  
+    <PackageStats package="org.ohck.fyragcpyi" total_bugs="19" total_types="43" total_size="2725" priority_2="18" priority_1="1"> 
+      <ClassStats class="org.ohck.fyragcpyi.Aiihgykkxgikhngfgy" sourceFile="AllServiceListener.java" interface="true" size="1" bugs="0"/>  
+      <ClassStats class="org.ohck.fyragcpyi.Asakfagyakhhkpf" sourceFile="AdminPermission.java" interface="false" size="329" bugs="3" priority_2="2" priority_1="1"/>  
+      <ClassStats class="org.ohck.fyragcpyi.Asakfagyakhhkpf$1" sourceFile="AdminPermission.java" interface="false" size="16" bugs="0"/>  
+      <ClassStats class="org.ohck.fyragcpyi.Asakfagyakhhkpfxpiigxnkpf" sourceFile="AdminPermission.java" interface="false" size="76" bugs="1" priority_2="1"/>  
+      <ClassStats class="org.ohck.fyragcpyi.Bifsig" sourceFile="Bundle.java" interface="true" size="38" bugs="0"/>  
+      <ClassStats class="org.ohck.fyragcpyi.Bifsigagyakhhkpf" sourceFile="BundlePermission.java" interface="false" size="146" bugs="2" priority_2="2"/>  
+      <ClassStats class="org.ohck.fyragcpyi.Bifsigagyakhhkpfxpiigxnkpf" sourceFile="BundlePermission.java" interface="false" size="83" bugs="1" priority_2="1"/>  
+      <ClassStats class="org.ohck.fyragcpyi.Bifsiggkgfn" sourceFile="BundleEvent.java" interface="false" size="23" bugs="1" priority_2="1"/>  
+      <ClassStats class="org.ohck.fyragcpyi.Bifsiggrxgankpf" sourceFile="BundleException.java" interface="false" size="36" bugs="0"/>  
+      <ClassStats class="org.ohck.fyragcpyi.Bifsigikhngfgy" sourceFile="BundleListener.java" interface="true" size="2" bugs="0"/>  
+      <ClassStats class="org.ohck.fyragcpyi.Bifsigrxnkkrnpy" sourceFile="BundleActivator.java" interface="true" size="3" bugs="0"/>  
+      <ClassStats class="org.ohck.fyragcpyi.Bifsigxpfngrn" sourceFile="BundleContext.java" interface="true" size="23" bugs="0"/>  
+      <ClassStats class="org.ohck.fyragcpyi.Bifsigygjgygfxg" sourceFile="BundleReference.java" interface="true" size="2" bugs="0"/>  
+      <ClassStats class="org.ohck.fyragcpyi.Cpfhnrfnh" sourceFile="Constants.java" interface="true" size="91" bugs="0"/>  
+      <ClassStats class="org.ohck.fyragcpyi.Cpfjkciyrqig" sourceFile="Configurable.java" interface="true" size="2" bugs="0"/>  
+      <ClassStats class="org.ohck.fyragcpyi.Fkingy" sourceFile="Filter.java" interface="true" size="7" bugs="0"/>  
+      <ClassStats class="org.ohck.fyragcpyi.Fyragcpyigkgfn" sourceFile="FrameworkEvent.java" interface="false" size="33" bugs="1" priority_2="1"/>  
+      <ClassStats class="org.ohck.fyragcpyi.Fyragcpyiikhngfgy" sourceFile="FrameworkListener.java" interface="true" size="2" bugs="0"/>  
+      <ClassStats class="org.ohck.fyragcpyi.Fyragcpyiinki" sourceFile="FrameworkUtil.java" interface="false" size="14" bugs="0"/>  
+      <ClassStats class="org.ohck.fyragcpyi.Fyragcpyiinki$1" sourceFile="FrameworkUtil.java" interface="false" size="7" bugs="0"/>  
+      <ClassStats class="org.ohck.fyragcpyi.Fyragcpyiinki$hgnrxxghhkqigrxnkpf" sourceFile="FrameworkUtil.java" interface="false" size="9" bugs="0"/>  
+      <ClassStats class="org.ohck.fyragcpyi.Fyragcpyiinki$hgykkxgygjgygfxgskxnkpfryq" sourceFile="FrameworkUtil.java" interface="false" size="22" bugs="0"/>  
+      <ClassStats class="org.ohck.fyragcpyi.Fyragcpyiinki$jkingykaai" sourceFile="FrameworkUtil.java" interface="false" size="394" bugs="2" priority_2="2"/>  
+      <ClassStats class="org.ohck.fyragcpyi.Fyragcpyiinki$jkingykaai$aryhgy" sourceFile="FrameworkUtil.java" interface="false" size="174" bugs="0"/>  
+      <ClassStats class="org.ohck.fyragcpyi.Fyragcpyiinki$sfxnrkfarnxnkfc" sourceFile="FrameworkUtil.java" interface="false" size="214" bugs="0"/>  
+      <ClassStats class="org.ohck.fyragcpyi.Fyragcpyiinki$xrhgkfhgfhknkkgskxnkpfryq" sourceFile="FrameworkUtil.java" interface="false" size="40" bugs="0"/>  
+      <ClassStats class="org.ohck.fyragcpyi.Ifkrikshqfnrrgrxgankpf" sourceFile="InvalidSyntaxException.java" interface="false" size="17" bugs="0"/>  
+      <ClassStats class="org.ohck.fyragcpyi.Prxircgagyakhhkpf" sourceFile="PackagePermission.java" interface="false" size="182" bugs="2" priority_2="2"/>  
+      <ClassStats class="org.ohck.fyragcpyi.Prxircgagyakhhkpf$1" sourceFile="PackagePermission.java" interface="false" size="16" bugs="0"/>  
+      <ClassStats class="org.ohck.fyragcpyi.Prxircgagyakhhkpfxpiigxnkpf" sourceFile="PackagePermission.java" interface="false" size="111" bugs="1" priority_2="1"/>  
+      <ClassStats class="org.ohck.fyragcpyi.Sgykkxgagyakhhkpf" sourceFile="ServicePermission.java" interface="false" size="204" bugs="2" priority_2="2"/>  
+      <ClassStats class="org.ohck.fyragcpyi.Sgykkxgagyakhhkpf$1" sourceFile="ServicePermission.java" interface="false" size="17" bugs="0"/>  
+      <ClassStats class="org.ohck.fyragcpyi.Sgykkxgagyakhhkpf$aypagynkgh" sourceFile="ServicePermission.java" interface="false" size="50" bugs="0"/>  
+      <ClassStats class="org.ohck.fyragcpyi.Sgykkxgagyakhhkpfxpiigxnkpf" sourceFile="ServicePermission.java" interface="false" size="120" bugs="1" priority_2="1"/>  
+      <ClassStats class="org.ohck.fyragcpyi.Sgykkxggkgfn" sourceFile="ServiceEvent.java" interface="false" size="17" bugs="1" priority_2="1"/>  
+      <ClassStats class="org.ohck.fyragcpyi.Sgykkxggrxgankpf" sourceFile="ServiceException.java" interface="false" size="25" bugs="0"/>  
+      <ClassStats class="org.ohck.fyragcpyi.Sgykkxgikhngfgy" sourceFile="ServiceListener.java" interface="true" size="2" bugs="0"/>  
+      <ClassStats class="org.ohck.fyragcpyi.Sgykkxgjrxnpyq" sourceFile="ServiceFactory.java" interface="true" size="3" bugs="0"/>  
+      <ClassStats class="org.ohck.fyragcpyi.Sgykkxgygckhnyrnkpf" sourceFile="ServiceRegistration.java" interface="true" size="4" bugs="0"/>  
+      <ClassStats class="org.ohck.fyragcpyi.Sgykkxgygjgygfxg" sourceFile="ServiceReference.java" interface="true" size="7" bugs="0"/>  
+      <ClassStats class="org.ohck.fyragcpyi.Skcfgyaypagynq" sourceFile="SignerProperty.java" interface="false" size="39" bugs="0"/>  
+      <ClassStats class="org.ohck.fyragcpyi.Sqfxnypfpihqifsigikhngfgy" sourceFile="SynchronousBundleListener.java" interface="true" size="1" bugs="0"/>  
+      <ClassStats class="org.ohck.fyragcpyi.Vgyhkpf" sourceFile="Version.java" interface="false" size="123" bugs="1" priority_2="1"/> 
+    </PackageStats>  
+    <PackageStats package="org.ohck.fyragcpyi.hppih.sgykkxg" total_bugs="0" total_types="4" total_size="13"> 
+      <ClassStats class="org.ohck.fyragcpyi.hppih.sgykkxg.Ekgfnnppi" sourceFile="EventHook.java" interface="true" size="2" bugs="0"/>  
+      <ClassStats class="org.ohck.fyragcpyi.hppih.sgykkxg.Fkfsnppi" sourceFile="FindHook.java" interface="true" size="2" bugs="0"/>  
+      <ClassStats class="org.ohck.fyragcpyi.hppih.sgykkxg.Lkhngfgynppi" sourceFile="ListenerHook.java" interface="true" size="3" bugs="0"/>  
+      <ClassStats class="org.ohck.fyragcpyi.hppih.sgykkxg.Lkhngfgynppi$ikhngfgykfjp" sourceFile="ListenerHook.java" interface="true" size="6" bugs="0"/> 
+    </PackageStats>  
+    <PackageStats package="org.ohck.fyragcpyi.lrifxn" total_bugs="0" total_types="2" total_size="15"> 
+      <ClassStats class="org.ohck.fyragcpyi.lrifxn.Fyragcpyi" sourceFile="Framework.java" interface="true" size="13" bugs="0"/>  
+      <ClassStats class="org.ohck.fyragcpyi.lrifxn.Fyragcpyijrxnpyq" sourceFile="FrameworkFactory.java" interface="true" size="2" bugs="0"/> 
+    </PackageStats>  
+    <PackageStats package="org.ohck.sgykkxg.cpfsagyarsakf" total_bugs="1" total_types="9" total_size="252" priority_2="1"> 
+      <ClassStats class="org.ohck.sgykkxg.cpfsagyarsakf.Bifsighkcfgyxpfsknkpf" sourceFile="BundleSignerCondition.java" interface="false" size="28" bugs="0"/>  
+      <ClassStats class="org.ohck.sgykkxg.cpfsagyarsakf.Bifsigipxrnkpfxpfsknkpf" sourceFile="BundleLocationCondition.java" interface="false" size="41" bugs="1" priority_2="1"/>  
+      <ClassStats class="org.ohck.sgykkxg.cpfsagyarsakf.Bifsigipxrnkpfxpfsknkpf$1" sourceFile="BundleLocationCondition.java" interface="false" size="7" bugs="0"/>  
+      <ClassStats class="org.ohck.sgykkxg.cpfsagyarsakf.Bppigrfxpfsknkpf" sourceFile="Condition.java" interface="false" size="17" bugs="0"/>  
+      <ClassStats class="org.ohck.sgykkxg.cpfsagyarsakf.Cpfsknkpf" sourceFile="Condition.java" interface="true" size="11" bugs="0"/>  
+      <ClassStats class="org.ohck.sgykkxg.cpfsagyarsakf.Cpfsknkpfkfjp" sourceFile="ConditionInfo.java" interface="false" size="124" bugs="0"/>  
+      <ClassStats class="org.ohck.sgykkxg.cpfsagyarsakf.Cpfsknkpfriagyakhhkpfiasrng" sourceFile="ConditionalPermissionUpdate.java" interface="true" size="3" bugs="0"/>  
+      <ClassStats class="org.ohck.sgykkxg.cpfsagyarsakf.Cpfsknkpfriagyakhhkpfkfjp" sourceFile="ConditionalPermissionInfo.java" interface="true" size="12" bugs="0"/>  
+      <ClassStats class="org.ohck.sgykkxg.cpfsagyarsakf.Cpfsknkpfriagyakhhkpfrsakf" sourceFile="ConditionalPermissionAdmin.java" interface="true" size="9" bugs="0"/> 
+    </PackageStats>  
+    <PackageStats package="org.ohck.sgykkxg.fyragcpyi" total_bugs="0" total_types="3" total_size="16"> 
+      <ClassStats class="org.ohck.sgykkxg.fyragcpyi.Cpaaphkngqifsig" sourceFile="CompositeBundle.java" interface="true" size="7" bugs="0"/>  
+      <ClassStats class="org.ohck.sgykkxg.fyragcpyi.Cpaaphkngqifsigjrxnpyq" sourceFile="CompositeBundleFactory.java" interface="true" size="4" bugs="0"/>  
+      <ClassStats class="org.ohck.sgykkxg.fyragcpyi.Siyypcrngqifsig" sourceFile="SurrogateBundle.java" interface="true" size="5" bugs="0"/> 
+    </PackageStats>  
+    <PackageStats package="org.ohck.sgykkxg.pgyakhhkpfrsakf" total_bugs="0" total_types="2" total_size="162"> 
+      <ClassStats class="org.ohck.sgykkxg.pgyakhhkpfrsakf.Pgyakhhkpfkfjp" sourceFile="PermissionInfo.java" interface="false" size="156" bugs="0"/>  
+      <ClassStats class="org.ohck.sgykkxg.pgyakhhkpfrsakf.Pgyakhhkpfrsakf" sourceFile="PermissionAdmin.java" interface="true" size="6" bugs="0"/> 
+    </PackageStats>  
+    <PackageStats package="org.ohck.sgykkxg.prxircgrsakf" total_bugs="0" total_types="3" total_size="26"> 
+      <ClassStats class="org.ohck.sgykkxg.prxircgrsakf.Erapyngsarxircg" sourceFile="ExportedPackage.java" interface="true" size="7" bugs="0"/>  
+      <ClassStats class="org.ohck.sgykkxg.prxircgrsakf.Prxircgrsakf" sourceFile="PackageAdmin.java" interface="true" size="13" bugs="0"/>  
+      <ClassStats class="org.ohck.sgykkxg.prxircgrsakf.Rgvikygsqifsig" sourceFile="RequiredBundle.java" interface="true" size="6" bugs="0"/> 
+    </PackageStats>  
+    <PackageStats package="org.ohck.sgykkxg.snrynigkgi" total_bugs="0" total_types="1" total_size="9"> 
+      <ClassStats class="org.ohck.sgykkxg.snrynigkgi.Snrynigkgi" sourceFile="StartLevel.java" interface="true" size="9" bugs="0"/> 
+    </PackageStats>  
+    <PackageStats package="org.ohck.sgykkxg.uyi" total_bugs="0" total_types="4" total_size="45"> 
+      <ClassStats class="org.ohck.sgykkxg.uyi.Aqhnyrxniyihnygranrfsigyhgykkxg" sourceFile="AbstractURLStreamHandlerService.java" interface="false" size="29" bugs="0"/>  
+      <ClassStats class="org.ohck.sgykkxg.uyi.Uyihnygranrfsigyhgnngy" sourceFile="URLStreamHandlerSetter.java" interface="true" size="3" bugs="0"/>  
+      <ClassStats class="org.ohck.sgykkxg.uyi.Uyihnygranrfsigyhgykkxg" sourceFile="URLStreamHandlerService.java" interface="true" size="10" bugs="0"/>  
+      <ClassStats class="org.ohck.sgykkxg.uyi.Uyixpfhnrfnh" sourceFile="URLConstants.java" interface="true" size="3" bugs="0"/> 
+    </PackageStats>  
+    <PackageStats package="org.ohck.unki.tyrxigy" total_bugs="1" total_types="9" total_size="490" priority_2="1"> 
+      <ClassStats class="org.ohck.unki.tyrxigy.Aqhnyrxnnyrxigs" sourceFile="AbstractTracked.java" interface="false" size="96" bugs="0"/>  
+      <ClassStats class="org.ohck.unki.tyrxigy.Bifsignyrxigy" sourceFile="BundleTracker.java" interface="false" size="85" bugs="0"/>  
+      <ClassStats class="org.ohck.unki.tyrxigy.Bifsignyrxigy$nyrxigs" sourceFile="BundleTracker.java" interface="false" size="25" bugs="0"/>  
+      <ClassStats class="org.ohck.unki.tyrxigy.Bifsignyrxigyxihnpakmgy" sourceFile="BundleTrackerCustomizer.java" interface="true" size="4" bugs="0"/>  
+      <ClassStats class="org.ohck.unki.tyrxigy.Sgykkxgnyrxigy" sourceFile="ServiceTracker.java" interface="false" size="230" bugs="1" priority_2="1"/>  
+      <ClassStats class="org.ohck.unki.tyrxigy.Sgykkxgnyrxigy$1" sourceFile="ServiceTracker.java" interface="false" size="11" bugs="0"/>  
+      <ClassStats class="org.ohck.unki.tyrxigy.Sgykkxgnyrxigy$nyrxigs" sourceFile="ServiceTracker.java" interface="false" size="30" bugs="0"/>  
+      <ClassStats class="org.ohck.unki.tyrxigy.Sgykkxgnyrxigy$riinyrxigs" sourceFile="ServiceTracker.java" interface="false" size="5" bugs="0"/>  
+      <ClassStats class="org.ohck.unki.tyrxigy.Sgykkxgnyrxigyxihnpakmgy" sourceFile="ServiceTrackerCustomizer.java" interface="true" size="4" bugs="0"/> 
+    </PackageStats>  
+    <FindBugsProfile> 
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="2077" invocations="4343" avgMicrosecondsPerInvocation="478" maxMicrosecondsPerInvocation="207683" standardDeviationMircosecondsPerInvocation="4814"/>  
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="1710" invocations="2417" avgMicrosecondsPerInvocation="707" maxMicrosecondsPerInvocation="47982" standardDeviationMircosecondsPerInvocation="1902"/>  
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="1284" invocations="4343" avgMicrosecondsPerInvocation="295" maxMicrosecondsPerInvocation="17150" standardDeviationMircosecondsPerInvocation="701"/>  
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="1122" invocations="845" avgMicrosecondsPerInvocation="1328" maxMicrosecondsPerInvocation="44051" standardDeviationMircosecondsPerInvocation="3294"/>  
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="928" invocations="4343" avgMicrosecondsPerInvocation="213" maxMicrosecondsPerInvocation="32281" standardDeviationMircosecondsPerInvocation="654"/>  
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="851" invocations="1687" avgMicrosecondsPerInvocation="504" maxMicrosecondsPerInvocation="24788" standardDeviationMircosecondsPerInvocation="1234"/>  
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="819" invocations="5740" avgMicrosecondsPerInvocation="142" maxMicrosecondsPerInvocation="7165" standardDeviationMircosecondsPerInvocation="355"/>  
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison$SpecialTypeAnalysis" totalMilliseconds="711" invocations="3498" avgMicrosecondsPerInvocation="203" maxMicrosecondsPerInvocation="32561" standardDeviationMircosecondsPerInvocation="653"/>  
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ConstantDataflowFactory" totalMilliseconds="526" invocations="4343" avgMicrosecondsPerInvocation="121" maxMicrosecondsPerInvocation="8807" standardDeviationMircosecondsPerInvocation="326"/>  
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="338" invocations="4343" avgMicrosecondsPerInvocation="77" maxMicrosecondsPerInvocation="9606" standardDeviationMircosecondsPerInvocation="183"/>  
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="285" invocations="889" avgMicrosecondsPerInvocation="321" maxMicrosecondsPerInvocation="16977" standardDeviationMircosecondsPerInvocation="705"/>  
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="283" invocations="845" avgMicrosecondsPerInvocation="336" maxMicrosecondsPerInvocation="27028" standardDeviationMircosecondsPerInvocation="1638"/>  
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="272" invocations="845" avgMicrosecondsPerInvocation="321" maxMicrosecondsPerInvocation="7658" standardDeviationMircosecondsPerInvocation="589"/>  
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.TypeQualifierNullnessAnnotationDatabase" totalMilliseconds="269" invocations="77201" avgMicrosecondsPerInvocation="3" maxMicrosecondsPerInvocation="2598" standardDeviationMircosecondsPerInvocation="13"/>  
+      <ClassProfile name="edu.umd.cs.findbugs.detect.URLProblems" totalMilliseconds="265" invocations="527" avgMicrosecondsPerInvocation="503" maxMicrosecondsPerInvocation="17722" standardDeviationMircosecondsPerInvocation="1334"/>  
+      <ClassProfile name="edu.umd.cs.findbugs.detect.DumbMethods" totalMilliseconds="263" invocations="527" avgMicrosecondsPerInvocation="500" maxMicrosecondsPerInvocation="15526" standardDeviationMircosecondsPerInvocation="1163"/>  
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNullDeref$CheckCallSitesAndReturnInstructions" totalMilliseconds="257" invocations="4343" avgMicrosecondsPerInvocation="59" maxMicrosecondsPerInvocation="1699" standardDeviationMircosecondsPerInvocation="99"/>  
+      <ClassProfile name="edu.umd.cs.findbugs.detect.UnreadFields" totalMilliseconds="256" invocations="527" avgMicrosecondsPerInvocation="487" maxMicrosecondsPerInvocation="13759" standardDeviationMircosecondsPerInvocation="993"/>  
+      <ClassProfile name="edu.umd.cs.findbugs.ba.obl.ObligationAnalysis" totalMilliseconds="251" invocations="1442" avgMicrosecondsPerInvocation="174" maxMicrosecondsPerInvocation="4108" standardDeviationMircosecondsPerInvocation="334"/>  
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="251" invocations="5022" avgMicrosecondsPerInvocation="50" maxMicrosecondsPerInvocation="47790" standardDeviationMircosecondsPerInvocation="675"/>  
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.LiveLocalStoreDataflowFactory" totalMilliseconds="245" invocations="4343" avgMicrosecondsPerInvocation="56" maxMicrosecondsPerInvocation="4079" standardDeviationMircosecondsPerInvocation="142"/>  
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindUnrelatedTypesInGenericContainer" totalMilliseconds="238" invocations="527" avgMicrosecondsPerInvocation="452" maxMicrosecondsPerInvocation="155233" standardDeviationMircosecondsPerInvocation="6754"/>  
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindBadCast2" totalMilliseconds="237" invocations="527" avgMicrosecondsPerInvocation="450" maxMicrosecondsPerInvocation="17238" standardDeviationMircosecondsPerInvocation="1317"/>  
+      <ClassProfile name="edu.umd.cs.findbugs.detect.LoadOfKnownNullValue" totalMilliseconds="237" invocations="527" avgMicrosecondsPerInvocation="449" maxMicrosecondsPerInvocation="11241" standardDeviationMircosecondsPerInvocation="1044"/>  
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindOpenStream" totalMilliseconds="228" invocations="527" avgMicrosecondsPerInvocation="432" maxMicrosecondsPerInvocation="26954" standardDeviationMircosecondsPerInvocation="1687"/>  
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison" totalMilliseconds="222" invocations="527" avgMicrosecondsPerInvocation="421" maxMicrosecondsPerInvocation="19019" standardDeviationMircosecondsPerInvocation="1119"/>  
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindInconsistentSync2" totalMilliseconds="213" invocations="527" avgMicrosecondsPerInvocation="404" maxMicrosecondsPerInvocation="8530" standardDeviationMircosecondsPerInvocation="764"/>  
+      <ClassProfile name="edu.umd.cs.findbugs.detect.DefaultEncodingDetector" totalMilliseconds="207" invocations="527" avgMicrosecondsPerInvocation="393" maxMicrosecondsPerInvocation="17180" standardDeviationMircosecondsPerInvocation="1181"/>  
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindPuzzlers" totalMilliseconds="206" invocations="527" avgMicrosecondsPerInvocation="391" maxMicrosecondsPerInvocation="10639" standardDeviationMircosecondsPerInvocation="884"/>  
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindDeadLocalStores" totalMilliseconds="192" invocations="527" avgMicrosecondsPerInvocation="365" maxMicrosecondsPerInvocation="26543" standardDeviationMircosecondsPerInvocation="1308"/>  
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CalledMethods" totalMilliseconds="182" invocations="845" avgMicrosecondsPerInvocation="216" maxMicrosecondsPerInvocation="10306" standardDeviationMircosecondsPerInvocation="691"/>  
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="182" invocations="845" avgMicrosecondsPerInvocation="215" maxMicrosecondsPerInvocation="15431" standardDeviationMircosecondsPerInvocation="699"/>  
+      <ClassProfile name="edu.umd.cs.findbugs.detect.StreamResourceTracker" totalMilliseconds="173" invocations="290" avgMicrosecondsPerInvocation="598" maxMicrosecondsPerInvocation="6130" standardDeviationMircosecondsPerInvocation="855"/>  
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="171" invocations="845" avgMicrosecondsPerInvocation="203" maxMicrosecondsPerInvocation="10446" standardDeviationMircosecondsPerInvocation="510"/>  
+      <ClassProfile name="edu.umd.cs.findbugs.detect.RepeatedConditionals" totalMilliseconds="171" invocations="527" avgMicrosecondsPerInvocation="325" maxMicrosecondsPerInvocation="36748" standardDeviationMircosecondsPerInvocation="1698"/>  
+      <ClassProfile name="edu.umd.cs.findbugs.detect.RuntimeExceptionCapture" totalMilliseconds="155" invocations="527" avgMicrosecondsPerInvocation="294" maxMicrosecondsPerInvocation="5739" standardDeviationMircosecondsPerInvocation="620"/>  
+      <ClassProfile name="edu.umd.cs.findbugs.detect.SwitchFallthrough" totalMilliseconds="150" invocations="527" avgMicrosecondsPerInvocation="286" maxMicrosecondsPerInvocation="4754" standardDeviationMircosecondsPerInvocation="520"/>  
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNullDeref" totalMilliseconds="149" invocations="527" avgMicrosecondsPerInvocation="283" maxMicrosecondsPerInvocation="3921" standardDeviationMircosecondsPerInvocation="462"/>  
+      <ClassProfile name="edu.umd.cs.findbugs.detect.ExplicitSerialization" totalMilliseconds="145" invocations="845" avgMicrosecondsPerInvocation="172" maxMicrosecondsPerInvocation="29615" standardDeviationMircosecondsPerInvocation="1594"/>  
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindSelfComparison" totalMilliseconds="145" invocations="527" avgMicrosecondsPerInvocation="275" maxMicrosecondsPerInvocation="5390" standardDeviationMircosecondsPerInvocation="558"/>  
+      <ClassProfile name="edu.umd.cs.findbugs.detect.InfiniteLoop" totalMilliseconds="134" invocations="527" avgMicrosecondsPerInvocation="255" maxMicrosecondsPerInvocation="6081" standardDeviationMircosecondsPerInvocation="546"/> 
+    </FindBugsProfile> 
+  </FindBugsSummary>  
+  <ClassFeatures/>  
+  <History/>  
+  <BugInstance type="IS2_INCONSISTENT_SYNC" priority="2" abbrev="IS" category="MT_CORRECTNESS"> 
+    <Class classname="org.eclipse.osgi.internal.module.ResolverImpl"> 
+      <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="29" end="1798" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java"/> 
+    </Class>  
+    <Field classname="org.eclipse.osgi.internal.module.ResolverImpl" name="resolverGenerics" signature="Lorg/eclipse/osgi/internal/module/VersionHashMap;" isStatic="false"> 
+      <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java"/> 
+    </Field>  
+    <Int value="72" role="INT_SYNC_PERCENT"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="1688" end="1688" startBytecode="12" endBytecode="12" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_UNSYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="1637" end="1637" startBytecode="105" endBytecode="105" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_UNSYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="1610" end="1610" startBytecode="73" endBytecode="73" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_UNSYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="376" end="376" startBytecode="135" endBytecode="135" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="174" end="174" startBytecode="27" endBytecode="27" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="125" end="125" startBytecode="62" endBytecode="62" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="1653" end="1653" startBytecode="97" endBytecode="97" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="1184" end="1184" startBytecode="116" endBytecode="116" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="89" end="89" startBytecode="33" endBytecode="33" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="1369" end="1369" startBytecode="35" endBytecode="35" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="1375" end="1375" startBytecode="70" endBytecode="70" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="1023" end="1023" startBytecode="394" endBytecode="394" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/> 
+  </BugInstance>
+  <BugInstance type="NM_SAME_SIMPLE_NAME_AS_INTERFACE" priority="2" abbrev="Nm" category="BAD_PRACTICE"> 
+    <Class classname="org.eclipse.osgi.framework.internal.protocol.ContentHandlerFactory"> 
+      <SourceLine classname="org.eclipse.osgi.framework.internal.protocol.ContentHandlerFactory" start="34" end="161" sourcefile="ContentHandlerFactory.java" sourcepath="org/eclipse/osgi/framework/internal/protocol/ContentHandlerFactory.java"/> 
+    </Class>  
+    <Class classname="java.net.ContentHandlerFactory"> 
+      <SourceLine classname="java.net.ContentHandlerFactory" sourcefile="ContentHandlerFactory.java" sourcepath="java/net/ContentHandlerFactory.java"/> 
+    </Class> 
+  </BugInstance>
+  <BugInstance type="SIC_INNER_SHOULD_BE_STATIC" priority="2" abbrev="SIC" category="PERFORMANCE"> 
+    <Class classname="org.eclipse.core.runtime.internal.adaptor.PluginParser$Prerequisite"> 
+      <SourceLine classname="org.eclipse.core.runtime.internal.adaptor.PluginParser$Prerequisite" start="551" end="589" sourcefile="PluginParser.java" sourcepath="org/eclipse/core/runtime/internal/adaptor/PluginParser.java"/> 
+    </Class> 
+  </BugInstance>
+  <BugInstance type="UG_SYNC_SET_UNSYNC_GET" priority="2" abbrev="UG" category="MT_CORRECTNESS"> 
+    <Class classname="org.eclipse.osgi.framework.debug.FrameworkDebugOptions"> 
+      <SourceLine classname="org.eclipse.osgi.framework.debug.FrameworkDebugOptions" start="30" end="402" sourcefile="FrameworkDebugOptions.java" sourcepath="org/eclipse/osgi/framework/debug/FrameworkDebugOptions.java"/> 
+    </Class>  
+    <Method classname="org.eclipse.osgi.framework.debug.FrameworkDebugOptions" name="getFile" signature="()Ljava/io/File;" isStatic="false"> 
+      <SourceLine classname="org.eclipse.osgi.framework.debug.FrameworkDebugOptions" start="342" end="342" startBytecode="0" endBytecode="46" sourcefile="FrameworkDebugOptions.java" sourcepath="org/eclipse/osgi/framework/debug/FrameworkDebugOptions.java"/> 
+    </Method>  
+    <Method classname="org.eclipse.osgi.framework.debug.FrameworkDebugOptions" name="setFile" signature="(Ljava/io/File;)V" isStatic="false"> 
+      <SourceLine classname="org.eclipse.osgi.framework.debug.FrameworkDebugOptions" start="351" end="355" startBytecode="0" endBytecode="86" sourcefile="FrameworkDebugOptions.java" sourcepath="org/eclipse/osgi/framework/debug/FrameworkDebugOptions.java"/> 
+    </Method> 
+  </BugInstance>
+  <BugInstance type="SIC_INNER_SHOULD_BE_STATIC" priority="2" abbrev="SIC" category="PERFORMANCE"> 
+    <Class classname="org.eclipse.osgi.framework.internal.core.ManifestLocalization$LocalizationResourceBundle"> 
+      <SourceLine classname="org.eclipse.osgi.framework.internal.core.ManifestLocalization$LocalizationResourceBundle" start="179" end="187" sourcefile="ManifestLocalization.java" sourcepath="org/eclipse/osgi/framework/internal/core/ManifestLocalization.java"/> 
+    </Class> 
+  </BugInstance>
+  <BugInstance type="IS2_INCONSISTENT_SYNC" priority="2" abbrev="IS" category="MT_CORRECTNESS"> 
+    <Class classname="org.eclipse.osgi.internal.module.ResolverImpl"> 
+      <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="29" end="1798" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java"/> 
+    </Class>  
+    <Field classname="org.eclipse.osgi.internal.module.ResolverImpl" name="state" signature="Lorg/eclipse/osgi/service/resolver/State;" isStatic="false"> 
+      <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java"/> 
+    </Field>  
+    <Int value="87" role="INT_SYNC_PERCENT"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="1699" end="1699" startBytecode="1" endBytecode="1" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_UNSYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="1693" end="1693" startBytecode="39" endBytecode="39" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_UNSYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="1703" end="1703" startBytecode="1" endBytecode="1" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_UNSYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="1706" end="1706" startBytecode="20" endBytecode="20" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_UNSYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="590" end="590" startBytecode="187" endBytecode="187" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="955" end="955" startBytecode="145" endBytecode="145" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="358" end="358" startBytecode="13" endBytecode="13" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="384" end="384" startBytecode="192" endBytecode="192" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="400" end="400" startBytecode="339" endBytecode="339" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="401" end="401" startBytecode="358" endBytecode="358" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="234" end="234" startBytecode="11" endBytecode="11" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="242" end="242" startBytecode="108" endBytecode="108" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="318" end="318" startBytecode="698" endBytecode="698" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="277" end="277" startBytecode="447" endBytecode="447" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="300" end="300" startBytecode="621" endBytecode="621" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="296" end="296" startBytecode="599" endBytecode="599" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="291" end="291" startBytecode="567" endBytecode="567" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="480" end="480" startBytecode="159" endBytecode="159" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="1413" end="1413" startBytecode="38" endBytecode="38" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="1419" end="1419" startBytecode="103" endBytecode="103" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="1425" end="1425" startBytecode="158" endBytecode="158" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="1428" end="1428" startBytecode="185" endBytecode="185" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="498" end="498" startBytecode="7" endBytecode="7" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="1137" end="1137" startBytecode="822" endBytecode="822" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="1071" end="1071" startBytecode="235" endBytecode="235" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="1093" end="1093" startBytecode="454" endBytecode="454" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="1118" end="1118" startBytecode="681" endBytecode="681" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="1031" end="1031" startBytecode="26" endBytecode="26" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="1650" end="1650" startBytecode="59" endBytecode="59" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="1674" end="1674" startBytecode="229" endBytecode="229" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="92" end="92" startBytecode="59" endBytecode="59" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="1506" end="1506" startBytecode="456" endBytecode="456" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="1499" end="1499" startBytecode="397" endBytecode="397" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="1439" end="1439" startBytecode="86" endBytecode="86" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="1446" end="1446" startBytecode="187" endBytecode="187" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="886" end="886" startBytecode="1" endBytecode="1" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="352" end="352" startBytecode="127" endBytecode="127" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="554" end="554" startBytecode="76" endBytecode="76" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="1521" end="1521" startBytecode="1" endBytecode="1" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="1582" end="1582" startBytecode="449" endBytecode="449" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/> 
+  </BugInstance>
+  <BugInstance type="IS2_INCONSISTENT_SYNC" priority="2" abbrev="IS" category="MT_CORRECTNESS"> 
+    <Class classname="org.eclipse.osgi.framework.internal.core.FrameworkConsole"> 
+      <SourceLine classname="org.eclipse.osgi.framework.internal.core.FrameworkConsole" start="29" end="394" sourcefile="FrameworkConsole.java" sourcepath="org/eclipse/osgi/framework/internal/core/FrameworkConsole.java"/> 
+    </Class>  
+    <Field classname="org.eclipse.osgi.framework.internal.core.FrameworkConsole" name="disconnect" signature="Z" isStatic="false"> 
+      <SourceLine classname="org.eclipse.osgi.framework.internal.core.FrameworkConsole" sourcefile="FrameworkConsole.java" sourcepath="org/eclipse/osgi/framework/internal/core/FrameworkConsole.java"/> 
+    </Field>  
+    <Int value="80" role="INT_SYNC_PERCENT"/>  
+    <SourceLine classname="org.eclipse.osgi.framework.internal.core.FrameworkConsole" start="115" end="115" startBytecode="44" endBytecode="44" sourcefile="FrameworkConsole.java" sourcepath="org/eclipse/osgi/framework/internal/core/FrameworkConsole.java" role="SOURCE_LINE_UNSYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.framework.internal.core.FrameworkConsole" start="313" end="313" startBytecode="1" endBytecode="1" sourcefile="FrameworkConsole.java" sourcepath="org/eclipse/osgi/framework/internal/core/FrameworkConsole.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.framework.internal.core.FrameworkConsole" start="314" end="314" startBytecode="9" endBytecode="9" sourcefile="FrameworkConsole.java" sourcepath="org/eclipse/osgi/framework/internal/core/FrameworkConsole.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.framework.internal.core.FrameworkConsole" start="140" end="140" startBytecode="127" endBytecode="127" sourcefile="FrameworkConsole.java" sourcepath="org/eclipse/osgi/framework/internal/core/FrameworkConsole.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.framework.internal.core.FrameworkConsole" start="339" end="339" startBytecode="1" endBytecode="1" sourcefile="FrameworkConsole.java" sourcepath="org/eclipse/osgi/framework/internal/core/FrameworkConsole.java" role="SOURCE_LINE_SYNC_ACCESS"/> 
+  </BugInstance>
+  <BugInstance type="SIC_INNER_SHOULD_BE_STATIC" priority="2" abbrev="SIC" category="PERFORMANCE"> 
+    <Class classname="org.eclipse.osgi.internal.provisional.service.security.AuthorizationEngine$AuthEventDispatcher"> 
+      <SourceLine classname="org.eclipse.osgi.internal.provisional.service.security.AuthorizationEngine$AuthEventDispatcher" start="79" end="82" sourcefile="AuthorizationEngine.java" sourcepath="org/eclipse/osgi/internal/provisional/service/security/AuthorizationEngine.java"/> 
+    </Class> 
+  </BugInstance>
+  <BugInstance type="IS2_INCONSISTENT_SYNC" priority="2" abbrev="IS" category="MT_CORRECTNESS"> 
+    <Class classname="org.eclipse.osgi.internal.module.ResolverImpl"> 
+      <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="29" end="1798" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java"/> 
+    </Class>  
+    <Field classname="org.eclipse.osgi.internal.module.ResolverImpl" name="resolverExports" signature="Lorg/eclipse/osgi/internal/module/VersionHashMap;" isStatic="false"> 
+      <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java"/> 
+    </Field>  
+    <Int value="76" role="INT_SYNC_PERCENT"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="1686" end="1686" startBytecode="2" endBytecode="2" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_UNSYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="1635" end="1635" startBytecode="85" endBytecode="85" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_UNSYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="1608" end="1608" startBytecode="50" endBytecode="50" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_UNSYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="1782" end="1782" startBytecode="1" endBytecode="1" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_UNSYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="374" end="374" startBytecode="121" endBytecode="121" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="123" end="123" startBytecode="36" endBytecode="36" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="1074" end="1074" startBytecode="297" endBytecode="297" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="1097" end="1097" startBytecode="514" endBytecode="514" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="1121" end="1121" startBytecode="741" endBytecode="741" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="208" end="208" startBytecode="60" endBytecode="60" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="1166" end="1166" startBytecode="56" endBytecode="56" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="1651" end="1651" startBytecode="75" endBytecode="75" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="87" end="87" startBytecode="9" endBytecode="9" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="349" end="349" startBytecode="92" endBytecode="92" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="1368" end="1368" startBytecode="24" endBytecode="24" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="1374" end="1374" startBytecode="59" endBytecode="59" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="1301" end="1301" startBytecode="157" endBytecode="157" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="1021" end="1021" startBytecode="380" endBytecode="380" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/> 
+  </BugInstance>
+  <BugInstance type="IS2_INCONSISTENT_SYNC" priority="2" abbrev="IS" category="MT_CORRECTNESS"> 
+    <Class classname="org.eclipse.osgi.internal.module.ResolverImpl"> 
+      <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="29" end="1798" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java"/> 
+    </Class>  
+    <Field classname="org.eclipse.osgi.internal.module.ResolverImpl" name="resolverBundles" signature="Lorg/eclipse/osgi/internal/module/VersionHashMap;" isStatic="false"> 
+      <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java"/> 
+    </Field>  
+    <Int value="78" role="INT_SYNC_PERCENT"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="1687" end="1687" startBytecode="7" endBytecode="7" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_UNSYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="1636" end="1636" startBytecode="96" endBytecode="96" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_UNSYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="1609" end="1609" startBytecode="61" endBytecode="61" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_UNSYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="375" end="375" startBytecode="128" endBytecode="128" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="247" end="247" startBytecode="138" endBytecode="138" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="1727" end="1727" startBytecode="7" endBytecode="7" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="443" end="443" startBytecode="48" endBytecode="48" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="124" end="124" startBytecode="48" endBytecode="48" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="1652" end="1652" startBytecode="87" endBytecode="87" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="88" end="88" startBytecode="21" endBytecode="21" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="345" end="345" startBytecode="35" endBytecode="35" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="1245" end="1245" startBytecode="126" endBytecode="126" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="330" end="330" startBytecode="26" endBytecode="26" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="989" end="989" startBytecode="59" endBytecode="59" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="1022" end="1022" startBytecode="387" endBytecode="387" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/> 
+  </BugInstance>
+  <BugInstance type="SIC_INNER_SHOULD_BE_STATIC" priority="2" abbrev="SIC" category="PERFORMANCE"> 
+    <Class classname="org.eclipse.osgi.framework.util.Headers$ArrayEnumeration"> 
+      <SourceLine classname="org.eclipse.osgi.framework.util.Headers$ArrayEnumeration" start="256" end="268" sourcefile="Headers.java" sourcepath="org/eclipse/osgi/framework/util/Headers.java"/> 
+    </Class> 
+  </BugInstance>
+  <BugInstance type="SIC_INNER_SHOULD_BE_STATIC" priority="2" abbrev="SIC" category="PERFORMANCE"> 
+    <Class classname="org.eclipse.core.runtime.internal.adaptor.EclipseAdaptorHook$SaxParsingService"> 
+      <SourceLine classname="org.eclipse.core.runtime.internal.adaptor.EclipseAdaptorHook$SaxParsingService" start="108" end="115" sourcefile="EclipseAdaptorHook.java" sourcepath="org/eclipse/core/runtime/internal/adaptor/EclipseAdaptorHook.java"/> 
+    </Class> 
+  </BugInstance>
+  <BugInstance type="IS2_INCONSISTENT_SYNC" priority="2" abbrev="IS" category="MT_CORRECTNESS"> 
+    <Class classname="org.eclipse.osgi.internal.module.ResolverImpl"> 
+      <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="29" end="1798" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java"/> 
+    </Class>  
+    <Field classname="org.eclipse.osgi.internal.module.ResolverImpl" name="bundleMapping" signature="Ljava/util/HashMap;" isStatic="false"> 
+      <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java"/> 
+    </Field>  
+    <Int value="72" role="INT_SYNC_PERCENT"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="1690" end="1690" startBytecode="22" endBytecode="22" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_UNSYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="1614" end="1614" startBytecode="8" endBytecode="8" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_UNSYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="1626" end="1626" startBytecode="34" endBytecode="34" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_UNSYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="1631" end="1631" startBytecode="55" endBytecode="55" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_UNSYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="1603" end="1603" startBytecode="9" endBytecode="9" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_UNSYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="1606" end="1606" startBytecode="31" endBytecode="31" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_UNSYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="582" end="582" startBytecode="82" endBytecode="82" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="139" end="139" startBytecode="5" endBytecode="5" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="140" end="140" startBytecode="16" endBytecode="16" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="369" end="369" startBytecode="85" endBytecode="85" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="387" end="387" startBytecode="221" endBytecode="221" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="121" end="121" startBytecode="12" endBytecode="12" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="1074" end="1074" startBytecode="302" endBytecode="302" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="1097" end="1097" startBytecode="519" endBytecode="519" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="1121" end="1121" startBytecode="746" endBytecode="746" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="207" end="207" startBytecode="41" endBytecode="41" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="1648" end="1648" startBytecode="36" endBytecode="36" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="1677" end="1677" startBytecode="255" endBytecode="255" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="1654" end="1654" startBytecode="109" endBytecode="109" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="91" end="91" startBytecode="55" endBytecode="55" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="108" end="108" startBytecode="193" endBytecode="193" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="1019" end="1019" startBytecode="349" endBytecode="349" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="190" end="190" startBytecode="9" endBytecode="9" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="1528" end="1528" startBytecode="30" endBytecode="30" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/> 
+  </BugInstance>
+  <BugInstance type="SIC_INNER_SHOULD_BE_STATIC" priority="2" abbrev="SIC" category="PERFORMANCE"> 
+    <Class classname="org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException"> 
+      <SourceLine classname="org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException" start="1491" end="1501" sourcefile="AbstractBundle.java" sourcepath="org/eclipse/osgi/framework/internal/core/AbstractBundle.java"/> 
+    </Class> 
+  </BugInstance>
+  <BugInstance type="SIC_INNER_SHOULD_BE_STATIC" priority="2" abbrev="SIC" category="PERFORMANCE"> 
+    <Class classname="org.eclipse.osgi.framework.internal.reliablefile.ReliableFile$CacheInfo"> 
+      <SourceLine classname="org.eclipse.osgi.framework.internal.reliablefile.ReliableFile$CacheInfo" start="832" end="836" sourcefile="ReliableFile.java" sourcepath="org/eclipse/osgi/framework/internal/reliablefile/ReliableFile.java"/> 
+    </Class> 
+  </BugInstance>
+  <BugInstance type="IS2_INCONSISTENT_SYNC" priority="2" abbrev="IS" category="MT_CORRECTNESS"> 
+    <Class classname="org.eclipse.osgi.internal.loader.BundleLoader"> 
+      <SourceLine classname="org.eclipse.osgi.internal.loader.BundleLoader" start="37" end="1243" sourcefile="BundleLoader.java" sourcepath="org/eclipse/osgi/internal/loader/BundleLoader.java"/> 
+    </Class>  
+    <Field classname="org.eclipse.osgi.internal.loader.BundleLoader" name="importedSources" signature="Lorg/eclipse/osgi/framework/util/KeyedHashSet;" isStatic="false"> 
+      <SourceLine classname="org.eclipse.osgi.internal.loader.BundleLoader" sourcefile="BundleLoader.java" sourcepath="org/eclipse/osgi/internal/loader/BundleLoader.java"/> 
+    </Field>  
+    <Int value="77" role="INT_SYNC_PERCENT"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.loader.BundleLoader" start="1063" end="1063" startBytecode="83" endBytecode="83" sourcefile="BundleLoader.java" sourcepath="org/eclipse/osgi/internal/loader/BundleLoader.java" role="SOURCE_LINE_UNSYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.loader.BundleLoader" start="1064" end="1064" startBytecode="91" endBytecode="91" sourcefile="BundleLoader.java" sourcepath="org/eclipse/osgi/internal/loader/BundleLoader.java" role="SOURCE_LINE_UNSYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.loader.BundleLoader" start="1060" end="1060" startBytecode="54" endBytecode="54" sourcefile="BundleLoader.java" sourcepath="org/eclipse/osgi/internal/loader/BundleLoader.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.loader.BundleLoader" start="1061" end="1061" startBytecode="69" endBytecode="69" sourcefile="BundleLoader.java" sourcepath="org/eclipse/osgi/internal/loader/BundleLoader.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.loader.BundleLoader" start="238" end="238" startBytecode="10" endBytecode="10" sourcefile="BundleLoader.java" sourcepath="org/eclipse/osgi/internal/loader/BundleLoader.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.loader.BundleLoader" start="242" end="242" startBytecode="39" endBytecode="39" sourcefile="BundleLoader.java" sourcepath="org/eclipse/osgi/internal/loader/BundleLoader.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.loader.BundleLoader" start="253" end="253" startBytecode="129" endBytecode="129" sourcefile="BundleLoader.java" sourcepath="org/eclipse/osgi/internal/loader/BundleLoader.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.loader.BundleLoader" start="243" end="243" startBytecode="56" endBytecode="56" sourcefile="BundleLoader.java" sourcepath="org/eclipse/osgi/internal/loader/BundleLoader.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.loader.BundleLoader" start="249" end="249" startBytecode="98" endBytecode="98" sourcefile="BundleLoader.java" sourcepath="org/eclipse/osgi/internal/loader/BundleLoader.java" role="SOURCE_LINE_SYNC_ACCESS"/> 
+  </BugInstance>
+  <BugInstance type="SIC_INNER_SHOULD_BE_STATIC" priority="2" abbrev="SIC" category="PERFORMANCE"> 
+    <Class classname="org.eclipse.osgi.framework.internal.protocol.ContentHandlerProxy$DefaultContentHandler"> 
+      <SourceLine classname="org.eclipse.osgi.framework.internal.protocol.ContentHandlerProxy$DefaultContentHandler" start="143" end="149" sourcefile="ContentHandlerProxy.java" sourcepath="org/eclipse/osgi/framework/internal/protocol/ContentHandlerProxy.java"/> 
+    </Class> 
+  </BugInstance>
+  <BugInstance type="SIC_INNER_SHOULD_BE_STATIC" priority="2" abbrev="SIC" category="PERFORMANCE"> 
+    <Class classname="org.eclipse.osgi.framework.internal.core.ManifestLocalization$EmptyResouceBundle"> 
+      <SourceLine classname="org.eclipse.osgi.framework.internal.core.ManifestLocalization$EmptyResouceBundle" start="191" end="207" sourcefile="ManifestLocalization.java" sourcepath="org/eclipse/osgi/framework/internal/core/ManifestLocalization.java"/> 
+    </Class> 
+  </BugInstance>
+  <BugInstance type="SIC_INNER_SHOULD_BE_STATIC" priority="2" abbrev="SIC" category="PERFORMANCE"> 
+    <Class classname="org.eclipse.osgi.framework.internal.core.InternalSystemBundle$SystemBundleHeaders"> 
+      <SourceLine classname="org.eclipse.osgi.framework.internal.core.InternalSystemBundle$SystemBundleHeaders" start="34" end="73" sourcefile="InternalSystemBundle.java" sourcepath="org/eclipse/osgi/framework/internal/core/InternalSystemBundle.java"/> 
+    </Class> 
+  </BugInstance>
+  <BugInstance type="IS2_INCONSISTENT_SYNC" priority="2" abbrev="IS" category="MT_CORRECTNESS"> 
+    <Class classname="org.eclipse.osgi.framework.internal.core.BundleFragment"> 
+      <SourceLine classname="org.eclipse.osgi.framework.internal.core.BundleFragment" start="34" end="336" sourcefile="BundleFragment.java" sourcepath="org/eclipse/osgi/framework/internal/core/BundleFragment.java"/> 
+    </Class>  
+    <Field classname="org.eclipse.osgi.framework.internal.core.BundleFragment" name="hosts" signature="[Lorg/eclipse/osgi/framework/internal/core/BundleHost;" isStatic="false"> 
+      <SourceLine classname="org.eclipse.osgi.framework.internal.core.BundleFragment" sourcefile="BundleFragment.java" sourcepath="org/eclipse/osgi/framework/internal/core/BundleFragment.java"/> 
+    </Field>  
+    <Int value="56" role="INT_SYNC_PERCENT"/>  
+    <SourceLine classname="org.eclipse.osgi.framework.internal.core.BundleFragment" start="123" end="123" startBytecode="57" endBytecode="57" sourcefile="BundleFragment.java" sourcepath="org/eclipse/osgi/framework/internal/core/BundleFragment.java" role="SOURCE_LINE_UNSYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.framework.internal.core.BundleFragment" start="147" end="147" startBytecode="60" endBytecode="60" sourcefile="BundleFragment.java" sourcepath="org/eclipse/osgi/framework/internal/core/BundleFragment.java" role="SOURCE_LINE_UNSYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.framework.internal.core.BundleFragment" start="152" end="152" startBytecode="92" endBytecode="92" sourcefile="BundleFragment.java" sourcepath="org/eclipse/osgi/framework/internal/core/BundleFragment.java" role="SOURCE_LINE_UNSYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.framework.internal.core.BundleFragment" start="74" end="74" startBytecode="60" endBytecode="60" sourcefile="BundleFragment.java" sourcepath="org/eclipse/osgi/framework/internal/core/BundleFragment.java" role="SOURCE_LINE_UNSYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.framework.internal.core.BundleFragment" start="79" end="79" startBytecode="92" endBytecode="92" sourcefile="BundleFragment.java" sourcepath="org/eclipse/osgi/framework/internal/core/BundleFragment.java" role="SOURCE_LINE_UNSYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.framework.internal.core.BundleFragment" start="308" end="308" startBytecode="32" endBytecode="32" sourcefile="BundleFragment.java" sourcepath="org/eclipse/osgi/framework/internal/core/BundleFragment.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.framework.internal.core.BundleFragment" start="312" end="312" startBytecode="78" endBytecode="78" sourcefile="BundleFragment.java" sourcepath="org/eclipse/osgi/framework/internal/core/BundleFragment.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.framework.internal.core.BundleFragment" start="309" end="309" startBytecode="47" endBytecode="47" sourcefile="BundleFragment.java" sourcepath="org/eclipse/osgi/framework/internal/core/BundleFragment.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.framework.internal.core.BundleFragment" start="313" end="313" startBytecode="61" endBytecode="61" sourcefile="BundleFragment.java" sourcepath="org/eclipse/osgi/framework/internal/core/BundleFragment.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.framework.internal.core.BundleFragment" start="316" end="316" startBytecode="86" endBytecode="86" sourcefile="BundleFragment.java" sourcepath="org/eclipse/osgi/framework/internal/core/BundleFragment.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.framework.internal.core.BundleFragment" start="317" end="317" startBytecode="97" endBytecode="97" sourcefile="BundleFragment.java" sourcepath="org/eclipse/osgi/framework/internal/core/BundleFragment.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.framework.internal.core.BundleFragment" start="317" end="317" startBytecode="104" endBytecode="104" sourcefile="BundleFragment.java" sourcepath="org/eclipse/osgi/framework/internal/core/BundleFragment.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.framework.internal.core.BundleFragment" start="319" end="319" startBytecode="120" endBytecode="120" sourcefile="BundleFragment.java" sourcepath="org/eclipse/osgi/framework/internal/core/BundleFragment.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.framework.internal.core.BundleFragment" start="287" end="287" startBytecode="1" endBytecode="1" sourcefile="BundleFragment.java" sourcepath="org/eclipse/osgi/framework/internal/core/BundleFragment.java" role="SOURCE_LINE_SYNC_ACCESS"/> 
+  </BugInstance>
+  <BugInstance type="SIC_INNER_SHOULD_BE_STATIC" priority="2" abbrev="SIC" category="PERFORMANCE"> 
+    <Class classname="org.eclipse.core.runtime.internal.adaptor.EclipseAdaptorHook$DomParsingService"> 
+      <SourceLine classname="org.eclipse.core.runtime.internal.adaptor.EclipseAdaptorHook$DomParsingService" start="118" end="125" sourcefile="EclipseAdaptorHook.java" sourcepath="org/eclipse/core/runtime/internal/adaptor/EclipseAdaptorHook.java"/> 
+    </Class> 
+  </BugInstance>
+  <BugInstance type="IS2_INCONSISTENT_SYNC" priority="2" abbrev="IS" category="MT_CORRECTNESS"> 
+    <Class classname="org.eclipse.core.runtime.internal.adaptor.PluginConverterImpl"> 
+      <SourceLine classname="org.eclipse.core.runtime.internal.adaptor.PluginConverterImpl" start="35" end="752" sourcefile="PluginConverterImpl.java" sourcepath="org/eclipse/core/runtime/internal/adaptor/PluginConverterImpl.java"/> 
+    </Class>  
+    <Field classname="org.eclipse.core.runtime.internal.adaptor.PluginConverterImpl" name="pluginInfo" signature="Lorg/eclipse/core/runtime/internal/adaptor/IPluginInfo;" isStatic="false"> 
+      <SourceLine classname="org.eclipse.core.runtime.internal.adaptor.PluginConverterImpl" sourcefile="PluginConverterImpl.java" sourcepath="org/eclipse/core/runtime/internal/adaptor/PluginConverterImpl.java"/> 
+    </Field>  
+    <Int value="92" role="INT_SYNC_PERCENT"/>  
+    <SourceLine classname="org.eclipse.core.runtime.internal.adaptor.PluginConverterImpl" start="275" end="275" startBytecode="400" endBytecode="400" sourcefile="PluginConverterImpl.java" sourcepath="org/eclipse/core/runtime/internal/adaptor/PluginConverterImpl.java" role="SOURCE_LINE_UNSYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.core.runtime.internal.adaptor.PluginConverterImpl" start="244" end="244" startBytecode="40" endBytecode="40" sourcefile="PluginConverterImpl.java" sourcepath="org/eclipse/core/runtime/internal/adaptor/PluginConverterImpl.java" role="SOURCE_LINE_UNSYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.core.runtime.internal.adaptor.PluginConverterImpl" start="718" end="718" startBytecode="36" endBytecode="36" sourcefile="PluginConverterImpl.java" sourcepath="org/eclipse/core/runtime/internal/adaptor/PluginConverterImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.core.runtime.internal.adaptor.PluginConverterImpl" start="718" end="718" startBytecode="56" endBytecode="56" sourcefile="PluginConverterImpl.java" sourcepath="org/eclipse/core/runtime/internal/adaptor/PluginConverterImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.core.runtime.internal.adaptor.PluginConverterImpl" start="318" end="318" startBytecode="1" endBytecode="1" sourcefile="PluginConverterImpl.java" sourcepath="org/eclipse/core/runtime/internal/adaptor/PluginConverterImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.core.runtime.internal.adaptor.PluginConverterImpl" start="298" end="298" startBytecode="1" endBytecode="1" sourcefile="PluginConverterImpl.java" sourcepath="org/eclipse/core/runtime/internal/adaptor/PluginConverterImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.core.runtime.internal.adaptor.PluginConverterImpl" start="348" end="348" startBytecode="1" endBytecode="1" sourcefile="PluginConverterImpl.java" sourcepath="org/eclipse/core/runtime/internal/adaptor/PluginConverterImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.core.runtime.internal.adaptor.PluginConverterImpl" start="350" end="350" startBytecode="27" endBytecode="27" sourcefile="PluginConverterImpl.java" sourcepath="org/eclipse/core/runtime/internal/adaptor/PluginConverterImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.core.runtime.internal.adaptor.PluginConverterImpl" start="349" end="349" startBytecode="13" endBytecode="13" sourcefile="PluginConverterImpl.java" sourcepath="org/eclipse/core/runtime/internal/adaptor/PluginConverterImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.core.runtime.internal.adaptor.PluginConverterImpl" start="93" end="93" startBytecode="7" endBytecode="7" sourcefile="PluginConverterImpl.java" sourcepath="org/eclipse/core/runtime/internal/adaptor/PluginConverterImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.core.runtime.internal.adaptor.PluginConverterImpl" start="326" end="326" startBytecode="35" endBytecode="35" sourcefile="PluginConverterImpl.java" sourcepath="org/eclipse/core/runtime/internal/adaptor/PluginConverterImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.core.runtime.internal.adaptor.PluginConverterImpl" start="327" end="327" startBytecode="55" endBytecode="55" sourcefile="PluginConverterImpl.java" sourcepath="org/eclipse/core/runtime/internal/adaptor/PluginConverterImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.core.runtime.internal.adaptor.PluginConverterImpl" start="329" end="329" startBytecode="83" endBytecode="83" sourcefile="PluginConverterImpl.java" sourcepath="org/eclipse/core/runtime/internal/adaptor/PluginConverterImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.core.runtime.internal.adaptor.PluginConverterImpl" start="332" end="332" startBytecode="109" endBytecode="109" sourcefile="PluginConverterImpl.java" sourcepath="org/eclipse/core/runtime/internal/adaptor/PluginConverterImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.core.runtime.internal.adaptor.PluginConverterImpl" start="334" end="334" startBytecode="130" endBytecode="130" sourcefile="PluginConverterImpl.java" sourcepath="org/eclipse/core/runtime/internal/adaptor/PluginConverterImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.core.runtime.internal.adaptor.PluginConverterImpl" start="335" end="335" startBytecode="144" endBytecode="144" sourcefile="PluginConverterImpl.java" sourcepath="org/eclipse/core/runtime/internal/adaptor/PluginConverterImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.core.runtime.internal.adaptor.PluginConverterImpl" start="335" end="335" startBytecode="153" endBytecode="153" sourcefile="PluginConverterImpl.java" sourcepath="org/eclipse/core/runtime/internal/adaptor/PluginConverterImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.core.runtime.internal.adaptor.PluginConverterImpl" start="374" end="374" startBytecode="1" endBytecode="1" sourcefile="PluginConverterImpl.java" sourcepath="org/eclipse/core/runtime/internal/adaptor/PluginConverterImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.core.runtime.internal.adaptor.PluginConverterImpl" start="518" end="518" startBytecode="29" endBytecode="29" sourcefile="PluginConverterImpl.java" sourcepath="org/eclipse/core/runtime/internal/adaptor/PluginConverterImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.core.runtime.internal.adaptor.PluginConverterImpl" start="108" end="108" startBytecode="54" endBytecode="54" sourcefile="PluginConverterImpl.java" sourcepath="org/eclipse/core/runtime/internal/adaptor/PluginConverterImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.core.runtime.internal.adaptor.PluginConverterImpl" start="109" end="109" startBytecode="58" endBytecode="58" sourcefile="PluginConverterImpl.java" sourcepath="org/eclipse/core/runtime/internal/adaptor/PluginConverterImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.core.runtime.internal.adaptor.PluginConverterImpl" start="360" end="360" startBytecode="8" endBytecode="8" sourcefile="PluginConverterImpl.java" sourcepath="org/eclipse/core/runtime/internal/adaptor/PluginConverterImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.core.runtime.internal.adaptor.PluginConverterImpl" start="418" end="418" startBytecode="1" endBytecode="1" sourcefile="PluginConverterImpl.java" sourcepath="org/eclipse/core/runtime/internal/adaptor/PluginConverterImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.core.runtime.internal.adaptor.PluginConverterImpl" start="424" end="424" startBytecode="30" endBytecode="30" sourcefile="PluginConverterImpl.java" sourcepath="org/eclipse/core/runtime/internal/adaptor/PluginConverterImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.core.runtime.internal.adaptor.PluginConverterImpl" start="307" end="307" startBytecode="1" endBytecode="1" sourcefile="PluginConverterImpl.java" sourcepath="org/eclipse/core/runtime/internal/adaptor/PluginConverterImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.core.runtime.internal.adaptor.PluginConverterImpl" start="309" end="309" startBytecode="20" endBytecode="20" sourcefile="PluginConverterImpl.java" sourcepath="org/eclipse/core/runtime/internal/adaptor/PluginConverterImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.core.runtime.internal.adaptor.PluginConverterImpl" start="409" end="409" startBytecode="1" endBytecode="1" sourcefile="PluginConverterImpl.java" sourcepath="org/eclipse/core/runtime/internal/adaptor/PluginConverterImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.core.runtime.internal.adaptor.PluginConverterImpl" start="412" end="412" startBytecode="14" endBytecode="14" sourcefile="PluginConverterImpl.java" sourcepath="org/eclipse/core/runtime/internal/adaptor/PluginConverterImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.core.runtime.internal.adaptor.PluginConverterImpl" start="413" end="413" startBytecode="24" endBytecode="24" sourcefile="PluginConverterImpl.java" sourcepath="org/eclipse/core/runtime/internal/adaptor/PluginConverterImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/> 
+  </BugInstance>
+  <BugInstance type="IS2_INCONSISTENT_SYNC" priority="2" abbrev="IS" category="MT_CORRECTNESS"> 
+    <Class classname="org.eclipse.osgi.internal.module.ResolverImpl"> 
+      <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="29" end="1798" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java"/> 
+    </Class>  
+    <Field classname="org.eclipse.osgi.internal.module.ResolverImpl" name="unresolvedBundles" signature="Ljava/util/HashSet;" isStatic="false"> 
+      <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java"/> 
+    </Field>  
+    <Int value="82" role="INT_SYNC_PERCENT"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="1689" end="1689" startBytecode="17" endBytecode="17" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_UNSYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="1639" end="1639" startBytecode="116" endBytecode="116" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_UNSYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="1607" end="1607" startBytecode="41" endBytecode="41" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_UNSYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="415" end="415" startBytecode="18" endBytecode="18" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="415" end="415" startBytecode="22" endBytecode="22" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="390" end="390" startBytecode="248" endBytecode="248" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="390" end="390" startBytecode="252" endBytecode="252" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="395" end="395" startBytecode="288" endBytecode="288" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="395" end="395" startBytecode="292" endBytecode="292" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="1396" end="1396" startBytecode="10" endBytecode="10" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="133" end="133" startBytecode="112" endBytecode="112" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="533" end="533" startBytecode="133" endBytecode="133" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="534" end="534" startBytecode="143" endBytecode="143" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="534" end="534" startBytecode="147" endBytecode="147" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="1388" end="1388" startBytecode="10" endBytecode="10" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="90" end="90" startBytecode="44" endBytecode="44" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="1380" end="1380" startBytecode="103" endBytecode="103" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.internal.module.ResolverImpl" start="1379" end="1379" startBytecode="92" endBytecode="92" sourcefile="ResolverImpl.java" sourcepath="org/eclipse/osgi/internal/module/ResolverImpl.java" role="SOURCE_LINE_SYNC_ACCESS"/> 
+  </BugInstance>
+  <BugInstance type="SIC_INNER_SHOULD_BE_STATIC" priority="2" abbrev="SIC" category="PERFORMANCE"> 
+    <Class classname="org.eclipse.osgi.internal.resolver.BundleDescriptionImpl$LazyData"> 
+      <SourceLine classname="org.eclipse.osgi.internal.resolver.BundleDescriptionImpl$LazyData" start="663" end="663" sourcefile="BundleDescriptionImpl.java" sourcepath="org/eclipse/osgi/internal/resolver/BundleDescriptionImpl.java"/> 
+    </Class> 
+  </BugInstance>
+  <BugInstance type="SIC_INNER_SHOULD_BE_STATIC" priority="2" abbrev="SIC" category="PERFORMANCE"> 
+    <Class classname="org.eclipse.osgi.storagemanager.StorageManager$Entry"> 
+      <SourceLine classname="org.eclipse.osgi.storagemanager.StorageManager$Entry" start="102" end="130" sourcefile="StorageManager.java" sourcepath="org/eclipse/osgi/storagemanager/StorageManager.java"/> 
+    </Class> 
+  </BugInstance>
+  <BugInstance type="IS2_INCONSISTENT_SYNC" priority="2" abbrev="IS" category="MT_CORRECTNESS"> 
+    <Class classname="org.eclipse.osgi.framework.internal.core.Framework"> 
+      <SourceLine classname="org.eclipse.osgi.framework.internal.core.Framework" start="42" end="1783" sourcefile="Framework.java" sourcepath="org/eclipse/osgi/framework/internal/core/Framework.java"/> 
+    </Class>  
+    <Field classname="org.eclipse.osgi.framework.internal.core.Framework" name="active" signature="Z" isStatic="false"> 
+      <SourceLine classname="org.eclipse.osgi.framework.internal.core.Framework" sourcefile="Framework.java" sourcepath="org/eclipse/osgi/framework/internal/core/Framework.java"/> 
+    </Field>  
+    <Int value="55" role="INT_SYNC_PERCENT"/>  
+    <SourceLine classname="org.eclipse.osgi.framework.internal.core.Framework" start="572" end="572" startBytecode="1" endBytecode="1" sourcefile="Framework.java" sourcepath="org/eclipse/osgi/framework/internal/core/Framework.java" role="SOURCE_LINE_UNSYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.framework.internal.core.BundleHost" start="460" end="460" startBytecode="58" endBytecode="58" sourcefile="BundleHost.java" sourcepath="org/eclipse/osgi/framework/internal/core/BundleHost.java" role="SOURCE_LINE_UNSYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.framework.internal.core.BundleHost" start="304" end="304" startBytecode="68" endBytecode="68" sourcefile="BundleHost.java" sourcepath="org/eclipse/osgi/framework/internal/core/BundleHost.java" role="SOURCE_LINE_UNSYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.framework.internal.core.BundleHost" start="354" end="354" startBytecode="390" endBytecode="390" sourcefile="BundleHost.java" sourcepath="org/eclipse/osgi/framework/internal/core/BundleHost.java" role="SOURCE_LINE_UNSYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.framework.internal.core.Framework" start="1652" end="1652" startBytecode="19" endBytecode="19" sourcefile="Framework.java" sourcepath="org/eclipse/osgi/framework/internal/core/Framework.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.framework.internal.core.Framework" start="634" end="634" startBytecode="1" endBytecode="1" sourcefile="Framework.java" sourcepath="org/eclipse/osgi/framework/internal/core/Framework.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.framework.internal.core.Framework" start="638" end="638" startBytecode="10" endBytecode="10" sourcefile="Framework.java" sourcepath="org/eclipse/osgi/framework/internal/core/Framework.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.framework.internal.core.Framework" start="666" end="666" startBytecode="1" endBytecode="1" sourcefile="Framework.java" sourcepath="org/eclipse/osgi/framework/internal/core/Framework.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.framework.internal.core.Framework" start="694" end="694" startBytecode="135" endBytecode="135" sourcefile="Framework.java" sourcepath="org/eclipse/osgi/framework/internal/core/Framework.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="org.eclipse.osgi.framework.internal.core.Framework" start="171" end="171" startBytecode="48" endBytecode="48" sourcefile="Framework.java" sourcepath="org/eclipse/osgi/framework/internal/core/Framework.java" role="SOURCE_LINE_SYNC_ACCESS"/> 
+  </BugInstance>
+  <BugInstance type="SIC_INNER_SHOULD_BE_STATIC" priority="2" abbrev="SIC" category="PERFORMANCE"> 
+    <Class classname="org.eclipse.osgi.framework.internal.core.Framework$DuplicateBundleException"> 
+      <SourceLine classname="org.eclipse.osgi.framework.internal.core.Framework$DuplicateBundleException" start="720" end="729" sourcefile="Framework.java" sourcepath="org/eclipse/osgi/framework/internal/core/Framework.java"/> 
+    </Class> 
+  </BugInstance>
+  <BugInstance type="SIC_INNER_SHOULD_BE_STATIC" priority="2" abbrev="SIC" category="PERFORMANCE"> 
+    <Class classname="org.eclipse.osgi.internal.profile.DefaultProfileLogger$TimeEntry"> 
+      <SourceLine classname="org.eclipse.osgi.internal.profile.DefaultProfileLogger$TimeEntry" start="366" end="366" sourcefile="DefaultProfileLogger.java" sourcepath="org/eclipse/osgi/internal/profile/DefaultProfileLogger.java"/> 
+    </Class> 
+  </BugInstance>
+  <BugInstance type="UG_SYNC_SET_UNSYNC_GET" priority="2" abbrev="UG" category="MT_CORRECTNESS"> 
+    <Class classname="org.eclipse.osgi.internal.resolver.StateImpl"> 
+      <SourceLine classname="org.eclipse.osgi.internal.resolver.StateImpl" start="28" end="1053" sourcefile="StateImpl.java" sourcepath="org/eclipse/osgi/internal/resolver/StateImpl.java"/> 
+    </Class>  
+    <Method classname="org.eclipse.osgi.internal.resolver.StateImpl" name="getPlatformProperties" signature="()[Ljava/util/Dictionary;" isStatic="false"> 
+      <SourceLine classname="org.eclipse.osgi.internal.resolver.StateImpl" start="767" end="767" startBytecode="0" endBytecode="46" sourcefile="StateImpl.java" sourcepath="org/eclipse/osgi/internal/resolver/StateImpl.java"/> 
+    </Method>  
+    <Method classname="org.eclipse.osgi.internal.resolver.StateImpl" name="setPlatformProperties" signature="([Ljava/util/Dictionary;Z)Z" isStatic="false"> 
+      <SourceLine classname="org.eclipse.osgi.internal.resolver.StateImpl" start="679" end="728" startBytecode="0" endBytecode="818" sourcefile="StateImpl.java" sourcepath="org/eclipse/osgi/internal/resolver/StateImpl.java"/> 
+    </Method> 
+  </BugInstance>
+  <BugInstance type="NM_CLASS_NOT_EXCEPTION" priority="2" abbrev="Nm" category="BAD_PRACTICE"> 
+    <Class classname="org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException"> 
+      <SourceLine classname="org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException" start="1491" end="1501" sourcefile="AbstractBundle.java" sourcepath="org/eclipse/osgi/framework/internal/core/AbstractBundle.java"/> 
+    </Class> 
+  </BugInstance>
+</BugCollection>

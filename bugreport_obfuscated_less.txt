@@ -1,0 +1,5 @@
+H B HE: org.saiko.ai.genetics.tsp.a defines equals and uses Object.hashCode()  At SourceFile:[lines 265-268]
+H B Nm: The class name org.saiko.ai.genetics.tsp.a.b.a shadows the simple name of the superclass org.saiko.ai.genetics.tsp.a.a.a  At SourceFile:[lines 56-134]
+H B Nm: The class name org.saiko.ai.genetics.tsp.a.e.a shadows the simple name of the superclass org.saiko.ai.genetics.tsp.a.d.a  At SourceFile:[lines 56-82]
+H I Dm: Found reliance on default encoding in org.saiko.ai.genetics.tsp.g.g(): new java.io.InputStreamReader(InputStream)  At SourceFile:[line 1477]
+H B Nm: The class name org.saiko.ai.genetics.tsp.a.a.a shadows the simple name of the superclass org.saiko.ai.genetics.tsp.a.e.a  At SourceFile:[lines 55-209]

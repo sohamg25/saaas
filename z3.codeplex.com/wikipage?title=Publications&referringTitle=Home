@@ -1,0 +1,687 @@
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" class="">
+    
+    
+    
+    
+
+    
+    <head>
+        <meta id="CompatabilityMode" http-equiv="X-UA-Compatible" content="IE=edge" />
+	    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link href="http://download-codeplex.sec.s-msft.com/css/v20552/i2036743/StyleSheet.ashx" id="MasterCss" rel="stylesheet" type="text/css" />
+        <link rel="SHORTCUT ICON" href="http://www.codeplex.com/favicon.ico" />
+        <title>Z3 - Home</title>
+        
+        <!--
+        Third party scripts and code linked to or referenced from this website are licensed to you by the parties that own such code,
+        not by Microsoft.  See ASP.NET Ajax CDN Terms of Use – http://www.asp.net/ajaxlibrary/CDN.ashx.
+        -->
+        <script src="http://ajax.aspnetcdn.com/ajax/jquery/jquery-1.4.4.min.js" type="text/javascript"></script>
+        <script src="http://ajax.aspnetcdn.com/ajax/jquery.ui/1.8.6/jquery-ui.min.js" type="text/javascript"></script>
+        
+        
+    <style type="text/css">.SideBar, .SideBarPadding{display:none;}.MainContent{width:auto;}.SiteContentTable{width:100%;}</style>
+    <style id="ProjectStyles" type="text/css">
+        .SiteHeader, .SiteHeaderLeft {
+            height:45px !important;
+            overflow:hidden;
+        }
+        .SiteContent 
+        {
+            padding: 0 0 1em 0;
+            margin-top:0;
+            min-height:225px;
+            border-right: 1px solid lightgrey;
+            border-left: 1px solid lightgrey;
+            border-bottom: 1px solid lightgrey;
+        }
+        .IE table.MinWidthContent
+        {
+	        table-layout: auto !important;	
+        }
+    </style>
+    
+    
+    <style type="text/css">.ProjectContent{padding:0;}</style>
+    <style type="text/css">
+        .WikiHolder
+        {
+            margin: 0 1em 0 0;
+        }
+        #WikiContent
+        {
+            margin-top: 15px;
+        }
+        #WikiBreadCrumbs
+        {
+            margin: 0.25em 0 1em 0;
+        }
+        .SecondarySearchButton 
+        {
+            margin:0 0 0 -0.6em;
+        }
+        .FF .SecondarySearchButton 
+        {
+            margin:-0.1em 0 0 -0.5em;
+            height: 22px;
+        }
+        .IE .SecondarySearchButton
+        {
+            width: 22px;
+            height: 22px;
+        }
+    </style>
+    
+    
+    
+    
+    <meta id="WTProjectName" name="WT.pi" content="z3"/>
+    
+
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href='http://z3.codeplex.com/rsd' />
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml" title="WLWManifest" href='/wlwmanifest.xml' />
+    
+    
+        <link rel="alternate" type="application/rss+xml" title="Z3" url="http://z3.codeplex.com/project/feeds/rss"/>
+    
+        
+        <link rel="alternate" type="application/rss+xml" title="Z3&#32;-&#32;Discussions" url="http://z3.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2fforum%2fz3"/>
+        
+        <link rel="alternate" type="application/rss+xml" title="Z3&#32;-&#32;Issues" url="http://z3.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2fworkitem%2fz3"/>
+        
+        <link rel="alternate" type="application/rss+xml" title="Z3&#32;-&#32;Downloads" url="http://z3.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2frelease%2fz3"/>
+        <link rel="alternate" type="application/rss+xml" title="Z3&#32;-&#32;Reviews" url="http://z3.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2freview%2fz3"/>
+        
+    
+        <link rel="alternate" type="application/rss+xml" title="Z3&#32;-&#32;Source&#32;code" url="http://z3.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2fsourcecontrol%2fz3"/>
+        <link rel="alternate" type="application/rss+xml" title="Z3&#32;-&#32;Wiki" url="http://z3.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2fwiki%2fz3"/>
+    
+        
+    
+        <meta content="summary" name="twitter:card"></meta><meta content="@CodePlex" name="twitter:site"></meta><meta content="http://z3.codeplex.com/wikipage?title=Publications&amp;referringTitle=Home&amp;ProjectName=z3" name="twitter:url"></meta><meta content="Z3" name="twitter:title"></meta><meta content="Z3 is a high-performance theorem prover being developed at Microsoft Research. " name="twitter:description"></meta><meta content="http://www.codeplex.com/favicon.ico" name="twitter:image"></meta>
+    
+
+    </head>
+    
+    <body>
+        <script src="http://download-codeplex.sec.s-msft.com/scripts/v20552/i7/ScriptLoader.ashx" type="text/javascript"></script>
+        <form id="aspnetForm" autocomplete="off" method="POST" enctype="multipart/form-data">
+            <input name="__RequestVerificationToken" type="hidden" value="m2XjIkhYvn1m8g0cZb86I6kjWl2KNDr3Jnhc28I9MM44VnjldGhNryE48kY0VXgIrQWXat4GWKUouX10VmlpBjMbr00bOrMzUYd66iKgbhLENatPRcXs7HAtQQXerAZKaXSPAg2" />
+            
+            <div id="UpdateProgressPanel" class="loading_animation" style="display:none;">
+                <div class="row">
+                    <h2 class="anim_h2">
+                        <span id="UpdateProgressText">Updating...</span>
+                        <span id="animatedLoadingIconContainer">
+                            <img id="animatedLoadingIcon" src="http://download-codeplex.sec.s-msft.com/Images/v20552/loading_animation.gif" class="anim_img"/>
+                        </span>
+                    </h2>
+                </div>
+            </div>
+            
+            <div style="display:none;">
+                
+                    <script type="text/javascript">
+                        $loadScript("https://siterecruit.comscore.com/sr/codeplex/broker.js");
+                    </script>
+
+                
+                
+                <img id="BlankImage" style="width:0;height:0;" src="http://download-codeplex.sec.s-msft.com/Images/v20552/blank.png" onload="self.logoImageLoaded=true;"/>
+
+                <script language="javascript" type="text/javascript">
+                    var date = new Date();
+                    var timezoneOffset = date.getTimezoneOffset() / 60 * -1;
+                    var timezoneOffsetCookie = getCookie("TimezoneOffset");
+                    var firstTimeSetTimezoneCookie = false;
+
+                    if (timezoneOffsetCookie == null || timezoneOffsetCookie != timezoneOffset) {
+                        firstTimeSetTimezoneCookie = true;
+                        document.cookie = "TimezoneOffset=" + timezoneOffset + '; domain=.codeplex.com;expires=Wed, 11 Jun 2014 23:09:39 UTC';
+                    }
+                </script>
+                
+                
+                    <noscript>
+                        <a href="http://www.omniture.com" title="Web Analytics"><img src="http://msstonojstemp.112.2O7.net/b/ss/msstonojstemp/1/H.20.2--NS/0" height="1" width="1" border="0" alt="" /></a>
+                    </noscript>
+                
+            </div>
+            
+            <div id="header">
+                <div id="header_wrap" class="row">
+                    <p id="logo"><a href="http://www.codeplex.com">Code<span class="semi">Plex</span></a><span id="tagline">Project Hosting for Open Source Software</span></p>
+                    
+
+<ul id="nav">
+
+    <li><a href="/site/register/new" id="registerLink" class="ZoomFix">Register</a></li>
+    <li ><a class="SignInLink" href="https://www.codeplex.com/site/login?RedirectUrl=http%3a%2f%2fz3.codeplex.com%2fwikipage%3ftitle%3dPublications%26referringTitle%3dHome" id="signInLink">Sign In</a></li>
+  
+    <li class="last"><a class="rss_site_icon" href="http://www.codeplex.com/site/feeds/rss" type="application/rss+xml" rel="Alternate" title="CodePlex Site Activity"></a></li>
+</ul>
+                    <input id="searchsite" name="searchsite" maxlength="500" type="text" value="" /><span id="search_mag"><a id="submitSearch" name="submitSearch" class="magnify" title="Search" href="#"></a></span>
+                    <script>
+	$(document).ready(function() {
+    var searchButton = $('#submitSearch'),
+        searchBar = $('#searchsite');
+
+    // Register our own handler for the search event while we wait for the SearchBox script to load.
+    searchButton.bind('click.backupSearchBox', doProjectSearch);
+    searchBar.bind('keypress.backupSearchBox', function(e) { if ($keyCode(e) === 13) { doProjectSearch(); return false; } });
+
+    function cleanupSearchEvents() {
+        // If the SearchBox was loaded, unregister our handlers.
+        if (epx_loaded) {
+            searchButton.unbind('.backupSearchBox');
+            searchBar.unbind('.backupSearchBox');
+        }
+    }
+
+    $loadScript('http://i4.services.social.microsoft.com/search/Widgets/SearchBox.jss?appid=1000&scopeid=1&boxId=searchsite&btnId=submitSearch&watermark=Search%20all%20projects&overrideWatermark=true&searchLocation=%2fsite%2fsearch&allowEmptySearch=true&focusOnInit=False&minimumTermLength=3', cleanupSearchEvents);
+})
+function doProjectSearch() {
+    
+    var url = '/site/search';
+
+    //If search term is not same as watermark
+    if($('#searchsite').val() != 'Search all projects')    
+    {        
+        url = url + '?query=' + encodeURIComponent($('#searchsite').val());
+    }
+
+    
+    var callback = '';
+    if (callback.length > 0 && eval('typeof ' + callback) != 'undefined')
+        url += eval(callback + '()');
+
+    window.location.href = url;
+    return false;
+}
+</script>
+                </div>
+            </div>
+            
+            <div id="wrap">
+                
+    <div id="sub_heading" class="row">
+        
+        <div id="ProjectHeader">
+            <div id="project_title_row" class="row">
+                <div id="project_logo">
+                    
+    
+    <h1><a href="http://z3.codeplex.com/"><img src="http://download-codeplex.sec.s-msft.com/Download?ProjectName=z3&DownloadId=491381&Build=20552" alt="Z3" /></a></h1>
+
+                </div>
+            </div>
+        </div>
+        
+        <div id="ProjectDetailsDiv">
+            
+        </div>
+		<div class="clear"></div>
+        
+
+<ul id="page_box_links">
+	<li id="homeTabCell" style="width: 63px;"><a id="homeTab" href="http://z3.codeplex.com/" class="home_active">home</a><div></div></li>
+    
+	<li id="sourceTabCell" style="width:113px;"><a id="sourceTab" href="http://z3.codeplex.com/SourceControl/latest" class="box_source">source code</a><div></div></li>
+    
+	<li id="releasesTabCell" style="width:105px;"><a id="releasesTab" href="http://z3.codeplex.com/releases" class="box_downloads">downloads</a><div></div></li>
+    
+    <li id="documentationTabCell" style="width:143px;"><a id="documentationTab" href="http://z3.codeplex.com/documentation" class="box_documentation">documentation</a><div></div></li>
+    
+	<li id="discussionTabCell" style="width:112px;"><a id="discussionTab" href="http://z3.codeplex.com/discussions" class="box_discussions">discussions</a><div></div></li>
+    
+	<li id="workItemsTabCell" style="width:70px;"><a id="workItemsTab" href="http://z3.codeplex.com/workitem/list/basic" class="box_issue">issues</a><div></div></li>
+    
+	<li id="peopleTabCell" style="width:70px;"><a id="peopleTab" href="http://z3.codeplex.com/team/view" class="box_people">people</a><div></div></li>
+	<li id="licenseTabCell" style="width:70px;"><a id="licenseTab" href="http://z3.codeplex.com/license" class="box_license">license</a><div></div></li>
+    
+    <span class="stretch"></span>
+</ul>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#page_box_links').applyLastClassToList();
+    });
+</script>
+		    <div class="clear"></div>
+            
+    <div id="DeleteWikiPagePanel" class="modal" style="display: none;">
+        <div class="row">
+            <h2>Are you Sure? <a href="javascript:return false;" class="close">X</a></h2>
+        </div>
+        <div class="modal_info">
+            By clicking Delete, all history, comments and attachments for this page will be deleted and cannot be restored.
+            <div class="modal_buttons">
+                <input type="button" id="CancelButton" class="cancel" value="Cancel" />
+                <input type="button" id="DeleteButton" class="ok" value="Delete" />
+            </div>
+            <div class="ClearBoth"></div>
+        </div>
+    </div>
+    
+    <div id="homepage_sub_menu">
+		<ul class="page_box_sublinks">
+            
+                <li><a id="pageInfoHyperLink" href="http://z3.codeplex.com/wiki/PageInfo?title=Publications" title="Page information for Publications page.">Page Info</a></li>
+            
+            <li class="last"><a id="changesHyperlink" href="http://z3.codeplex.com/wikipage/history" title="View change history for all pages.">Change History (all pages)</a></li>
+		</ul>
+        
+
+<div>
+    
+    <div id="actionBar" class="action_bar">
+        <ul id="actionBar_ul" class="actionBar_sublinks subtab_right" style="vertical-align: middle;">
+
+            
+
+                <li id="li_actionbar_followproject" data-action-id="actionbar_followproject" data-action-type="None" class="actionBar_sublinks" data-options-id="8014893a-7bd5-4ce5-860d-8a8a9b84dd7c">
+                
+                    <script class="options" defer="defer" id="8014893a-7bd5-4ce5-860d-8a8a9b84dd7c" type="application/json">{"projectName":"z3","loggedInUser":"","returnUrl":"https://www.codeplex.com/site/login?RedirectUrl=http%3a%2f%2fz3.codeplex.com%2fwikipage%3ftitle%3dPublications%26referringTitle%3dHome%26ProjectName%3dz3"}</script> 
+                    
+                    <div class="actionBar_custom_content"></div>
+
+                    <a href="#" id="actionbar_followproject" title="" class="action_bar_item_link">
+                        <img id="img_actionbar_followproject" class="action_bar_item_image" src="http://download-codeplex.sec.s-msft.com/Images/v20552/actionbar_follow.png" style="vertical-align: middle" />
+                        
+                    </a>
+
+                </li>
+
+            
+
+                <li id="li_actionbar_subscribe" data-action-id="actionbar_subscribe" data-action-type="PopUp" class="actionBar_sublinks" data-options-id="0341b6ef-c7db-4872-9305-89b5e766f58c">
+                
+                    <script class="options" defer="defer" id="0341b6ef-c7db-4872-9305-89b5e766f58c" type="application/json">{}</script> 
+                    
+                    <div class="actionBar_custom_content">
+
+<div id="rssHoverDiv" class="HoverPanel LeftHoverWidth" style="display: none">
+        <ul id="3_FeedsPanel" class="RssFeedsPanel">
+            <li>
+                <a id="ProjectRssLink" href="http://z3.codeplex.com/project/feeds/rss" class="ArrowSmall NoUnderline">All Project Updates</a>
+            </li>
+            
+            <li>
+                <a id="DiscussionRssLink" href="http://z3.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2fforum%2fz3" class="ArrowSmall NoUnderline">Discussions</a>
+            </li>
+            
+            <li>
+                <a id="IssueTrackerRssLink" href="http://z3.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2fworkitem%2fz3" class="ArrowSmall NoUnderline">Issue Tracker</a>
+            </li>
+            
+            <li>
+                <a id="ReleasesRssLink" href="http://z3.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2frelease%2fz3" class="ArrowSmall NoUnderline">Downloads</a>
+            </li>
+            <li>
+                <a id="ReviewsRssLink" href="http://z3.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2freview%2fz3" class="ArrowSmall NoUnderline">Reviews</a>
+            </li>
+            
+            <li>
+                <a id="SourceControlRssLink" href="http://z3.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2fsourcecontrol%2fz3" class="ArrowSmall NoUnderline">Source Code</a>
+            </li>
+            <li>
+                <a id="WikiRssLink" href="http://z3.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2fwiki%2fz3" class="ArrowSmall NoUnderline">Wiki &amp; Documentation</a>
+            </li>
+        </ul>
+</div></div>
+
+                    <a href="#" id="actionbar_subscribe" title="Subscribe to project updates in RSS feeds." class="action_bar_item_link">
+                        <img id="img_actionbar_subscribe" class="action_bar_item_image" src="http://download-codeplex.sec.s-msft.com/Images/v20552/actionbar_subscribe.png" style="vertical-align: middle" />
+                        Subscribe
+                    </a>
+
+                </li>
+
+            
+        </ul>
+    </div>
+</div>
+        <div class="clear"></div>
+    </div>
+    
+        
+
+    </div>
+    
+    
+    
+<div id="left_column" class="no_border">
+    
+        <p id="breadcrumbs" style="margin-left: 10px">
+            
+                <a href="http://z3.codeplex.com/">Home</a>
+                
+                    <img src="http://download-codeplex.sec.s-msft.com/Images/v20552/arrow_sm.gif" alt="Go" style="margin-top: 5px" />
+                
+                <a href="http://z3.codeplex.com/wikipage?title=Publications">Publications</a>
+                
+        </p>
+    
+
+    <div class="WikiHolder">
+
+        
+            <div id="WikiContent" class="WikiContent">
+                <div class="wikidoc">
+<ol>
+<li>Leonardo de Moura and Grant Passmore. <em>Computation in real closed infinitesimal and transcendental extensions of the rationals</em>. In Automated Deduction - CADE-24, 24th International Conference on Automated Deduction, Lake Placid, New York, June 9-14,
+ 2013, Proceedings, 2013. [ <a href="http://z3.codeplex.com/wikipage?title=CADE24">
+http</a>&nbsp;] </li><li>Leonardo de Moura and Grant Passmore. <em>The Strategy Challenge in SMT Solving</em>, volume 7788 of
+<em>Lecture Notes in Artificial Intelligence</em>. Springer, 2013. [ .<a href="http://research.microsoft.com/en-us/um/people/leonardo/files/smt-strategy.pdf">pdf</a> ]
+</li><li>Leonardo de&nbsp;Moura and Dejan Jovanović. A model-constructing satisfiability calculus. In
+<em>14th International Conference on Verification, Model Checking, and Abstract Interpretation, VMCAI, Rome, Italy, 2013</em>, 2013. [&nbsp;<a href=" http://research.microsoft.com/en-us/um/people/leonardo/files/mcsat.pdf">.pdf</a>&nbsp;]
+</li><li>Dejan Jovanović and Leonardo de&nbsp;Moura. Solving non-linear arithmetic. In
+<em>Automated Reasoning - 6th International Joint Conference, IJCAR 2012, Manchester, UK, June 26-29, 2012. Proceedings</em>, volume 7364 of
+<em>Lecture Notes in Computer Science</em>, pages 339-354. Springer, 2012. [&nbsp;<a href=" http://research.microsoft.com/en-us/um/people/leonardo/files/IJCAR2012.pdf">.pdf</a>&nbsp;]
+</li><li>Dejan Jovanović and Leonardo de&nbsp;Moura. Solving non-linear arithmetic. Technical Report MSR-TR-2012-20, Microsoft Research, 2012. [&nbsp;<a href="http://research.microsoft.com/apps/pubs/default.aspx?id=159549">http</a>&nbsp;]
+</li><li>Nikolaj Bj&oslash;rner. Taking Satisfiability to the Next Level with Z3. IJCAR 2012.
+</li><li>Anh-Dung Phan, Nikolaj Bj&oslash;rner, David Monniaux. Anatomy of Alternating Quantifier Satisfiability. SMT workshop 2012. [&nbsp;<a href="http://research.microsoft.com/en-us/people/nbjorner/qt-smt2012.pdf">.pdf</a>&nbsp;]
+</li><li>Krystof Hoder and Nikolaj Bj&oslash;rner. Generalized Property Directed Reachability. In SAT 2012. [<a href="http://research.microsoft.com/en-us/people/nbjorner/z3pdr.pdf">.pdf</a>&nbsp;]
+</li><li>Christoph Wintersteiger, Youssef Hamadi, and Leonardo de&nbsp;Moura. Efficiently solving quantified bit-vector formulas.
+<em>Formal Methods in System Design</em>, 2012. [&nbsp;<a href="http://dx.doi.org/10.1007/s10703-012-0156-2">http</a>&nbsp;|
+<a href=" http://research.microsoft.com/en-us/um/people/leonardo/files/ufbv_journal.pdf">
+.pdf</a>&nbsp;] </li><li>Nikolaj Bj&oslash;rner and Leonardo de&nbsp;Moura. Tractability and Modern Satisfiability Modulo Theories Solvers. In
+<em>Handbook of Tractability</em>. Cambridge University Press, 2012. [&nbsp;<a href=" http://research.microsoft.com/en-us/um/people/leonardo/files/tractability.pdf">.pdf</a>&nbsp;]
+</li><li>Krystof Hoder, Nikolaj Bj&oslash;rner, and Leonardo de&nbsp;Moura. muZ - an efficient engine for fixed points with constraints. In
+<em>Computer Aided Verification - 23rd International Conference, CAV 2011, Snowbird, UT, USA, July 14-20, 2011. Proceedings</em>, volume 6806 of
+<em>Lecture Notes in Computer Science</em>, pages 457-462, 2011. [&nbsp;<a href=" http://research.microsoft.com/en-us/um/people/leonardo/files/muze.pdf">.pdf</a>&nbsp;]
+</li><li>Leonardo de&nbsp;Moura and Nikolaj Bj&oslash;rner. Satisfiability modulo theories: introduction and applications.
+<em>Commun. ACM</em>, 54(9):69-77, 2011. [&nbsp;<a href="http://dl.acm.org/citation.cfm?id=1995394">http</a>&nbsp;]
+</li><li>Dejan Jovanović and Leonardo de&nbsp;Moura. Cutting to the chase solving linear integer arithmetic. In
+<em>Automated Deduction - CADE-23 - 23rd International Conference on Automated Deduction, Wroclaw, Poland, July 31 - August 5, 2011. Proceedings</em>, volume 6803 of
+<em>Lecture Notes in Computer Science</em>, pages 338-353. Springer, 2011. [&nbsp;<a href=" http://research.microsoft.com/en-us/um/people/leonardo/files/cutsat.pdf">.pdf</a>&nbsp;]
+</li><li>Maria&nbsp;Paola Bonacina, Christopher Lynch, and Leonardo de&nbsp;Moura. On deciding satisfiability by theorem proving with speculative inferences.
+<em>J. Autom. Reasoning</em>, 47(2):161-189, 2011. [&nbsp;<a href=" http://research.microsoft.com/en-us/um/people/leonardo/files/JAR2010dpllSPsi.pdf">.pdf</a>&nbsp;]
+</li><li>Leonardo de&nbsp;Moura and Nikolaj Bj&oslash;rner. Bugs, moles and skeletons: Symbolic reasoning for software development. In
+<em>Automated Reasoning, 5th International Joint Conference, IJCAR 2010, Edinburgh, UK, July 16-19, 2010. Proceedings</em>, volume 6173 of
+<em>Lecture Notes in Computer Science</em>, pages 400-411. Springer, 2010. [&nbsp;<a href=" http://research.microsoft.com/en-us/um/people/leonardo/files/ijcar10.pdf">.pdf</a>&nbsp;]
+</li><li>Nikolaj Bj&oslash;rner. Linear Quantifier Elimination as an Abstract Decision Procedure. IJCAR 2010.
+</li><li>Margus Veanes, Nikolaj Bj&oslash;rner, and Leonardo de&nbsp;Moura. Symbolic automata constraint solving. In
+<em>Logic for Programming, Artificial Intelligence, and Reasoning - 17th International Conference, LPAR-17, Yogyakarta, Indonesia, October 10-15, 2010. Proceedings</em>, volume 6397 of
+<em>Lecture Notes in Computer Science</em>, pages 640-654, 2010. [&nbsp;<a href=" http://research.microsoft.com/en-us/um/people/leonardo/files/lpar2010.pdf">.pdf</a>&nbsp;]
+</li><li>Ruzica Piskac, Leonardo de&nbsp;Moura, and Nikolaj Bj&oslash;rner. Deciding effectively propositional logic using DPLL and substitution sets.
+<em>J. Autom. Reasoning</em>, 44(4):401-424, 2010. [&nbsp;<a href="http://www.springerlink.com/content/p54255p52430242t/">http</a>&nbsp;]
+</li><li>Christoph&nbsp;M. Wintersteiger, Youssef Hamadi, and Leonardo de&nbsp;Moura. Efficiently solving quantified bit-vector formulas. In
+<em>Proceedings of 10th International Conference on Formal Methods in Computer-Aided Design, FMCAD 2010, Lugano, Switzerland, October 20-23</em>, pages 239-246. IEEE, 2010. [&nbsp;<a href=" http://research.microsoft.com/en-us/um/people/leonardo/files/fmcad10.pdf">.pdf</a>&nbsp;]
+</li><li>Leonardo de&nbsp;Moura and Nikolaj Bj&oslash;rner. Generalized, efficient array decision procedures. In
+<em>Proceedings of 9th International Conference on Formal Methods in Computer-Aided Design, FMCAD 2009, 15-18 November 2009, Austin, Texas, USA</em>, pages 45-52. IEEE, 2009. [&nbsp;<a href=" http://research.microsoft.com/en-us/um/people/leonardo/files/fmcad09.pdf">.pdf</a>&nbsp;]
+</li><li>Nikolaj Bj&oslash;rner and Leonardo de&nbsp;Moura. Tapas: Theory combinations and practical applications. In
+<em>Formal Modeling and Analysis of Timed Systems, 7th International Conference, FORMATS 2009, Budapest, Hungary, September 14-16, 2009. Proceedings</em>, volume 5813 of
+<em>Lecture Notes in Computer Science</em>, pages 1-6. Springer, 2009. [&nbsp;<a href="http://www.springerlink.com/content/u510v392760624q5/">http</a>&nbsp;]
+</li><li>Leonardo de&nbsp;Moura and Nikolaj Bj&oslash;rner. Satisfiability modulo theories: An appetizer. In
+<em>Formal Methods: Foundations and Applications, 12th Brazilian Symposium on Formal Methods, SBMF 2009, Gramado, Brazil, August 19-21, 2009, Revised Selected Papers</em>, volume 5902 of
+<em>Lecture Notes in Computer Science</em>, pages 23-36. Springer, 2009. [&nbsp;<a href=" http://research.microsoft.com/en-us/um/people/leonardo/files/sbmf09.pdf">.pdf</a>&nbsp;]&nbsp;
+</li><li>Nikolaj Bj&oslash;rner and Joe Hendrix. Linear Functional Fixed-points. CAV 2009.
+</li><li>Maria&nbsp;Paola Bonacina, Christopher Lynch, and Leonardo de&nbsp;Moura. On deciding satisfiability by DPLL(&Gamma;&#43;T) and unsound theorem proving. In
+<em>Automated Deduction - CADE-22, 22nd International Conference on Automated Deduction, Montreal, Canada, August 2-7, 2009. Proceedings</em>, volume 5663 of
+<em>Lecture Notes in Computer Science</em>, pages 35-50. Springer, 2009. [&nbsp;<a href=" http://research.microsoft.com/en-us/um/people/leonardo/files/cade09.pdf">.pdf</a>&nbsp;]
+</li><li>Yeting Ge and Leonardo de&nbsp;Moura. Complete instantiation for quantified formulas in satisfiabiliby modulo theories. In
+<em>Computer Aided Verification, 21st International Conference, CAV 2009, Grenoble, France, June 26 - July 2, 2009. Proceedings</em>, volume 5643 of
+<em>Lecture Notes in Computer Science</em>, pages 306-320. Springer, 2009. [&nbsp;<a href=" http://research.microsoft.com/en-us/um/people/leonardo/files/ci.pdf">.pdf</a>&nbsp;]
+</li><li>Christoph&nbsp;M. Wintersteiger, Youssef Hamadi, and Leonardo de&nbsp;Moura. A concurrent portfolio approach to SMT solving. In
+<em>Computer Aided Verification, 21st International Conference, CAV 2009, Grenoble, France, June 26 - July 2, 2009. Proceedings</em>, volume 5643 of
+<em>Lecture Notes in Computer Science</em>, pages 715-720. Springer, 2009. [&nbsp;<a href=" http://research.microsoft.com/en-us/um/people/leonardo/files/parallel_z3.pdf">.pdf</a>&nbsp;]
+</li><li>Grant&nbsp;Olney Passmore and Leonardo de&nbsp;Moura. Superfluous S-polynomials in strategy-independent groebner bases. In
+<em>11th International Symposium on Symbolic and Numeric Algorithms for Scientific Computing, SYNASC 2009, Timisoara, Romania, September 26-29, 2009</em>, pages 45-53. IEEE Computer Society, 2009. [&nbsp;<a href=" http://research.microsoft.com/en-us/um/people/leonardo/files/synasc.pdf">.pdf</a>&nbsp;]
+</li><li>Nikolaj Bj&oslash;rner and Leonardo de&nbsp;Moura. <em>z</em>3<sup>10</sup>: Applications, enablers, challenges and directions. In
+<em>Sixth International Workshop on Constraints in Formal Verification Grenoble, France</em>, 2009. [&nbsp;<a href=" http://research.microsoft.com/en-us/um/people/leonardo/files/cfv09.pdf">.pdf</a>&nbsp;]
+</li><li>Leonardo de&nbsp;Moura and Grant&nbsp;Olney Passmore. On locally minimal nullstellensatz proofs. In
+<em>7th International Workshop on Satisfiability Modulo Theories, SMT, Montreal, Canada</em>, 2009. [&nbsp;<a href=" http://research.microsoft.com/en-us/um/people/leonardo/files/SMT-09.pdf">.pdf</a>&nbsp;]
+</li><li>Leonardo de&nbsp;Moura and Grant&nbsp;Olney Passmore. On locally minimal nullstellensatz proofs. Technical Report MSR-TR-2009-90, Microsoft Research, 2009. [&nbsp;<a href=" http://research.microsoft.com/en-us/um/people/leonardo/files/MSR-TR-2009-90.pdf">.pdf</a>&nbsp;]
+</li><li>Grant&nbsp;Olney Passmore and Leonardo de&nbsp;Moura. Universality of polynomial positivity and a variant of Hilbert's 17th problem. In
+<em>Automated Deduction: Decidability, Complexity, Tractability, ADDCT'09, Montreal, Canada</em>, 2009. [&nbsp;<a href=" http://research.microsoft.com/en-us/um/people/leonardo/files/addct-09.pdf">.pdf</a>&nbsp;]
+</li><li>Ruzica Piskac, Leonardo de&nbsp;Moura, and Nikolaj Bj&oslash;rner. Deciding effectively propositional logic with equality. Technical Report MSR-TR-2008-181, Microsoft Research, 2008. [&nbsp;<a href="http://research.microsoft.com/apps/pubs/default.aspx?id=76532">http</a>&nbsp;]
+</li><li>Leonardo de&nbsp;Moura and Nikolaj Bj&oslash;rner. Deciding effectively propositional logic using DPLL and substitution sets. In
+<em>Automated Reasoning, 4th International Joint Conference, IJCAR 2008, Sydney, Australia, August 12-15, 2008, Proceedings</em>, volume 5195 of
+<em>Lecture Notes in Computer Science</em>, pages 410-425. Springer, 2008. [&nbsp;<a href=" http://research.microsoft.com/en-us/um/people/leonardo/files/epr.pdf">.pdf</a>&nbsp;]
+</li><li>Leonardo de&nbsp;Moura and Nikolaj Bj&oslash;rner. Engineering DPLL(T) &#43; Saturation. In
+<em>Automated Reasoning, 4th International Joint Conference, IJCAR 2008, Sydney, Australia, August 12-15, 2008, Proceedings</em>, volume 5195 of
+<em>Lecture Notes in Computer Science</em>, pages 475-490. Springer, 2008. [&nbsp;<a href=" http://research.microsoft.com/en-us/um/people/leonardo/files/z3spc.pdf">.pdf</a>&nbsp;]
+</li><li>Leonardo de&nbsp;Moura and Nikolaj Bj&oslash;rner. Proofs and refutations, and Z3. In
+<em>Proceedings of the LPAR 2008 Workshops, Knowledge Exchange: Automated Provers and Proof Assistants, and the 7th International Workshop on the Implementation of Logics, Doha, Qatar, November 22, 2008</em>, volume 418 of
+<em>CEUR Workshop Proceedings</em>. CEUR-WS.org, 2008. [&nbsp;<a href=" http://research.microsoft.com/en-us/um/people/leonardo/files/iwil08.pdf">.pdf</a>&nbsp;]
+</li><li>Leonardo de&nbsp;Moura and Nikolaj Bj&oslash;rner. Z3: An efficient SMT solver. In
+<em>Tools and Algorithms for the Construction and Analysis of Systems, 14th International Conference, TACAS 2008, Held as Part of the Joint European Conferences on Theory and Practice of Software, ETAPS 2008, Budapest, Hungary, March 29-April 6, 2008. Proceedings</em>,
+ volume 4963 of <em>Lecture Notes in Computer Science</em>, pages 337-340. Springer, 2008. [&nbsp;<a href="http://research.microsoft.com/projects/z3/z3.pdf">.pdf</a>&nbsp;]
+</li><li>Leonardo de&nbsp;Moura and Nikolaj Bj&oslash;rner. Model-based theory combination.
+<em>Electr. Notes Theor. Comput. Sci.</em>, 198(2):37-49, 2008. [&nbsp;<a href="http://research.microsoft.com/projects/z3/smt07.pdf">.pdf</a>&nbsp;]
+</li><li>Nikolaj Bj&oslash;rner, Bruno Dutertre, and Leonardo de&nbsp;Moura. Accelerating lemma learning using joins - DPPL(Join). In
+<em>15th International Conference on Logic for Programming Artificial Intelligence and Reasoning, LPAR'08</em>, 2008. [&nbsp;<a href=" http://research.microsoft.com/en-us/um/people/leonardo/files/joins.pdf">.pdf</a>&nbsp;]
+</li><li>Nikolaj Bj&oslash;rner, Leonardo de&nbsp;Moura, and Nikolai Tillmann. Satisfiability modulo bit-precise theories for program exploration. In
+<em>Fifth International Workshop on Constraints in Formal Verification, (CFV'08), Sydney, Australia</em>, 2008. [&nbsp;<a href=" http://research.microsoft.com/en-us/um/people/leonardo/files/smbpex.pdf">.pdf</a>&nbsp;]
+</li><li>Leonardo de&nbsp;Moura and Nikolaj Bj&oslash;rner. Efficient E-Matching for SMT solvers. In
+<em>Automated Deduction - CADE-21, 21st International Conference on Automated Deduction, Bremen, Germany, July 17-20, 2007, Proceedings</em>, volume 4603 of
+<em>Lecture Notes in Computer Science</em>, pages 183-198. Springer, 2007. [&nbsp;<a href="http://research.microsoft.com/projects/z3/cade07.pdf">.pdf</a>&nbsp;]
+</li></ol>
+</div><div class="ClearBoth"></div>
+            </div>
+        
+                <p>Last edited <span class="smartDate" title="3/13/2013 3:40:17 PM" LocalTimeTicks="1363214417">Mar 13 at 3:40 PM</span> by <a id="wikiEditByLink" href="http://www.codeplex.com/site/users/view/leodemoura">leodemoura</a>, version 7</p>
+            
+                <div id="Comments">
+                    
+
+<script type="text/javascript">
+    var commentCount = 0;
+    function addComment() {
+        var input = $('#Comment');
+        input.val($.trim(input.val()));
+        if (MvcValidation_Validate('AddComment')) {
+            CodePlex.UpdateProgress.show();
+            $.post('http://z3.codeplex.com/wikipage/comment', { Comment: input.val(), title: $('#WikiTitle').val() }, function(data, textStatus) {
+                if (textStatus == 'success') {
+                    if(commentCount++ == 0)
+                        $('#wikiCommentsEmpty').empty();
+                    $('#wikiComments').append(data);
+                    input.val('');
+                }
+                CodePlex.UpdateProgress.hide();
+            });
+        }
+    }
+    function deleteComment(id) {
+        if (confirm('Are you sure you want to delete this comment?')) {
+            CodePlex.UpdateProgress.show();
+            $.ajax({
+                type: 'DELETE',
+                url: 'http://z3.codeplex.com/wikipage/comment' + '/' + id,
+                success: function() {
+                    $('#comment' + id).empty();
+                    CodePlex.UpdateProgress.hide();
+                },
+                error: function() { CodePlex.UpdateProgress.hide(); }
+            });
+        }
+    }
+</script>
+
+<div id="CommentsAnchor">
+    <h2>Comments</h2>
+    <div id="wikiComments">
+        
+            <div id="wikiCommentsEmpty">No comments yet.<br /><br /></div>
+        
+    </div>
+    
+        <div id="addComment">
+            <a id="SignInToAddCommentLink" href="https://www.codeplex.com/site/login?RedirectUrl=http%3a%2f%2fz3.codeplex.com%2fwikipage%3ftitle%3dPublications%26FocusElement%3dComment">Sign in to add a comment</a>
+        </div>
+    
+</div>
+                </div>
+            
+    </div>
+    
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+            $('#deleteWikiHyperLink').click(function () {
+                OpenDialog('#DeleteWikiPagePanel', true, '30em');
+            });
+            $('#DeleteButton').click(function () {
+                OpenDialog('#DeleteWikiPagePanel', false);
+                CodePlex.UpdateProgress.show();
+                $.ajax({
+                    type: 'DELETE',
+                    url: 'http://z3.codeplex.com/wikipage?title=Publications',
+                    data: {title: $('#WikiTitle').val()},
+                    success: function (data) {
+                        CodePlex.UpdateProgress.hide();
+                        window.location = data;
+                    },
+                    error: function (data) {
+                        CodePlex.UpdateProgress.hide();
+                    }
+                });
+            });
+            $('#CancelButton').click(function () {
+                OpenDialog('#DeleteWikiPagePanel', false);
+            });
+            
+            
+        });
+    </script>
+</div>
+
+        
+	<div id="right_sidebar">
+        
+
+<input name="" type="text" maxlength="500" id="wiki_search" title="Search Wiki and Documentation"/><a id="SearchButton" class="wiki_magnify" href="#" title="Search Wiki and Documentation"></a>
+
+<script type="text/javascript">
+
+    $(function () {
+
+        $('#wiki_search').keypress(function (e) {
+            if (e.keyCode == 13) {
+                wikiSearch();
+                return false;
+            }
+        });
+
+        $('#SearchButton').click(function () {
+            wikiSearch();
+            return false;
+        });
+
+        $('#wiki_search').promptBox('Search Wiki & Documentation');
+
+    });
+    function setWikiCommentTextBoxFocus() {
+        $('#Comment').focus();
+        return false;
+    }
+
+    function wikiSearch() {
+        var $textbox = $('#wiki_search');
+        if($textbox.attr('dirty') != 'true')
+            return;
+        var searchText = encodeURIComponent(jQuery.trim($textbox.val()));
+        if(searchText != null & searchText.length > 0)
+            window.location.href = 'http://z3.codeplex.com/wiki/search?tab=Home&SearchText=' + searchText;
+    }
+
+</script>
+        <a id="download_button" href="http://z3.codeplex.com/releases">downloads</a>
+    
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#PageActivity .Link').click(function () {
+                var val = $(this).attr('d:value');
+                $.post('http://z3.codeplex.com/stats/getActivity',
+                    { period: val },
+                    function (data) {
+                        $('#PageActivity span').hide();
+                        $('#PageActivity .Link').show();
+                        $('#Page' + val + 'Label').show();
+                        $('#Page' + val + 'Link').hide();
+                        $('#pageViews').text(data.PageViews);
+                        $('#visits').text(data.Visits);
+                        $('#downloads').text(data.Downloads);
+                    }, 'json');
+                return false;
+            });
+        });
+</script>
+<div id="activity">
+	<h2>activity</h2>
+
+	<div class="clear"></div>
+
+    <table>
+	    <tr>
+            <th class="t_heading">page views</th>
+            <th class="t_heading">visits</th>
+            <th class="t_heading">downloads</th>
+	    </tr>
+		<tr>
+			<td><span id="pageViews">3566</span></td>
+			<td><span id="visits">1376</span></td>
+			<td><span id="downloads">194</span></td>
+		</tr>
+    </table>
+
+	<ul id="PageActivity"> 
+		<li>Days: </li>
+		<li>
+		    <span id="Page7Label">7</span>
+            <a id="Page7Link" href="#" class="Link" style="display:none;" d:value="7">7</a>
+		</li>
+		<li>
+		    <span id="Page30Label" style="display:none;">30</span>
+            <a id="Page30Link" href="#" class="Link" d:value="30">30</a>
+		</li>
+		<li>
+		    <span id="Page-1Label" style="display:none;">All</span>
+            <a id="Page-1Link" href="#" class="Link" d:value="-1">All</a>
+		</li>
+        <li id="activity_details"><a href="http://z3.codeplex.com/stats">Details</a></li>
+	</ul>
+
+</div>
+
+	<div id="related_projects">
+		<h2>related projects</h2>
+
+        
+            <p><a href="http://vcc.codeplex.com/">VCC</a></p>
+        
+            <p><a href="http://boogie.codeplex.com/">Microsoft Research Boogie</a></p>
+        
+	</div>
+
+    </div>
+
+        
+                
+                <div class="clear"></div>
+                
+                <div id="footer">
+                    <div class="row">
+                        <hr />
+                        <ul>
+                            <li>© 2006-2013 Microsoft</li>
+                            <li><a href="http://www.codeplex.com/site/help">Get Help</a></li>
+                            <li><a href="/site/legal/privacy">Privacy Statement</a></li>
+                            <li><a href="http://www.codeplex.com/site/legal/terms">Terms of Use</a></li>
+                            <li><a href="http://www.codeplex.com/site/legal/conduct">Code of Conduct</a></li>
+                            <li><a href="http://www.lakequincy.com" target="_blank">Advertise With Us</a></li>
+                            <li>Version 6.4.2013.20552</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </body>
+
+</html>

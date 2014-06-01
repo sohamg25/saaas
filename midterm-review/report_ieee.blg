@@ -1,0 +1,56 @@
+This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
+The top-level auxiliary file: report_ieee.aux
+The style file: plain.bst
+Database file #1: citation.bib
+Warning--empty year in jbco
+Warning--empty year in lucene
+Warning--empty year in tomcat
+Warning--empty year in eclipse
+Warning--empty year in coverity
+Warning--empty year in klocwork
+Warning--empty year in proguard
+Warning--empty year in parasoft
+Warning--empty institution in wang
+Warning--empty year in zelix
+You've used 32 entries,
+            2118 wiz_defined-function locations,
+            681 strings with 9286 characters,
+and the built_in function-call counts, 12094 in all, are:
+= -- 1213
+> -- 521
+< -- 15
++ -- 209
+- -- 174
+* -- 772
+:= -- 1885
+add.period$ -- 109
+call.type$ -- 32
+change.case$ -- 184
+chr.to.int$ -- 0
+cite$ -- 42
+duplicate$ -- 546
+empty$ -- 1006
+format.name$ -- 174
+if$ -- 2668
+int.to.chr$ -- 0
+int.to.str$ -- 32
+missing$ -- 31
+newline$ -- 162
+num.names$ -- 64
+pop$ -- 247
+preamble$ -- 1
+purify$ -- 151
+quote$ -- 0
+skip$ -- 382
+stack$ -- 0
+substring$ -- 636
+swap$ -- 166
+text.length$ -- 15
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 126
+warning$ -- 10
+while$ -- 113
+width$ -- 34
+write$ -- 374
+(There were 10 warnings)

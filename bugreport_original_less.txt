@@ -1,0 +1,2 @@
+H B HE: org.saiko.ai.genetics.tsp.City defines equals and uses Object.hashCode()  At City.java:[lines 265-268]
+H I Dm: Found reliance on default encoding in org.saiko.ai.genetics.tsp.TSPMenu.actionAbout(ActionEvent): new java.io.InputStreamReader(InputStream)  At TSPMenu.java:[line 1477]

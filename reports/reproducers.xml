@@ -1,0 +1,712 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="2.0.2" sequence="0" timestamp="1371570914000" analysisTimestamp="1371570949954" release="">
+  <Project projectName="">
+    <Jar>/home/shashi/saaas/reports/reproducers.jar</Jar>
+  </Project>
+  <BugInstance type="SA_FIELD_DOUBLE_ASSIGNMENT" priority="2" abbrev="SA" category="STYLE">
+    <Class classname="eclipsebugs.BugDoubleAssignment">
+      <SourceLine classname="eclipsebugs.BugDoubleAssignment" start="10" end="22" sourcefile="BugDoubleAssignment.java" sourcepath="eclipsebugs/BugDoubleAssignment.java"/>
+    </Class>
+    <Method classname="eclipsebugs.BugDoubleAssignment" name="g" signature="()Z" isStatic="false">
+      <SourceLine classname="eclipsebugs.BugDoubleAssignment" start="18" end="22" startBytecode="0" endBytecode="83" sourcefile="BugDoubleAssignment.java" sourcepath="eclipsebugs/BugDoubleAssignment.java"/>
+    </Method>
+    <Field classname="eclipsebugs.BugDoubleAssignment" name="backupIdx" signature="I" isStatic="false">
+      <SourceLine classname="eclipsebugs.BugDoubleAssignment" sourcefile="BugDoubleAssignment.java" sourcepath="eclipsebugs/BugDoubleAssignment.java"/>
+    </Field>
+    <Field classname="eclipsebugs.BugDoubleAssignment" name="maxLogFiles" signature="I" isStatic="false" role="FIELD_DID_YOU_MEAN">
+      <SourceLine classname="eclipsebugs.BugDoubleAssignment" sourcefile="BugDoubleAssignment.java" sourcepath="eclipsebugs/BugDoubleAssignment.java"/>
+    </Field>
+    <SourceLine classname="eclipsebugs.BugDoubleAssignment" start="20" end="20" startBytecode="19" endBytecode="19" sourcefile="BugDoubleAssignment.java" sourcepath="eclipsebugs/BugDoubleAssignment.java"/>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" abbrev="UuF" category="PERFORMANCE">
+    <Class classname="eclipsebugs.BugWritetoStaticField">
+      <SourceLine classname="eclipsebugs.BugWritetoStaticField" start="15" end="26" sourcefile="BugWritetoStaticField.java" sourcepath="eclipsebugs/BugWritetoStaticField.java"/>
+    </Class>
+    <Field classname="eclipsebugs.BugWritetoStaticField" name="cl" signature="Ljava/lang/Class;" isStatic="true">
+      <SourceLine classname="eclipsebugs.BugWritetoStaticField" sourcefile="BugWritetoStaticField.java" sourcepath="eclipsebugs/BugWritetoStaticField.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" abbrev="UuF" category="PERFORMANCE">
+    <Class classname="eclipsebugs.BugWritetoStaticField">
+      <SourceLine classname="eclipsebugs.BugWritetoStaticField" start="15" end="26" sourcefile="BugWritetoStaticField.java" sourcepath="eclipsebugs/BugWritetoStaticField.java"/>
+    </Class>
+    <Field classname="eclipsebugs.BugWritetoStaticField" name="contextFinder" signature="Leclipsebugs/Finder;" isStatic="true">
+      <SourceLine classname="eclipsebugs.BugWritetoStaticField" sourcefile="BugWritetoStaticField.java" sourcepath="eclipsebugs/BugWritetoStaticField.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" abbrev="UuF" category="PERFORMANCE">
+    <Class classname="eclipsebugs.BugWritetoStaticField">
+      <SourceLine classname="eclipsebugs.BugWritetoStaticField" start="15" end="26" sourcefile="BugWritetoStaticField.java" sourcepath="eclipsebugs/BugWritetoStaticField.java"/>
+    </Class>
+    <Field classname="eclipsebugs.BugWritetoStaticField" name="finderClassLoader" signature="Ljava/lang/ClassLoader;" isStatic="true">
+      <SourceLine classname="eclipsebugs.BugWritetoStaticField" sourcefile="BugWritetoStaticField.java" sourcepath="eclipsebugs/BugWritetoStaticField.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="MS_PKGPROTECT" priority="2" abbrev="MS" category="MALICIOUS_CODE">
+    <Class classname="lucenebugs.BugMutableField">
+      <SourceLine classname="lucenebugs.BugMutableField" start="14" end="24" sourcefile="BugMutableField.java" sourcepath="lucenebugs/BugMutableField.java"/>
+    </Class>
+    <Field classname="lucenebugs.BugMutableField" name="ENGLISH_STOP_WORDS" signature="[Ljava/lang/String;" isStatic="true">
+      <SourceLine classname="lucenebugs.BugMutableField" sourcefile="BugMutableField.java" sourcepath="lucenebugs/BugMutableField.java"/>
+    </Field>
+    <SourceLine classname="lucenebugs.BugMutableField" start="17" end="17" startBytecode="197" endBytecode="197" sourcefile="BugMutableField.java" sourcepath="lucenebugs/BugMutableField.java"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" abbrev="UrF" category="PERFORMANCE">
+    <Class classname="lucenebugs.BugMutableField">
+      <SourceLine classname="lucenebugs.BugMutableField" start="14" end="24" sourcefile="BugMutableField.java" sourcepath="lucenebugs/BugMutableField.java"/>
+    </Class>
+    <Field classname="lucenebugs.BugMutableField" name="stopWords" signature="Ljava/util/Set;" isStatic="false">
+      <SourceLine classname="lucenebugs.BugMutableField" sourcefile="BugMutableField.java" sourcepath="lucenebugs/BugMutableField.java"/>
+    </Field>
+    <SourceLine classname="lucenebugs.BugMutableField" start="20" end="20" startBytecode="11" endBytecode="11" sourcefile="BugMutableField.java" sourcepath="lucenebugs/BugMutableField.java"/>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" abbrev="UuF" category="PERFORMANCE">
+    <Class classname="lucenebugs.BugNoserialVersionUID">
+      <SourceLine classname="lucenebugs.BugNoserialVersionUID" start="25" end="25" sourcefile="BugNoserialVersionUID.java" sourcepath="lucenebugs/BugNoserialVersionUID.java"/>
+    </Class>
+    <Field classname="lucenebugs.BugNoserialVersionUID" name="cloneableFieldsStream" signature="Lorg/apache/lucene/store/IndexInput;" isStatic="false">
+      <SourceLine classname="lucenebugs.BugNoserialVersionUID" sourcefile="BugNoserialVersionUID.java" sourcepath="lucenebugs/BugNoserialVersionUID.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" abbrev="UuF" category="PERFORMANCE">
+    <Class classname="lucenebugs.BugNoserialVersionUID">
+      <SourceLine classname="lucenebugs.BugNoserialVersionUID" start="25" end="25" sourcefile="BugNoserialVersionUID.java" sourcepath="lucenebugs/BugNoserialVersionUID.java"/>
+    </Class>
+    <Field classname="lucenebugs.BugNoserialVersionUID" name="closed" signature="Z" isStatic="false">
+      <SourceLine classname="lucenebugs.BugNoserialVersionUID" sourcefile="BugNoserialVersionUID.java" sourcepath="lucenebugs/BugNoserialVersionUID.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" abbrev="UuF" category="PERFORMANCE">
+    <Class classname="lucenebugs.BugNoserialVersionUID">
+      <SourceLine classname="lucenebugs.BugNoserialVersionUID" start="25" end="25" sourcefile="BugNoserialVersionUID.java" sourcepath="lucenebugs/BugNoserialVersionUID.java"/>
+    </Class>
+    <Field classname="lucenebugs.BugNoserialVersionUID" name="docStoreOffset" signature="I" isStatic="false">
+      <SourceLine classname="lucenebugs.BugNoserialVersionUID" sourcefile="BugNoserialVersionUID.java" sourcepath="lucenebugs/BugNoserialVersionUID.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" abbrev="UuF" category="PERFORMANCE">
+    <Class classname="lucenebugs.BugNoserialVersionUID">
+      <SourceLine classname="lucenebugs.BugNoserialVersionUID" start="25" end="25" sourcefile="BugNoserialVersionUID.java" sourcepath="lucenebugs/BugNoserialVersionUID.java"/>
+    </Class>
+    <Field classname="lucenebugs.BugNoserialVersionUID" name="fieldInfos" signature="LFieldInfos;" isStatic="false">
+      <SourceLine classname="lucenebugs.BugNoserialVersionUID" sourcefile="BugNoserialVersionUID.java" sourcepath="lucenebugs/BugNoserialVersionUID.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" abbrev="UuF" category="PERFORMANCE">
+    <Class classname="lucenebugs.BugNoserialVersionUID">
+      <SourceLine classname="lucenebugs.BugNoserialVersionUID" start="25" end="25" sourcefile="BugNoserialVersionUID.java" sourcepath="lucenebugs/BugNoserialVersionUID.java"/>
+    </Class>
+    <Field classname="lucenebugs.BugNoserialVersionUID" name="fieldsStream" signature="Lorg/apache/lucene/store/IndexInput;" isStatic="false">
+      <SourceLine classname="lucenebugs.BugNoserialVersionUID" sourcefile="BugNoserialVersionUID.java" sourcepath="lucenebugs/BugNoserialVersionUID.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" abbrev="UuF" category="PERFORMANCE">
+    <Class classname="lucenebugs.BugNoserialVersionUID">
+      <SourceLine classname="lucenebugs.BugNoserialVersionUID" start="25" end="25" sourcefile="BugNoserialVersionUID.java" sourcepath="lucenebugs/BugNoserialVersionUID.java"/>
+    </Class>
+    <Field classname="lucenebugs.BugNoserialVersionUID" name="fieldsStreamTL" signature="Lorg/apache/lucene/util/CloseableThreadLocal;" isStatic="false">
+      <SourceLine classname="lucenebugs.BugNoserialVersionUID" sourcefile="BugNoserialVersionUID.java" sourcepath="lucenebugs/BugNoserialVersionUID.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" abbrev="UuF" category="PERFORMANCE">
+    <Class classname="lucenebugs.BugNoserialVersionUID">
+      <SourceLine classname="lucenebugs.BugNoserialVersionUID" start="25" end="25" sourcefile="BugNoserialVersionUID.java" sourcepath="lucenebugs/BugNoserialVersionUID.java"/>
+    </Class>
+    <Field classname="lucenebugs.BugNoserialVersionUID" name="format" signature="I" isStatic="false">
+      <SourceLine classname="lucenebugs.BugNoserialVersionUID" sourcefile="BugNoserialVersionUID.java" sourcepath="lucenebugs/BugNoserialVersionUID.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" abbrev="UuF" category="PERFORMANCE">
+    <Class classname="lucenebugs.BugNoserialVersionUID">
+      <SourceLine classname="lucenebugs.BugNoserialVersionUID" start="25" end="25" sourcefile="BugNoserialVersionUID.java" sourcepath="lucenebugs/BugNoserialVersionUID.java"/>
+    </Class>
+    <Field classname="lucenebugs.BugNoserialVersionUID" name="formatSize" signature="I" isStatic="false">
+      <SourceLine classname="lucenebugs.BugNoserialVersionUID" sourcefile="BugNoserialVersionUID.java" sourcepath="lucenebugs/BugNoserialVersionUID.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" abbrev="UuF" category="PERFORMANCE">
+    <Class classname="lucenebugs.BugNoserialVersionUID">
+      <SourceLine classname="lucenebugs.BugNoserialVersionUID" start="25" end="25" sourcefile="BugNoserialVersionUID.java" sourcepath="lucenebugs/BugNoserialVersionUID.java"/>
+    </Class>
+    <Field classname="lucenebugs.BugNoserialVersionUID" name="indexStream" signature="Lorg/apache/lucene/store/IndexInput;" isStatic="false">
+      <SourceLine classname="lucenebugs.BugNoserialVersionUID" sourcefile="BugNoserialVersionUID.java" sourcepath="lucenebugs/BugNoserialVersionUID.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" abbrev="UuF" category="PERFORMANCE">
+    <Class classname="lucenebugs.BugNoserialVersionUID">
+      <SourceLine classname="lucenebugs.BugNoserialVersionUID" start="25" end="25" sourcefile="BugNoserialVersionUID.java" sourcepath="lucenebugs/BugNoserialVersionUID.java"/>
+    </Class>
+    <Field classname="lucenebugs.BugNoserialVersionUID" name="numTotalDocs" signature="I" isStatic="false">
+      <SourceLine classname="lucenebugs.BugNoserialVersionUID" sourcefile="BugNoserialVersionUID.java" sourcepath="lucenebugs/BugNoserialVersionUID.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" abbrev="UuF" category="PERFORMANCE">
+    <Class classname="lucenebugs.BugNoserialVersionUID">
+      <SourceLine classname="lucenebugs.BugNoserialVersionUID" start="25" end="25" sourcefile="BugNoserialVersionUID.java" sourcepath="lucenebugs/BugNoserialVersionUID.java"/>
+    </Class>
+    <Field classname="lucenebugs.BugNoserialVersionUID" name="size" signature="I" isStatic="false">
+      <SourceLine classname="lucenebugs.BugNoserialVersionUID" sourcefile="BugNoserialVersionUID.java" sourcepath="lucenebugs/BugNoserialVersionUID.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="SIC_INNER_SHOULD_BE_STATIC" priority="2" abbrev="SIC" category="PERFORMANCE">
+    <Class classname="lucenebugs.BugNoserialVersionUID$LazyField">
+      <SourceLine classname="lucenebugs.BugNoserialVersionUID$LazyField" start="25" end="143" sourcefile="BugNoserialVersionUID.java" sourcepath="lucenebugs/BugNoserialVersionUID.java"/>
+    </Class>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" abbrev="UuF" category="PERFORMANCE">
+    <Class classname="lucenebugs.BugNoserialVersionUID$LazyField">
+      <SourceLine classname="lucenebugs.BugNoserialVersionUID$LazyField" start="25" end="143" sourcefile="BugNoserialVersionUID.java" sourcepath="lucenebugs/BugNoserialVersionUID.java"/>
+    </Class>
+    <Field classname="lucenebugs.BugNoserialVersionUID$LazyField" name="pointer" signature="J" isStatic="false">
+      <SourceLine classname="lucenebugs.BugNoserialVersionUID$LazyField" sourcefile="BugNoserialVersionUID.java" sourcepath="lucenebugs/BugNoserialVersionUID.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" abbrev="UuF" category="PERFORMANCE">
+    <Class classname="lucenebugs.BugNoserialVersionUID$LazyField">
+      <SourceLine classname="lucenebugs.BugNoserialVersionUID$LazyField" start="25" end="143" sourcefile="BugNoserialVersionUID.java" sourcepath="lucenebugs/BugNoserialVersionUID.java"/>
+    </Class>
+    <Field classname="lucenebugs.BugNoserialVersionUID$LazyField" name="toRead" signature="I" isStatic="false">
+      <SourceLine classname="lucenebugs.BugNoserialVersionUID$LazyField" sourcefile="BugNoserialVersionUID.java" sourcepath="lucenebugs/BugNoserialVersionUID.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="NP_UNWRITTEN_FIELD" priority="2" abbrev="NP" category="CORRECTNESS">
+    <Class classname="lucenebugs.BugRedundantNullCheck">
+      <SourceLine classname="lucenebugs.BugRedundantNullCheck" start="18" end="117" sourcefile="BugRedundantNullCheck.java" sourcepath="lucenebugs/BugRedundantNullCheck.java"/>
+    </Class>
+    <Method classname="lucenebugs.BugRedundantNullCheck" name="toString" signature="(Ljava/lang/String;)Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="lucenebugs.BugRedundantNullCheck" start="110" end="117" startBytecode="0" endBytecode="169" sourcefile="BugRedundantNullCheck.java" sourcepath="lucenebugs/BugRedundantNullCheck.java"/>
+    </Method>
+    <Field classname="lucenebugs.BugRedundantNullCheck" name="term" signature="Lorg/apache/lucene/index/Term;" isStatic="false">
+      <SourceLine classname="lucenebugs.BugRedundantNullCheck" sourcefile="BugRedundantNullCheck.java" sourcepath="lucenebugs/BugRedundantNullCheck.java"/>
+    </Field>
+    <SourceLine classname="lucenebugs.BugRedundantNullCheck" start="115" end="115" startBytecode="46" endBytecode="46" sourcefile="BugRedundantNullCheck.java" sourcepath="lucenebugs/BugRedundantNullCheck.java"/>
+    <SourceLine classname="lucenebugs.BugRedundantNullCheck" start="111" end="111" startBytecode="12" endBytecode="12" sourcefile="BugRedundantNullCheck.java" sourcepath="lucenebugs/BugRedundantNullCheck.java" role="SOURCE_LINE_ANOTHER_INSTANCE"/>
+    <SourceLine classname="lucenebugs.BugRedundantNullCheck" start="112" end="112" startBytecode="27" endBytecode="27" sourcefile="BugRedundantNullCheck.java" sourcepath="lucenebugs/BugRedundantNullCheck.java" role="SOURCE_LINE_ANOTHER_INSTANCE"/>
+  </BugInstance>
+  <BugInstance type="UWF_UNWRITTEN_FIELD" priority="2" abbrev="UwF" category="CORRECTNESS">
+    <Class classname="lucenebugs.BugRedundantNullCheck">
+      <SourceLine classname="lucenebugs.BugRedundantNullCheck" start="18" end="117" sourcefile="BugRedundantNullCheck.java" sourcepath="lucenebugs/BugRedundantNullCheck.java"/>
+    </Class>
+    <Field classname="lucenebugs.BugRedundantNullCheck" name="term" signature="Lorg/apache/lucene/index/Term;" isStatic="false">
+      <SourceLine classname="lucenebugs.BugRedundantNullCheck" sourcefile="BugRedundantNullCheck.java" sourcepath="lucenebugs/BugRedundantNullCheck.java"/>
+    </Field>
+    <SourceLine classname="lucenebugs.BugRedundantNullCheck" start="111" end="111" startBytecode="9" endBytecode="9" sourcefile="BugRedundantNullCheck.java" sourcepath="lucenebugs/BugRedundantNullCheck.java"/>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" abbrev="UuF" category="PERFORMANCE">
+    <Class classname="lucenebugs.BugRedundantNullCheckObf">
+      <SourceLine classname="lucenebugs.BugRedundantNullCheckObf" start="13" end="52" sourcefile="BugRedundantNullCheckObf.java" sourcepath="lucenebugs/BugRedundantNullCheckObf.java"/>
+    </Class>
+    <Field classname="lucenebugs.BugRedundantNullCheckObf" name="awh" signature="Llucenebugs/TermQuery;" isStatic="false">
+      <SourceLine classname="lucenebugs.BugRedundantNullCheckObf" sourcefile="BugRedundantNullCheckObf.java" sourcepath="lucenebugs/BugRedundantNullCheckObf.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" abbrev="UuF" category="PERFORMANCE">
+    <Class classname="lucenebugs.BugRedundantNullCheckObf">
+      <SourceLine classname="lucenebugs.BugRedundantNullCheckObf" start="13" end="52" sourcefile="BugRedundantNullCheckObf.java" sourcepath="lucenebugs/BugRedundantNullCheckObf.java"/>
+    </Class>
+    <Field classname="lucenebugs.BugRedundantNullCheckObf" name="idf" signature="F" isStatic="false">
+      <SourceLine classname="lucenebugs.BugRedundantNullCheckObf" sourcefile="BugRedundantNullCheckObf.java" sourcepath="lucenebugs/BugRedundantNullCheckObf.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" abbrev="UuF" category="PERFORMANCE">
+    <Class classname="lucenebugs.BugRedundantNullCheckObf">
+      <SourceLine classname="lucenebugs.BugRedundantNullCheckObf" start="13" end="52" sourcefile="BugRedundantNullCheckObf.java" sourcepath="lucenebugs/BugRedundantNullCheckObf.java"/>
+    </Class>
+    <Field classname="lucenebugs.BugRedundantNullCheckObf" name="queryNorm" signature="F" isStatic="false">
+      <SourceLine classname="lucenebugs.BugRedundantNullCheckObf" sourcefile="BugRedundantNullCheckObf.java" sourcepath="lucenebugs/BugRedundantNullCheckObf.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" abbrev="UuF" category="PERFORMANCE">
+    <Class classname="lucenebugs.BugRedundantNullCheckObf">
+      <SourceLine classname="lucenebugs.BugRedundantNullCheckObf" start="13" end="52" sourcefile="BugRedundantNullCheckObf.java" sourcepath="lucenebugs/BugRedundantNullCheckObf.java"/>
+    </Class>
+    <Field classname="lucenebugs.BugRedundantNullCheckObf" name="queryWeight" signature="F" isStatic="false">
+      <SourceLine classname="lucenebugs.BugRedundantNullCheckObf" sourcefile="BugRedundantNullCheckObf.java" sourcepath="lucenebugs/BugRedundantNullCheckObf.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" abbrev="UuF" category="PERFORMANCE">
+    <Class classname="lucenebugs.BugRedundantNullCheckObf">
+      <SourceLine classname="lucenebugs.BugRedundantNullCheckObf" start="13" end="52" sourcefile="BugRedundantNullCheckObf.java" sourcepath="lucenebugs/BugRedundantNullCheckObf.java"/>
+    </Class>
+    <Field classname="lucenebugs.BugRedundantNullCheckObf" name="similarity" signature="Lorg/apache/lucene/search/Similarity;" isStatic="false">
+      <SourceLine classname="lucenebugs.BugRedundantNullCheckObf" sourcefile="BugRedundantNullCheckObf.java" sourcepath="lucenebugs/BugRedundantNullCheckObf.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" abbrev="UuF" category="PERFORMANCE">
+    <Class classname="lucenebugs.BugRedundantNullCheckObf">
+      <SourceLine classname="lucenebugs.BugRedundantNullCheckObf" start="13" end="52" sourcefile="BugRedundantNullCheckObf.java" sourcepath="lucenebugs/BugRedundantNullCheckObf.java"/>
+    </Class>
+    <Field classname="lucenebugs.BugRedundantNullCheckObf" name="value" signature="F" isStatic="false">
+      <SourceLine classname="lucenebugs.BugRedundantNullCheckObf" sourcefile="BugRedundantNullCheckObf.java" sourcepath="lucenebugs/BugRedundantNullCheckObf.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="DE_MIGHT_IGNORE" priority="1" abbrev="DE" category="BAD_PRACTICE">
+    <Class classname="tomcatbugs.BugIgnoreException">
+      <SourceLine classname="tomcatbugs.BugIgnoreException" start="38" end="217" sourcefile="BugIgnoreException.java" sourcepath="tomcatbugs/BugIgnoreException.java"/>
+    </Class>
+    <Method classname="tomcatbugs.BugIgnoreException" name="bp" signature="(J)V" isStatic="false">
+      <SourceLine classname="tomcatbugs.BugIgnoreException" start="43" end="92" startBytecode="0" endBytecode="1006" sourcefile="BugIgnoreException.java" sourcepath="tomcatbugs/BugIgnoreException.java"/>
+    </Method>
+    <Class classname="java.lang.Exception" role="CLASS_EXCEPTION">
+      <SourceLine classname="java.lang.Exception" start="54" end="123" sourcefile="Exception.java" sourcepath="java/lang/Exception.java"/>
+    </Class>
+    <SourceLine classname="tomcatbugs.BugIgnoreException" start="86" end="86" startBytecode="394" endBytecode="394" sourcefile="BugIgnoreException.java" sourcepath="tomcatbugs/BugIgnoreException.java"/>
+    <SourceLine classname="tomcatbugs.BugIgnoreException" start="86" end="86" startBytecode="394" endBytecode="394" sourcefile="BugIgnoreException.java" sourcepath="tomcatbugs/BugIgnoreException.java"/>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_PUBLIC_OR_PROTECTED_FIELD" priority="2" abbrev="UuF" category="STYLE">
+    <Class classname="tomcatbugs.BugIgnoreException">
+      <SourceLine classname="tomcatbugs.BugIgnoreException" start="38" end="217" sourcefile="BugIgnoreException.java" sourcepath="tomcatbugs/BugIgnoreException.java"/>
+    </Class>
+    <Field classname="tomcatbugs.BugIgnoreException" name="bhv" signature="Z" isStatic="false">
+      <SourceLine classname="tomcatbugs.BugIgnoreException" sourcefile="BugIgnoreException.java" sourcepath="tomcatbugs/BugIgnoreException.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_PUBLIC_OR_PROTECTED_FIELD" priority="2" abbrev="UuF" category="STYLE">
+    <Class classname="tomcatbugs.BugIgnoreException">
+      <SourceLine classname="tomcatbugs.BugIgnoreException" start="38" end="217" sourcefile="BugIgnoreException.java" sourcepath="tomcatbugs/BugIgnoreException.java"/>
+    </Class>
+    <Field classname="tomcatbugs.BugIgnoreException" name="fz" signature="Lorg/apache/tomcat/util/net/NioSelectorPool;" isStatic="false">
+      <SourceLine classname="tomcatbugs.BugIgnoreException" sourcefile="BugIgnoreException.java" sourcepath="tomcatbugs/BugIgnoreException.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" abbrev="UuF" category="PERFORMANCE">
+    <Class classname="tomcatbugs.BugInconsistentSynchronisation">
+      <SourceLine classname="tomcatbugs.BugInconsistentSynchronisation" start="6" end="50" sourcefile="BugInconsistentSynchronisation.java" sourcepath="tomcatbugs/BugInconsistentSynchronisation.java"/>
+    </Class>
+    <Field classname="tomcatbugs.BugInconsistentSynchronisation" name="log" signature="LLog;" isStatic="true">
+      <SourceLine classname="tomcatbugs.BugInconsistentSynchronisation" sourcefile="BugInconsistentSynchronisation.java" sourcepath="tomcatbugs/BugInconsistentSynchronisation.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_PUBLIC_OR_PROTECTED_FIELD" priority="2" abbrev="UuF" category="STYLE">
+    <Class classname="tomcatbugs.BugInconsistentSynchronisation">
+      <SourceLine classname="tomcatbugs.BugInconsistentSynchronisation" start="6" end="50" sourcefile="BugInconsistentSynchronisation.java" sourcepath="tomcatbugs/BugInconsistentSynchronisation.java"/>
+    </Class>
+    <Field classname="tomcatbugs.BugInconsistentSynchronisation" name="context" signature="Ltomcatbugs/BugInconsistentSynchronisation$ContextVersion;" isStatic="false">
+      <SourceLine classname="tomcatbugs.BugInconsistentSynchronisation" sourcefile="BugInconsistentSynchronisation.java" sourcepath="tomcatbugs/BugInconsistentSynchronisation.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_PUBLIC_OR_PROTECTED_FIELD" priority="2" abbrev="UuF" category="STYLE">
+    <Class classname="tomcatbugs.BugInconsistentSynchronisation">
+      <SourceLine classname="tomcatbugs.BugInconsistentSynchronisation" start="6" end="50" sourcefile="BugInconsistentSynchronisation.java" sourcepath="tomcatbugs/BugInconsistentSynchronisation.java"/>
+    </Class>
+    <Field classname="tomcatbugs.BugInconsistentSynchronisation" name="defaultHostName" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="tomcatbugs.BugInconsistentSynchronisation" sourcefile="BugInconsistentSynchronisation.java" sourcepath="tomcatbugs/BugInconsistentSynchronisation.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_PUBLIC_OR_PROTECTED_FIELD" priority="2" abbrev="UuF" category="STYLE">
+    <Class classname="tomcatbugs.BugInconsistentSynchronisation">
+      <SourceLine classname="tomcatbugs.BugInconsistentSynchronisation" start="6" end="50" sourcefile="BugInconsistentSynchronisation.java" sourcepath="tomcatbugs/BugInconsistentSynchronisation.java"/>
+    </Class>
+    <Field classname="tomcatbugs.BugInconsistentSynchronisation" name="hosts" signature="[Ltomcatbugs/BugInconsistentSynchronisation$Host;" isStatic="false">
+      <SourceLine classname="tomcatbugs.BugInconsistentSynchronisation" sourcefile="BugInconsistentSynchronisation.java" sourcepath="tomcatbugs/BugInconsistentSynchronisation.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_PUBLIC_OR_PROTECTED_FIELD" priority="2" abbrev="UuF" category="STYLE">
+    <Class classname="tomcatbugs.BugInconsistentSynchronisation">
+      <SourceLine classname="tomcatbugs.BugInconsistentSynchronisation" start="6" end="50" sourcefile="BugInconsistentSynchronisation.java" sourcepath="tomcatbugs/BugInconsistentSynchronisation.java"/>
+    </Class>
+    <Field classname="tomcatbugs.BugInconsistentSynchronisation" name="sm" signature="LStringManager;" isStatic="true">
+      <SourceLine classname="tomcatbugs.BugInconsistentSynchronisation" sourcefile="BugInconsistentSynchronisation.java" sourcepath="tomcatbugs/BugInconsistentSynchronisation.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_PUBLIC_OR_PROTECTED_FIELD" priority="2" abbrev="UuF" category="STYLE">
+    <Class classname="tomcatbugs.BugInconsistentSynchronisation$Context">
+      <SourceLine classname="tomcatbugs.BugInconsistentSynchronisation$Context" start="6" end="6" sourcefile="BugInconsistentSynchronisation.java" sourcepath="tomcatbugs/BugInconsistentSynchronisation.java"/>
+    </Class>
+    <Field classname="tomcatbugs.BugInconsistentSynchronisation$Context" name="versions" signature="[Ltomcatbugs/BugInconsistentSynchronisation$ContextVersion;" isStatic="false">
+      <SourceLine classname="tomcatbugs.BugInconsistentSynchronisation$Context" sourcefile="BugInconsistentSynchronisation.java" sourcepath="tomcatbugs/BugInconsistentSynchronisation.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_PUBLIC_OR_PROTECTED_FIELD" priority="2" abbrev="UuF" category="STYLE">
+    <Class classname="tomcatbugs.BugInconsistentSynchronisation$ContextList">
+      <SourceLine classname="tomcatbugs.BugInconsistentSynchronisation$ContextList" start="6" end="6" sourcefile="BugInconsistentSynchronisation.java" sourcepath="tomcatbugs/BugInconsistentSynchronisation.java"/>
+    </Class>
+    <Field classname="tomcatbugs.BugInconsistentSynchronisation$ContextList" name="contexts" signature="[Ltomcatbugs/BugInconsistentSynchronisation$Context;" isStatic="false">
+      <SourceLine classname="tomcatbugs.BugInconsistentSynchronisation$ContextList" sourcefile="BugInconsistentSynchronisation.java" sourcepath="tomcatbugs/BugInconsistentSynchronisation.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_PUBLIC_OR_PROTECTED_FIELD" priority="2" abbrev="UuF" category="STYLE">
+    <Class classname="tomcatbugs.BugInconsistentSynchronisation$ContextList">
+      <SourceLine classname="tomcatbugs.BugInconsistentSynchronisation$ContextList" start="6" end="6" sourcefile="BugInconsistentSynchronisation.java" sourcepath="tomcatbugs/BugInconsistentSynchronisation.java"/>
+    </Class>
+    <Field classname="tomcatbugs.BugInconsistentSynchronisation$ContextList" name="nesting" signature="I" isStatic="false">
+      <SourceLine classname="tomcatbugs.BugInconsistentSynchronisation$ContextList" sourcefile="BugInconsistentSynchronisation.java" sourcepath="tomcatbugs/BugInconsistentSynchronisation.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_PUBLIC_OR_PROTECTED_FIELD" priority="2" abbrev="UuF" category="STYLE">
+    <Class classname="tomcatbugs.BugInconsistentSynchronisation$ContextVersion">
+      <SourceLine classname="tomcatbugs.BugInconsistentSynchronisation$ContextVersion" start="6" end="6" sourcefile="BugInconsistentSynchronisation.java" sourcepath="tomcatbugs/BugInconsistentSynchronisation.java"/>
+    </Class>
+    <Field classname="tomcatbugs.BugInconsistentSynchronisation$ContextVersion" name="defaultWrapper" signature="Ltomcatbugs/BugInconsistentSynchronisation$Wrapper;" isStatic="false">
+      <SourceLine classname="tomcatbugs.BugInconsistentSynchronisation$ContextVersion" sourcefile="BugInconsistentSynchronisation.java" sourcepath="tomcatbugs/BugInconsistentSynchronisation.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_PUBLIC_OR_PROTECTED_FIELD" priority="2" abbrev="UuF" category="STYLE">
+    <Class classname="tomcatbugs.BugInconsistentSynchronisation$ContextVersion">
+      <SourceLine classname="tomcatbugs.BugInconsistentSynchronisation$ContextVersion" start="6" end="6" sourcefile="BugInconsistentSynchronisation.java" sourcepath="tomcatbugs/BugInconsistentSynchronisation.java"/>
+    </Class>
+    <Field classname="tomcatbugs.BugInconsistentSynchronisation$ContextVersion" name="exactWrappers" signature="[Ltomcatbugs/BugInconsistentSynchronisation$Wrapper;" isStatic="false">
+      <SourceLine classname="tomcatbugs.BugInconsistentSynchronisation$ContextVersion" sourcefile="BugInconsistentSynchronisation.java" sourcepath="tomcatbugs/BugInconsistentSynchronisation.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_PUBLIC_OR_PROTECTED_FIELD" priority="2" abbrev="UuF" category="STYLE">
+    <Class classname="tomcatbugs.BugInconsistentSynchronisation$ContextVersion">
+      <SourceLine classname="tomcatbugs.BugInconsistentSynchronisation$ContextVersion" start="6" end="6" sourcefile="BugInconsistentSynchronisation.java" sourcepath="tomcatbugs/BugInconsistentSynchronisation.java"/>
+    </Class>
+    <Field classname="tomcatbugs.BugInconsistentSynchronisation$ContextVersion" name="extensionWrappers" signature="[Ltomcatbugs/BugInconsistentSynchronisation$Wrapper;" isStatic="false">
+      <SourceLine classname="tomcatbugs.BugInconsistentSynchronisation$ContextVersion" sourcefile="BugInconsistentSynchronisation.java" sourcepath="tomcatbugs/BugInconsistentSynchronisation.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_PUBLIC_OR_PROTECTED_FIELD" priority="2" abbrev="UuF" category="STYLE">
+    <Class classname="tomcatbugs.BugInconsistentSynchronisation$ContextVersion">
+      <SourceLine classname="tomcatbugs.BugInconsistentSynchronisation$ContextVersion" start="6" end="6" sourcefile="BugInconsistentSynchronisation.java" sourcepath="tomcatbugs/BugInconsistentSynchronisation.java"/>
+    </Class>
+    <Field classname="tomcatbugs.BugInconsistentSynchronisation$ContextVersion" name="nesting" signature="I" isStatic="false">
+      <SourceLine classname="tomcatbugs.BugInconsistentSynchronisation$ContextVersion" sourcefile="BugInconsistentSynchronisation.java" sourcepath="tomcatbugs/BugInconsistentSynchronisation.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_PUBLIC_OR_PROTECTED_FIELD" priority="2" abbrev="UuF" category="STYLE">
+    <Class classname="tomcatbugs.BugInconsistentSynchronisation$ContextVersion">
+      <SourceLine classname="tomcatbugs.BugInconsistentSynchronisation$ContextVersion" start="6" end="6" sourcefile="BugInconsistentSynchronisation.java" sourcepath="tomcatbugs/BugInconsistentSynchronisation.java"/>
+    </Class>
+    <Field classname="tomcatbugs.BugInconsistentSynchronisation$ContextVersion" name="path" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="tomcatbugs.BugInconsistentSynchronisation$ContextVersion" sourcefile="BugInconsistentSynchronisation.java" sourcepath="tomcatbugs/BugInconsistentSynchronisation.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_PUBLIC_OR_PROTECTED_FIELD" priority="2" abbrev="UuF" category="STYLE">
+    <Class classname="tomcatbugs.BugInconsistentSynchronisation$ContextVersion">
+      <SourceLine classname="tomcatbugs.BugInconsistentSynchronisation$ContextVersion" start="6" end="6" sourcefile="BugInconsistentSynchronisation.java" sourcepath="tomcatbugs/BugInconsistentSynchronisation.java"/>
+    </Class>
+    <Field classname="tomcatbugs.BugInconsistentSynchronisation$ContextVersion" name="resources" signature="Ltomcatbugs/BugInconsistentSynchronisation$Context;" isStatic="false">
+      <SourceLine classname="tomcatbugs.BugInconsistentSynchronisation$ContextVersion" sourcefile="BugInconsistentSynchronisation.java" sourcepath="tomcatbugs/BugInconsistentSynchronisation.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_PUBLIC_OR_PROTECTED_FIELD" priority="2" abbrev="UuF" category="STYLE">
+    <Class classname="tomcatbugs.BugInconsistentSynchronisation$ContextVersion">
+      <SourceLine classname="tomcatbugs.BugInconsistentSynchronisation$ContextVersion" start="6" end="6" sourcefile="BugInconsistentSynchronisation.java" sourcepath="tomcatbugs/BugInconsistentSynchronisation.java"/>
+    </Class>
+    <Field classname="tomcatbugs.BugInconsistentSynchronisation$ContextVersion" name="welcomeResources" signature="[Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="tomcatbugs.BugInconsistentSynchronisation$ContextVersion" sourcefile="BugInconsistentSynchronisation.java" sourcepath="tomcatbugs/BugInconsistentSynchronisation.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_PUBLIC_OR_PROTECTED_FIELD" priority="2" abbrev="UuF" category="STYLE">
+    <Class classname="tomcatbugs.BugInconsistentSynchronisation$ContextVersion">
+      <SourceLine classname="tomcatbugs.BugInconsistentSynchronisation$ContextVersion" start="6" end="6" sourcefile="BugInconsistentSynchronisation.java" sourcepath="tomcatbugs/BugInconsistentSynchronisation.java"/>
+    </Class>
+    <Field classname="tomcatbugs.BugInconsistentSynchronisation$ContextVersion" name="wildcardWrappers" signature="[Ltomcatbugs/BugInconsistentSynchronisation$Wrapper;" isStatic="false">
+      <SourceLine classname="tomcatbugs.BugInconsistentSynchronisation$ContextVersion" sourcefile="BugInconsistentSynchronisation.java" sourcepath="tomcatbugs/BugInconsistentSynchronisation.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_PUBLIC_OR_PROTECTED_FIELD" priority="2" abbrev="UuF" category="STYLE">
+    <Class classname="tomcatbugs.BugInconsistentSynchronisation$Host">
+      <SourceLine classname="tomcatbugs.BugInconsistentSynchronisation$Host" start="6" end="6" sourcefile="BugInconsistentSynchronisation.java" sourcepath="tomcatbugs/BugInconsistentSynchronisation.java"/>
+    </Class>
+    <Field classname="tomcatbugs.BugInconsistentSynchronisation$Host" name="contextList" signature="Ltomcatbugs/BugInconsistentSynchronisation$ContextList;" isStatic="false">
+      <SourceLine classname="tomcatbugs.BugInconsistentSynchronisation$Host" sourcefile="BugInconsistentSynchronisation.java" sourcepath="tomcatbugs/BugInconsistentSynchronisation.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_PUBLIC_OR_PROTECTED_FIELD" priority="2" abbrev="UuF" category="STYLE">
+    <Class classname="tomcatbugs.BugInconsistentSynchronisation$MapElement">
+      <SourceLine classname="tomcatbugs.BugInconsistentSynchronisation$MapElement" start="6" end="6" sourcefile="BugInconsistentSynchronisation.java" sourcepath="tomcatbugs/BugInconsistentSynchronisation.java"/>
+    </Class>
+    <Field classname="tomcatbugs.BugInconsistentSynchronisation$MapElement" name="name" signature="Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="tomcatbugs.BugInconsistentSynchronisation$MapElement" sourcefile="BugInconsistentSynchronisation.java" sourcepath="tomcatbugs/BugInconsistentSynchronisation.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_PUBLIC_OR_PROTECTED_FIELD" priority="2" abbrev="UuF" category="STYLE">
+    <Class classname="tomcatbugs.BugInconsistentSynchronisation$MapElement">
+      <SourceLine classname="tomcatbugs.BugInconsistentSynchronisation$MapElement" start="6" end="6" sourcefile="BugInconsistentSynchronisation.java" sourcepath="tomcatbugs/BugInconsistentSynchronisation.java"/>
+    </Class>
+    <Field classname="tomcatbugs.BugInconsistentSynchronisation$MapElement" name="object" signature="Ljava/lang/Object;" isStatic="false">
+      <SourceLine classname="tomcatbugs.BugInconsistentSynchronisation$MapElement" sourcefile="BugInconsistentSynchronisation.java" sourcepath="tomcatbugs/BugInconsistentSynchronisation.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_PUBLIC_OR_PROTECTED_FIELD" priority="2" abbrev="UuF" category="STYLE">
+    <Class classname="tomcatbugs.BugInconsistentSynchronisation$Wrapper">
+      <SourceLine classname="tomcatbugs.BugInconsistentSynchronisation$Wrapper" start="6" end="6" sourcefile="BugInconsistentSynchronisation.java" sourcepath="tomcatbugs/BugInconsistentSynchronisation.java"/>
+    </Class>
+    <Field classname="tomcatbugs.BugInconsistentSynchronisation$Wrapper" name="jspWildCard" signature="Z" isStatic="false">
+      <SourceLine classname="tomcatbugs.BugInconsistentSynchronisation$Wrapper" sourcefile="BugInconsistentSynchronisation.java" sourcepath="tomcatbugs/BugInconsistentSynchronisation.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_PUBLIC_OR_PROTECTED_FIELD" priority="2" abbrev="UuF" category="STYLE">
+    <Class classname="tomcatbugs.BugInconsistentSynchronisation$Wrapper">
+      <SourceLine classname="tomcatbugs.BugInconsistentSynchronisation$Wrapper" start="6" end="6" sourcefile="BugInconsistentSynchronisation.java" sourcepath="tomcatbugs/BugInconsistentSynchronisation.java"/>
+    </Class>
+    <Field classname="tomcatbugs.BugInconsistentSynchronisation$Wrapper" name="resourceOnly" signature="Z" isStatic="false">
+      <SourceLine classname="tomcatbugs.BugInconsistentSynchronisation$Wrapper" sourcefile="BugInconsistentSynchronisation.java" sourcepath="tomcatbugs/BugInconsistentSynchronisation.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" abbrev="UuF" category="PERFORMANCE">
+    <Class classname="tomcatbugs.BugNTransientNSerializableInstance">
+      <SourceLine classname="tomcatbugs.BugNTransientNSerializableInstance" start="1" end="1" sourcefile="BugNTransientNSerializableInstance.java" sourcepath="tomcatbugs/BugNTransientNSerializableInstance.java"/>
+    </Class>
+    <Field classname="tomcatbugs.BugNTransientNSerializableInstance" name="enabledCiphers" signature="[Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="tomcatbugs.BugNTransientNSerializableInstance" sourcefile="BugNTransientNSerializableInstance.java" sourcepath="tomcatbugs/BugNTransientNSerializableInstance.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" abbrev="UuF" category="PERFORMANCE">
+    <Class classname="tomcatbugs.BugNTransientNSerializableInstance">
+      <SourceLine classname="tomcatbugs.BugNTransientNSerializableInstance" start="1" end="1" sourcefile="BugNTransientNSerializableInstance.java" sourcepath="tomcatbugs/BugNTransientNSerializableInstance.java"/>
+    </Class>
+    <Field classname="tomcatbugs.BugNTransientNSerializableInstance" name="enabledProtocols" signature="[Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="tomcatbugs.BugNTransientNSerializableInstance" sourcefile="BugNTransientNSerializableInstance.java" sourcepath="tomcatbugs/BugNTransientNSerializableInstance.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" abbrev="UuF" category="PERFORMANCE">
+    <Class classname="tomcatbugs.BugNTransientNSerializableInstance">
+      <SourceLine classname="tomcatbugs.BugNTransientNSerializableInstance" start="1" end="1" sourcefile="BugNTransientNSerializableInstance.java" sourcepath="tomcatbugs/BugNTransientNSerializableInstance.java"/>
+    </Class>
+    <Field classname="tomcatbugs.BugNTransientNSerializableInstance" name="lastParachuteCheck" signature="J" isStatic="false">
+      <SourceLine classname="tomcatbugs.BugNTransientNSerializableInstance" sourcefile="BugNTransientNSerializableInstance.java" sourcepath="tomcatbugs/BugNTransientNSerializableInstance.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" abbrev="UuF" category="PERFORMANCE">
+    <Class classname="tomcatbugs.BugNTransientNSerializableInstance">
+      <SourceLine classname="tomcatbugs.BugNTransientNSerializableInstance" start="1" end="1" sourcefile="BugNTransientNSerializableInstance.java" sourcepath="tomcatbugs/BugNTransientNSerializableInstance.java"/>
+    </Class>
+    <Field classname="tomcatbugs.BugNTransientNSerializableInstance" name="log" signature="Lorg/apache/lucene/store/Lock;" isStatic="true">
+      <SourceLine classname="tomcatbugs.BugNTransientNSerializableInstance" sourcefile="BugNTransientNSerializableInstance.java" sourcepath="tomcatbugs/BugNTransientNSerializableInstance.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_PUBLIC_OR_PROTECTED_FIELD" priority="2" abbrev="UuF" category="STYLE">
+    <Class classname="tomcatbugs.BugNTransientNSerializableInstance">
+      <SourceLine classname="tomcatbugs.BugNTransientNSerializableInstance" start="1" end="1" sourcefile="BugNTransientNSerializableInstance.java" sourcepath="tomcatbugs/BugNTransientNSerializableInstance.java"/>
+    </Class>
+    <Field classname="tomcatbugs.BugNTransientNSerializableInstance" name="eventCache" signature="Ljava/util/concurrent/ConcurrentLinkedQueue;" isStatic="false">
+      <SourceLine classname="tomcatbugs.BugNTransientNSerializableInstance" sourcefile="BugNTransientNSerializableInstance.java" sourcepath="tomcatbugs/BugNTransientNSerializableInstance.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_PUBLIC_OR_PROTECTED_FIELD" priority="2" abbrev="UuF" category="STYLE">
+    <Class classname="tomcatbugs.BugNTransientNSerializableInstance">
+      <SourceLine classname="tomcatbugs.BugNTransientNSerializableInstance" start="1" end="1" sourcefile="BugNTransientNSerializableInstance.java" sourcepath="tomcatbugs/BugNTransientNSerializableInstance.java"/>
+    </Class>
+    <Field classname="tomcatbugs.BugNTransientNSerializableInstance" name="handler" signature="Lorg/apache/tomcat/util/net/AbstractEndpoint$Handler;" isStatic="false">
+      <SourceLine classname="tomcatbugs.BugNTransientNSerializableInstance" sourcefile="BugNTransientNSerializableInstance.java" sourcepath="tomcatbugs/BugNTransientNSerializableInstance.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_PUBLIC_OR_PROTECTED_FIELD" priority="2" abbrev="UuF" category="STYLE">
+    <Class classname="tomcatbugs.BugNTransientNSerializableInstance">
+      <SourceLine classname="tomcatbugs.BugNTransientNSerializableInstance" start="1" end="1" sourcefile="BugNTransientNSerializableInstance.java" sourcepath="tomcatbugs/BugNTransientNSerializableInstance.java"/>
+    </Class>
+    <Field classname="tomcatbugs.BugNTransientNSerializableInstance" name="keyCache" signature="Ljava/util/concurrent/ConcurrentLinkedQueue;" isStatic="false">
+      <SourceLine classname="tomcatbugs.BugNTransientNSerializableInstance" sourcefile="BugNTransientNSerializableInstance.java" sourcepath="tomcatbugs/BugNTransientNSerializableInstance.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_PUBLIC_OR_PROTECTED_FIELD" priority="2" abbrev="UuF" category="STYLE">
+    <Class classname="tomcatbugs.BugNTransientNSerializableInstance">
+      <SourceLine classname="tomcatbugs.BugNTransientNSerializableInstance" start="1" end="1" sourcefile="BugNTransientNSerializableInstance.java" sourcepath="tomcatbugs/BugNTransientNSerializableInstance.java"/>
+    </Class>
+    <Field classname="tomcatbugs.BugNTransientNSerializableInstance" name="nioChannels" signature="Ljava/util/concurrent/ConcurrentLinkedQueue;" isStatic="false">
+      <SourceLine classname="tomcatbugs.BugNTransientNSerializableInstance" sourcefile="BugNTransientNSerializableInstance.java" sourcepath="tomcatbugs/BugNTransientNSerializableInstance.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_PUBLIC_OR_PROTECTED_FIELD" priority="2" abbrev="UuF" category="STYLE">
+    <Class classname="tomcatbugs.BugNTransientNSerializableInstance">
+      <SourceLine classname="tomcatbugs.BugNTransientNSerializableInstance" start="1" end="1" sourcefile="BugNTransientNSerializableInstance.java" sourcepath="tomcatbugs/BugNTransientNSerializableInstance.java"/>
+    </Class>
+    <Field classname="tomcatbugs.BugNTransientNSerializableInstance" name="oomParachute" signature="I" isStatic="false">
+      <SourceLine classname="tomcatbugs.BugNTransientNSerializableInstance" sourcefile="BugNTransientNSerializableInstance.java" sourcepath="tomcatbugs/BugNTransientNSerializableInstance.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_PUBLIC_OR_PROTECTED_FIELD" priority="2" abbrev="UuF" category="STYLE">
+    <Class classname="tomcatbugs.BugNTransientNSerializableInstance">
+      <SourceLine classname="tomcatbugs.BugNTransientNSerializableInstance" start="1" end="1" sourcefile="BugNTransientNSerializableInstance.java" sourcepath="tomcatbugs/BugNTransientNSerializableInstance.java"/>
+    </Class>
+    <Field classname="tomcatbugs.BugNTransientNSerializableInstance" name="oomParachuteData" signature="[B" isStatic="false">
+      <SourceLine classname="tomcatbugs.BugNTransientNSerializableInstance" sourcefile="BugNTransientNSerializableInstance.java" sourcepath="tomcatbugs/BugNTransientNSerializableInstance.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_PUBLIC_OR_PROTECTED_FIELD" priority="2" abbrev="UuF" category="STYLE">
+    <Class classname="tomcatbugs.BugNTransientNSerializableInstance">
+      <SourceLine classname="tomcatbugs.BugNTransientNSerializableInstance" start="1" end="1" sourcefile="BugNTransientNSerializableInstance.java" sourcepath="tomcatbugs/BugNTransientNSerializableInstance.java"/>
+    </Class>
+    <Field classname="tomcatbugs.BugNTransientNSerializableInstance" name="pollerRotater" signature="Ljava/util/concurrent/atomic/AtomicInteger;" isStatic="false">
+      <SourceLine classname="tomcatbugs.BugNTransientNSerializableInstance" sourcefile="BugNTransientNSerializableInstance.java" sourcepath="tomcatbugs/BugNTransientNSerializableInstance.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_PUBLIC_OR_PROTECTED_FIELD" priority="2" abbrev="UuF" category="STYLE">
+    <Class classname="tomcatbugs.BugNTransientNSerializableInstance">
+      <SourceLine classname="tomcatbugs.BugNTransientNSerializableInstance" start="1" end="1" sourcefile="BugNTransientNSerializableInstance.java" sourcepath="tomcatbugs/BugNTransientNSerializableInstance.java"/>
+    </Class>
+    <Field classname="tomcatbugs.BugNTransientNSerializableInstance" name="pollerThreadCount" signature="I" isStatic="false">
+      <SourceLine classname="tomcatbugs.BugNTransientNSerializableInstance" sourcefile="BugNTransientNSerializableInstance.java" sourcepath="tomcatbugs/BugNTransientNSerializableInstance.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_PUBLIC_OR_PROTECTED_FIELD" priority="2" abbrev="UuF" category="STYLE">
+    <Class classname="tomcatbugs.BugNTransientNSerializableInstance">
+      <SourceLine classname="tomcatbugs.BugNTransientNSerializableInstance" start="1" end="1" sourcefile="BugNTransientNSerializableInstance.java" sourcepath="tomcatbugs/BugNTransientNSerializableInstance.java"/>
+    </Class>
+    <Field classname="tomcatbugs.BugNTransientNSerializableInstance" name="pollerThreadPriority" signature="I" isStatic="false">
+      <SourceLine classname="tomcatbugs.BugNTransientNSerializableInstance" sourcefile="BugNTransientNSerializableInstance.java" sourcepath="tomcatbugs/BugNTransientNSerializableInstance.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_PUBLIC_OR_PROTECTED_FIELD" priority="2" abbrev="UuF" category="STYLE">
+    <Class classname="tomcatbugs.BugNTransientNSerializableInstance">
+      <SourceLine classname="tomcatbugs.BugNTransientNSerializableInstance" start="1" end="1" sourcefile="BugNTransientNSerializableInstance.java" sourcepath="tomcatbugs/BugNTransientNSerializableInstance.java"/>
+    </Class>
+    <Field classname="tomcatbugs.BugNTransientNSerializableInstance" name="pollers" signature="[LPoller;" isStatic="false">
+      <SourceLine classname="tomcatbugs.BugNTransientNSerializableInstance" sourcefile="BugNTransientNSerializableInstance.java" sourcepath="tomcatbugs/BugNTransientNSerializableInstance.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_PUBLIC_OR_PROTECTED_FIELD" priority="2" abbrev="UuF" category="STYLE">
+    <Class classname="tomcatbugs.BugNTransientNSerializableInstance">
+      <SourceLine classname="tomcatbugs.BugNTransientNSerializableInstance" start="1" end="1" sourcefile="BugNTransientNSerializableInstance.java" sourcepath="tomcatbugs/BugNTransientNSerializableInstance.java"/>
+    </Class>
+    <Field classname="tomcatbugs.BugNTransientNSerializableInstance" name="processorCache" signature="Ljava/util/concurrent/ConcurrentLinkedQueue;" isStatic="false">
+      <SourceLine classname="tomcatbugs.BugNTransientNSerializableInstance" sourcefile="BugNTransientNSerializableInstance.java" sourcepath="tomcatbugs/BugNTransientNSerializableInstance.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_PUBLIC_OR_PROTECTED_FIELD" priority="2" abbrev="UuF" category="STYLE">
+    <Class classname="tomcatbugs.BugNTransientNSerializableInstance">
+      <SourceLine classname="tomcatbugs.BugNTransientNSerializableInstance" start="1" end="1" sourcefile="BugNTransientNSerializableInstance.java" sourcepath="tomcatbugs/BugNTransientNSerializableInstance.java"/>
+    </Class>
+    <Field classname="tomcatbugs.BugNTransientNSerializableInstance" name="selectorPool" signature="LNioSelectorPool;" isStatic="false">
+      <SourceLine classname="tomcatbugs.BugNTransientNSerializableInstance" sourcefile="BugNTransientNSerializableInstance.java" sourcepath="tomcatbugs/BugNTransientNSerializableInstance.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_PUBLIC_OR_PROTECTED_FIELD" priority="2" abbrev="UuF" category="STYLE">
+    <Class classname="tomcatbugs.BugNTransientNSerializableInstance">
+      <SourceLine classname="tomcatbugs.BugNTransientNSerializableInstance" start="1" end="1" sourcefile="BugNTransientNSerializableInstance.java" sourcepath="tomcatbugs/BugNTransientNSerializableInstance.java"/>
+    </Class>
+    <Field classname="tomcatbugs.BugNTransientNSerializableInstance" name="selectorTimeout" signature="J" isStatic="false">
+      <SourceLine classname="tomcatbugs.BugNTransientNSerializableInstance" sourcefile="BugNTransientNSerializableInstance.java" sourcepath="tomcatbugs/BugNTransientNSerializableInstance.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_PUBLIC_OR_PROTECTED_FIELD" priority="2" abbrev="UuF" category="STYLE">
+    <Class classname="tomcatbugs.BugNTransientNSerializableInstance">
+      <SourceLine classname="tomcatbugs.BugNTransientNSerializableInstance" start="1" end="1" sourcefile="BugNTransientNSerializableInstance.java" sourcepath="tomcatbugs/BugNTransientNSerializableInstance.java"/>
+    </Class>
+    <Field classname="tomcatbugs.BugNTransientNSerializableInstance" name="serverSock" signature="Ljava/nio/channels/ServerSocketChannel;" isStatic="false">
+      <SourceLine classname="tomcatbugs.BugNTransientNSerializableInstance" sourcefile="BugNTransientNSerializableInstance.java" sourcepath="tomcatbugs/BugNTransientNSerializableInstance.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_PUBLIC_OR_PROTECTED_FIELD" priority="2" abbrev="UuF" category="STYLE">
+    <Class classname="tomcatbugs.BugNTransientNSerializableInstance">
+      <SourceLine classname="tomcatbugs.BugNTransientNSerializableInstance" start="1" end="1" sourcefile="BugNTransientNSerializableInstance.java" sourcepath="tomcatbugs/BugNTransientNSerializableInstance.java"/>
+    </Class>
+    <Field classname="tomcatbugs.BugNTransientNSerializableInstance" name="sslContext" signature="Ljavax/net/ssl/SSLContext;" isStatic="false">
+      <SourceLine classname="tomcatbugs.BugNTransientNSerializableInstance" sourcefile="BugNTransientNSerializableInstance.java" sourcepath="tomcatbugs/BugNTransientNSerializableInstance.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_PUBLIC_OR_PROTECTED_FIELD" priority="2" abbrev="UuF" category="STYLE">
+    <Class classname="tomcatbugs.BugNTransientNSerializableInstance">
+      <SourceLine classname="tomcatbugs.BugNTransientNSerializableInstance" start="1" end="1" sourcefile="BugNTransientNSerializableInstance.java" sourcepath="tomcatbugs/BugNTransientNSerializableInstance.java"/>
+    </Class>
+    <Field classname="tomcatbugs.BugNTransientNSerializableInstance" name="stopLatch" signature="Ljava/util/concurrent/CountDownLatch;" isStatic="false">
+      <SourceLine classname="tomcatbugs.BugNTransientNSerializableInstance" sourcefile="BugNTransientNSerializableInstance.java" sourcepath="tomcatbugs/BugNTransientNSerializableInstance.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_PUBLIC_OR_PROTECTED_FIELD" priority="2" abbrev="UuF" category="STYLE">
+    <Class classname="tomcatbugs.BugNTransientNSerializableInstance">
+      <SourceLine classname="tomcatbugs.BugNTransientNSerializableInstance" start="1" end="1" sourcefile="BugNTransientNSerializableInstance.java" sourcepath="tomcatbugs/BugNTransientNSerializableInstance.java"/>
+    </Class>
+    <Field classname="tomcatbugs.BugNTransientNSerializableInstance" name="useComet" signature="Z" isStatic="false">
+      <SourceLine classname="tomcatbugs.BugNTransientNSerializableInstance" sourcefile="BugNTransientNSerializableInstance.java" sourcepath="tomcatbugs/BugNTransientNSerializableInstance.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_PUBLIC_OR_PROTECTED_FIELD" priority="2" abbrev="UuF" category="STYLE">
+    <Class classname="tomcatbugs.BugNTransientNSerializableInstance">
+      <SourceLine classname="tomcatbugs.BugNTransientNSerializableInstance" start="1" end="1" sourcefile="BugNTransientNSerializableInstance.java" sourcepath="tomcatbugs/BugNTransientNSerializableInstance.java"/>
+    </Class>
+    <Field classname="tomcatbugs.BugNTransientNSerializableInstance" name="useSendfile" signature="Z" isStatic="false">
+      <SourceLine classname="tomcatbugs.BugNTransientNSerializableInstance" sourcefile="BugNTransientNSerializableInstance.java" sourcepath="tomcatbugs/BugNTransientNSerializableInstance.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" abbrev="UuF" category="PERFORMANCE">
+    <Class classname="tomcatbugs.SavedStreams">
+      <SourceLine classname="tomcatbugs.SavedStreams" start="11" end="18" sourcefile="SavedStreams.java" sourcepath="tomcatbugs/SavedStreams.java"/>
+    </Class>
+    <Field classname="tomcatbugs.SavedStreams" name="result" signature="Lorg/apache/lucene/analysis/TokenStream;" isStatic="false">
+      <SourceLine classname="tomcatbugs.SavedStreams" sourcefile="SavedStreams.java" sourcepath="tomcatbugs/SavedStreams.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" abbrev="UuF" category="PERFORMANCE">
+    <Class classname="tomcatbugs.SavedStreams">
+      <SourceLine classname="tomcatbugs.SavedStreams" start="11" end="18" sourcefile="SavedStreams.java" sourcepath="tomcatbugs/SavedStreams.java"/>
+    </Class>
+    <Field classname="tomcatbugs.SavedStreams" name="source" signature="Lorg/apache/lucene/analysis/Tokenizer;" isStatic="false">
+      <SourceLine classname="tomcatbugs.SavedStreams" sourcefile="SavedStreams.java" sourcepath="tomcatbugs/SavedStreams.java"/>
+    </Field>
+  </BugInstance>
+  <Errors errors="0" missingClasses="18">
+    <MissingClass>org.apache.lucene.analysis.Analyzer</MissingClass>
+    <MissingClass>org.apache.lucene.analysis.StopFilter</MissingClass>
+    <MissingClass>org.apache.lucene.document.AbstractField</MissingClass>
+    <MissingClass>org.apache.lucene.index.IndexReader</MissingClass>
+    <MissingClass>org.apache.lucene.index.Term</MissingClass>
+    <MissingClass>org.apache.lucene.search.ComplexExplanation</MissingClass>
+    <MissingClass>org.apache.lucene.search.Explanation</MissingClass>
+    <MissingClass>org.apache.lucene.search.Query</MissingClass>
+    <MissingClass>org.apache.lucene.search.Scorer</MissingClass>
+    <MissingClass>org.apache.lucene.search.Similarity</MissingClass>
+    <MissingClass>org.apache.lucene.util.ToStringUtils</MissingClass>
+    <MissingClass>org.apache.tomcat.util.net.AbstractEndpoint</MissingClass>
+    <MissingClass>org.apache.tomcat.util.net.NioChannel</MissingClass>
+    <MissingClass>org.apache.tomcat.util.net.SecureNioChannel$ApplicationBufferHandler</MissingClass>
+    <MissingClass>org.eclipse.osgi.framework.adaptor.BundleClassLoader</MissingClass>
+    <MissingClass>org.eclipse.osgi.framework.console.CommandInterpreter</MissingClass>
+    <MissingClass>org.eclipse.osgi.framework.internal.core.ConsoleMsg</MissingClass>
+    <MissingClass>org.eclipse.osgi.util.NLS</MissingClass>
+  </Errors>
+  <FindBugsSummary timestamp="Tue, 18 Jun 2013 21:25:14 +0530" total_classes="26" referenced_classes="120" total_bugs="76" total_size="469" num_packages="3" vm_version="23.21-b01" cpu_seconds="12.80" clock_seconds="4.29" peak_mbytes="96.33" alloc_mbytes="682.69" gc_seconds="0.02" priority_2="75" priority_1="1">
+    <PackageStats package="eclipsebugs" total_bugs="4" total_types="9" total_size="114" priority_2="4">
+      <ClassStats class="eclipsebugs.BugDoubleAssignment" sourceFile="BugDoubleAssignment.java" interface="false" size="11" bugs="1" priority_2="1"/>
+      <ClassStats class="eclipsebugs.BugExit" sourceFile="BugExit.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="eclipsebugs.BugExplicitGarbageCollection" sourceFile="BugExplicitGarbageCollection.java" interface="false" size="21" bugs="0"/>
+      <ClassStats class="eclipsebugs.BugFieldShouldbeFinal" sourceFile="BugFieldShouldbeFinal.java" interface="false" size="15" bugs="0"/>
+      <ClassStats class="eclipsebugs.BugWritetoStaticField" sourceFile="BugWritetoStaticField.java" interface="false" size="11" bugs="3" priority_2="3"/>
+      <ClassStats class="eclipsebugs.BugWritetoStaticField1" sourceFile="BugWritetoStaticField1.java" interface="false" size="5" bugs="0"/>
+      <ClassStats class="eclipsebugs.BugWritetoStaticFieldOrg" sourceFile="BugWritetoStaticFieldOrg.java" interface="false" size="33" bugs="0"/>
+      <ClassStats class="eclipsebugs.BugWritetoStaticFieldOrg$1" sourceFile="BugWritetoStaticFieldOrg.java" interface="false" size="6" bugs="0"/>
+      <ClassStats class="eclipsebugs.Finder" sourceFile="Finder.java" interface="false" size="5" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="lucenebugs" total_bugs="24" total_types="7" total_size="183" priority_2="24">
+      <ClassStats class="lucenebugs.BugMutableField" sourceFile="BugMutableField.java" interface="false" size="13" bugs="2" priority_2="2"/>
+      <ClassStats class="lucenebugs.BugNoserialVersionUID" sourceFile="BugNoserialVersionUID.java" interface="false" size="14" bugs="11" priority_2="11"/>
+      <ClassStats class="lucenebugs.BugNoserialVersionUID$LazyField" sourceFile="BugNoserialVersionUID.java" interface="false" size="27" bugs="3" priority_2="3"/>
+      <ClassStats class="lucenebugs.BugRedundantNullCheck" sourceFile="BugRedundantNullCheck.java" interface="false" size="14" bugs="2" priority_2="2"/>
+      <ClassStats class="lucenebugs.BugRedundantNullCheck$TermWeight" sourceFile="BugRedundantNullCheck.java" interface="false" size="62" bugs="0"/>
+      <ClassStats class="lucenebugs.BugRedundantNullCheckObf" sourceFile="BugRedundantNullCheckObf.java" interface="false" size="23" bugs="6" priority_2="6"/>
+      <ClassStats class="lucenebugs.TermQuery" sourceFile="TermQuery.java" interface="false" size="30" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="tomcatbugs" total_bugs="48" total_types="10" total_size="172" priority_2="47" priority_1="1">
+      <ClassStats class="tomcatbugs.BugIgnoreException" sourceFile="BugIgnoreException.java" interface="false" size="89" bugs="3" priority_2="2" priority_1="1"/>
+      <ClassStats class="tomcatbugs.BugInconsistentSynchronisation" sourceFile="BugInconsistentSynchronisation.java" interface="false" size="12" bugs="5" priority_2="5"/>
+      <ClassStats class="tomcatbugs.BugInconsistentSynchronisation$Context" sourceFile="BugInconsistentSynchronisation.java" interface="false" size="4" bugs="1" priority_2="1"/>
+      <ClassStats class="tomcatbugs.BugInconsistentSynchronisation$ContextList" sourceFile="BugInconsistentSynchronisation.java" interface="false" size="5" bugs="2" priority_2="2"/>
+      <ClassStats class="tomcatbugs.BugInconsistentSynchronisation$ContextVersion" sourceFile="BugInconsistentSynchronisation.java" interface="false" size="11" bugs="8" priority_2="8"/>
+      <ClassStats class="tomcatbugs.BugInconsistentSynchronisation$Host" sourceFile="BugInconsistentSynchronisation.java" interface="false" size="4" bugs="1" priority_2="1"/>
+      <ClassStats class="tomcatbugs.BugInconsistentSynchronisation$MapElement" sourceFile="BugInconsistentSynchronisation.java" interface="false" size="5" bugs="2" priority_2="2"/>
+      <ClassStats class="tomcatbugs.BugInconsistentSynchronisation$Wrapper" sourceFile="BugInconsistentSynchronisation.java" interface="false" size="5" bugs="2" priority_2="2"/>
+      <ClassStats class="tomcatbugs.BugNTransientNSerializableInstance" sourceFile="BugNTransientNSerializableInstance.java" interface="false" size="28" bugs="22" priority_2="22"/>
+      <ClassStats class="tomcatbugs.SavedStreams" sourceFile="SavedStreams.java" interface="false" size="9" bugs="2" priority_2="2"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="492" invocations="697" avgMicrosecondsPerInvocation="706" maxMicrosecondsPerInvocation="22199" standardDeviationMircosecondsPerInvocation="1467"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="395" invocations="120" avgMicrosecondsPerInvocation="3291" maxMicrosecondsPerInvocation="43455" standardDeviationMircosecondsPerInvocation="5837"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="194" invocations="120" avgMicrosecondsPerInvocation="1619" maxMicrosecondsPerInvocation="11965" standardDeviationMircosecondsPerInvocation="2454"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="160" invocations="87" avgMicrosecondsPerInvocation="1850" maxMicrosecondsPerInvocation="50256" standardDeviationMircosecondsPerInvocation="5948"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="151" invocations="316" avgMicrosecondsPerInvocation="479" maxMicrosecondsPerInvocation="5386" standardDeviationMircosecondsPerInvocation="591"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="146" invocations="87" avgMicrosecondsPerInvocation="1681" maxMicrosecondsPerInvocation="42254" standardDeviationMircosecondsPerInvocation="5043"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="115" invocations="87" avgMicrosecondsPerInvocation="1325" maxMicrosecondsPerInvocation="31796" standardDeviationMircosecondsPerInvocation="3895"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="94" invocations="120" avgMicrosecondsPerInvocation="790" maxMicrosecondsPerInvocation="6182" standardDeviationMircosecondsPerInvocation="1093"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.ExplicitSerialization" totalMilliseconds="94" invocations="120" avgMicrosecondsPerInvocation="785" maxMicrosecondsPerInvocation="19034" standardDeviationMircosecondsPerInvocation="2740"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CalledMethods" totalMilliseconds="89" invocations="120" avgMicrosecondsPerInvocation="746" maxMicrosecondsPerInvocation="5307" standardDeviationMircosecondsPerInvocation="1094"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="87" invocations="120" avgMicrosecondsPerInvocation="727" maxMicrosecondsPerInvocation="15607" standardDeviationMircosecondsPerInvocation="1678"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison$SpecialTypeAnalysis" totalMilliseconds="86" invocations="76" avgMicrosecondsPerInvocation="1132" maxMicrosecondsPerInvocation="32845" standardDeviationMircosecondsPerInvocation="3986"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ConstantDataflowFactory" totalMilliseconds="86" invocations="87" avgMicrosecondsPerInvocation="989" maxMicrosecondsPerInvocation="29106" standardDeviationMircosecondsPerInvocation="3376"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="79" invocations="151" avgMicrosecondsPerInvocation="526" maxMicrosecondsPerInvocation="17797" standardDeviationMircosecondsPerInvocation="1675"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="72" invocations="619" avgMicrosecondsPerInvocation="116" maxMicrosecondsPerInvocation="1907" standardDeviationMircosecondsPerInvocation="234"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="72" invocations="120" avgMicrosecondsPerInvocation="601" maxMicrosecondsPerInvocation="7809" standardDeviationMircosecondsPerInvocation="1026"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.impl.ZipCodeBaseFactory" totalMilliseconds="64" invocations="15" avgMicrosecondsPerInvocation="4299" maxMicrosecondsPerInvocation="63412" standardDeviationMircosecondsPerInvocation="15798"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="61" invocations="87" avgMicrosecondsPerInvocation="705" maxMicrosecondsPerInvocation="49347" standardDeviationMircosecondsPerInvocation="5250"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.ReflectiveClasses" totalMilliseconds="58" invocations="120" avgMicrosecondsPerInvocation="484" maxMicrosecondsPerInvocation="3479" standardDeviationMircosecondsPerInvocation="721"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.EqualsOperandShouldHaveClassCompatibleWithThis" totalMilliseconds="53" invocations="120" avgMicrosecondsPerInvocation="448" maxMicrosecondsPerInvocation="4851" standardDeviationMircosecondsPerInvocation="690"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="51" invocations="27" avgMicrosecondsPerInvocation="1913" maxMicrosecondsPerInvocation="20722" standardDeviationMircosecondsPerInvocation="4081"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

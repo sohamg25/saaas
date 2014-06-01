@@ -1,0 +1,685 @@
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" class="">
+    
+    
+    
+    
+
+    
+    <head>
+        <meta id="CompatabilityMode" http-equiv="X-UA-Compatible" content="IE=edge" />
+	    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link href="http://download-codeplex.sec.s-msft.com/css/v20552/i1970247/StyleSheet.ashx" id="MasterCss" rel="stylesheet" type="text/css" />
+        <link rel="SHORTCUT ICON" href="http://www.codeplex.com/favicon.ico" />
+        <title>Z3 - Source Code</title>
+        
+        <!--
+        Third party scripts and code linked to or referenced from this website are licensed to you by the parties that own such code,
+        not by Microsoft.  See ASP.NET Ajax CDN Terms of Use – http://www.asp.net/ajaxlibrary/CDN.ashx.
+        -->
+        <script src="http://ajax.aspnetcdn.com/ajax/jquery/jquery-1.4.4.min.js" type="text/javascript"></script>
+        <script src="http://ajax.aspnetcdn.com/ajax/jquery.ui/1.8.6/jquery-ui.min.js" type="text/javascript"></script>
+        
+        
+    <style type="text/css">.SideBar, .SideBarPadding{display:none;}.MainContent{width:auto;}.SiteContentTable{width:100%;}</style>
+    <style id="ProjectStyles" type="text/css">
+        .SiteHeader, .SiteHeaderLeft {
+            height:45px !important;
+            overflow:hidden;
+        }
+        .SiteContent 
+        {
+            padding: 0 0 1em 0;
+            margin-top:0;
+            min-height:225px;
+            border-right: 1px solid lightgrey;
+            border-left: 1px solid lightgrey;
+            border-bottom: 1px solid lightgrey;
+        }
+        .IE table.MinWidthContent
+        {
+	        table-layout: auto !important;	
+        }
+    </style>
+    
+    
+    
+    
+    <meta id="WTProjectName" name="WT.pi" content="z3"/>
+    
+
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href='http://z3.codeplex.com/rsd' />
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml" title="WLWManifest" href='/wlwmanifest.xml' />
+    
+    
+        <link rel="alternate" type="application/rss+xml" title="Z3" url="http://z3.codeplex.com/project/feeds/rss"/>
+    
+        
+        <link rel="alternate" type="application/rss+xml" title="Z3&#32;-&#32;Discussions" url="http://z3.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2fforum%2fz3"/>
+        
+        <link rel="alternate" type="application/rss+xml" title="Z3&#32;-&#32;Issues" url="http://z3.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2fworkitem%2fz3"/>
+        
+        <link rel="alternate" type="application/rss+xml" title="Z3&#32;-&#32;Downloads" url="http://z3.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2frelease%2fz3"/>
+        <link rel="alternate" type="application/rss+xml" title="Z3&#32;-&#32;Reviews" url="http://z3.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2freview%2fz3"/>
+        
+    
+        <link rel="alternate" type="application/rss+xml" title="Z3&#32;-&#32;Source&#32;code" url="http://z3.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2fsourcecontrol%2fz3"/>
+        <link rel="alternate" type="application/rss+xml" title="Z3&#32;-&#32;Wiki" url="http://z3.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2fwiki%2fz3"/>
+    
+        
+    
+        <meta content="summary" name="twitter:card"></meta><meta content="@CodePlex" name="twitter:site"></meta><meta content="http://z3.codeplex.com/SourceControl/latest?ProjectName=z3" name="twitter:url"></meta><meta content="Z3" name="twitter:title"></meta><meta content="Z3 is a high-performance theorem prover being developed at Microsoft Research. " name="twitter:description"></meta><meta content="http://www.codeplex.com/favicon.ico" name="twitter:image"></meta>
+    
+
+    </head>
+    
+    <body>
+        <script src="http://download-codeplex.sec.s-msft.com/scripts/v20552/i7/ScriptLoader.ashx" type="text/javascript"></script>
+        <form id="aspnetForm" autocomplete="off" method="POST" enctype="multipart/form-data">
+            <input name="__RequestVerificationToken" type="hidden" value="fP7A1li6S7xQaUWRc_PgMTdLia6Oj1Z9Mx8jGcWr7qVLlxMRGPthoeWiQkmM2iUwTs4ZiaQioPcrQZsMcFrOmJjKVZkYc4kniutoMqz7zeCgVBorn_1TYj0UFVVxbEBcp-ESWw2" /><input name="__RequestVerificationToken2" type="hidden" value="__RequestVerificationToken232a380e4-903c-403b-a2db-6955aebddde7" />
+            
+            <div id="UpdateProgressPanel" class="loading_animation" style="display:none;">
+                <div class="row">
+                    <h2 class="anim_h2">
+                        <span id="UpdateProgressText">Updating...</span>
+                        <span id="animatedLoadingIconContainer">
+                            <img id="animatedLoadingIcon" src="http://download-codeplex.sec.s-msft.com/Images/v20552/loading_animation.gif" class="anim_img"/>
+                        </span>
+                    </h2>
+                </div>
+            </div>
+            
+            <div style="display:none;">
+                
+                    <script type="text/javascript">
+                        $loadScript("https://siterecruit.comscore.com/sr/codeplex/broker.js");
+                    </script>
+
+                
+                
+                <img id="BlankImage" style="width:0;height:0;" src="http://download-codeplex.sec.s-msft.com/Images/v20552/blank.png" onload="self.logoImageLoaded=true;"/>
+
+                <script language="javascript" type="text/javascript">
+                    var date = new Date();
+                    var timezoneOffset = date.getTimezoneOffset() / 60 * -1;
+                    var timezoneOffsetCookie = getCookie("TimezoneOffset");
+                    var firstTimeSetTimezoneCookie = false;
+
+                    if (timezoneOffsetCookie == null || timezoneOffsetCookie != timezoneOffset) {
+                        firstTimeSetTimezoneCookie = true;
+                        document.cookie = "TimezoneOffset=" + timezoneOffset + '; domain=.codeplex.com;expires=Wed, 11 Jun 2014 23:08:37 UTC';
+                    }
+                </script>
+                
+                
+                    <noscript>
+                        <a href="http://www.omniture.com" title="Web Analytics"><img src="http://msstonojstemp.112.2O7.net/b/ss/msstonojstemp/1/H.20.2--NS/0" height="1" width="1" border="0" alt="" /></a>
+                    </noscript>
+                
+            </div>
+            
+            <div id="header">
+                <div id="header_wrap" class="row">
+                    <p id="logo"><a href="http://www.codeplex.com">Code<span class="semi">Plex</span></a><span id="tagline">Project Hosting for Open Source Software</span></p>
+                    
+
+<ul id="nav">
+
+    <li><a href="/site/register/new" id="registerLink" class="ZoomFix">Register</a></li>
+    <li ><a class="SignInLink" href="https://www.codeplex.com/site/login?RedirectUrl=http%3a%2f%2fz3.codeplex.com%2fSourceControl%2flatest" id="signInLink">Sign In</a></li>
+  
+    <li class="last"><a class="rss_site_icon" href="http://www.codeplex.com/site/feeds/rss" type="application/rss+xml" rel="Alternate" title="CodePlex Site Activity"></a></li>
+</ul>
+                    <input id="searchsite" name="searchsite" maxlength="500" type="text" value="" /><span id="search_mag"><a id="submitSearch" name="submitSearch" class="magnify" title="Search" href="#"></a></span>
+                    <script>
+	$(document).ready(function() {
+    var searchButton = $('#submitSearch'),
+        searchBar = $('#searchsite');
+
+    // Register our own handler for the search event while we wait for the SearchBox script to load.
+    searchButton.bind('click.backupSearchBox', doProjectSearch);
+    searchBar.bind('keypress.backupSearchBox', function(e) { if ($keyCode(e) === 13) { doProjectSearch(); return false; } });
+
+    function cleanupSearchEvents() {
+        // If the SearchBox was loaded, unregister our handlers.
+        if (epx_loaded) {
+            searchButton.unbind('.backupSearchBox');
+            searchBar.unbind('.backupSearchBox');
+        }
+    }
+
+    $loadScript('http://i4.services.social.microsoft.com/search/Widgets/SearchBox.jss?appid=1000&scopeid=1&boxId=searchsite&btnId=submitSearch&watermark=Search%20all%20projects&overrideWatermark=true&searchLocation=%2fsite%2fsearch&allowEmptySearch=true&focusOnInit=False&minimumTermLength=3', cleanupSearchEvents);
+})
+function doProjectSearch() {
+    
+    var url = '/site/search';
+
+    //If search term is not same as watermark
+    if($('#searchsite').val() != 'Search all projects')    
+    {        
+        url = url + '?query=' + encodeURIComponent($('#searchsite').val());
+    }
+
+    
+    var callback = '';
+    if (callback.length > 0 && eval('typeof ' + callback) != 'undefined')
+        url += eval(callback + '()');
+
+    window.location.href = url;
+    return false;
+}
+</script>
+                </div>
+            </div>
+            
+            <div id="wrap">
+                
+    <div id="sub_heading" class="row">
+        
+        <div id="ProjectHeader">
+            <div id="project_title_row" class="row">
+                <div id="project_logo">
+                    
+    
+    <h1><a href="http://z3.codeplex.com/"><img src="http://download-codeplex.sec.s-msft.com/Download?ProjectName=z3&DownloadId=491381&Build=20552" alt="Z3" /></a></h1>
+
+                </div>
+            </div>
+        </div>
+        
+        <div id="ProjectDetailsDiv">
+            
+        </div>
+		<div class="clear"></div>
+        
+
+<ul id="page_box_links">
+	<li id="homeTabCell" style="width: 63px;"><a id="homeTab" href="http://z3.codeplex.com/" class="box_home">home</a><div></div></li>
+    
+	<li id="sourceTabCell" style="width:113px;"><a id="sourceTab" href="http://z3.codeplex.com/SourceControl/latest" class="source_active">source code</a><div></div></li>
+    
+	<li id="releasesTabCell" style="width:105px;"><a id="releasesTab" href="http://z3.codeplex.com/releases" class="box_downloads">downloads</a><div></div></li>
+    
+    <li id="documentationTabCell" style="width:143px;"><a id="documentationTab" href="http://z3.codeplex.com/documentation" class="box_documentation">documentation</a><div></div></li>
+    
+	<li id="discussionTabCell" style="width:112px;"><a id="discussionTab" href="http://z3.codeplex.com/discussions" class="box_discussions">discussions</a><div></div></li>
+    
+	<li id="workItemsTabCell" style="width:70px;"><a id="workItemsTab" href="http://z3.codeplex.com/workitem/list/basic" class="box_issue">issues</a><div></div></li>
+    
+	<li id="peopleTabCell" style="width:70px;"><a id="peopleTab" href="http://z3.codeplex.com/team/view" class="box_people">people</a><div></div></li>
+	<li id="licenseTabCell" style="width:70px;"><a id="licenseTab" href="http://z3.codeplex.com/license" class="box_license">license</a><div></div></li>
+    
+    <span class="stretch"></span>
+</ul>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#page_box_links').applyLastClassToList();
+    });
+</script>
+		    <div class="clear"></div>
+            
+    
+    
+
+    
+
+<ul class="page_box_sublinks">
+    
+			<li>Files</li>
+        
+        <li><a id="RecentCheckInsLink" href="http://z3.codeplex.com/SourceControl/list/changesets">History</a></li>
+    
+            <li><a id="QueuesForksLink" href="http://z3.codeplex.com/SourceControl/network">Forks</a> (14)</li>
+        
+            <li class="last"><a id="PullRequestsLink" href="http://z3.codeplex.com/sourcecontrol/list/contributions">Pull Requests</a> (0)</li>
+        
+</ul>
+    
+    
+
+    <td>
+        
+
+<div>
+    
+    <div id="actionBar" class="action_bar">
+        <ul id="actionBar_ul" class="actionBar_sublinks subtab_right" style="vertical-align: middle;">
+
+            
+
+                <li id="li_actionbar_fork" data-action-id="actionbar_fork" data-action-type="PopUp" class="actionBar_sublinks" data-options-id="0c21921d-7f51-4873-b790-4cdab552ac92">
+                
+                    <script class="options" defer="defer" id="0c21921d-7f51-4873-b790-4cdab552ac92" type="application/json">{}</script> 
+                    
+                    <div class="actionBar_custom_content">
+
+<!--    
+This same forks control is used at two places:
+    1) Your Forks section on home page and 
+    2) Forks popup on Action Bar in Source Code tab
+Project specific context is availalbe only on source code tab but not on home page. 
+This differentiator is used below to render the same control differently at different places
+-->
+
+
+    <div id="forkHoverDiv">
+        <div style="margin: 15px;">
+            <b>Your forks:</b><br />
+            
+            <a href="http://z3.codeplex.com/SourceControl/network/create/fork">Create new fork</a></p>
+        </div>
+    </div>
+</div>
+
+                    <a href="#" id="actionbar_fork" title="Want to contribute changes? Fork this project to send pull requests." class="action_bar_item_link">
+                        <img id="img_actionbar_fork" class="action_bar_item_image" src="http://download-codeplex.sec.s-msft.com/Images/v20552/actionbar_fork.png" style="vertical-align: middle" />
+                        Fork
+                    </a>
+
+                </li>
+
+            
+
+                <li id="li_actionbar_clone" data-action-id="actionbar_clone" data-action-type="PopUp" class="actionBar_sublinks" data-options-id="7319acc5-b038-47c5-9cc4-f53dba3dcb87">
+                
+                    <script class="options" defer="defer" id="7319acc5-b038-47c5-9cc4-f53dba3dcb87" type="application/json">{}</script> 
+                    
+                    <div class="actionBar_custom_content">
+
+<div id="cloneHoverDiv" >
+        <div id="clonehead1" class="Inline">To clone this project in <b>Git</b>, use the following command:</div>
+        <br />
+        <br />
+        <label id="cloneline1">
+            
+                    git clone
+               
+        </label>
+        <input id="clonetext1" type="text" readonly="readonly" value="https&#58;&#47;&#47;git01.codeplex.com&#47;z3" />
+        <br />
+        <br />
+        <div id="cloneline2" class="Inline">
+            
+            Need help? Read up on             
+           
+            <a href='http://codeplex.codeplex.com/Wiki/View.aspx?title=Using%20Git%20with%20CodePlex&referringTitle=Source%20control%20clients' target="_blank">using Git with CodePlex.</a>
+            
+        </div>
+</div>
+</div>
+
+                    <a href="#" id="actionbar_clone" title="Clone this project&#39;s source code locally using Git" class="action_bar_item_link">
+                        <img id="img_actionbar_clone" class="action_bar_item_image" src="http://download-codeplex.sec.s-msft.com/Images/v20552/actionbar_clone.png" style="vertical-align: middle" />
+                        Clone
+                    </a>
+
+                </li>
+
+            
+
+                <li id="li_actionbar_download" data-action-id="actionbar_download" data-action-type="None" class="actionBar_sublinks" data-options-id="c2f57acd-4e6d-418b-a2f6-664f04effccd">
+                
+                    <script class="options" defer="defer" id="c2f57acd-4e6d-418b-a2f6-664f04effccd" type="application/json">{"downloadUrl":"http://z3.codeplex.com/sourcecontrol/captureDownload","changesetId":"89c1785b73225a1b363c0e485f854613121b70a7"}</script> 
+                    
+                    <div class="actionBar_custom_content"></div>
+
+                    <a href="#" id="actionbar_download" title="Download the latest source code." class="action_bar_item_link">
+                        <img id="img_actionbar_download" class="action_bar_item_image" src="http://download-codeplex.sec.s-msft.com/Images/v20552/actionbar_download.png" style="vertical-align: middle" />
+                        Download
+                    </a>
+
+                </li>
+
+            
+
+                <li id="li_actionbar_followproject" data-action-id="actionbar_followproject" data-action-type="None" class="actionBar_sublinks" data-options-id="feeafa95-7fea-4f0a-8347-4a4f485a42f3">
+                
+                    <script class="options" defer="defer" id="feeafa95-7fea-4f0a-8347-4a4f485a42f3" type="application/json">{"projectName":"z3","loggedInUser":"","returnUrl":"https://www.codeplex.com/site/login?RedirectUrl=http%3a%2f%2fz3.codeplex.com%2fSourceControl%2flatest%3fProjectName%3dz3"}</script> 
+                    
+                    <div class="actionBar_custom_content"></div>
+
+                    <a href="#" id="actionbar_followproject" title="" class="action_bar_item_link">
+                        <img id="img_actionbar_followproject" class="action_bar_item_image" src="http://download-codeplex.sec.s-msft.com/Images/v20552/actionbar_follow.png" style="vertical-align: middle" />
+                        
+                    </a>
+
+                </li>
+
+            
+
+                <li id="li_actionbar_subscribe" data-action-id="actionbar_subscribe" data-action-type="PopUp" class="actionBar_sublinks" data-options-id="73373059-7c0e-4f33-93e5-0664a41e06ee">
+                
+                    <script class="options" defer="defer" id="73373059-7c0e-4f33-93e5-0664a41e06ee" type="application/json">{}</script> 
+                    
+                    <div class="actionBar_custom_content">
+
+<div id="rssHoverDiv" class="HoverPanel LeftHoverWidth" style="display: none">
+        <ul id="7_FeedsPanel" class="RssFeedsPanel">
+            <li>
+                <a id="ProjectRssLink" href="http://z3.codeplex.com/project/feeds/rss" class="ArrowSmall NoUnderline">All Project Updates</a>
+            </li>
+            
+            <li>
+                <a id="DiscussionRssLink" href="http://z3.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2fforum%2fz3" class="ArrowSmall NoUnderline">Discussions</a>
+            </li>
+            
+            <li>
+                <a id="IssueTrackerRssLink" href="http://z3.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2fworkitem%2fz3" class="ArrowSmall NoUnderline">Issue Tracker</a>
+            </li>
+            
+            <li>
+                <a id="ReleasesRssLink" href="http://z3.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2frelease%2fz3" class="ArrowSmall NoUnderline">Downloads</a>
+            </li>
+            <li>
+                <a id="ReviewsRssLink" href="http://z3.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2freview%2fz3" class="ArrowSmall NoUnderline">Reviews</a>
+            </li>
+            
+            <li>
+                <a id="SourceControlRssLink" href="http://z3.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2fsourcecontrol%2fz3" class="ArrowSmall NoUnderline">Source Code</a>
+            </li>
+            <li>
+                <a id="WikiRssLink" href="http://z3.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2fwiki%2fz3" class="ArrowSmall NoUnderline">Wiki &amp; Documentation</a>
+            </li>
+        </ul>
+</div></div>
+
+                    <a href="#" id="actionbar_subscribe" title="Subscribe to project updates in RSS feeds." class="action_bar_item_link">
+                        <img id="img_actionbar_subscribe" class="action_bar_item_image" src="http://download-codeplex.sec.s-msft.com/Images/v20552/actionbar_subscribe.png" style="vertical-align: middle" />
+                        Subscribe
+                    </a>
+
+                </li>
+
+            
+        </ul>
+    </div>
+</div>
+    </td>
+    
+
+    
+
+
+
+<div class="clear"></div>
+<div id="branchSelector" class="floating_header">
+   <div class="top_border StandardMarginTop StandardMarginBottom"></div>
+    
+    
+            Browsing changes in 
+        <select id="SelectedBranch" name="SelectedBranch" style="width:21%; min-width: 210px; "><option value="cade24">cade24</option>
+<option value="contrib">contrib</option>
+<option value="dead">dead</option>
+<option value="dl_transforms">dl_transforms</option>
+<option value="fpa-api">fpa-api</option>
+<option value="interp">interp</option>
+<option selected="selected" value="master">master</option>
+<option value="mcsat">mcsat</option>
+<option value="mcsat_reorg">mcsat_reorg</option>
+<option value="ml-ng">ml-ng</option>
+<option value="pure">pure</option>
+<option value="purify_arith">purify_arith</option>
+<option value="qsolver">qsolver</option>
+<option value="rc">rc</option>
+<option value="tptp">tptp</option>
+<option value="unstable">unstable</option>
+</select>
+    
+        <span class="MetaInfo">
+    
+                <span id="Span2" class="Tag" title="Tag: v4.3.1">v4.3.1</span>
+                
+    </span>
+   
+    
+
+    
+            as of 
+                <a href="http://z3.codeplex.com/SourceControl/changeset/89c1785b73225a1b363c0e485f854613121b70a7"><strong>commit 89c1785b7322</strong></a>,
+            <span class="smartDate dateOnly" title="11/14/2012 5:49:37 AM" LocalTimeTicks="1352872177">Nov 14, 2012</span>
+    
+    <hr style="color: gray; margin-top: 17px; margin-bottom: 0px" />
+    
+
+</div>
+        
+
+    </div>
+    
+    
+    <script language="javascript">
+        $(document).ready(function () {            
+            
+            $('#SelectedBranch').change(function (e) {
+
+                var branch = $(this).val(),
+                    url = 'http://z3.codeplex.com/SourceControl/latest';
+                
+                if (branch.length > 0)
+                    url += '?branch=' + branch;
+
+                location.href = url;
+            });
+            
+
+            // Open the inital file if present
+            var initalFile = 'README';
+            if (initalFile != null && initalFile.length > 0 && location.hash.length == 0) {
+                location.hash = "#" + initalFile;
+            }
+
+            $(document).sourceCodeBrowser({
+                fileUrl: 'http://z3.codeplex.com/SourceControl/changeset/file/view/89c1785b73225a1b363c0e485f854613121b70a7',
+                listUrl: 'http://z3.codeplex.com/SourceControl/changeset/list/89c1785b73225a1b363c0e485f854613121b70a7?path=xXPathXx&parentKey=xXKeyXx',
+                diffUrl: 'http://z3.codeplex.com/SourceControl/diff/file/view/89c1785b73225a1b363c0e485f854613121b70a7?fileId=-1',
+                oldDiffUrl: 'http://z3.codeplex.com/SourceControl/diff/file/view/89c1785b73225a1b363c0e485f854613121b70a7?fileId=-1&olderChangeSetId=-2',
+                changesetsUrl: 'http://z3.codeplex.com/sourcecontrol/file/changesets?itemId=-1&currentChangesetId=89c1785b73225a1b363c0e485f854613121b70a7',
+                contactUsUrl: 'https://www.codeplex.com/site/contact'
+            });
+        });
+
+    </script>
+    <div id="sourceContentPlaceHolder">
+        <div id="sourceBrowserContainer">
+            
+            <div id="splitView">
+                <div id="leftPane" class="leftPane">
+                    <div class="FileList FileListView">
+                        <div id="DirectoryView">
+                            <a id="rootAnchor" style="display: none;" href="#"></a>
+                            <span id="root">
+                                
+   <a id="dir_0" href="javascript:void(0);" path="examples" class="browserDir">
+    <div class="sbfc">examples</div>
+   </a>
+   <span id="dir_0_span" style="display:none;margin-left:20px;"></span>
+
+   <a id="dir_1" href="javascript:void(0);" path="scripts" class="browserDir">
+    <div class="sbfc">scripts</div>
+   </a>
+   <span id="dir_1_span" style="display:none;margin-left:20px;"></span>
+
+   <a id="dir_2" href="javascript:void(0);" path="src" class="browserDir">
+    <div class="sbfc">src</div>
+   </a>
+   <span id="dir_2_span" style="display:none;margin-left:20px;"></span>
+
+   <div class="sbf">
+   
+    <a id="file_0" class="sbfl browseFile FilenameWithPath" fileId="configure.ac" href="#configure.ac">
+   configure.ac
+    </a>
+    </div>
+
+   <div class="sbf">
+   
+    <a id="file_1" class="sbfl browseFile FilenameWithPath" fileId="LICENSE.txt" href="#LICENSE.txt">
+   LICENSE.txt
+    </a>
+    </div>
+
+   <div class="sbf">
+   
+    <a id="file_2" class="sbfl browseFile FilenameWithPath" fileId="README" href="#README">
+   README
+    </a>
+    </div>
+
+   <div class="sbf">
+   
+    <a id="file_3" class="sbfl browseFile FilenameWithPath" fileId="RELEASE_NOTES" href="#RELEASE_NOTES">
+   RELEASE_NOTES
+    </a>
+    </div>
+
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div id="rightPane" class="rightPane">
+                    <div id="FileContentView" class="FileContentView">
+                        <h2 id="beginInstructions">Click an item in the panel on the left to view the contents here.</h2>
+                        <div id="FileView" class="FileView" style="display: none;"></div>
+                    </div>
+                    <div class="ClearBoth"></div>
+                </div>
+                
+            </div>
+            <div class="ClearBoth"></div>
+
+            
+<div id="PullRequest" class="modal" style="display:none;">
+    <div class="row">
+        <h2><span class="Title"></span> <a href="javascript:return false;" class="close">X</a></h2>
+    </div>
+    <div class="modal_info">
+        <div class="Body EnhancedTextBoxTable Fixed">
+        <table border="0" cellpadding="4" cellspacing="4" width="100%">
+            <tr id="PullRequestForkBranchRow">
+                <td style="vertical-align: top;"><label for="Title" class="Bold">Source</label></td>
+                <td>
+                    <span id="ForkOwner"></span>/<span id="ForkName"></span>:<select id="ForkBranch"></select>
+                    <div id="PullRequestForkBranchError" class="Error" style="display:none;"></div>
+                </td>
+            </tr>
+            <tr id="PullRequestProjectBranchRow">
+                <td style="vertical-align: top;"><label for="Title" class="Bold">Destination</label></td>
+                <td>
+                    z3:<select id="ProjectBranch"></select>
+                    <div id="PullRequestProjectBranchError" class="Error" style="display:none;"></div>
+                </td>
+            </tr>
+            <tr id="PullRequestTitleRow">
+                <td style="vertical-align: top;"><label for="Title" class="Bold">Title</label></td>
+                <td>
+                    <input id="Title" name="Title" type="text" maxlength="250" style="width: 100%;" />
+                    <div id="PullRequestTitleError" class="Error" style="display:none"></div> 
+                </td>
+            </tr>
+            <tr>
+                <td width="100" style="vertical-align: top;"><div style="padding-top: 12px;"><label for="inputText" class="Bold">Description</label></div></td>
+                <td>
+                    <div id="DescriptionContainer" style="bottom: 0px; width: 100%;">
+    <div class="CharCounter"><span id="charCounter">2000</span> characters left</div>
+    <div class="CharCounterClear"></div>
+<textarea cols="1" id="inputText" name="inputText" rows="10" style=" width:100%">
+</textarea>
+
+
+<script type="text/javascript">
+    $('#inputText').enhancedTextBox(
+    {
+        limit: 2000,
+        showCounter: 'True',
+        rowState: 'MessageLineCount',
+        showUnsavedDataAlert:'False'
+    });
+</script></div>
+                    <div id="PullRequestDescriptionError" class="Error" style="display:none"></div>
+                </td>
+            </tr>
+        </table>
+        <div id="PullRequestError" class="Error" style="display:none"></div>
+        <div id="PullRequestSubMessage" class="SubText" style="display: none; margin-top: 10px; margin-left: 4px;">
+        
+            <div><b>Note:</b> Accepting this pull request will not merge the changes. You will need to do this manually by running the following commands locally:</div>
+            
+            <ol>
+                <li>
+                    Pull the changes into your local repository. If you are already tracking the branch, the first step is unecessary.
+                    <ul>
+                        <li>git branch --track  origin/</li>
+                        <li>git checkout </li>
+                        <li>git pull origin </li>
+                    </ul>
+                </li>
+                <li>
+                    If you're satisfied, merge the changes and push them back to your repository on CodePlex.
+                    <ul>
+                        <li>git checkout </li>
+                        <li>git merge </li>
+                        <li>git push origin </li>
+                    </ul>
+                </li>
+            </ol>
+            
+            <div class="ClearBoth"></div>
+            <div class="DoublePaddingTop">For more information, take a look at the <a href="http://codeplex.codeplex.com/wikipage?title=Forks#ApplyPullRequests" target="_blank">Applying Pull Requests</a> section of our <a href="http://codeplex.com/site/help" target="_blank">documentation</a>.</div>
+        
+        </div></div>
+        <input id="MessageLineCount" name="MessageLineCount" type="hidden" value="2000" />
+        <p class="modal_buttons">
+            <input type="hidden" id="PullRequestAction" />
+            <input type="hidden" id="PullRequestType" />
+            <input type="hidden" id="PullRequestName" />
+            <input type="hidden" id="PullRequestId" />
+            <input type="hidden" id="PullRequestUser" />
+            <input type="hidden" id="PullRequestOwner" />
+            <input type="hidden" id="PullRequestStatus" />  
+            <input type="hidden" id="FilterView" />
+            <input type="button" id="CancelRequestButton" class="cancel" value="Cancel" />
+            <input type="button" id="SendRequestButton" class="ok" value="Send" />
+        </p>
+        <div class="ClearBoth"></div>
+    </div>
+</div>
+
+            <script type="text/javascript">
+                $(document).ready(function () {
+                    var sendPullRequestUrl = 'http://z3.codeplex.com/SourceControl/send/contribution';
+                var branchesUrl = 'http://z3.codeplex.com/sourcecontrol/network/getBranches';
+                InitializePullRequestControls(sendPullRequestUrl, '', '', '', false, branchesUrl);
+            });
+            </script>
+            
+        </div>
+    </div>
+
+        
+        
+                
+                <div class="clear"></div>
+                
+                <div id="footer">
+                    <div class="row">
+                        <hr />
+                        <ul>
+                            <li>© 2006-2013 Microsoft</li>
+                            <li><a href="http://www.codeplex.com/site/help">Get Help</a></li>
+                            <li><a href="/site/legal/privacy">Privacy Statement</a></li>
+                            <li><a href="http://www.codeplex.com/site/legal/terms">Terms of Use</a></li>
+                            <li><a href="http://www.codeplex.com/site/legal/conduct">Code of Conduct</a></li>
+                            <li><a href="http://www.lakequincy.com" target="_blank">Advertise With Us</a></li>
+                            <li>Version 6.4.2013.20552</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </body>
+
+</html>

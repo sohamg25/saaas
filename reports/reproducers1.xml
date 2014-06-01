@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="2.0.2" sequence="0" timestamp="1372188272000" analysisTimestamp="1372188293081" release="">
+  <Project projectName="">
+    <Jar>/home/shashi/saaas/reports/reproducers1.jar</Jar>
+  </Project>
+  <BugInstance type="UCF_USELESS_CONTROL_FLOW" priority="2" abbrev="UCF" category="STYLE">
+    <Class classname="IgnoreExcept">
+      <SourceLine classname="IgnoreExcept" start="6" end="13" sourcefile="IgnoreExcept.java" sourcepath="IgnoreExcept.java"/>
+    </Class>
+    <Method classname="IgnoreExcept" name="ignore" signature="()V" isStatic="false">
+      <SourceLine classname="IgnoreExcept" start="10" end="13" startBytecode="0" endBytecode="80" sourcefile="IgnoreExcept.java" sourcepath="IgnoreExcept.java"/>
+    </Method>
+    <SourceLine classname="IgnoreExcept" start="11" end="11" startBytecode="3" endBytecode="3" sourcefile="IgnoreExcept.java" sourcepath="IgnoreExcept.java"/>
+  </BugInstance>
+  <BugInstance type="RCN_REDUNDANT_NULLCHECK_OF_NONNULL_VALUE" priority="2" abbrev="RCN" category="STYLE">
+    <Class classname="RedundantNullCheck">
+      <SourceLine classname="RedundantNullCheck" start="2" end="11" sourcefile="RedundantNullCheck.java" sourcepath="RedundantNullCheck.java"/>
+    </Class>
+    <Method classname="RedundantNullCheck" name="check" signature="(LFoo;)V" isStatic="false">
+      <SourceLine classname="RedundantNullCheck" start="6" end="11" startBytecode="0" endBytecode="117" sourcefile="RedundantNullCheck.java" sourcepath="RedundantNullCheck.java"/>
+    </Method>
+    <LocalVariable name="o" register="2" pc="5" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <Method classname="Foo" name="f" signature="()Ljava/lang/Object;" isStatic="false" role="METHOD_RETURN_VALUE_OF">
+      <SourceLine classname="Foo" start="5" end="5" startBytecode="0" endBytecode="49" sourcefile="Foo.java" sourcepath="Foo.java"/>
+    </Method>
+    <SourceLine classname="RedundantNullCheck" start="7" end="7" startBytecode="6" endBytecode="6" sourcefile="RedundantNullCheck.java" sourcepath="RedundantNullCheck.java" role="SOURCE_REDUNDANT_NULL_CHECK"/>
+  </BugInstance>
+  <BugInstance type="RCN_REDUNDANT_NULLCHECK_OF_NONNULL_VALUE" priority="2" abbrev="RCN" category="STYLE">
+    <Class classname="RedundantNullCheckOrg$Foo1">
+      <SourceLine classname="RedundantNullCheckOrg$Foo1" start="4" end="12" sourcefile="RedundantNullCheckOrg.java" sourcepath="RedundantNullCheckOrg.java"/>
+    </Class>
+    <Method classname="RedundantNullCheckOrg$Foo1" name="check" signature="(LFoo2;)V" isStatic="false">
+      <SourceLine classname="RedundantNullCheckOrg$Foo1" start="7" end="12" startBytecode="0" endBytecode="117" sourcefile="RedundantNullCheckOrg.java" sourcepath="RedundantNullCheckOrg.java"/>
+    </Method>
+    <LocalVariable name="o" register="2" pc="5" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <Method classname="Foo2" name="f" signature="()Ljava/lang/Object;" isStatic="false" role="METHOD_RETURN_VALUE_OF">
+      <SourceLine classname="Foo2" start="5" end="5" startBytecode="0" endBytecode="49" sourcefile="Foo2.java" sourcepath="Foo2.java"/>
+    </Method>
+    <SourceLine classname="RedundantNullCheckOrg$Foo1" start="8" end="8" startBytecode="6" endBytecode="6" sourcefile="RedundantNullCheckOrg.java" sourcepath="RedundantNullCheckOrg.java" role="SOURCE_REDUNDANT_NULL_CHECK"/>
+  </BugInstance>
+  <BugInstance type="SIC_INNER_SHOULD_BE_STATIC" priority="2" abbrev="SIC" category="PERFORMANCE">
+    <Class classname="RedundantNullCheckOrg$Foo1">
+      <SourceLine classname="RedundantNullCheckOrg$Foo1" start="4" end="12" sourcefile="RedundantNullCheckOrg.java" sourcepath="RedundantNullCheckOrg.java"/>
+    </Class>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Wed, 26 Jun 2013 00:54:32 +0530" total_classes="6" referenced_classes="18" total_bugs="4" total_size="39" num_packages="1" vm_version="23.21-b01" cpu_seconds="5.31" clock_seconds="1.79" peak_mbytes="88.60" alloc_mbytes="682.69" gc_seconds="0.02" priority_2="4">
+    <PackageStats package="" total_bugs="4" total_types="6" total_size="39" priority_2="4">
+      <ClassStats class="Foo" sourceFile="Foo.java" interface="false" size="5" bugs="0"/>
+      <ClassStats class="Foo2" sourceFile="Foo2.java" interface="false" size="5" bugs="0"/>
+      <ClassStats class="IgnoreExcept" sourceFile="IgnoreExcept.java" interface="false" size="7" bugs="1" priority_2="1"/>
+      <ClassStats class="RedundantNullCheck" sourceFile="RedundantNullCheck.java" interface="false" size="9" bugs="1" priority_2="1"/>
+      <ClassStats class="RedundantNullCheckOrg" sourceFile="RedundantNullCheckOrg.java" interface="false" size="3" bugs="0"/>
+      <ClassStats class="RedundantNullCheckOrg$Foo1" sourceFile="RedundantNullCheckOrg.java" interface="false" size="10" bugs="2" priority_2="2"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="397" invocations="326" avgMicrosecondsPerInvocation="1218" maxMicrosecondsPerInvocation="36285" standardDeviationMircosecondsPerInvocation="2873"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="143" invocations="18" avgMicrosecondsPerInvocation="7978" maxMicrosecondsPerInvocation="47804" standardDeviationMircosecondsPerInvocation="13466"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="75" invocations="18" avgMicrosecondsPerInvocation="4208" maxMicrosecondsPerInvocation="19582" standardDeviationMircosecondsPerInvocation="5558"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="61" invocations="294" avgMicrosecondsPerInvocation="208" maxMicrosecondsPerInvocation="2410" standardDeviationMircosecondsPerInvocation="377"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.impl.ZipCodeBaseFactory" totalMilliseconds="53" invocations="15" avgMicrosecondsPerInvocation="3560" maxMicrosecondsPerInvocation="52314" standardDeviationMircosecondsPerInvocation="13030"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="50" invocations="11" avgMicrosecondsPerInvocation="4620" maxMicrosecondsPerInvocation="49143" standardDeviationMircosecondsPerInvocation="14080"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="43" invocations="63" avgMicrosecondsPerInvocation="693" maxMicrosecondsPerInvocation="2398" standardDeviationMircosecondsPerInvocation="608"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="41" invocations="18" avgMicrosecondsPerInvocation="2321" maxMicrosecondsPerInvocation="15465" standardDeviationMircosecondsPerInvocation="3966"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="35" invocations="22" avgMicrosecondsPerInvocation="1633" maxMicrosecondsPerInvocation="17396" standardDeviationMircosecondsPerInvocation="3714"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="34" invocations="18" avgMicrosecondsPerInvocation="1940" maxMicrosecondsPerInvocation="10881" standardDeviationMircosecondsPerInvocation="2650"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="27" invocations="18" avgMicrosecondsPerInvocation="1537" maxMicrosecondsPerInvocation="8409" standardDeviationMircosecondsPerInvocation="2212"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

@@ -1,0 +1,700 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="2.0.2" sequence="0" timestamp="1401318205000" analysisTimestamp="1401318220683" release=""> 
+  <Project projectName=""> 
+    <Jar>tomcat/tomcat-coyote.obf.jar</Jar> 
+  </Project>  
+  <BugInstance type="IS2_INCONSISTENT_SYNC" priority="2" abbrev="IS" category="MT_CORRECTNESS"> 
+    <Class classname="org.apache.coyote.http11.InternalNioOutputBuffer"> 
+      <SourceLine classname="org.apache.coyote.http11.InternalNioOutputBuffer" start="41" end="244" sourcefile="InternalNioOutputBuffer.java" sourcepath="ouc/acumuu/cdrdmu/hmmc11/InternalNioOutputBuffer.java"/> 
+    </Class>  
+    <Field classname="org.apache.coyote.http11.InternalNioOutputBuffer" name="pool" signature="Lorg/apache/tomcat/util/net/NioSelectorPool;" isStatic="false"> 
+      <SourceLine classname="org.apache.coyote.http11.InternalNioOutputBuffer" sourcefile="InternalNioOutputBuffer.java" sourcepath="ouc/acumuu/cdrdmu/hmmc11/InternalNioOutputBuffer.java"/> 
+    </Field>  
+    <Int value="80" role="INT_SYNC_PERCENT"/>  
+    <SourceLine classname="ouc.acumuu.cdrdmu.hmmc11.ItmuutulTidDamcamSaxxuu" start="183" end="183" startBytecode="19" endBytecode="19" sourcefile="InternalNioOutputBuffer.java" sourcepath="ouc/acumuu/cdrdmu/hmmc11/InternalNioOutputBuffer.java" role="SOURCE_LINE_UNSYNC_ACCESS"/>  
+    <SourceLine classname="ouc.acumuu.cdrdmu.hmmc11.ItmuutulTidDamcamSaxxuu" start="158" end="158" startBytecode="51" endBytecode="51" sourcefile="InternalNioOutputBuffer.java" sourcepath="ouc/acumuu/cdrdmu/hmmc11/InternalNioOutputBuffer.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="ouc.acumuu.cdrdmu.hmmc11.ItmuutulTidDamcamSaxxuu" start="163" end="163" startBytecode="65" endBytecode="65" sourcefile="InternalNioOutputBuffer.java" sourcepath="ouc/acumuu/cdrdmu/hmmc11/InternalNioOutputBuffer.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="ouc.acumuu.cdrdmu.hmmc11.ItmuutulTidDamcamSaxxuu" start="169" end="169" startBytecode="126" endBytecode="126" sourcefile="InternalNioOutputBuffer.java" sourcepath="ouc/acumuu/cdrdmu/hmmc11/InternalNioOutputBuffer.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="ouc.acumuu.cdrdmu.hmmc11.ItmuutulTidDamcamSaxxuu" start="169" end="169" startBytecode="107" endBytecode="107" sourcefile="InternalNioOutputBuffer.java" sourcepath="ouc/acumuu/cdrdmu/hmmc11/InternalNioOutputBuffer.java" role="SOURCE_LINE_SYNC_ACCESS"/> 
+  </BugInstance>  
+  <BugInstance type="IS2_INCONSISTENT_SYNC" priority="2" abbrev="IS" category="MT_CORRECTNESS"> 
+    <Class classname="org.apache.tomcat.util.http.mapper.Mapper"> 
+      <SourceLine classname="org.apache.tomcat.util.http.mapper.Mapper" start="34" end="1513" sourcefile="Mapper.java" sourcepath="ouc/acumuu/tddmum/umil/hmmc/muccuu/Mapper.java"/> 
+    </Class>  
+    <Field classname="org.apache.tomcat.util.http.mapper.Mapper" name="hosts" signature="[Lorg/apache/tomcat/util/http/mapper/Mapper$Host;" isStatic="false"> 
+      <SourceLine classname="org.apache.tomcat.util.http.mapper.Mapper" sourcefile="Mapper.java" sourcepath="ouc/acumuu/tddmum/umil/hmmc/muccuu/Mapper.java"/> 
+    </Field>  
+    <Int value="71" role="INT_SYNC_PERCENT"/>  
+    <SourceLine classname="ouc.acumuu.tddmum.umil.hmmc.muccuu.Muccuu" start="203" end="203" startBytecode="1" endBytecode="1" sourcefile="Mapper.java" sourcepath="ouc/acumuu/tddmum/umil/hmmc/muccuu/Mapper.java" role="SOURCE_LINE_UNSYNC_ACCESS"/>  
+    <SourceLine classname="ouc.acumuu.tddmum.umil.hmmc.muccuu.Muccuu" start="207" end="207" startBytecode="30" endBytecode="30" sourcefile="Mapper.java" sourcepath="ouc/acumuu/tddmum/umil/hmmc/muccuu/Mapper.java" role="SOURCE_LINE_UNSYNC_ACCESS"/>  
+    <SourceLine classname="ouc.acumuu.tddmum.umil.hmmc.muccuu.Muccuu" start="311" end="311" startBytecode="1" endBytecode="1" sourcefile="Mapper.java" sourcepath="ouc/acumuu/tddmum/umil/hmmc/muccuu/Mapper.java" role="SOURCE_LINE_UNSYNC_ACCESS"/>  
+    <SourceLine classname="ouc.acumuu.tddmum.umil.hmmc.muccuu.Muccuu" start="262" end="262" startBytecode="1" endBytecode="1" sourcefile="Mapper.java" sourcepath="ouc/acumuu/tddmum/umil/hmmc/muccuu/Mapper.java" role="SOURCE_LINE_UNSYNC_ACCESS"/>  
+    <SourceLine classname="ouc.acumuu.tddmum.umil.hmmc.muccuu.Muccuu" start="573" end="573" startBytecode="1" endBytecode="1" sourcefile="Mapper.java" sourcepath="ouc/acumuu/tddmum/umil/hmmc/muccuu/Mapper.java" role="SOURCE_LINE_UNSYNC_ACCESS"/>  
+    <SourceLine classname="ouc.acumuu.tddmum.umil.hmmc.muccuu.Muccuu" start="721" end="721" startBytecode="26" endBytecode="26" sourcefile="Mapper.java" sourcepath="ouc/acumuu/tddmum/umil/hmmc/muccuu/Mapper.java" role="SOURCE_LINE_UNSYNC_ACCESS"/>  
+    <SourceLine classname="ouc.acumuu.tddmum.umil.hmmc.muccuu.Muccuu" start="433" end="433" startBytecode="1" endBytecode="1" sourcefile="Mapper.java" sourcepath="ouc/acumuu/tddmum/umil/hmmc/muccuu/Mapper.java" role="SOURCE_LINE_UNSYNC_ACCESS"/>  
+    <SourceLine classname="ouc.acumuu.tddmum.umil.hmmc.muccuu.Muccuu" start="629" end="629" startBytecode="1" endBytecode="1" sourcefile="Mapper.java" sourcepath="ouc/acumuu/tddmum/umil/hmmc/muccuu/Mapper.java" role="SOURCE_LINE_UNSYNC_ACCESS"/>  
+    <SourceLine classname="ouc.acumuu.tddmum.umil.hmmc.muccuu.Muccuu" start="528" end="528" startBytecode="1" endBytecode="1" sourcefile="Mapper.java" sourcepath="ouc/acumuu/tddmum/umil/hmmc/muccuu/Mapper.java" role="SOURCE_LINE_UNSYNC_ACCESS"/>  
+    <SourceLine classname="ouc.acumuu.tddmum.umil.hmmc.muccuu.Muccuu" start="138" end="138" startBytecode="1" endBytecode="1" sourcefile="Mapper.java" sourcepath="ouc/acumuu/tddmum/umil/hmmc/muccuu/Mapper.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="ouc.acumuu.tddmum.umil.hmmc.muccuu.Muccuu" start="144" end="144" startBytecode="15" endBytecode="15" sourcefile="Mapper.java" sourcepath="ouc/acumuu/tddmum/umil/hmmc/muccuu/Mapper.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="ouc.acumuu.tddmum.umil.hmmc.muccuu.Muccuu" start="146" end="146" startBytecode="23" endBytecode="23" sourcefile="Mapper.java" sourcepath="ouc/acumuu/tddmum/umil/hmmc/muccuu/Mapper.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="ouc.acumuu.tddmum.umil.hmmc.muccuu.Muccuu" start="151" end="151" startBytecode="70" endBytecode="70" sourcefile="Mapper.java" sourcepath="ouc/acumuu/tddmum/umil/hmmc/muccuu/Mapper.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="ouc.acumuu.tddmum.umil.hmmc.muccuu.Muccuu" start="152" end="152" startBytecode="86" endBytecode="86" sourcefile="Mapper.java" sourcepath="ouc/acumuu/tddmum/umil/hmmc/muccuu/Mapper.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="ouc.acumuu.tddmum.umil.hmmc.muccuu.Muccuu" start="83" end="83" startBytecode="1" endBytecode="1" sourcefile="Mapper.java" sourcepath="ouc/acumuu/tddmum/umil/hmmc/muccuu/Mapper.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="ouc.acumuu.tddmum.umil.hmmc.muccuu.Muccuu" start="89" end="89" startBytecode="50" endBytecode="50" sourcefile="Mapper.java" sourcepath="ouc/acumuu/tddmum/umil/hmmc/muccuu/Mapper.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="ouc.acumuu.tddmum.umil.hmmc.muccuu.Muccuu" start="90" end="90" startBytecode="66" endBytecode="66" sourcefile="Mapper.java" sourcepath="ouc/acumuu/tddmum/umil/hmmc/muccuu/Mapper.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="ouc.acumuu.tddmum.umil.hmmc.muccuu.Muccuu" start="93" end="93" startBytecode="80" endBytecode="80" sourcefile="Mapper.java" sourcepath="ouc/acumuu/tddmum/umil/hmmc/muccuu/Mapper.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="ouc.acumuu.tddmum.umil.hmmc.muccuu.Muccuu" start="98" end="98" startBytecode="123" endBytecode="123" sourcefile="Mapper.java" sourcepath="ouc/acumuu/tddmum/umil/hmmc/muccuu/Mapper.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="ouc.acumuu.tddmum.umil.hmmc.muccuu.Muccuu" start="99" end="99" startBytecode="139" endBytecode="139" sourcefile="Mapper.java" sourcepath="ouc/acumuu/tddmum/umil/hmmc/muccuu/Mapper.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="ouc.acumuu.tddmum.umil.hmmc.muccuu.Muccuu" start="112" end="112" startBytecode="1" endBytecode="1" sourcefile="Mapper.java" sourcepath="ouc/acumuu/tddmum/umil/hmmc/muccuu/Mapper.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="ouc.acumuu.tddmum.umil.hmmc.muccuu.Muccuu" start="116" end="116" startBytecode="15" endBytecode="15" sourcefile="Mapper.java" sourcepath="ouc/acumuu/tddmum/umil/hmmc/muccuu/Mapper.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="ouc.acumuu.tddmum.umil.hmmc.muccuu.Muccuu" start="117" end="117" startBytecode="25" endBytecode="25" sourcefile="Mapper.java" sourcepath="ouc/acumuu/tddmum/umil/hmmc/muccuu/Mapper.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="ouc.acumuu.tddmum.umil.hmmc.muccuu.Muccuu" start="118" end="118" startBytecode="37" endBytecode="37" sourcefile="Mapper.java" sourcepath="ouc/acumuu/tddmum/umil/hmmc/muccuu/Mapper.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="ouc.acumuu.tddmum.umil.hmmc.muccuu.Muccuu" start="119" end="119" startBytecode="52" endBytecode="52" sourcefile="Mapper.java" sourcepath="ouc/acumuu/tddmum/umil/hmmc/muccuu/Mapper.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="ouc.acumuu.tddmum.umil.hmmc.muccuu.Muccuu" start="124" end="124" startBytecode="79" endBytecode="79" sourcefile="Mapper.java" sourcepath="ouc/acumuu/tddmum/umil/hmmc/muccuu/Mapper.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="ouc.acumuu.tddmum.umil.hmmc.muccuu.Muccuu" start="125" end="125" startBytecode="91" endBytecode="91" sourcefile="Mapper.java" sourcepath="ouc/acumuu/tddmum/umil/hmmc/muccuu/Mapper.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="ouc.acumuu.tddmum.umil.hmmc.muccuu.Muccuu" start="126" end="126" startBytecode="113" endBytecode="113" sourcefile="Mapper.java" sourcepath="ouc/acumuu/tddmum/umil/hmmc/muccuu/Mapper.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="ouc.acumuu.tddmum.umil.hmmc.muccuu.Muccuu" start="162" end="162" startBytecode="1" endBytecode="1" sourcefile="Mapper.java" sourcepath="ouc/acumuu/tddmum/umil/hmmc/muccuu/Mapper.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="ouc.acumuu.tddmum.umil.hmmc.muccuu.Muccuu" start="166" end="166" startBytecode="15" endBytecode="15" sourcefile="Mapper.java" sourcepath="ouc/acumuu/tddmum/umil/hmmc/muccuu/Mapper.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="ouc.acumuu.tddmum.umil.hmmc.muccuu.Muccuu" start="167" end="167" startBytecode="26" endBytecode="26" sourcefile="Mapper.java" sourcepath="ouc/acumuu/tddmum/umil/hmmc/muccuu/Mapper.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="ouc.acumuu.tddmum.umil.hmmc.muccuu.Muccuu" start="168" end="168" startBytecode="39" endBytecode="39" sourcefile="Mapper.java" sourcepath="ouc/acumuu/tddmum/umil/hmmc/muccuu/Mapper.java" role="SOURCE_LINE_SYNC_ACCESS"/> 
+  </BugInstance>  
+  <BugInstance type="IS2_INCONSISTENT_SYNC" priority="2" abbrev="IS" category="MT_CORRECTNESS"> 
+    <Class classname="org.apache.tomcat.util.modeler.Registry"> 
+      <SourceLine classname="org.apache.tomcat.util.modeler.Registry" start="79" end="901" sourcefile="Registry.java" sourcepath="ouc/acumuu/tddmum/umil/mdiuluu/Registry.java"/> 
+    </Class>  
+    <Field classname="org.apache.tomcat.util.modeler.Registry" name="server" signature="Ljavax/management/MBeanServer;" isStatic="false"> 
+      <SourceLine classname="org.apache.tomcat.util.modeler.Registry" sourcefile="Registry.java" sourcepath="ouc/acumuu/tddmum/umil/mdiuluu/Registry.java"/> 
+    </Field>  
+    <Int value="50" role="INT_SYNC_PERCENT"/>  
+    <SourceLine classname="ouc.acumuu.tddmum.umil.mdiuluu.Ruciimur" start="505" end="505" startBytecode="3" endBytecode="3" sourcefile="Registry.java" sourcepath="ouc/acumuu/tddmum/umil/mdiuluu/Registry.java" role="SOURCE_LINE_UNSYNC_ACCESS"/>  
+    <SourceLine classname="ouc.acumuu.tddmum.umil.mdiuluu.Ruciimur" start="479" end="479" startBytecode="6" endBytecode="6" sourcefile="Registry.java" sourcepath="ouc/acumuu/tddmum/umil/mdiuluu/Registry.java" role="SOURCE_LINE_UNSYNC_ACCESS"/>  
+    <SourceLine classname="ouc.acumuu.tddmum.umil.mdiuluu.Ruciimur" start="896" end="896" startBytecode="2" endBytecode="2" sourcefile="Registry.java" sourcepath="ouc/acumuu/tddmum/umil/mdiuluu/Registry.java" role="SOURCE_LINE_UNSYNC_ACCESS"/>  
+    <SourceLine classname="ouc.acumuu.tddmum.umil.mdiuluu.Ruciimur" start="858" end="858" startBytecode="2" endBytecode="2" sourcefile="Registry.java" sourcepath="ouc/acumuu/tddmum/umil/mdiuluu/Registry.java" role="SOURCE_LINE_UNSYNC_ACCESS"/>  
+    <SourceLine classname="ouc.acumuu.tddmum.umil.mdiuluu.Ruciimur" start="542" end="542" startBytecode="5" endBytecode="5" sourcefile="Registry.java" sourcepath="ouc/acumuu/tddmum/umil/mdiuluu/Registry.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="ouc.acumuu.tddmum.umil.mdiuluu.Ruciimur" start="555" end="555" startBytecode="131" endBytecode="131" sourcefile="Registry.java" sourcepath="ouc/acumuu/tddmum/umil/mdiuluu/Registry.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="ouc.acumuu.tddmum.umil.mdiuluu.Ruciimur" start="549" end="549" startBytecode="85" endBytecode="85" sourcefile="Registry.java" sourcepath="ouc/acumuu/tddmum/umil/mdiuluu/Registry.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="ouc.acumuu.tddmum.umil.mdiuluu.Ruciimur" start="544" end="544" startBytecode="33" endBytecode="33" sourcefile="Registry.java" sourcepath="ouc/acumuu/tddmum/umil/mdiuluu/Registry.java" role="SOURCE_LINE_SYNC_ACCESS"/> 
+  </BugInstance>  
+  <BugInstance type="IS2_INCONSISTENT_SYNC" priority="2" abbrev="IS" category="MT_CORRECTNESS"> 
+    <Class classname="org.apache.tomcat.util.net.AprEndpoint$Poller"> 
+      <SourceLine classname="org.apache.tomcat.util.net.AprEndpoint$Poller" start="1148" end="1414" sourcefile="AprEndpoint.java" sourcepath="ouc/acumuu/tddmum/umil/num/AprEndpoint.java"/> 
+    </Class>  
+    <Field classname="org.apache.tomcat.util.net.AprEndpoint$Poller" name="addSocket" signature="[J" isStatic="false"> 
+      <SourceLine classname="org.apache.tomcat.util.net.AprEndpoint$Poller" sourcefile="AprEndpoint.java" sourcepath="ouc/acumuu/tddmum/umil/num/AprEndpoint.java"/> 
+    </Field>  
+    <Int value="75" role="INT_SYNC_PERCENT"/>  
+    <SourceLine classname="ouc.acumuu.tddmum.umil.num.AcuUticditm$Pdlluu" start="1202" end="1202" startBytecode="42" endBytecode="42" sourcefile="AprEndpoint.java" sourcepath="ouc/acumuu/tddmum/umil/num/AprEndpoint.java" role="SOURCE_LINE_UNSYNC_ACCESS"/>  
+    <SourceLine classname="ouc.acumuu.tddmum.umil.num.AcuUticditm$Pdlluu" start="1200" end="1200" startBytecode="22" endBytecode="22" sourcefile="AprEndpoint.java" sourcepath="ouc/acumuu/tddmum/umil/num/AprEndpoint.java" role="SOURCE_LINE_UNSYNC_ACCESS"/>  
+    <SourceLine classname="ouc.acumuu.tddmum.umil.num.AcuUticditm$Pdlluu" start="1317" end="1317" startBytecode="197" endBytecode="197" sourcefile="AprEndpoint.java" sourcepath="ouc/acumuu/tddmum/umil/num/AprEndpoint.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="ouc.acumuu.tddmum.umil.num.AcuUticditm$Pdlluu" start="1327" end="1327" startBytecode="262" endBytecode="262" sourcefile="AprEndpoint.java" sourcepath="ouc/acumuu/tddmum/umil/num/AprEndpoint.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="ouc.acumuu.tddmum.umil.num.AcuUticditm$Pdlluu" start="1325" end="1325" startBytecode="241" endBytecode="241" sourcefile="AprEndpoint.java" sourcepath="ouc/acumuu/tddmum/umil/num/AprEndpoint.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="ouc.acumuu.tddmum.umil.num.AcuUticditm$Pdlluu" start="1249" end="1249" startBytecode="10" endBytecode="10" sourcefile="AprEndpoint.java" sourcepath="ouc/acumuu/tddmum/umil/num/AprEndpoint.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="ouc.acumuu.tddmum.umil.num.AcuUticditm$Pdlluu" start="1258" end="1258" startBytecode="52" endBytecode="52" sourcefile="AprEndpoint.java" sourcepath="ouc/acumuu/tddmum/umil/num/AprEndpoint.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="ouc.acumuu.tddmum.umil.num.AcuUticditm$Pdlluu" start="1186" end="1186" startBytecode="142" endBytecode="142" sourcefile="AprEndpoint.java" sourcepath="ouc/acumuu/tddmum/umil/num/AprEndpoint.java" role="SOURCE_LINE_SYNC_ACCESS"/> 
+  </BugInstance>  
+  <BugInstance type="IS2_INCONSISTENT_SYNC" priority="2" abbrev="IS" category="MT_CORRECTNESS"> 
+    <Class classname="org.apache.tomcat.util.net.AprEndpoint$Poller"> 
+      <SourceLine classname="org.apache.tomcat.util.net.AprEndpoint$Poller" start="1148" end="1414" sourcefile="AprEndpoint.java" sourcepath="ouc/acumuu/tddmum/umil/num/AprEndpoint.java"/> 
+    </Class>  
+    <Field classname="org.apache.tomcat.util.net.AprEndpoint$Poller" name="connectionPollset" signature="J" isStatic="false"> 
+      <SourceLine classname="org.apache.tomcat.util.net.AprEndpoint$Poller" sourcefile="AprEndpoint.java" sourcepath="ouc/acumuu/tddmum/umil/num/AprEndpoint.java"/> 
+    </Field>  
+    <Int value="66" role="INT_SYNC_PERCENT"/>  
+    <SourceLine classname="ouc.acumuu.tddmum.umil.num.AcuUticditm$Pdlluu" start="1340" end="1340" startBytecode="342" endBytecode="342" sourcefile="AprEndpoint.java" sourcepath="ouc/acumuu/tddmum/umil/num/AprEndpoint.java" role="SOURCE_LINE_UNSYNC_ACCESS"/>  
+    <SourceLine classname="ouc.acumuu.tddmum.umil.num.AcuUticditm$Pdlluu" start="1348" end="1348" startBytecode="389" endBytecode="389" sourcefile="AprEndpoint.java" sourcepath="ouc/acumuu/tddmum/umil/num/AprEndpoint.java" role="SOURCE_LINE_UNSYNC_ACCESS"/>  
+    <SourceLine classname="ouc.acumuu.tddmum.umil.num.AcuUticditm$Pdlluu" start="1206" end="1206" startBytecode="58" endBytecode="58" sourcefile="AprEndpoint.java" sourcepath="ouc/acumuu/tddmum/umil/num/AprEndpoint.java" role="SOURCE_LINE_UNSYNC_ACCESS"/>  
+    <SourceLine classname="ouc.acumuu.tddmum.umil.num.AcuUticditm$Pdlluu" start="1317" end="1317" startBytecode="193" endBytecode="193" sourcefile="AprEndpoint.java" sourcepath="ouc/acumuu/tddmum/umil/num/AprEndpoint.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="ouc.acumuu.tddmum.umil.num.AcuUticditm$Pdlluu" start="1175" end="1175" startBytecode="55" endBytecode="55" sourcefile="AprEndpoint.java" sourcepath="ouc/acumuu/tddmum/umil/num/AprEndpoint.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="ouc.acumuu.tddmum.umil.num.AcuUticditm$Pdlluu" start="1176" end="1176" startBytecode="59" endBytecode="59" sourcefile="AprEndpoint.java" sourcepath="ouc/acumuu/tddmum/umil/num/AprEndpoint.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="ouc.acumuu.tddmum.umil.num.AcuUticditm$Pdlluu" start="1180" end="1180" startBytecode="96" endBytecode="96" sourcefile="AprEndpoint.java" sourcepath="ouc/acumuu/tddmum/umil/num/AprEndpoint.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="ouc.acumuu.tddmum.umil.num.AcuUticditm$Pdlluu" start="1178" end="1178" startBytecode="92" endBytecode="92" sourcefile="AprEndpoint.java" sourcepath="ouc/acumuu/tddmum/umil/num/AprEndpoint.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="ouc.acumuu.tddmum.umil.num.AcuUticditm$Pdlluu" start="1182" end="1182" startBytecode="121" endBytecode="121" sourcefile="AprEndpoint.java" sourcepath="ouc/acumuu/tddmum/umil/num/AprEndpoint.java" role="SOURCE_LINE_SYNC_ACCESS"/> 
+  </BugInstance>  
+  <BugInstance type="IS2_INCONSISTENT_SYNC" priority="2" abbrev="IS" category="MT_CORRECTNESS"> 
+    <Class classname="org.apache.tomcat.util.net.AprEndpoint$Sendfile"> 
+      <SourceLine classname="org.apache.tomcat.util.net.AprEndpoint$Sendfile" start="1447" end="1753" sourcefile="AprEndpoint.java" sourcepath="ouc/acumuu/tddmum/umil/num/AprEndpoint.java"/> 
+    </Class>  
+    <Field classname="org.apache.tomcat.util.net.AprEndpoint$Sendfile" name="addS" signature="Ljava/util/ArrayList;" isStatic="false"> 
+      <SourceLine classname="org.apache.tomcat.util.net.AprEndpoint$Sendfile" sourcefile="AprEndpoint.java" sourcepath="ouc/acumuu/tddmum/umil/num/AprEndpoint.java"/> 
+    </Field>  
+    <Int value="70" role="INT_SYNC_PERCENT"/>  
+    <SourceLine classname="ouc.acumuu.tddmum.umil.num.AcuUticditm$Sutixilu" start="1489" end="1489" startBytecode="6" endBytecode="6" sourcefile="AprEndpoint.java" sourcepath="ouc/acumuu/tddmum/umil/num/AprEndpoint.java" role="SOURCE_LINE_UNSYNC_ACCESS"/>  
+    <SourceLine classname="ouc.acumuu.tddmum.umil.num.AcuUticditm$Sutixilu" start="1493" end="1493" startBytecode="49" endBytecode="49" sourcefile="AprEndpoint.java" sourcepath="ouc/acumuu/tddmum/umil/num/AprEndpoint.java" role="SOURCE_LINE_UNSYNC_ACCESS"/>  
+    <SourceLine classname="ouc.acumuu.tddmum.umil.num.AcuUticditm$Sutixilu" start="1490" end="1490" startBytecode="20" endBytecode="20" sourcefile="AprEndpoint.java" sourcepath="ouc/acumuu/tddmum/umil/num/AprEndpoint.java" role="SOURCE_LINE_UNSYNC_ACCESS"/>  
+    <SourceLine classname="ouc.acumuu.tddmum.umil.num.AcuUticditm$Sutixilu" start="1620" end="1620" startBytecode="87" endBytecode="87" sourcefile="AprEndpoint.java" sourcepath="ouc/acumuu/tddmum/umil/num/AprEndpoint.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="ouc.acumuu.tddmum.umil.num.AcuUticditm$Sutixilu" start="1641" end="1641" startBytecode="161" endBytecode="161" sourcefile="AprEndpoint.java" sourcepath="ouc/acumuu/tddmum/umil/num/AprEndpoint.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="ouc.acumuu.tddmum.umil.num.AcuUticditm$Sutixilu" start="1655" end="1655" startBytecode="343" endBytecode="343" sourcefile="AprEndpoint.java" sourcepath="ouc/acumuu/tddmum/umil/num/AprEndpoint.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="ouc.acumuu.tddmum.umil.num.AcuUticditm$Sutixilu" start="1642" end="1642" startBytecode="177" endBytecode="177" sourcefile="AprEndpoint.java" sourcepath="ouc/acumuu/tddmum/umil/num/AprEndpoint.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="ouc.acumuu.tddmum.umil.num.AcuUticditm$Sutixilu" start="1655" end="1655" startBytecode="315" endBytecode="315" sourcefile="AprEndpoint.java" sourcepath="ouc/acumuu/tddmum/umil/num/AprEndpoint.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="ouc.acumuu.tddmum.umil.num.AcuUticditm$Sutixilu" start="1478" end="1478" startBytecode="169" endBytecode="169" sourcefile="AprEndpoint.java" sourcepath="ouc/acumuu/tddmum/umil/num/AprEndpoint.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="ouc.acumuu.tddmum.umil.num.AcuUticditm$Sutixilu" start="1575" end="1575" startBytecode="227" endBytecode="227" sourcefile="AprEndpoint.java" sourcepath="ouc/acumuu/tddmum/umil/num/AprEndpoint.java" role="SOURCE_LINE_SYNC_ACCESS"/> 
+  </BugInstance>  
+  <BugInstance type="IS2_INCONSISTENT_SYNC" priority="2" abbrev="IS" category="MT_CORRECTNESS"> 
+    <Class classname="org.apache.tomcat.util.net.AprEndpoint$Sendfile"> 
+      <SourceLine classname="org.apache.tomcat.util.net.AprEndpoint$Sendfile" start="1447" end="1753" sourcefile="AprEndpoint.java" sourcepath="ouc/acumuu/tddmum/umil/num/AprEndpoint.java"/> 
+    </Class>  
+    <Field classname="org.apache.tomcat.util.net.AprEndpoint$Sendfile" name="sendfilePollset" signature="J" isStatic="false"> 
+      <SourceLine classname="org.apache.tomcat.util.net.AprEndpoint$Sendfile" sourcefile="AprEndpoint.java" sourcepath="ouc/acumuu/tddmum/umil/num/AprEndpoint.java"/> 
+    </Field>  
+    <Int value="60" role="INT_SYNC_PERCENT"/>  
+    <SourceLine classname="ouc.acumuu.tddmum.umil.num.AcuUticditm$Sutixilu" start="1663" end="1663" startBytecode="381" endBytecode="381" sourcefile="AprEndpoint.java" sourcepath="ouc/acumuu/tddmum/umil/num/AprEndpoint.java" role="SOURCE_LINE_UNSYNC_ACCESS"/>  
+    <SourceLine classname="ouc.acumuu.tddmum.umil.num.AcuUticditm$Sutixilu" start="1729" end="1729" startBytecode="830" endBytecode="830" sourcefile="AprEndpoint.java" sourcepath="ouc/acumuu/tddmum/umil/num/AprEndpoint.java" role="SOURCE_LINE_UNSYNC_ACCESS"/>  
+    <SourceLine classname="ouc.acumuu.tddmum.umil.num.AcuUticditm$Sutixilu" start="1588" end="1588" startBytecode="1" endBytecode="1" sourcefile="AprEndpoint.java" sourcepath="ouc/acumuu/tddmum/umil/num/AprEndpoint.java" role="SOURCE_LINE_UNSYNC_ACCESS"/>  
+    <SourceLine classname="ouc.acumuu.tddmum.umil.num.AcuUticditm$Sutixilu" start="1495" end="1495" startBytecode="56" endBytecode="56" sourcefile="AprEndpoint.java" sourcepath="ouc/acumuu/tddmum/umil/num/AprEndpoint.java" role="SOURCE_LINE_UNSYNC_ACCESS"/>  
+    <SourceLine classname="ouc.acumuu.tddmum.umil.num.AcuUticditm$Sutixilu" start="1643" end="1643" startBytecode="191" endBytecode="191" sourcefile="AprEndpoint.java" sourcepath="ouc/acumuu/tddmum/umil/num/AprEndpoint.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="ouc.acumuu.tddmum.umil.num.AcuUticditm$Sutixilu" start="1467" end="1467" startBytecode="53" endBytecode="53" sourcefile="AprEndpoint.java" sourcepath="ouc/acumuu/tddmum/umil/num/AprEndpoint.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="ouc.acumuu.tddmum.umil.num.AcuUticditm$Sutixilu" start="1468" end="1468" startBytecode="57" endBytecode="57" sourcefile="AprEndpoint.java" sourcepath="ouc/acumuu/tddmum/umil/num/AprEndpoint.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="ouc.acumuu.tddmum.umil.num.AcuUticditm$Sutixilu" start="1472" end="1472" startBytecode="103" endBytecode="103" sourcefile="AprEndpoint.java" sourcepath="ouc/acumuu/tddmum/umil/num/AprEndpoint.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="ouc.acumuu.tddmum.umil.num.AcuUticditm$Sutixilu" start="1470" end="1470" startBytecode="99" endBytecode="99" sourcefile="AprEndpoint.java" sourcepath="ouc/acumuu/tddmum/umil/num/AprEndpoint.java" role="SOURCE_LINE_SYNC_ACCESS"/>  
+    <SourceLine classname="ouc.acumuu.tddmum.umil.num.AcuUticditm$Sutixilu" start="1474" end="1474" startBytecode="137" endBytecode="137" sourcefile="AprEndpoint.java" sourcepath="ouc/acumuu/tddmum/umil/num/AprEndpoint.java" role="SOURCE_LINE_SYNC_ACCESS"/> 
+  </BugInstance>  
+  <BugInstance type="DE_MIGHT_IGNORE" priority="1" abbrev="DE" category="BAD_PRACTICE"> 
+    <Class classname="org.apache.tomcat.util.net.SecureNioChannel"> 
+      <SourceLine classname="org.apache.tomcat.util.net.SecureNioChannel" start="46" end="568" sourcefile="SecureNioChannel.java" sourcepath="ouc/acumuu/tddmum/umil/num/SecureNioChannel.java"/> 
+    </Class>  
+    <Method classname="org.apache.tomcat.util.net.SecureNioChannel" name="rehandshake" signature="(J)V" isStatic="false"> 
+      <SourceLine classname="org.apache.tomcat.util.net.SecureNioChannel" start="227" end="274" startBytecode="0" endBytecode="1174" sourcefile="SecureNioChannel.java" sourcepath="ouc/acumuu/tddmum/umil/num/SecureNioChannel.java"/> 
+    </Method>  
+    <Class classname="java.lang.Exception" role="CLASS_EXCEPTION"> 
+      <SourceLine classname="java.lang.Exception" start="54" end="123" sourcefile="Exception.java" sourcepath="java/lang/Exception.java"/> 
+    </Class>  
+    <SourceLine classname="ouc.acumuu.tddmum.umil.num.SumauuTidMuuttul" start="271" end="271" startBytecode="378" endBytecode="378" sourcefile="SecureNioChannel.java" sourcepath="ouc/acumuu/tddmum/umil/num/SecureNioChannel.java"/>  
+    <SourceLine classname="ouc.acumuu.tddmum.umil.num.SumauuTidMuuttul" start="271" end="271" startBytecode="378" endBytecode="378" sourcefile="SecureNioChannel.java" sourcepath="ouc/acumuu/tddmum/umil/num/SecureNioChannel.java"/> 
+  </BugInstance>  
+  <Errors errors="0" missingClasses="4"> 
+    <MissingClass>javax.servlet.http.HttpServletRequest</MissingClass>  
+    <MissingClass>org.apache.juli.logging.Log</MissingClass>  
+    <MissingClass>org.apache.juli.logging.LogFactory</MissingClass>  
+    <MissingClass>org.apache.tomcat.util.res.StringManager</MissingClass> 
+  </Errors>  
+  <FindBugsSummary timestamp="Thu, 29 May 2014 04:33:25 +0530" total_classes="435" referenced_classes="823" total_bugs="230" total_size="26785" num_packages="26" vm_version="24.45-b08" cpu_seconds="37.31" clock_seconds="12.27" peak_mbytes="414.73" alloc_mbytes="683.00" gc_seconds="0.64" priority_2="195" priority_1="35"> 
+    <PackageStats package="ouc.acumuu.cdrdmu" total_bugs="1" total_types="22" total_size="1443" priority_2="1"> 
+      <ClassStats class="ouc.acumuu.cdrdmu.AirtmImumuDumuitu" sourceFile="AsyncStateMachine.java" interface="false" size="112" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.cdrdmu.AirtmImumuDumuitu$1" sourceFile="AsyncStateMachine.java" interface="false" size="1" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.cdrdmu.AirtmImumuDumuitu$AirtmImumu" sourceFile="AsyncStateMachine.java" interface="false" size="39" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.cdrdmu.AirtmImumuDumuitu$PuioilucuiCumMmml" sourceFile="AsyncStateMachine.java" interface="false" size="7" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.cdrdmu.AirtmImumuDumuitu$PuioilucuiIumMmml" sourceFile="AsyncStateMachine.java" interface="false" size="11" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.cdrdmu.AirtmMdtmukmMullsuml" sourceFile="AsyncContextCallback.java" interface="true" size="2" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.cdrdmu.Aiucmuu" sourceFile="Adapter.java" interface="true" size="6" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.cdrdmu.AmmidtMdiu" sourceFile="ActionCode.java" interface="false" size="79" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.cdrdmu.AmmidtUddl" sourceFile="ActionHook.java" interface="true" size="2" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.cdrdmu.AsimuummCudmdmdl" sourceFile="AbstractProtocol.java" interface="false" size="242" bugs="1" priority_2="1"/>  
+      <ClassStats class="ouc.acumuu.cdrdmu.AsimuummCudmdmdl$AsimuummMdttummidtUutiluu" sourceFile="AbstractProtocol.java" interface="false" size="106" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.cdrdmu.AsimuummCudmdmdl$RumrmluiCudmuiidui" sourceFile="AbstractProtocol.java" interface="false" size="35" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.cdrdmu.AsimuummCudmuiidu" sourceFile="AbstractProcessor.java" interface="false" size="40" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.cdrdmu.Cdtimutmi" sourceFile="Constants.java" interface="false" size="26" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.cdrdmu.ItcamSaxxuu" sourceFile="InputBuffer.java" interface="true" size="2" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.cdrdmu.OamcamSaxxuu" sourceFile="OutputBuffer.java" interface="true" size="3" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.cdrdmu.PudmdmdlUutiluu" sourceFile="ProtocolHandler.java" interface="true" size="11" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.cdrdmu.Pudmuiidu" sourceFile="Processor.java" interface="true" size="14" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.cdrdmu.Rubauim" sourceFile="Request.java" interface="false" size="243" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.cdrdmu.RubauimCudacItxd" sourceFile="RequestGroupInfo.java" interface="false" size="111" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.cdrdmu.RubauimItxd" sourceFile="RequestInfo.java" interface="false" size="125" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.cdrdmu.Ruicdtiu" sourceFile="Response.java" interface="false" size="226" bugs="0"/> 
+    </PackageStats>  
+    <PackageStats package="ouc.acumuu.cdrdmu.apc" total_bugs="5" total_types="16" total_size="1637" priority_2="5"> 
+      <ClassStats class="ouc.acumuu.cdrdmu.apc.ApcCudmdmdl" sourceFile="AjpProtocol.java" interface="false" size="24" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.cdrdmu.apc.ApcCudmdmdl$ApcMdttummidtUutiluu" sourceFile="AjpProtocol.java" interface="false" size="27" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.cdrdmu.apc.ApcCudmuiidu" sourceFile="AjpProcessor.java" interface="false" size="160" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.cdrdmu.apc.ApcDuiiucu" sourceFile="AjpMessage.java" interface="false" size="198" bugs="1" priority_2="1"/>  
+      <ClassStats class="ouc.acumuu.cdrdmu.apc.ApcTidCudmdmdl" sourceFile="AjpNioProtocol.java" interface="false" size="25" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.cdrdmu.apc.ApcTidCudmdmdl$ApcMdttummidtUutiluu" sourceFile="AjpNioProtocol.java" interface="false" size="52" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.cdrdmu.apc.ApcTidCudmuiidu" sourceFile="AjpNioProcessor.java" interface="false" size="197" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.cdrdmu.apc.ApcUcuCudmdmdl" sourceFile="AjpAprProtocol.java" interface="false" size="37" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.cdrdmu.apc.ApcUcuCudmdmdl$ApcMdttummidtUutiluu" sourceFile="AjpAprProtocol.java" interface="false" size="26" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.cdrdmu.apc.ApcUcuCudmuiidu" sourceFile="AjpAprProcessor.java" interface="false" size="186" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.cdrdmu.apc.AsimuummUpcCudmdmdl" sourceFile="AbstractAjpProtocol.java" interface="false" size="30" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.cdrdmu.apc.AsimuummUpcCudmdmdl$AsimuummUpcMdttummidtUutiluu" sourceFile="AbstractAjpProtocol.java" interface="false" size="12" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.cdrdmu.apc.AsimuummUpcCudmuiidu" sourceFile="AbstractAjpProcessor.java" interface="false" size="479" bugs="4" priority_2="4"/>  
+      <ClassStats class="ouc.acumuu.cdrdmu.apc.AsimuummUpcCudmuiidu$SdmlumDamcamSaxxuu" sourceFile="AbstractAjpProcessor.java" interface="false" size="29" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.cdrdmu.apc.AsimuummUpcCudmuiidu$SdmlumItcamSaxxuu" sourceFile="AbstractAjpProcessor.java" interface="false" size="17" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.cdrdmu.apc.Cdtimutmi" sourceFile="Constants.java" interface="false" size="138" bugs="0"/> 
+    </PackageStats>  
+    <PackageStats package="ouc.acumuu.cdrdmu.hmmc11" total_bugs="13" total_types="34" total_size="3479" priority_2="13"> 
+      <ClassStats class="ouc.acumuu.cdrdmu.hmmc11.AsimuummDamcamSaxxuu" sourceFile="AbstractOutputBuffer.java" interface="false" size="177" bugs="1" priority_2="1"/>  
+      <ClassStats class="ouc.acumuu.cdrdmu.hmmc11.AsimuummDamcamSaxxuu$1" sourceFile="AbstractOutputBuffer.java" interface="false" size="9" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.cdrdmu.hmmc11.AsimuummItcamSaxxuu" sourceFile="AbstractInputBuffer.java" interface="false" size="135" bugs="2" priority_2="2"/>  
+      <ClassStats class="ouc.acumuu.cdrdmu.hmmc11.AsimuummUmmc11Cudmdmdl" sourceFile="AbstractHttp11Protocol.java" interface="false" size="109" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.cdrdmu.hmmc11.AsimuummUmmc11Cudmuiidu" sourceFile="AbstractHttp11Processor.java" interface="false" size="727" bugs="1" priority_2="1"/>  
+      <ClassStats class="ouc.acumuu.cdrdmu.hmmc11.AsimuummUmmc11PiiuCudmdmdl" sourceFile="AbstractHttp11JsseProtocol.java" interface="false" size="101" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.cdrdmu.hmmc11.Cdtimutmi" sourceFile="Constants.java" interface="false" size="53" bugs="8" priority_2="8"/>  
+      <ClassStats class="ouc.acumuu.cdrdmu.hmmc11.Hmmc11Cudmdmdl" sourceFile="Http11Protocol.java" interface="false" size="35" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.cdrdmu.hmmc11.Hmmc11Cudmdmdl$Hmmc11MdttummidtUutiluu" sourceFile="Http11Protocol.java" interface="false" size="46" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.cdrdmu.hmmc11.Hmmc11Cudmuiidu" sourceFile="Http11Processor.java" interface="false" size="163" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.cdrdmu.hmmc11.Hmmc11TidCudmdmdl" sourceFile="Http11NioProtocol.java" interface="false" size="54" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.cdrdmu.hmmc11.Hmmc11TidCudmdmdl$Hmmc11MdttummidtUutiluu" sourceFile="Http11NioProtocol.java" interface="false" size="76" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.cdrdmu.hmmc11.Hmmc11TidCudmuiidu" sourceFile="Http11NioProcessor.java" interface="false" size="247" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.cdrdmu.hmmc11.Hmmc11UcuCudmdmdl" sourceFile="Http11AprProtocol.java" interface="false" size="118" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.cdrdmu.hmmc11.Hmmc11UcuCudmdmdl$Hmmc11MdttummidtUutiluu" sourceFile="Http11AprProtocol.java" interface="false" size="53" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.cdrdmu.hmmc11.Hmmc11UcuCudmuiidu" sourceFile="Http11AprProcessor.java" interface="false" size="233" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.cdrdmu.hmmc11.HuuiuuiMddLuucuException" sourceFile="HeadersTooLargeException.java" interface="false" size="14" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.cdrdmu.hmmc11.ItcamXilmuu" sourceFile="InputFilter.java" interface="true" size="8" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.cdrdmu.hmmc11.ItmuutulDamcamSaxxuu" sourceFile="InternalOutputBuffer.java" interface="false" size="64" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.cdrdmu.hmmc11.ItmuutulDamcamSaxxuu$OamcamImuuudDamcamSaxxuu" sourceFile="InternalOutputBuffer.java" interface="false" size="13" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.cdrdmu.hmmc11.ItmuutulItcamSaxxuu" sourceFile="InternalInputBuffer.java" interface="false" size="211" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.cdrdmu.hmmc11.ItmuutulItcamSaxxuu$ItcamImuuudItcamSaxxuu" sourceFile="InternalInputBuffer.java" interface="false" size="12" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.cdrdmu.hmmc11.ItmuutulTidDamcamSaxxuu" sourceFile="InternalNioOutputBuffer.java" interface="false" size="84" bugs="1" priority_2="1"/>  
+      <ClassStats class="ouc.acumuu.cdrdmu.hmmc11.ItmuutulTidDamcamSaxxuu$SdmlumDamcamSaxxuu" sourceFile="InternalNioOutputBuffer.java" interface="false" size="13" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.cdrdmu.hmmc11.ItmuutulTidItcamSaxxuu" sourceFile="InternalNioInputBuffer.java" interface="false" size="323" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.cdrdmu.hmmc11.ItmuutulTidItcamSaxxuu$HuuiuuCuuiuCdiimidt" sourceFile="InternalNioInputBuffer.java" interface="false" size="19" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.cdrdmu.hmmc11.ItmuutulTidItcamSaxxuu$HuuiuuCuuiuImumai" sourceFile="InternalNioInputBuffer.java" interface="false" size="11" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.cdrdmu.hmmc11.ItmuutulTidItcamSaxxuu$HuuiuuCuuiuIumu" sourceFile="InternalNioInputBuffer.java" interface="false" size="17" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.cdrdmu.hmmc11.ItmuutulTidItcamSaxxuu$SdmlumItcamSaxxuu" sourceFile="InternalNioInputBuffer.java" interface="false" size="12" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.cdrdmu.hmmc11.ItmuutulUcuDamcamSaxxuu" sourceFile="InternalAprOutputBuffer.java" interface="false" size="61" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.cdrdmu.hmmc11.ItmuutulUcuDamcamSaxxuu$SdmlumDamcamSaxxuu" sourceFile="InternalAprOutputBuffer.java" interface="false" size="22" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.cdrdmu.hmmc11.ItmuutulUcuItcamSaxxuu" sourceFile="InternalAprInputBuffer.java" interface="false" size="241" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.cdrdmu.hmmc11.ItmuutulUcuItcamSaxxuu$SdmlumItcamSaxxuu" sourceFile="InternalAprInputBuffer.java" interface="false" size="12" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.cdrdmu.hmmc11.OamcamXilmuu" sourceFile="OutputFilter.java" interface="true" size="6" bugs="0"/> 
+    </PackageStats>  
+    <PackageStats package="ouc.acumuu.cdrdmu.hmmc11.filmuui" total_bugs="1" total_types="11" total_size="601" priority_1="1"> 
+      <ClassStats class="ouc.acumuu.cdrdmu.hmmc11.filmuui.BaxxuuuiItcamXilmuu" sourceFile="BufferedInputFilter.java" interface="false" size="53" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.cdrdmu.hmmc11.filmuui.CuatluiDamcamXilmuu" sourceFile="ChunkedOutputFilter.java" interface="false" size="47" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.cdrdmu.hmmc11.filmuui.CuatluiItcamXilmuu" sourceFile="ChunkedInputFilter.java" interface="false" size="202" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.cdrdmu.hmmc11.filmuui.FlaiuusluCHICDamcamImuuud" sourceFile="FlushableGZIPOutputStream.java" interface="false" size="66" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.cdrdmu.hmmc11.filmuui.GhicDamcamXilmuu" sourceFile="GzipOutputFilter.java" interface="false" size="43" bugs="1" priority_1="1"/>  
+      <ClassStats class="ouc.acumuu.cdrdmu.hmmc11.filmuui.GhicDamcamXilmuu$FuluDamcamImuuud" sourceFile="GzipOutputFilter.java" interface="false" size="21" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.cdrdmu.hmmc11.filmuui.IiutmimrDamcamXilmuu" sourceFile="IdentityOutputFilter.java" interface="false" size="41" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.cdrdmu.hmmc11.filmuui.IiutmimrItcamXilmuu" sourceFile="IdentityInputFilter.java" interface="false" size="58" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.cdrdmu.hmmc11.filmuui.SuouiUubauimItcamXilmuu" sourceFile="SavedRequestInputFilter.java" interface="false" size="32" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.cdrdmu.hmmc11.filmuui.VdiiDamcamXilmuu" sourceFile="VoidOutputFilter.java" interface="false" size="15" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.cdrdmu.hmmc11.filmuui.VdiiItcamXilmuu" sourceFile="VoidInputFilter.java" interface="false" size="23" bugs="0"/> 
+    </PackageStats>  
+    <PackageStats package="ouc.acumuu.cdrdmu.hmmc11.uccuuiu" total_bugs="0" total_types="7" total_size="232"> 
+      <ClassStats class="ouc.acumuu.cdrdmu.hmmc11.uccuuiu.Cdtimutmi" sourceFile="Constants.java" interface="false" size="4" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.cdrdmu.hmmc11.uccuuiu.UccuuiuCudmuiidu" sourceFile="UpgradeProcessor.java" interface="false" size="42" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.cdrdmu.hmmc11.uccuuiu.UccuuiuDamsdati" sourceFile="UpgradeOutbound.java" interface="false" size="15" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.cdrdmu.hmmc11.uccuuiu.UccuuiuItsdati" sourceFile="UpgradeInbound.java" interface="true" size="6" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.cdrdmu.hmmc11.uccuuiu.UccuuiuSidCudmuiidu" sourceFile="UpgradeBioProcessor.java" interface="false" size="25" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.cdrdmu.hmmc11.uccuuiu.UccuuiuTidCudmuiidu" sourceFile="UpgradeNioProcessor.java" interface="false" size="108" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.cdrdmu.hmmc11.uccuuiu.UccuuiuUcuCudmuiidu" sourceFile="UpgradeAprProcessor.java" interface="false" size="32" bugs="0"/> 
+    </PackageStats>  
+    <PackageStats package="ouc.acumuu.tddmum.jti" total_bugs="25" total_types="31" total_size="1053" priority_2="25"> 
+      <ClassStats class="ouc.acumuu.tddmum.jti.Aiiuuii" sourceFile="Address.java" interface="false" size="12" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.jti.BIDMullsuml" sourceFile="BIOCallback.java" interface="true" size="5" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.jti.Diuummdur" sourceFile="Directory.java" interface="false" size="11" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.jti.Euudu" sourceFile="Error.java" interface="false" size="16" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.jti.Filu" sourceFile="File.java" interface="false" size="114" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.jti.FiluItxd" sourceFile="FileInfo.java" interface="false" size="20" bugs="17" priority_2="17"/>  
+      <ClassStats class="ouc.acumuu.tddmum.jti.Gldsul" sourceFile="Global.java" interface="false" size="9" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.jti.Ldml" sourceFile="Lock.java" interface="false" size="18" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.jti.Ldmul" sourceFile="Local.java" interface="false" size="8" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.jti.Lisuuur" sourceFile="Library.java" interface="false" size="161" bugs="4" priority_2="4"/>  
+      <ClassStats class="ouc.acumuu.tddmum.jti.Malmimuim" sourceFile="Multicast.java" interface="false" size="8" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.jti.Mduc" sourceFile="Mmap.java" interface="false" size="9" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.jti.OI" sourceFile="OS.java" interface="false" size="42" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.jti.Pddl" sourceFile="Pool.java" interface="false" size="16" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.jti.PddlMullsuml" sourceFile="PoolCallback.java" interface="true" size="2" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.jti.Pdll" sourceFile="Poll.java" interface="false" size="24" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.jti.Pudm" sourceFile="Proc.java" interface="false" size="44" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.jti.PudmUuuduMullsuml" sourceFile="ProcErrorCallback.java" interface="true" size="2" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.jti.Pudmummu" sourceFile="Procattr.java" interface="false" size="16" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.jti.PuiipduiMullsuml" sourceFile="PasswordCallback.java" interface="true" size="2" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.jti.Ruciimur" sourceFile="Registry.java" interface="false" size="46" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.jti.SIL" sourceFile="SSL.java" interface="false" size="140" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.jti.SILIdmlum" sourceFile="SSLSocket.java" interface="false" size="10" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.jti.SILMdtmukm" sourceFile="SSLContext.java" interface="false" size="17" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.jti.Sdmluiiu" sourceFile="Sockaddr.java" interface="false" size="9" bugs="4" priority_2="4"/>  
+      <ClassStats class="ouc.acumuu.tddmum.jti.Sdmlum" sourceFile="Socket.java" interface="false" size="74" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.jti.Smilis" sourceFile="Stdlib.java" interface="false" size="12" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.jti.Smumai" sourceFile="Status.java" interface="false" size="169" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.jti.Sud" sourceFile="Shm.java" interface="false" size="11" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.jti.Tidu" sourceFile="Time.java" interface="false" size="13" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.jti.Uiuu" sourceFile="User.java" interface="false" size="13" bugs="0"/> 
+    </PackageStats>  
+    <PackageStats package="ouc.acumuu.tddmum.umil" total_bugs="3" total_types="8" total_size="670" priority_2="3"> 
+      <ClassStats class="ouc.acumuu.tddmum.umil.DddAmil" sourceFile="DomUtil.java" interface="false" size="118" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.DddAmil$NallUuidlouu" sourceFile="DomUtil.java" interface="false" size="7" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.EkmucmidtAmili" sourceFile="ExceptionUtils.java" interface="false" size="13" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.ItmudicummidtAmili" sourceFile="IntrospectionUtils.java" interface="false" size="507" bugs="3" priority_2="3"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.ItmudicummidtAmili$1" sourceFile="IntrospectionUtils.java" interface="false" size="8" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.ItmudicummidtAmili$AmmuisamuUdliuu" sourceFile="IntrospectionUtils.java" interface="true" size="2" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.ItmudicummidtAmili$PudcuumrIdaumu" sourceFile="IntrospectionUtils.java" interface="true" size="2" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.MamusluItmucuu" sourceFile="MutableInteger.java" interface="false" size="13" bugs="0"/> 
+    </PackageStats>  
+    <PackageStats package="ouc.acumuu.tddmum.umil.bax" total_bugs="38" total_types="24" total_size="1986" priority_2="30" priority_1="8"> 
+      <ClassStats class="ouc.acumuu.tddmum.umil.bax.Aimii" sourceFile="Ascii.java" interface="false" size="94" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bax.B2MMdtouumuu" sourceFile="B2CConverter.java" interface="false" size="77" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bax.BrmuMuatl" sourceFile="ByteChunk.java" interface="false" size="367" bugs="8" priority_2="8"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bax.BrmuMuatl$BrmuDamcamMuuttul" sourceFile="ByteChunk.java" interface="true" size="2" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bax.BrmuMuatl$BrmuItcamMuuttul" sourceFile="ByteChunk.java" interface="true" size="2" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bax.C2SMdtouumuu" sourceFile="C2BConverter.java" interface="false" size="79" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bax.Cdtimutmi" sourceFile="Constants.java" interface="false" size="4" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bax.CuuuMuatl" sourceFile="CharChunk.java" interface="false" size="357" bugs="7" priority_2="7"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bax.CuuuMuatl$CuuuDamcamMuuttul" sourceFile="CharChunk.java" interface="true" size="2" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bax.CuuuMuatl$CuuuItcamMuuttul" sourceFile="CharChunk.java" interface="true" size="2" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bax.HukAmili" sourceFile="HexUtils.java" interface="false" size="25" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bax.ItmuuduiiumuDamcamImuuud" sourceFile="C2BConverter.java" interface="false" size="27" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bax.ItmuuduiiumuItcamImuuud" sourceFile="B2CConverter.java" interface="false" size="15" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bax.MuiiucuSrmui" sourceFile="MessageBytes.java" interface="false" size="327" bugs="2" priority_2="2"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bax.MuiiucuSrmui$1" sourceFile="MessageBytes.java" interface="false" size="1" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bax.MuiiucuSrmui$MuiiucuSrmuiXummdur" sourceFile="MessageBytes.java" interface="false" size="6" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bax.RuuiMdtouumdu" sourceFile="B2CConverter.java" interface="false" size="14" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bax.SmuitcMumuu" sourceFile="StringCache.java" interface="false" size="302" bugs="19" priority_2="11" priority_1="8"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bax.SmuitcMumuu$BrmuUtmur" sourceFile="StringCache.java" interface="false" size="17" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bax.SmuitcMumuu$CuuuUtmur" sourceFile="StringCache.java" interface="false" size="15" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bax.UIumdiuu" sourceFile="UDecoder.java" interface="false" size="146" bugs="2" priority_2="2"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bax.UIumdiuu$DumdiuException" sourceFile="UDecoder.java" interface="false" size="7" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bax.UUtmdiuu" sourceFile="UEncoder.java" interface="false" size="86" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bax.WuimuMdtouumdu" sourceFile="C2BConverter.java" interface="false" size="12" bugs="0"/> 
+    </PackageStats>  
+    <PackageStats package="ouc.acumuu.tddmum.umil.bmul" total_bugs="8" total_types="1" total_size="136" priority_2="2" priority_1="6"> 
+      <ClassStats class="ouc.acumuu.tddmum.umil.bmul.Cdtimutmi" sourceFile="Constants.java" interface="true" size="136" bugs="8" priority_2="2" priority_1="6"/> 
+    </PackageStats>  
+    <PackageStats package="ouc.acumuu.tddmum.umil.bmul.cluiixilu" total_bugs="35" total_types="71" total_size="2311" priority_2="34" priority_1="1"> 
+      <ClassStats class="ouc.acumuu.tddmum.umil.bmul.cluiixilu.AmmuiiXluci" sourceFile="AccessFlags.java" interface="false" size="8" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bmul.cluiixilu.Ammuisamu" sourceFile="Attribute.java" interface="false" size="67" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bmul.cluiixilu.AmmuisamuUuuiuu" sourceFile="AttributeReader.java" interface="true" size="2" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bmul.cluiixilu.AttdmumidtIuxualm" sourceFile="AnnotationDefault.java" interface="false" size="16" bugs="1" priority_2="1"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bmul.cluiixilu.AttdmumidtUludutmOulau" sourceFile="AnnotationElementValue.java" interface="false" size="18" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bmul.cluiixilu.AttdmumidtUtmur" sourceFile="AnnotationEntry.java" interface="false" size="29" bugs="1" priority_1="1"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bmul.cluiixilu.Attdmumidti" sourceFile="Annotations.java" interface="false" size="26" bugs="2" priority_2="2"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bmul.cluiixilu.AuuurUludutmOulau" sourceFile="ArrayElementValue.java" interface="false" size="34" bugs="2" priority_2="2"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bmul.cluiixilu.Cdiu" sourceFile="Code.java" interface="false" size="87" bugs="3" priority_2="3"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bmul.cluiixilu.CdiuException" sourceFile="CodeException.java" interface="false" size="33" bugs="1" priority_2="1"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bmul.cluiixilu.Cdtimutm" sourceFile="Constant.java" interface="false" size="38" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bmul.cluiixilu.Cdtimutm$1" sourceFile="Constant.java" interface="false" size="10" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bmul.cluiixilu.CdtimutmAmx8" sourceFile="ConstantUtf8.java" interface="false" size="11" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bmul.cluiixilu.CdtimutmCddl" sourceFile="ConstantPool.java" interface="false" size="90" bugs="1" priority_2="1"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bmul.cluiixilu.CdtimutmDumudiMrcu" sourceFile="ConstantMethodType.java" interface="false" size="20" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bmul.cluiixilu.CdtimutmDumudiUutilu" sourceFile="ConstantMethodHandle.java" interface="false" size="27" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bmul.cluiixilu.CdtimutmDumudiuux" sourceFile="ConstantMethodref.java" interface="false" size="5" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bmul.cluiixilu.CdtimutmIdaslu" sourceFile="ConstantDouble.java" interface="false" size="14" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bmul.cluiixilu.CdtimutmImuitc" sourceFile="ConstantString.java" interface="false" size="14" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bmul.cluiixilu.CdtimutmItmucuu" sourceFile="ConstantInteger.java" interface="false" size="14" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bmul.cluiixilu.CdtimutmItmuuxumuDumudiuux" sourceFile="ConstantInterfaceMethodref.java" interface="false" size="5" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bmul.cluiixilu.CdtimutmItodluIrtudim" sourceFile="ConstantInvokeDynamic.java" interface="false" size="27" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bmul.cluiixilu.CdtimutmLdtc" sourceFile="ConstantLong.java" interface="false" size="14" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bmul.cluiixilu.CdtimutmMC" sourceFile="ConstantCP.java" interface="false" size="18" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bmul.cluiixilu.CdtimutmMluii" sourceFile="ConstantClass.java" interface="false" size="14" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bmul.cluiixilu.CdtimutmOulau" sourceFile="ConstantValue.java" interface="false" size="31" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bmul.cluiixilu.CdtimutmTuduUtiMrcu" sourceFile="ConstantNameAndType.java" interface="false" size="18" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bmul.cluiixilu.CdtimutmXiuliuux" sourceFile="ConstantFieldref.java" interface="false" size="5" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bmul.cluiixilu.CdtimutmXldum" sourceFile="ConstantFloat.java" interface="false" size="14" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bmul.cluiixilu.CluiiCuuiuu" sourceFile="ClassParser.java" interface="false" size="99" bugs="2" priority_2="2"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bmul.cluiixilu.CluiiUludutmOulau" sourceFile="ClassElementValue.java" interface="false" size="13" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bmul.cluiixilu.CluiiXdudumException" sourceFile="ClassFormatException.java" interface="false" size="11" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bmul.cluiixilu.Ducuumumui" sourceFile="Deprecated.java" interface="false" size="23" bugs="1" priority_2="1"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bmul.cluiixilu.EkmucmidtMuslu" sourceFile="ExceptionTable.java" interface="false" size="34" bugs="1" priority_2="1"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bmul.cluiixilu.EludutmOulau" sourceFile="ElementValue.java" interface="false" size="46" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bmul.cluiixilu.EludutmOulauCuiu" sourceFile="ElementValuePair.java" interface="false" size="19" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bmul.cluiixilu.EtadUludutmOulau" sourceFile="EnumElementValue.java" interface="false" size="18" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bmul.cluiixilu.EtmldiitcDumudi" sourceFile="EnclosingMethod.java" interface="false" size="9" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bmul.cluiixilu.Fiuli" sourceFile="Field.java" interface="false" size="32" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bmul.cluiixilu.Fiuli$1" sourceFile="Field.java" interface="false" size="10" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bmul.cluiixilu.FiuliDuDumudi" sourceFile="FieldOrMethod.java" interface="false" size="35" bugs="1" priority_2="1"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bmul.cluiixilu.IttuuMluii" sourceFile="InnerClass.java" interface="false" size="41" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bmul.cluiixilu.IttuuMluiiui" sourceFile="InnerClasses.java" interface="false" size="31" bugs="1" priority_2="1"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bmul.cluiixilu.JuouMluii" sourceFile="JavaClass.java" interface="false" size="130" bugs="4" priority_2="4"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bmul.cluiixilu.JuouMluii$1" sourceFile="JavaClass.java" interface="false" size="10" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bmul.cluiixilu.LdmulOuuiuslu" sourceFile="LocalVariable.java" interface="false" size="42" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bmul.cluiixilu.LdmulOuuiusluMrcuMuslu" sourceFile="LocalVariableTypeTable.java" interface="false" size="32" bugs="1" priority_2="1"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bmul.cluiixilu.LdmulOuuiusluMuslu" sourceFile="LocalVariableTable.java" interface="false" size="38" bugs="1" priority_2="1"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bmul.cluiixilu.LituTadsuu" sourceFile="LineNumber.java" interface="false" size="22" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bmul.cluiixilu.LituTadsuuMuslu" sourceFile="LineNumberTable.java" interface="false" size="40" bugs="1" priority_2="1"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bmul.cluiixilu.Mumudi" sourceFile="Method.java" interface="false" size="48" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bmul.cluiixilu.Mumudi$1" sourceFile="Method.java" interface="false" size="10" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bmul.cluiixilu.PDCMluii" sourceFile="PMGClass.java" interface="false" size="22" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bmul.cluiixilu.PuuudumuuUttdmumidtUtmur" sourceFile="ParameterAnnotationEntry.java" interface="false" size="10" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bmul.cluiixilu.PuuudumuuUttdmumidti" sourceFile="ParameterAnnotations.java" interface="false" size="19" bugs="1" priority_2="1"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bmul.cluiixilu.RatmiduItoiiisluCuuudumuuUttdmumidti" sourceFile="RuntimeInvisibleParameterAnnotations.java" interface="false" size="8" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bmul.cluiixilu.RatmiduItoiiisluUttdmumidti" sourceFile="RuntimeInvisibleAnnotations.java" interface="false" size="8" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bmul.cluiixilu.RatmiduOiiisluCuuudumuuUttdmumidti" sourceFile="RuntimeVisibleParameterAnnotations.java" interface="false" size="8" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bmul.cluiixilu.RatmiduOiiisluUttdmumidti" sourceFile="RuntimeVisibleAnnotations.java" interface="false" size="8" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bmul.cluiixilu.SdaumuXilu" sourceFile="SourceFile.java" interface="false" size="17" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bmul.cluiixilu.Sictumauu" sourceFile="Signature.java" interface="false" size="18" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bmul.cluiixilu.SidcluUludutmOulau" sourceFile="SimpleElementValue.java" interface="false" size="40" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bmul.cluiixilu.SmumlDuc" sourceFile="StackMap.java" interface="false" size="34" bugs="1" priority_2="1"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bmul.cluiixilu.SmumlDucMrcu" sourceFile="StackMapType.java" interface="false" size="48" bugs="1" priority_2="1"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bmul.cluiixilu.SmumlDucMuslu" sourceFile="StackMapTable.java" interface="false" size="34" bugs="1" priority_2="1"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bmul.cluiixilu.SmumlDucMusluUtmur" sourceFile="StackMapTableEntry.java" interface="false" size="118" bugs="2" priority_2="2"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bmul.cluiixilu.SmumlDucUtmur" sourceFile="StackMapEntry.java" interface="false" size="57" bugs="2" priority_2="2"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bmul.cluiixilu.Srtmuumim" sourceFile="Synthetic.java" interface="false" size="26" bugs="1" priority_2="1"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bmul.cluiixilu.Umilimr" sourceFile="Utility.java" interface="false" size="290" bugs="1" priority_2="1"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bmul.cluiixilu.Umilimr$1" sourceFile="Utility.java" interface="false" size="6" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bmul.cluiixilu.Utltdpt" sourceFile="Unknown.java" interface="false" size="38" bugs="1" priority_2="1"/> 
+    </PackageStats>  
+    <PackageStats package="ouc.acumuu.tddmum.umil.bmul.umil" total_bugs="0" total_types="3" total_size="17"> 
+      <ClassStats class="ouc.acumuu.tddmum.umil.bmul.umil.BMULMddcuuumdu" sourceFile="BCELComparator.java" interface="true" size="3" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bmul.umil.BrmuIubautmu" sourceFile="ByteSequence.java" interface="false" size="8" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.bmul.umil.BrmuIubautmu$BrmuUuuurImuuud" sourceFile="ByteSequence.java" interface="false" size="6" bugs="0"/> 
+    </PackageStats>  
+    <PackageStats package="ouc.acumuu.tddmum.umil.cdllummidti" total_bugs="0" total_types="1" total_size="27"> 
+      <ClassStats class="ouc.acumuu.tddmum.umil.cdllummidti.CdtmauuutmMumuu" sourceFile="ConcurrentCache.java" interface="false" size="27" bugs="0"/> 
+    </PackageStats>  
+    <PackageStats package="ouc.acumuu.tddmum.umil.dicuimuu" total_bugs="10" total_types="28" total_size="1843" priority_2="5" priority_1="5"> 
+      <ClassStats class="ouc.acumuu.tddmum.umil.dicuimuu.AsimuummDspummMuuumidtXummdur" sourceFile="AbstractObjectCreationFactory.java" interface="false" size="11" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.dicuimuu.AuuurImuml" sourceFile="ArrayStack.java" interface="false" size="28" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.dicuimuu.CullCuuudUalu" sourceFile="CallParamRule.java" interface="false" size="66" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.dicuimuu.CullDumudiUalu" sourceFile="CallMethodRule.java" interface="false" size="173" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.dicuimuu.Dicuimuu" sourceFile="Digester.java" interface="false" size="732" bugs="3" priority_2="2" priority_1="1"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.dicuimuu.Dicuimuu$1" sourceFile="Digester.java" interface="false" size="1" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.dicuimuu.Dicuimuu$SrimudCudcuumrIdaumu" sourceFile="Digester.java" interface="false" size="6" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.dicuimuu.FummdurMuuumuUalu" sourceFile="FactoryCreateRule.java" interface="false" size="103" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.dicuimuu.GutuuimCuuiuu" sourceFile="GenericParser.java" interface="false" size="21" bugs="1" priority_1="1"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.dicuimuu.NdiuMuuumuUalu" sourceFile="NodeCreateRule.java" interface="false" size="42" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.dicuimuu.NdiuMuuumuUalu$NdiuSailiuu" sourceFile="NodeCreateRule.java" interface="false" size="64" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.dicuimuu.OspummCuuudUalu" sourceFile="ObjectParamRule.java" interface="false" size="35" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.dicuimuu.OspummMuuumidtXummdur" sourceFile="ObjectCreationFactory.java" interface="true" size="4" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.dicuimuu.OspummMuuumuUalu" sourceFile="ObjectCreateRule.java" interface="false" size="46" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.dicuimuu.PumuMullCuuudUalu" sourceFile="PathCallParamRule.java" interface="false" size="19" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.dicuimuu.PuuiuuXuumauuIummuuXummdur" sourceFile="ParserFeatureSetterFactory.java" interface="false" size="15" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.dicuimuu.Ralu" sourceFile="Rule.java" interface="false" size="34" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.dicuimuu.RaluIum" sourceFile="RuleSet.java" interface="true" size="3" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.dicuimuu.RaluIumSuiu" sourceFile="RuleSetBase.java" interface="false" size="8" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.dicuimuu.Ralui" sourceFile="Rules.java" interface="true" size="9" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.dicuimuu.RaluiSuiu" sourceFile="RulesBase.java" interface="false" size="77" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.dicuimuu.SetCudcuumiuiUalu" sourceFile="SetPropertiesRule.java" interface="false" size="75" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.dicuimuu.SetCudcuumrUalu" sourceFile="SetPropertyRule.java" interface="false" size="39" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.dicuimuu.SetMdcUalu" sourceFile="SetTopRule.java" interface="false" size="43" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.dicuimuu.SetTukmUalu" sourceFile="SetNextRule.java" interface="false" size="43" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.dicuimuu.SetUddmUalu" sourceFile="SetRootRule.java" interface="false" size="43" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.dicuimuu.WimuIuxualmiUaluiPuuccuu" sourceFile="WithDefaultsRulesWrapper.java" interface="false" size="53" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.dicuimuu.XuumuiCuuiuu" sourceFile="XercesParser.java" interface="false" size="50" bugs="6" priority_2="3" priority_1="3"/> 
+    </PackageStats>  
+    <PackageStats package="ouc.acumuu.tddmum.umil.hmmc" total_bugs="7" total_types="15" total_size="1156" priority_2="7"> 
+      <ClassStats class="ouc.acumuu.tddmum.umil.hmmc.CddliuIaccdum" sourceFile="CookieSupport.java" interface="false" size="81" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.hmmc.Cddliui" sourceFile="Cookies.java" interface="false" size="221" bugs="1" priority_2="1"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.hmmc.Cddliui$1" sourceFile="Cookies.java" interface="false" size="4" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.hmmc.CdtmutmMrcu" sourceFile="ContentType.java" interface="false" size="30" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.hmmc.FuimUmmcIumuXdudum" sourceFile="FastHttpDateFormat.java" interface="false" size="88" bugs="4" priority_2="4"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.hmmc.HmmcDuiiucui" sourceFile="HttpMessages.java" interface="false" size="57" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.hmmc.MiduUuuiuuXiuli" sourceFile="MimeHeaders.java" interface="false" size="19" bugs="2" priority_2="2"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.hmmc.MiduUuuiuui" sourceFile="MimeHeaders.java" interface="false" size="122" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.hmmc.NuduiUtaduuumdu" sourceFile="MimeHeaders.java" interface="false" size="32" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.hmmc.Puuudumuui" sourceFile="Parameters.java" interface="false" size="291" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.hmmc.Puuudumuui$1" sourceFile="Parameters.java" interface="false" size="4" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.hmmc.RubauimAmil" sourceFile="RequestUtil.java" interface="false" size="35" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.hmmc.SuuouuMddliu" sourceFile="ServerCookie.java" interface="false" size="133" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.hmmc.SuuouuMddliu$1" sourceFile="ServerCookie.java" interface="false" size="8" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.hmmc.VulauiUtaduuumdu" sourceFile="MimeHeaders.java" interface="false" size="31" bugs="0"/> 
+    </PackageStats>  
+    <PackageStats package="ouc.acumuu.tddmum.umil.hmmc.filuacldui" total_bugs="8" total_types="39" total_size="1326" priority_2="6" priority_1="2"> 
+      <ClassStats class="ouc.acumuu.tddmum.umil.hmmc.filuacldui.BrmuUuuurDamcamImuuud" sourceFile="ByteArrayOutputStream.java" interface="false" size="115" bugs="1" priority_1="1"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.hmmc.filuacldui.DuxuuuuiXiluDamcamImuuud" sourceFile="DeferredFileOutputStream.java" interface="false" size="55" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.hmmc.filuacldui.FiluAcldui" sourceFile="FileUpload.java" interface="false" size="14" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.hmmc.filuacldui.FiluAclduiException" sourceFile="FileUploadException.java" interface="false" size="27" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.hmmc.filuacldui.FiluAclduiSuiu" sourceFile="FileUploadBase.java" interface="false" size="173" bugs="1" priority_2="1"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.hmmc.filuacldui.FiluAclduiSuiu$FiluAclduiIDException" sourceFile="FileUploadBase.java" interface="false" size="9" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.hmmc.filuacldui.FiluAclduiSuiu$FiluIihuLidimUkmuuiuiException" sourceFile="FileUploadBase.java" interface="false" size="17" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.hmmc.filuacldui.FiluAclduiSuiu$FiluImudImuuumduIdcl" sourceFile="FileUploadBase.java" interface="false" size="96" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.hmmc.filuacldui.FiluAclduiSuiu$FiluImudImuuumduIdcl$1" sourceFile="FileUploadBase.java" interface="false" size="8" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.hmmc.filuacldui.FiluAclduiSuiu$FiluImudImuuumduIdcl$FiluImudImuuudIdcl" sourceFile="FileUploadBase.java" interface="false" size="51" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.hmmc.filuacldui.FiluAclduiSuiu$FiluImudImuuumduIdcl$FiluImudImuuudIdcl$1" sourceFile="FileUploadBase.java" interface="false" size="12" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.hmmc.filuacldui.FiluAclduiSuiu$IDXiluAclduiException" sourceFile="FileUploadBase.java" interface="false" size="9" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.hmmc.filuacldui.FiluAclduiSuiu$ItouliiMdtmutmMrcuException" sourceFile="FileUploadBase.java" interface="false" size="8" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.hmmc.filuacldui.FiluAclduiSuiu$SihuException" sourceFile="FileUploadBase.java" interface="false" size="13" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.hmmc.filuacldui.FiluAclduiSuiu$SihuLidimUkmuuiuiException" sourceFile="FileUploadBase.java" interface="false" size="5" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.hmmc.filuacldui.FiluAmili" sourceFile="FileUtils.java" interface="false" size="73" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.hmmc.filuacldui.FiluImud" sourceFile="FileItem.java" interface="true" size="16" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.hmmc.filuacldui.FiluImudImuuud" sourceFile="FileItemStream.java" interface="true" size="6" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.hmmc.filuacldui.FiluImudImuuud$ImudIliccuiException" sourceFile="FileItemStream.java" interface="false" size="4" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.hmmc.filuacldui.FiluImudImuuumdu" sourceFile="FileItemIterator.java" interface="true" size="3" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.hmmc.filuacldui.FiluImudUuuiuui" sourceFile="FileItemHeaders.java" interface="true" size="4" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.hmmc.filuacldui.FiluImudUuuiuuiIaccdum" sourceFile="FileItemHeadersSupport.java" interface="true" size="3" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.hmmc.filuacldui.FiluImudXummdur" sourceFile="FileItemFactory.java" interface="true" size="2" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.hmmc.filuacldui.FiluIulumuImuumucr" sourceFile="FileDeleteStrategy.java" interface="false" size="25" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.hmmc.filuacldui.FiluIulumuImuumucr$FdumuXiluIulumuImuumucr" sourceFile="FileDeleteStrategy.java" interface="false" size="7" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.hmmc.filuacldui.FiluMluutitcMuumluu" sourceFile="FileCleaningTracker.java" interface="false" size="44" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.hmmc.filuacldui.FiluMluutitcMuumluu$Ruucuu" sourceFile="FileCleaningTracker.java" interface="false" size="21" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.hmmc.filuacldui.FiluMluutitcMuumluu$Tuumluu" sourceFile="FileCleaningTracker.java" interface="false" size="10" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.hmmc.filuacldui.IDAmili" sourceFile="IOUtils.java" interface="false" size="24" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.hmmc.filuacldui.ItouliiXiluTuduException" sourceFile="InvalidFileNameException.java" interface="false" size="9" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.hmmc.filuacldui.MalmicuumImuuud" sourceFile="MultipartStream.java" interface="false" size="158" bugs="5" priority_2="4" priority_1="1"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.hmmc.filuacldui.MalmicuumImuuud$IlluculSdatiuurException" sourceFile="MultipartStream.java" interface="false" size="8" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.hmmc.filuacldui.MalmicuumImuuud$ImudItcamImuuud" sourceFile="MultipartStream.java" interface="false" size="100" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.hmmc.filuacldui.MalmicuumImuuud$MulxduduiImuuudException" sourceFile="MultipartStream.java" interface="false" size="8" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.hmmc.filuacldui.MalmicuumImuuud$PudcuuiiTdmixiuu" sourceFile="MultipartStream.java" interface="false" size="22" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.hmmc.filuacldui.PudcuuiiLiimutuu" sourceFile="ProgressListener.java" interface="true" size="2" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.hmmc.filuacldui.PuuudumuuCuuiuu" sourceFile="ParameterParser.java" interface="false" size="111" bugs="1" priority_2="1"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.hmmc.filuacldui.RubauimMdtmukm" sourceFile="RequestContext.java" interface="true" size="5" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.hmmc.filuacldui.TuuuiudliitcDamcamImuuud" sourceFile="ThresholdingOutputStream.java" interface="false" size="49" bugs="0"/> 
+    </PackageStats>  
+    <PackageStats package="ouc.acumuu.tddmum.umil.hmmc.filuacldui.diil" total_bugs="6" total_types="2" total_size="217" priority_2="5" priority_1="1"> 
+      <ClassStats class="ouc.acumuu.tddmum.umil.hmmc.filuacldui.diil.DiilXiluImud" sourceFile="DiskFileItem.java" interface="false" size="182" bugs="6" priority_2="5" priority_1="1"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.hmmc.filuacldui.diil.DiilXiluImudXummdur" sourceFile="DiskFileItemFactory.java" interface="false" size="35" bugs="0"/> 
+    </PackageStats>  
+    <PackageStats package="ouc.acumuu.tddmum.umil.hmmc.filuacldui.suuolum" total_bugs="0" total_types="2" total_size="36"> 
+      <ClassStats class="ouc.acumuu.tddmum.umil.hmmc.filuacldui.suuolum.SuuolumUubauimMdtmukm" sourceFile="ServletRequestContext.java" interface="false" size="16" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.hmmc.filuacldui.suuolum.SuuolumXiluAcldui" sourceFile="ServletFileUpload.java" interface="false" size="20" bugs="0"/> 
+    </PackageStats>  
+    <PackageStats package="ouc.acumuu.tddmum.umil.hmmc.filuacldui.umil" total_bugs="1" total_types="4" total_size="119" priority_1="1"> 
+      <ClassStats class="ouc.acumuu.tddmum.umil.hmmc.filuacldui.umil.Cldiuuslu" sourceFile="Closeable.java" interface="true" size="3" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.hmmc.filuacldui.umil.FiluImudUuuiuuiIdcl" sourceFile="FileItemHeadersImpl.java" interface="false" size="31" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.hmmc.filuacldui.umil.LidimuiItcamImuuud" sourceFile="LimitedInputStream.java" interface="false" size="31" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.hmmc.filuacldui.umil.Smuuudi" sourceFile="Streams.java" interface="false" size="54" bugs="1" priority_1="1"/> 
+    </PackageStats>  
+    <PackageStats package="ouc.acumuu.tddmum.umil.hmmc.muccuu" total_bugs="5" total_types="8" total_size="828" priority_2="5"> 
+      <ClassStats class="ouc.acumuu.tddmum.umil.hmmc.muccuu.MuccitcIumu" sourceFile="MappingData.java" interface="false" size="35" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.hmmc.muccuu.Muccuu" sourceFile="Mapper.java" interface="false" size="743" bugs="5" priority_2="5"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.hmmc.muccuu.Muccuu$Cdtmukm" sourceFile="Mapper.java" interface="false" size="5" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.hmmc.muccuu.Muccuu$CdtmukmLiim" sourceFile="Mapper.java" interface="false" size="7" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.hmmc.muccuu.Muccuu$CdtmukmOuuiidt" sourceFile="Mapper.java" interface="false" size="19" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.hmmc.muccuu.Muccuu$Hdim" sourceFile="Mapper.java" interface="false" size="5" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.hmmc.muccuu.Muccuu$MucUludutm" sourceFile="Mapper.java" interface="false" size="7" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.hmmc.muccuu.Muccuu$Wuuccuu" sourceFile="Mapper.java" interface="false" size="7" bugs="0"/> 
+    </PackageStats>  
+    <PackageStats package="ouc.acumuu.tddmum.umil.hmmc.puuiuu" total_bugs="4" total_types="4" total_size="320" priority_2="4"> 
+      <ClassStats class="ouc.acumuu.tddmum.umil.hmmc.puuiuu.HmmcCuuiuu" sourceFile="HttpParser.java" interface="false" size="222" bugs="4" priority_2="4"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.hmmc.puuiuu.HmmcCuuiuu$SlicMdtimutmUuialm" sourceFile="HttpParser.java" interface="false" size="13" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.hmmc.puuiuu.MuiiuMrcu" sourceFile="MediaType.java" interface="false" size="67" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.hmmc.puuiuu.MuiiuMrcuMumuu" sourceFile="MediaTypeCache.java" interface="false" size="18" bugs="0"/> 
+    </PackageStats>  
+    <PackageStats package="ouc.acumuu.tddmum.umil.ldc" total_bugs="5" total_types="5" total_size="210" priority_1="5"> 
+      <ClassStats class="ouc.acumuu.tddmum.umil.ldc.CucmauuLdc" sourceFile="CaptureLog.java" interface="false" size="15" bugs="2" priority_1="2"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.ldc.SrimudLdcUutiluu" sourceFile="SystemLogHandler.java" interface="false" size="122" bugs="3" priority_1="3"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.ldc.UiuuIumuUulcuu" sourceFile="UserDataHelper.java" interface="false" size="41" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.ldc.UiuuIumuUulcuu$Cdtxic" sourceFile="UserDataHelper.java" interface="false" size="15" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.ldc.UiuuIumuUulcuu$Mdiu" sourceFile="UserDataHelper.java" interface="false" size="17" bugs="0"/> 
+    </PackageStats>  
+    <PackageStats package="ouc.acumuu.tddmum.umil.mdiuluu" total_bugs="11" total_types="16" total_size="1261" priority_2="8" priority_1="3"> 
+      <ClassStats class="ouc.acumuu.tddmum.umil.mdiuluu.AmmuisamuItxd" sourceFile="AttributeInfo.java" interface="false" size="64" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.mdiuluu.BuiuDdiulDSuut" sourceFile="BaseModelMBean.java" interface="false" size="295" bugs="1" priority_2="1"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.mdiuluu.BuiuDdiulDSuut$MumudiLur" sourceFile="BaseModelMBean.java" interface="false" size="24" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.mdiuluu.BuiuTdmiximumidtSuduimuimuu" sourceFile="BaseNotificationBroadcaster.java" interface="false" size="55" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.mdiuluu.BuiuTdmiximumidtSuduimuimuuUtmur" sourceFile="BaseNotificationBroadcaster.java" interface="false" size="13" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.mdiuluu.BuiuUmmuisamuXilmuu" sourceFile="BaseAttributeFilter.java" interface="false" size="41" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.mdiuluu.CdtimuammduItxd" sourceFile="ConstructorInfo.java" interface="false" size="9" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.mdiuluu.FikuiTdmiximumidtXilmuu" sourceFile="FixedNotificationFilter.java" interface="false" size="21" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.mdiuluu.FuumauuItxd" sourceFile="FeatureInfo.java" interface="false" size="27" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.mdiuluu.MutucuiSuut" sourceFile="ManagedBean.java" interface="false" size="243" bugs="2" priority_2="1" priority_1="1"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.mdiuluu.NdmiximumidtItxd" sourceFile="NotificationInfo.java" interface="false" size="42" bugs="3" priority_2="2" priority_1="1"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.mdiuluu.OcuuumidtItxd" sourceFile="OperationInfo.java" interface="false" size="58" bugs="2" priority_2="1" priority_1="1"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.mdiuluu.PuuudumuuItxd" sourceFile="ParameterInfo.java" interface="false" size="9" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.mdiuluu.Ruciimur" sourceFile="Registry.java" interface="false" size="342" bugs="3" priority_2="3"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.mdiuluu.RuciimurDSuut" sourceFile="RegistryMBean.java" interface="true" size="8" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.mdiuluu.Umil" sourceFile="Util.java" interface="false" size="10" bugs="0"/> 
+    </PackageStats>  
+    <PackageStats package="ouc.acumuu.tddmum.umil.mdiuluu.mdialui" total_bugs="6" total_types="7" total_size="629" priority_2="6"> 
+      <ClassStats class="ouc.acumuu.tddmum.umil.mdiuluu.mdialui.MdiuluuIdaumu" sourceFile="ModelerSource.java" interface="false" size="26" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.mdiuluu.mdialui.MsuutiIdaumu" sourceFile="MbeansSource.java" interface="false" size="190" bugs="2" priority_2="2"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.mdiuluu.mdialui.MsuutiIdaumuDSuut" sourceFile="MbeansSourceMBean.java" interface="true" size="7" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.mdiuluu.mdialui.MsuutiIuimuicmduiIDDIdaumu" sourceFile="MbeansDescriptorsDOMSource.java" interface="false" size="93" bugs="2" priority_2="2"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.mdiuluu.mdialui.MsuutiIuimuicmduiIicuimuuIdaumu" sourceFile="MbeansDescriptorsDigesterSource.java" interface="false" size="79" bugs="1" priority_2="1"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.mdiuluu.mdialui.MsuutiIuimuicmduiItmudicummidtIdaumu" sourceFile="MbeansDescriptorsIntrospectionSource.java" interface="false" size="183" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.mdiuluu.mdialui.MsuutiIuimuicmduiIuuIdaumu" sourceFile="MbeansDescriptorsSerSource.java" interface="false" size="51" bugs="1" priority_2="1"/> 
+    </PackageStats>  
+    <PackageStats package="ouc.acumuu.tddmum.umil.num" total_bugs="35" total_types="59" total_size="4421" priority_2="33" priority_1="2"> 
+      <ClassStats class="ouc.acumuu.tddmum.umil.num.AcuUticditm" sourceFile="AprEndpoint.java" interface="false" size="522" bugs="2" priority_2="2"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.num.AcuUticditm$AirtmMidudam" sourceFile="AprEndpoint.java" interface="false" size="24" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.num.AcuUticditm$Ammucmdu" sourceFile="AprEndpoint.java" interface="false" size="44" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.num.AcuUticditm$Hutiluu" sourceFile="AprEndpoint.java" interface="true" size="2" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.num.AcuUticditm$Pdlluu" sourceFile="AprEndpoint.java" interface="false" size="160" bugs="4" priority_2="4"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.num.AcuUticditm$PuioilucuiIumMmml" sourceFile="AprEndpoint.java" interface="false" size="11" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.num.AcuUticditm$SdmlumCudmuiidu" sourceFile="AprEndpoint.java" interface="false" size="30" bugs="1" priority_2="1"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.num.AcuUticditm$SdmlumPimuDcmidtiCudmuiidu" sourceFile="AprEndpoint.java" interface="false" size="29" bugs="2" priority_2="2"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.num.AcuUticditm$SdmlumUoutmCudmuiidu" sourceFile="AprEndpoint.java" interface="false" size="19" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.num.AcuUticditm$Sutixilu" sourceFile="AprEndpoint.java" interface="false" size="172" bugs="5" priority_2="5"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.num.AcuUticditm$SutixiluIumu" sourceFile="AprEndpoint.java" interface="false" size="11" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.num.AsimuummUticditm" sourceFile="AbstractEndpoint.java" interface="false" size="543" bugs="3" priority_2="3"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.num.AsimuummUticditm$Ammucmdu" sourceFile="AbstractEndpoint.java" interface="false" size="13" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.num.AsimuummUticditm$Ammucmdu$AmmucmduImumu" sourceFile="AbstractEndpoint.java" interface="false" size="12" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.num.AsimuummUticditm$BitiImumu" sourceFile="AbstractEndpoint.java" interface="false" size="11" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.num.AsimuummUticditm$Hutiluu" sourceFile="AbstractEndpoint.java" interface="true" size="3" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.num.AsimuummUticditm$Hutiluu$SdmlumImumu" sourceFile="AbstractEndpoint.java" interface="false" size="15" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.num.Cdtimutmi" sourceFile="Constants.java" interface="false" size="7" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.num.DuxualmIuuouuIdmlumXummdur" sourceFile="DefaultServerSocketFactory.java" interface="false" size="14" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.num.JIdUticditm" sourceFile="JIoEndpoint.java" interface="false" size="160" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.num.JIdUticditm$AirtmMidudam" sourceFile="JIoEndpoint.java" interface="false" size="23" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.num.JIdUticditm$Ammucmdu" sourceFile="JIoEndpoint.java" interface="false" size="42" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.num.JIdUticditm$Hutiluu" sourceFile="JIoEndpoint.java" interface="true" size="3" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.num.JIdUticditm$PuioilucuiIumMmml" sourceFile="JIoEndpoint.java" interface="false" size="11" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.num.JIdUticditm$SdmlumCudmuiidu" sourceFile="JIoEndpoint.java" interface="false" size="58" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.num.NidIulummduCddl" sourceFile="NioSelectorPool.java" interface="false" size="166" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.num.NidMuuttul" sourceFile="NioChannel.java" interface="false" size="77" bugs="1" priority_1="1"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.num.NidSldmlitcIulummdu" sourceFile="NioBlockingSelector.java" interface="false" size="105" bugs="1" priority_2="1"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.num.NidSldmlitcIulummdu$BldmlCdlluu" sourceFile="NioBlockingSelector.java" interface="false" size="103" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.num.NidSldmlitcIulummdu$BldmlCdlluu$1" sourceFile="NioBlockingSelector.java" interface="false" size="8" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.num.NidSldmlitcIulummdu$BldmlCdlluu$2" sourceFile="NioBlockingSelector.java" interface="false" size="26" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.num.NidSldmlitcIulummdu$BldmlCdlluu$3" sourceFile="NioBlockingSelector.java" interface="false" size="31" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.num.NidSldmlitcIulummdu$KurUuxuuutmu" sourceFile="NioBlockingSelector.java" interface="false" size="11" bugs="2" priority_2="2"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.num.NidUticditm" sourceFile="NioEndpoint.java" interface="false" size="319" bugs="2" priority_2="2"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.num.NidUticditm$1" sourceFile="NioEndpoint.java" interface="false" size="27" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.num.NidUticditm$2" sourceFile="NioEndpoint.java" interface="false" size="27" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.num.NidUticditm$3" sourceFile="NioEndpoint.java" interface="false" size="27" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.num.NidUticditm$4" sourceFile="NioEndpoint.java" interface="false" size="32" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.num.NidUticditm$Ammucmdu" sourceFile="NioEndpoint.java" interface="false" size="54" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.num.NidUticditm$Hutiluu" sourceFile="NioEndpoint.java" interface="true" size="5" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.num.NidUticditm$KurUmmumudutm" sourceFile="NioEndpoint.java" interface="false" size="109" bugs="1" priority_2="1"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.num.NidUticditm$NidSaxxuuUutiluu" sourceFile="NioEndpoint.java" interface="false" size="19" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.num.NidUticditm$Pdlluu" sourceFile="NioEndpoint.java" interface="false" size="336" bugs="1" priority_2="1"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.num.NidUticditm$PdlluuUoutm" sourceFile="NioEndpoint.java" interface="false" size="47" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.num.NidUticditm$SdmlumCudmuiidu" sourceFile="NioEndpoint.java" interface="false" size="89" bugs="8" priority_2="8"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.num.NidUticditm$SutixiluIumu" sourceFile="NioEndpoint.java" interface="false" size="8" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.num.SILAmil" sourceFile="SSLUtil.java" interface="true" size="7" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.num.SILIaccdum" sourceFile="SSLSupport.java" interface="true" size="14" bugs="1" priority_2="1"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.num.SILIaccdum$CicuuuIumu" sourceFile="SSLSupport.java" interface="false" size="10" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.num.SILIdcludutmumidt" sourceFile="SSLImplementation.java" interface="false" size="33" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.num.SILIuiiidtDutucuu" sourceFile="SSLSessionManager.java" interface="true" size="2" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.num.SdmlumCudcuumiui" sourceFile="SocketProperties.java" interface="false" size="192" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.num.SdmlumImumai" sourceFile="SocketStatus.java" interface="false" size="13" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.num.SdmlumPuuccuu" sourceFile="SocketWrapper.java" interface="false" size="48" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.num.SumauuTidMuuttul" sourceFile="SecureNioChannel.java" interface="false" size="228" bugs="1" priority_1="1"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.num.SumauuTidMuuttul$1" sourceFile="SecureNioChannel.java" interface="false" size="4" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.num.SumauuTidMuuttul$AcclimumidtSaxxuuUutiluu" sourceFile="SecureNioChannel.java" interface="true" size="4" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.num.SuuouuIdmlumXummdur" sourceFile="ServerSocketFactory.java" interface="true" size="6" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.num.UUL" sourceFile="URL.java" interface="false" size="295" bugs="0"/> 
+    </PackageStats>  
+    <PackageStats package="ouc.acumuu.tddmum.umil.num.jiiu" total_bugs="2" total_types="7" total_size="566" priority_2="2"> 
+      <ClassStats class="ouc.acumuu.tddmum.umil.num.jiiu.JIIUIaccdum" sourceFile="JSSESupport.java" interface="false" size="136" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.num.jiiu.JIIUIaccdum$1" sourceFile="JSSESupport.java" interface="false" size="1" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.num.jiiu.JIIUIaccdum$Liimutuu" sourceFile="JSSESupport.java" interface="false" size="12" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.num.jiiu.JIIUIdcludutmumidt" sourceFile="JSSEImplementation.java" interface="false" size="13" bugs="1" priority_2="1"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.num.jiiu.JIIUIdmlumXummdur" sourceFile="JSSESocketFactory.java" interface="false" size="354" bugs="1" priority_2="1"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.num.jiiu.JIIULurDutucuu" sourceFile="JSSEKeyManager.java" interface="false" size="24" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.num.jiiu.NidK509LurDutucuu" sourceFile="NioX509KeyManager.java" interface="false" size="26" bugs="0"/> 
+    </PackageStats>  
+    <PackageStats package="ouc.acumuu.tddmum.umil.tuuuuii" total_bugs="1" total_types="10" total_size="261" priority_2="1"> 
+      <ClassStats class="ouc.acumuu.tddmum.umil.tuuuuii.Cdtimutmi" sourceFile="Constants.java" interface="false" size="5" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.tuuuuii.LidimLummu" sourceFile="LimitLatch.java" interface="false" size="48" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.tuuuuii.LidimLummu$Srtm" sourceFile="LimitLatch.java" interface="false" size="15" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.tuuuuii.RuiihusluUkumamdu" sourceFile="ResizableExecutor.java" interface="true" size="6" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.tuuuuii.TuilBauau" sourceFile="TaskQueue.java" interface="false" size="50" bugs="1" priority_2="1"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.tuuuuii.TuilMuuuui" sourceFile="TaskThread.java" interface="false" size="12" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.tuuuuii.TuilMuuuuiXummdur" sourceFile="TaskThreadFactory.java" interface="false" size="20" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.tuuuuii.TuuuuiCddlUkumamdu" sourceFile="ThreadPoolExecutor.java" interface="false" size="91" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.tuuuuii.TuuuuiCddlUkumamdu$1" sourceFile="ThreadPoolExecutor.java" interface="false" size="8" bugs="0"/>  
+      <ClassStats class="ouc.acumuu.tddmum.umil.tuuuuii.TuuuuiCddlUkumamdu$RupummUutiluu" sourceFile="ThreadPoolExecutor.java" interface="false" size="6" bugs="0"/> 
+    </PackageStats>  
+    <FindBugsProfile> 
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="870" invocations="3525" avgMicrosecondsPerInvocation="246" maxMicrosecondsPerInvocation="40682" standardDeviationMircosecondsPerInvocation="1075"/>  
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="668" invocations="3525" avgMicrosecondsPerInvocation="189" maxMicrosecondsPerInvocation="34187" standardDeviationMircosecondsPerInvocation="967"/>  
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="666" invocations="1473" avgMicrosecondsPerInvocation="452" maxMicrosecondsPerInvocation="24785" standardDeviationMircosecondsPerInvocation="1252"/>  
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="626" invocations="823" avgMicrosecondsPerInvocation="761" maxMicrosecondsPerInvocation="35171" standardDeviationMircosecondsPerInvocation="2483"/>  
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="561" invocations="1754" avgMicrosecondsPerInvocation="319" maxMicrosecondsPerInvocation="11632" standardDeviationMircosecondsPerInvocation="649"/>  
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="527" invocations="3525" avgMicrosecondsPerInvocation="149" maxMicrosecondsPerInvocation="49813" standardDeviationMircosecondsPerInvocation="900"/>  
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison$SpecialTypeAnalysis" totalMilliseconds="380" invocations="2478" avgMicrosecondsPerInvocation="153" maxMicrosecondsPerInvocation="9480" standardDeviationMircosecondsPerInvocation="401"/>  
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="313" invocations="3526" avgMicrosecondsPerInvocation="88" maxMicrosecondsPerInvocation="88125" standardDeviationMircosecondsPerInvocation="1490"/>  
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison" totalMilliseconds="306" invocations="435" avgMicrosecondsPerInvocation="705" maxMicrosecondsPerInvocation="202813" standardDeviationMircosecondsPerInvocation="9709"/>  
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="294" invocations="4638" avgMicrosecondsPerInvocation="63" maxMicrosecondsPerInvocation="10917" standardDeviationMircosecondsPerInvocation="231"/>  
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ConstantDataflowFactory" totalMilliseconds="280" invocations="3525" avgMicrosecondsPerInvocation="79" maxMicrosecondsPerInvocation="7165" standardDeviationMircosecondsPerInvocation="250"/>  
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="232" invocations="823" avgMicrosecondsPerInvocation="282" maxMicrosecondsPerInvocation="14741" standardDeviationMircosecondsPerInvocation="1038"/>  
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.LiveLocalStoreDataflowFactory" totalMilliseconds="182" invocations="3423" avgMicrosecondsPerInvocation="53" maxMicrosecondsPerInvocation="23892" standardDeviationMircosecondsPerInvocation="432"/>  
+      <ClassProfile name="edu.umd.cs.findbugs.detect.LazyInit" totalMilliseconds="173" invocations="435" avgMicrosecondsPerInvocation="399" maxMicrosecondsPerInvocation="143406" standardDeviationMircosecondsPerInvocation="6897"/>  
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="159" invocations="823" avgMicrosecondsPerInvocation="194" maxMicrosecondsPerInvocation="24072" standardDeviationMircosecondsPerInvocation="912"/>  
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindInconsistentSync2" totalMilliseconds="158" invocations="435" avgMicrosecondsPerInvocation="364" maxMicrosecondsPerInvocation="6154" standardDeviationMircosecondsPerInvocation="618"/>  
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="153" invocations="4039" avgMicrosecondsPerInvocation="37" maxMicrosecondsPerInvocation="27875" standardDeviationMircosecondsPerInvocation="440"/>  
+      <ClassProfile name="edu.umd.cs.findbugs.ba.obl.ObligationAnalysis" totalMilliseconds="141" invocations="787" avgMicrosecondsPerInvocation="179" maxMicrosecondsPerInvocation="5095" standardDeviationMircosecondsPerInvocation="431"/>  
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.TypeQualifierNullnessAnnotationDatabase" totalMilliseconds="137" invocations="39712" avgMicrosecondsPerInvocation="3" maxMicrosecondsPerInvocation="1237" standardDeviationMircosecondsPerInvocation="10"/>  
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="133" invocations="903" avgMicrosecondsPerInvocation="147" maxMicrosecondsPerInvocation="11233" standardDeviationMircosecondsPerInvocation="461"/>  
+      <ClassProfile name="edu.umd.cs.findbugs.detect.UnreadFields" totalMilliseconds="130" invocations="435" avgMicrosecondsPerInvocation="299" maxMicrosecondsPerInvocation="3133" standardDeviationMircosecondsPerInvocation="454"/>  
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CalledMethods" totalMilliseconds="119" invocations="823" avgMicrosecondsPerInvocation="145" maxMicrosecondsPerInvocation="5916" standardDeviationMircosecondsPerInvocation="477"/>  
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindOpenStream" totalMilliseconds="113" invocations="435" avgMicrosecondsPerInvocation="261" maxMicrosecondsPerInvocation="18501" standardDeviationMircosecondsPerInvocation="1170"/>  
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="113" invocations="1646" avgMicrosecondsPerInvocation="68" maxMicrosecondsPerInvocation="4336" standardDeviationMircosecondsPerInvocation="172"/>  
+      <ClassProfile name="edu.umd.cs.findbugs.detect.ExplicitSerialization" totalMilliseconds="109" invocations="823" avgMicrosecondsPerInvocation="133" maxMicrosecondsPerInvocation="24793" standardDeviationMircosecondsPerInvocation="1255"/>  
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="108" invocations="823" avgMicrosecondsPerInvocation="132" maxMicrosecondsPerInvocation="8185" standardDeviationMircosecondsPerInvocation="465"/>  
+      <ClassProfile name="edu.umd.cs.findbugs.detect.StreamResourceTracker" totalMilliseconds="107" invocations="172" avgMicrosecondsPerInvocation="624" maxMicrosecondsPerInvocation="10339" standardDeviationMircosecondsPerInvocation="1419"/>  
+      <ClassProfile name="edu.umd.cs.findbugs.detect.LoadOfKnownNullValue" totalMilliseconds="105" invocations="435" avgMicrosecondsPerInvocation="243" maxMicrosecondsPerInvocation="4565" standardDeviationMircosecondsPerInvocation="480"/>  
+      <ClassProfile name="edu.umd.cs.findbugs.detect.DumbMethods" totalMilliseconds="104" invocations="435" avgMicrosecondsPerInvocation="239" maxMicrosecondsPerInvocation="3476" standardDeviationMircosecondsPerInvocation="429"/>  
+      <ClassProfile name="edu.umd.cs.findbugs.detect.URLProblems" totalMilliseconds="102" invocations="435" avgMicrosecondsPerInvocation="235" maxMicrosecondsPerInvocation="4636" standardDeviationMircosecondsPerInvocation="453"/>  
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNullDeref$CheckCallSitesAndReturnInstructions" totalMilliseconds="102" invocations="3517" avgMicrosecondsPerInvocation="29" maxMicrosecondsPerInvocation="861" standardDeviationMircosecondsPerInvocation="51"/>  
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="99" invocations="823" avgMicrosecondsPerInvocation="120" maxMicrosecondsPerInvocation="4612" standardDeviationMircosecondsPerInvocation="313"/>  
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindDeadLocalStores" totalMilliseconds="98" invocations="435" avgMicrosecondsPerInvocation="226" maxMicrosecondsPerInvocation="8705" standardDeviationMircosecondsPerInvocation="552"/>  
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="88" invocations="1759" avgMicrosecondsPerInvocation="50" maxMicrosecondsPerInvocation="335" standardDeviationMircosecondsPerInvocation="28"/>  
+      <ClassProfile name="edu.umd.cs.findbugs.detect.DefaultEncodingDetector" totalMilliseconds="79" invocations="435" avgMicrosecondsPerInvocation="183" maxMicrosecondsPerInvocation="5368" standardDeviationMircosecondsPerInvocation="560"/>  
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindPuzzlers" totalMilliseconds="78" invocations="435" avgMicrosecondsPerInvocation="180" maxMicrosecondsPerInvocation="2795" standardDeviationMircosecondsPerInvocation="350"/> 
+    </FindBugsProfile> 
+  </FindBugsSummary>  
+  <ClassFeatures/>  
+  <History/> 
+</BugCollection>

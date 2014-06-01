@@ -1,0 +1,898 @@
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" class="">
+    
+    
+    
+    
+
+    
+    <head>
+        <meta id="CompatabilityMode" http-equiv="X-UA-Compatible" content="IE=edge" />
+	    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link href="http://download-codeplex.sec.s-msft.com/css/v20552/i1972231/StyleSheet.ashx" id="MasterCss" rel="stylesheet" type="text/css" />
+        <link rel="SHORTCUT ICON" href="http://www.codeplex.com/favicon.ico" />
+        <title>Z3 - Issues</title>
+        
+        <!--
+        Third party scripts and code linked to or referenced from this website are licensed to you by the parties that own such code,
+        not by Microsoft.  See ASP.NET Ajax CDN Terms of Use – http://www.asp.net/ajaxlibrary/CDN.ashx.
+        -->
+        <script src="http://ajax.aspnetcdn.com/ajax/jquery/jquery-1.4.4.min.js" type="text/javascript"></script>
+        <script src="http://ajax.aspnetcdn.com/ajax/jquery.ui/1.8.6/jquery-ui.min.js" type="text/javascript"></script>
+        
+        
+    <style type="text/css">.SideBar, .SideBarPadding{display:none;}.MainContent{width:auto;}.SiteContentTable{width:100%;}</style>
+    <style id="ProjectStyles" type="text/css">
+        .SiteHeader, .SiteHeaderLeft {
+            height:45px !important;
+            overflow:hidden;
+        }
+        .SiteContent 
+        {
+            padding: 0 0 1em 0;
+            margin-top:0;
+            min-height:225px;
+            border-right: 1px solid lightgrey;
+            border-left: 1px solid lightgrey;
+            border-bottom: 1px solid lightgrey;
+        }
+        .IE table.MinWidthContent
+        {
+	        table-layout: auto !important;	
+        }
+    </style>
+    
+    
+    <style type="text/css">
+
+        #WorkItemBasicList {
+            width: 100%;
+        }
+
+        .SearchResultWarning {
+            margin: 1em 0 1em 0;
+            color: #FF0000;
+            font-size: 1.6em;
+            font-style: italic;
+        }
+
+        .ServiceUnavailableError {
+            margin: 2em 0 2em 0;
+            padding-left: 1em;
+        }
+        
+        .FilterBySubscriptionsOption input {
+            float: left;
+        }
+        
+        .FilterBySubscriptionsOption {
+            white-space: nowrap;
+        }
+        
+        .FilterBySubscriptionsOption label {
+            vertical-align: middle;
+        }
+        
+        .RightSideBarWidth {
+            width: 24.4em;
+        }
+
+    </style>
+
+    
+    
+    <meta id="WTProjectName" name="WT.pi" content="z3"/>
+    
+
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href='http://z3.codeplex.com/rsd' />
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml" title="WLWManifest" href='/wlwmanifest.xml' />
+    
+    
+        <link rel="alternate" type="application/rss+xml" title="Z3" url="http://z3.codeplex.com/project/feeds/rss"/>
+    
+        
+        <link rel="alternate" type="application/rss+xml" title="Z3&#32;-&#32;Discussions" url="http://z3.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2fforum%2fz3"/>
+        
+        <link rel="alternate" type="application/rss+xml" title="Z3&#32;-&#32;Issues" url="http://z3.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2fworkitem%2fz3"/>
+        
+        <link rel="alternate" type="application/rss+xml" title="Z3&#32;-&#32;Downloads" url="http://z3.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2frelease%2fz3"/>
+        <link rel="alternate" type="application/rss+xml" title="Z3&#32;-&#32;Reviews" url="http://z3.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2freview%2fz3"/>
+        
+    
+        <link rel="alternate" type="application/rss+xml" title="Z3&#32;-&#32;Source&#32;code" url="http://z3.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2fsourcecontrol%2fz3"/>
+        <link rel="alternate" type="application/rss+xml" title="Z3&#32;-&#32;Wiki" url="http://z3.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2fwiki%2fz3"/>
+    
+        
+    
+        <meta content="summary" name="twitter:card"></meta><meta content="@CodePlex" name="twitter:site"></meta><meta content="http://z3.codeplex.com/workitem/list/basic?size=2147483647&amp;ProjectName=z3" name="twitter:url"></meta><meta content="Z3" name="twitter:title"></meta><meta content="Z3 is a high-performance theorem prover being developed at Microsoft Research. " name="twitter:description"></meta><meta content="http://www.codeplex.com/favicon.ico" name="twitter:image"></meta>
+    
+
+    </head>
+    
+    <body>
+        <script src="http://download-codeplex.sec.s-msft.com/scripts/v20552/i7/ScriptLoader.ashx" type="text/javascript"></script>
+        <form id="aspnetForm" autocomplete="off" method="POST" enctype="multipart/form-data">
+            <input name="__RequestVerificationToken" type="hidden" value="IBo-RtcNBPSaeVlXl65UKTKw88lO_VT6xNlqh-jfCnAH7RxwW49ge3ZO8c95-KqTVDG03Z3dWIF-R0zclEe_goxiu7n2jyVb32Fb54z5JdKtCkmtqKEJi0XIq6PZ1jm3IU9b4Q2" />
+            
+            <div id="UpdateProgressPanel" class="loading_animation" style="display:none;">
+                <div class="row">
+                    <h2 class="anim_h2">
+                        <span id="UpdateProgressText">Updating...</span>
+                        <span id="animatedLoadingIconContainer">
+                            <img id="animatedLoadingIcon" src="http://download-codeplex.sec.s-msft.com/Images/v20552/loading_animation.gif" class="anim_img"/>
+                        </span>
+                    </h2>
+                </div>
+            </div>
+            
+            <div style="display:none;">
+                
+                    <script type="text/javascript">
+                        $loadScript("https://siterecruit.comscore.com/sr/codeplex/broker.js");
+                    </script>
+
+                
+                
+                <img id="BlankImage" style="width:0;height:0;" src="http://download-codeplex.sec.s-msft.com/Images/v20552/blank.png" onload="self.logoImageLoaded=true;"/>
+
+                <script language="javascript" type="text/javascript">
+                    var date = new Date();
+                    var timezoneOffset = date.getTimezoneOffset() / 60 * -1;
+                    var timezoneOffsetCookie = getCookie("TimezoneOffset");
+                    var firstTimeSetTimezoneCookie = false;
+
+                    if (timezoneOffsetCookie == null || timezoneOffsetCookie != timezoneOffset) {
+                        firstTimeSetTimezoneCookie = true;
+                        document.cookie = "TimezoneOffset=" + timezoneOffset + '; domain=.codeplex.com;expires=Wed, 11 Jun 2014 23:11:22 UTC';
+                    }
+                </script>
+                
+                
+                    <noscript>
+                        <a href="http://www.omniture.com" title="Web Analytics"><img src="http://msstonojstemp.112.2O7.net/b/ss/msstonojstemp/1/H.20.2--NS/0" height="1" width="1" border="0" alt="" /></a>
+                    </noscript>
+                
+            </div>
+            
+            <div id="header">
+                <div id="header_wrap" class="row">
+                    <p id="logo"><a href="http://www.codeplex.com">Code<span class="semi">Plex</span></a><span id="tagline">Project Hosting for Open Source Software</span></p>
+                    
+
+<ul id="nav">
+
+    <li><a href="/site/register/new" id="registerLink" class="ZoomFix">Register</a></li>
+    <li ><a class="SignInLink" href="https://www.codeplex.com/site/login?RedirectUrl=http%3a%2f%2fz3.codeplex.com%2fworkitem%2flist%2fbasic%3fsize%3d2147483647" id="signInLink">Sign In</a></li>
+  
+    <li class="last"><a class="rss_site_icon" href="http://www.codeplex.com/site/feeds/rss" type="application/rss+xml" rel="Alternate" title="CodePlex Site Activity"></a></li>
+</ul>
+                    <input id="searchsite" name="searchsite" maxlength="500" type="text" value="" /><span id="search_mag"><a id="submitSearch" name="submitSearch" class="magnify" title="Search" href="#"></a></span>
+                    <script>
+	$(document).ready(function() {
+    var searchButton = $('#submitSearch'),
+        searchBar = $('#searchsite');
+
+    // Register our own handler for the search event while we wait for the SearchBox script to load.
+    searchButton.bind('click.backupSearchBox', doProjectSearch);
+    searchBar.bind('keypress.backupSearchBox', function(e) { if ($keyCode(e) === 13) { doProjectSearch(); return false; } });
+
+    function cleanupSearchEvents() {
+        // If the SearchBox was loaded, unregister our handlers.
+        if (epx_loaded) {
+            searchButton.unbind('.backupSearchBox');
+            searchBar.unbind('.backupSearchBox');
+        }
+    }
+
+    $loadScript('http://i4.services.social.microsoft.com/search/Widgets/SearchBox.jss?appid=1000&scopeid=1&boxId=searchsite&btnId=submitSearch&watermark=Search%20all%20projects&overrideWatermark=true&searchLocation=%2fsite%2fsearch&allowEmptySearch=true&focusOnInit=False&minimumTermLength=3', cleanupSearchEvents);
+})
+function doProjectSearch() {
+    
+    var url = '/site/search';
+
+    //If search term is not same as watermark
+    if($('#searchsite').val() != 'Search all projects')    
+    {        
+        url = url + '?query=' + encodeURIComponent($('#searchsite').val());
+    }
+
+    
+    var callback = '';
+    if (callback.length > 0 && eval('typeof ' + callback) != 'undefined')
+        url += eval(callback + '()');
+
+    window.location.href = url;
+    return false;
+}
+</script>
+                </div>
+            </div>
+            
+            <div id="wrap">
+                
+    <div id="sub_heading" class="row">
+        
+        <div id="ProjectHeader">
+            <div id="project_title_row" class="row">
+                <div id="project_logo">
+                    
+    
+    <h1><a href="http://z3.codeplex.com/"><img src="http://download-codeplex.sec.s-msft.com/Download?ProjectName=z3&DownloadId=491381&Build=20552" alt="Z3" /></a></h1>
+
+                </div>
+            </div>
+        </div>
+        
+        <div id="ProjectDetailsDiv">
+            
+        </div>
+		<div class="clear"></div>
+        
+
+<ul id="page_box_links">
+	<li id="homeTabCell" style="width: 63px;"><a id="homeTab" href="http://z3.codeplex.com/" class="box_home">home</a><div></div></li>
+    
+	<li id="sourceTabCell" style="width:113px;"><a id="sourceTab" href="http://z3.codeplex.com/SourceControl/latest" class="box_source">source code</a><div></div></li>
+    
+	<li id="releasesTabCell" style="width:105px;"><a id="releasesTab" href="http://z3.codeplex.com/releases" class="box_downloads">downloads</a><div></div></li>
+    
+    <li id="documentationTabCell" style="width:143px;"><a id="documentationTab" href="http://z3.codeplex.com/documentation" class="box_documentation">documentation</a><div></div></li>
+    
+	<li id="discussionTabCell" style="width:112px;"><a id="discussionTab" href="http://z3.codeplex.com/discussions" class="box_discussions">discussions</a><div></div></li>
+    
+	<li id="workItemsTabCell" style="width:70px;"><a id="workItemsTab" href="http://z3.codeplex.com/workitem/list/basic" class="issue_active">issues</a><div></div></li>
+    
+	<li id="peopleTabCell" style="width:70px;"><a id="peopleTab" href="http://z3.codeplex.com/team/view" class="box_people">people</a><div></div></li>
+	<li id="licenseTabCell" style="width:70px;"><a id="licenseTab" href="http://z3.codeplex.com/license" class="box_license">license</a><div></div></li>
+    
+    <span class="stretch"></span>
+</ul>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#page_box_links').applyLastClassToList();
+    });
+</script>
+		    <div class="clear"></div>
+            
+    
+
+<div id="workitem_sub_menu">
+    <ul class="page_box_sublinks">
+        
+            <li>Basic View</li>
+        
+            <li class="last"><a id="AdvancedLink" href="http://z3.codeplex.com/workitem/list/advanced">Advanced View</a></li>
+        
+    </ul>
+    
+    <div id="actionBar_placeholder">
+        
+
+<div>
+    
+    <div id="actionBar" class="action_bar">
+        <ul id="actionBar_ul" class="actionBar_sublinks subtab_right" style="vertical-align: middle;">
+
+            
+
+                <li id="li_actionbar_newitem" data-action-id="actionbar_newitem" data-action-type="Navigate" class="actionBar_sublinks" data-options-id="f91f0039-0c38-4540-ba50-aa5a6491648d">
+                
+                    <script class="options" defer="defer" id="f91f0039-0c38-4540-ba50-aa5a6491648d" type="application/json">{"navigate-url":"http://z3.codeplex.com/WorkItem/Create"}</script> 
+                    
+                    <div class="actionBar_custom_content"></div>
+
+                    <a href="#" id="actionbar_newitem" title="Create a new issue." class="action_bar_item_link">
+                        <img id="img_actionbar_newitem" class="action_bar_item_image" src="http://download-codeplex.sec.s-msft.com/Images/v20552/actionbar_newitem.png" style="vertical-align: middle" />
+                        New Issue
+                    </a>
+
+                </li>
+
+            
+
+                <li id="li_actionbar_issueNotification" data-action-id="actionbar_issueNotification" data-action-type="None" class="actionBar_sublinks" data-options-id="8dac697c-069d-4eb3-8725-2031fbcf9d6f">
+                
+                    <script class="options" defer="defer" id="8dac697c-069d-4eb3-8725-2031fbcf9d6f" type="application/json">{"returnUrl":"https://www.codeplex.com/site/login?RedirectUrl=http%3a%2f%2fz3.codeplex.com%2fworkitem%2flist%2fbasic%3fsize%3d2147483647%26ProjectName%3dz3","loggedInUser":""}</script> 
+                    
+                    <div class="actionBar_custom_content"></div>
+
+                    <a href="#" id="actionbar_issueNotification" title="Sign in to turn on/off issue notifications for this project. " class="action_bar_item_link">
+                        <img id="img_actionbar_issueNotification" class="action_bar_item_image" src="http://download-codeplex.sec.s-msft.com/Images/v20552/actionbar_notifications.png" style="vertical-align: middle" />
+                        Notifications (sign in)
+                    </a>
+
+                </li>
+
+            
+
+                <li id="li_actionbar_subscribe" data-action-id="actionbar_subscribe" data-action-type="PopUp" class="actionBar_sublinks" data-options-id="da3be317-9e48-488d-87b3-17865026fef3">
+                
+                    <script class="options" defer="defer" id="da3be317-9e48-488d-87b3-17865026fef3" type="application/json">{}</script> 
+                    
+                    <div class="actionBar_custom_content">
+
+<div id="rssHoverDiv" class="HoverPanel LeftHoverWidth" style="display: none">
+        <ul id="3_FeedsPanel" class="RssFeedsPanel">
+            <li>
+                <a id="ProjectRssLink" href="http://z3.codeplex.com/project/feeds/rss" class="ArrowSmall NoUnderline">All Project Updates</a>
+            </li>
+            
+            <li>
+                <a id="DiscussionRssLink" href="http://z3.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2fforum%2fz3" class="ArrowSmall NoUnderline">Discussions</a>
+            </li>
+            
+            <li>
+                <a id="IssueTrackerRssLink" href="http://z3.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2fworkitem%2fz3" class="ArrowSmall NoUnderline">Issue Tracker</a>
+            </li>
+            
+            <li>
+                <a id="ReleasesRssLink" href="http://z3.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2frelease%2fz3" class="ArrowSmall NoUnderline">Downloads</a>
+            </li>
+            <li>
+                <a id="ReviewsRssLink" href="http://z3.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2freview%2fz3" class="ArrowSmall NoUnderline">Reviews</a>
+            </li>
+            
+            <li>
+                <a id="SourceControlRssLink" href="http://z3.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2fsourcecontrol%2fz3" class="ArrowSmall NoUnderline">Source Code</a>
+            </li>
+            <li>
+                <a id="WikiRssLink" href="http://z3.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2fwiki%2fz3" class="ArrowSmall NoUnderline">Wiki &amp; Documentation</a>
+            </li>
+        </ul>
+</div></div>
+
+                    <a href="#" id="actionbar_subscribe" title="Subscribe to project updates in RSS feeds." class="action_bar_item_link">
+                        <img id="img_actionbar_subscribe" class="action_bar_item_image" src="http://download-codeplex.sec.s-msft.com/Images/v20552/actionbar_subscribe.png" style="vertical-align: middle" />
+                        Subscribe
+                    </a>
+
+                </li>
+
+            
+        </ul>
+    </div>
+</div>
+    </div>
+    <div style="clear:both"></div>
+</div>
+
+<script type="text/javascript">
+    function goToCreateItem() {
+        $('#actionbar_newitem').click();
+    }
+</script>
+        
+
+    </div>
+    
+    
+    
+	    <div id="left_column" class="issuetracker_basic_view">
+
+            
+		    <div id="issue_post_0" class="issue_post">
+		        <div class="issue_post_info">
+                    
+
+<div class="votebox" d:workItemId="47">
+    
+        <div id="VoteCountLabel_WorkItemId47" class="vote_bg_open">1</div>
+        <p class="vote" id="VotedLabel_WorkItemId47" style="display: none;">Voted</p>
+        
+                <a id="VoteLink47" class="vote_loggedout" href="#" title="You must be logged in to use this feature.">Vote</a>
+            
+</div>
+		        </div>
+
+			    <div class="issue_post_content">
+				    <h3 class="wordwrap"><a href="http://z3.codeplex.com/workitem/47">assertion violation&#58; s.m_qhead &#61;&#61; s.m_trail.size&#40;&#41;</a></h3>
+				    <p class="wordwrap">Version:
+End of master branch built with Z3DEBUG=1 and _EXTERNAL_RELEASE=1, plus cherry-picked changes:
+https://z3.codeplex.com/SourceControl/changeset/110fa0b7fb711418fe2be67f033e8ed70b354972
+h...</p>
+				    <p class="issue_id">Id #47  |  Release:
+                        
+                            None
+                                        
+                
+                     |  Updated: <span class="smartDate" title="6/10/2013 9:00:46 PM" LocalTimeTicks="1370923246">Mon at 9:00 PM</span> by <a href="http://www.codeplex.com/site/users/view/dvitek">dvitek</a>  |  Created: <span class="smartDate" title="6/10/2013 9:00:46 PM" LocalTimeTicks="1370923246">Mon at 9:00 PM</span> by <a href="http://www.codeplex.com/site/users/view/dvitek">dvitek</a></p>
+			    </div>
+            </div>
+    
+		    <div id="issue_post_1" class="issue_post">
+		        <div class="issue_post_info">
+                    
+
+<div class="votebox" d:workItemId="42">
+    
+        <div id="VoteCountLabel_WorkItemId42" class="vote_bg_open">1</div>
+        <p class="vote" id="VotedLabel_WorkItemId42" style="display: none;">Voted</p>
+        
+                <a id="VoteLink42" class="vote_loggedout" href="#" title="You must be logged in to use this feature.">Vote</a>
+            
+</div>
+		        </div>
+
+			    <div class="issue_post_content">
+				    <h3 class="wordwrap"><a href="http://z3.codeplex.com/workitem/42">deadlock in free on timeout on win64</a></h3>
+				    <p class="wordwrap">I think we&#39;re basically seeing the windows version of issue 21 here.  If the timeout timer goes off while the main thread is holding a heap lock (perhaps because it is executing malloc or free), th...</p>
+				    <p class="issue_id">Id #42  |  Release:
+                        
+                            None
+                                        
+                
+                     |  Updated: <span class="smartDate" title="6/2/2013 6:47:25 PM" LocalTimeTicks="1370224045">Jun 2 at 6:47 PM</span> by <a href="http://www.codeplex.com/site/users/view/NikolajBjorner">NikolajBjorner</a>  |  Created: <span class="smartDate" title="5/29/2013 5:53:43 PM" LocalTimeTicks="1369875223">May 29 at 5:53 PM</span> by <a href="http://www.codeplex.com/site/users/view/dvitek">dvitek</a></p>
+			    </div>
+            </div>
+    
+		    <div id="issue_post_2" class="issue_post">
+		        <div class="issue_post_info">
+                    
+
+<div class="votebox" d:workItemId="21">
+    
+        <div id="VoteCountLabel_WorkItemId21" class="vote_bg_open">1</div>
+        <p class="vote" id="VotedLabel_WorkItemId21" style="display: none;">Voted</p>
+        
+                <a id="VoteLink21" class="vote_loggedout" href="#" title="You must be logged in to use this feature.">Vote</a>
+            
+</div>
+		        </div>
+
+			    <div class="issue_post_content">
+				    <h3 class="wordwrap"><a href="http://z3.codeplex.com/workitem/21">timeout signal handler invokes non-signal-safe functions</a></h3>
+				    <p class="wordwrap">On platforms where z3 uses signals to implement timeouts (anything but mac/windows), z3 has a race where it can run into problems when it invokes non-async-signal-safe functions from inside the tim...</p>
+				    <p class="issue_id">Id #21  |  Release:
+                        
+                            None
+                                        
+                
+                     |  Updated: <span class="smartDate" title="2/7/2013 7:19:19 PM" LocalTimeTicks="1360293559">Feb 7 at 7:19 PM</span> by <a href="http://www.codeplex.com/site/users/view/dvitek">dvitek</a>  |  Created: <span class="smartDate" title="2/6/2013 5:35:44 PM" LocalTimeTicks="1360200944">Feb 6 at 5:35 PM</span> by <a href="http://www.codeplex.com/site/users/view/dvitek">dvitek</a></p>
+			    </div>
+            </div>
+    
+
+            <div class="clear"></div>
+
+            
+    <ul id="discussion_pagination">
+        <li><span class="Selected">1</span>-<span class="Selected">3</span> of <span class="Selected">3</span> Work Items</li><ul class="pagination_pages">
+	<li>Previous</li><li><span class="Selected">1</span></li><li class="last">Next</li>
+</ul>
+        <ul class="discussion_right">
+	<li>Showing</li><li><span class="Selected">All</span></li><li>Work Items</li>
+</ul><a href="http://z3.codeplex.com/workitem/list/basic?size=2147483647" class="Link" style="display: none;">View All</a>
+    </ul>
+
+        </div>
+    
+        
+    
+    	<div id="right_sidebar_noborder">
+		    <div id="configure_view">
+		
+		        <h2>configure view</h2>
+                
+                <label for="discussion_search" class="search_discussion">search issues</label>
+                <input id="discussion_search" name="discussion_search" onKeydown="Javascript: if (event.keyCode==13) searchWorkItems();" type="text" value="" /><a title="Search Issues" class="discussion_magnify" alt="Search" onclick="searchWorkItems()" href="#"></a>
+
+			    <ul class="configure_links">
+				    <li class="configure_sort">sort by: <img id="SortByImage" onclick="changeSortOrder();" style="cursor:pointer;float:none;"/></li>
+					<ul class="right">
+						<li><a id="SortByLink_Id" href="javascript:void(0);" c:defaultSortDirection="Ascending" onclick="sortByField('Id')">Id</a><span id="SortByText_Id" style="display: none;">Id</span></li>
+						<li><a id="SortByLink_CreationDate" href="javascript:void(0);" c:defaultSortDirection="Descending" onclick="sortByField('CreationDate')">Date Created</a><span id="SortByText_CreationDate" style="display: none;">Date Created</span></li>
+						<li><a id="SortByLink_PlannedForRelease" href="javascript:void(0);" c:defaultSortDirection="Ascending" onclick="sortByField('PlannedForRelease')">Planned Release</a><span id="SortByText_PlannedForRelease" style="display: none;">Planned Release</span></li>
+						<li><a id="SortByLink_Summary" href="javascript:void(0);" c:defaultSortDirection="Ascending" onclick="sortByField('Summary')">Summary</a><span id="SortByText_Summary" style="display: none;">Summary</span></li>
+						<li><a id="SortByLink_LastUpdatedDate" href="javascript:void(0);" c:defaultSortDirection="Descending" onclick="sortByField('LastUpdatedDate')">Last Updated</a><span id="SortByText_LastUpdatedDate" style="display: none;">Last Updated</span></li>
+						<li><a id="SortByLink_Votes" href="javascript:void(0);" c:defaultSortDirection="Descending" onclick="sortByField('Votes')">Votes</a><span id="SortByText_Votes" style="display: none;">Votes</span></li>
+					</ul>
+			    </ul>
+				<ul class="configure_links_subnav">
+                    <li>
+                        <input id="IssuesToShow" name="IssuesToShow" type="hidden" value="1" />
+                        
+                            <a id="AllIssuesLink" class="IssuesToShowSelection" onclick="searchWorkItems();" href="#" data-value="0">All Issues</a> |
+                            <span id="OpenIssuesSpan">Open Issues</span>
+                        
+                    </li>
+				</ul>
+
+                <div class="clear"></div>
+
+                
+
+				<div class="clear"></div>
+            </div>
+            <br/>
+            
+
+<p><a title="Keyboard Shortcuts" class="keyboard_icon" href="#" onclick="$(document).trigger('shortcuts');return false;"></a><a href="#" onclick="$(document).trigger('shortcuts');return false;">Keyboard shortcuts</a> are available for this page.</p>
+
+            <input type="hidden" id="CurrentSortField" />
+            <input type="hidden" id="CurrentSortDirection" />
+            <input type="hidden" id="ShowOpenIssuesOnly" />
+            <input type="hidden" id="PageSize" />
+            <div style="visibility:hidden">
+                
+<script type="text/javascript">
+    function saveSubscriptionDataDirectly(type) {
+        return saveSubscriptionDataCore(type, false);
+    }
+
+    function saveSubscriptionData() {
+        var callingComponent = $('#subscriptionSettings #callingComponent').val();
+        closeSubscriptionDialog();
+
+        var type = $('input[name=EmailSubscriptionTypeList]:checked').val();
+        if (type === '')
+            return false;
+        var removeIndividual = $('input[name=StopNotificationsCheckBox]:checked').val();
+        if (removeIndividual === undefined)
+            removeIndividual = false;
+        $('#subscriptionSettings').remove();
+        return saveSubscriptionDataCore(type, removeIndividual, callingComponent);
+    }
+
+    function saveSubscriptionDataCore(type, removeIndividual, callingComponent) {
+
+        var isSubscribed = $('#SubscribeCheckBox').is(':checked') && $('#SubscribeCheckBox').is(':enabled');
+        CodePlex.UpdateProgress.show();
+        $('#subscriptionContent').load('http://z3.codeplex.com/subscriptions/WorkItem/save',
+                                       { isIndividualSubscribed: isSubscribed, deliveryStatus: type, displayType: 'Mini', removeIndividualSubscriptions: removeIndividual },
+                                       function () {
+                                           CodePlex.UpdateProgress.hide();
+                                           if (callingComponent) {
+                                               $('#actionBar_placeholder').load('http://z3.codeplex.com/workitem/ActionBar',
+                                                   { activeView: 'AdvancedView' });
+                                           }
+                                       });
+        if (type === '1' || type === '2') {
+            $('#unsubscribeSection').show();
+        }
+        else {
+            $('#unsubscribeSection').hide();
+            $('#stopNotificationsDiv').hide();
+        }
+
+        return false;
+    }
+
+    function saveIndividualSubscription(type) {
+
+        CodePlex.UpdateProgress.show();
+        $('#subscriptionContent').load('',
+                                       { deliveryStatus: type },
+                                       function () { CodePlex.UpdateProgress.hide(); });
+        suppressUnsavedData();
+        
+        return false;
+    }
+
+    function showSubscriptionSelection() {
+        OpenDialog('#subscriptionSettings', true, '37em');
+        
+        // Remove unsaved data prompt from subscription items
+        // this should not make the page dirty.
+        $('input, textarea, select', '#subscriptionSettings').unbind("change");
+
+        return false;
+    }
+
+    function closeSubscriptionDialog() {
+        OpenDialog('#subscriptionSettings', false);
+        adjustEmailLinkPlacement();
+        adjustSubscriptionLinkPlacement();
+        return false;
+    }
+    
+    function adjustSubscriptionLinkPlacement() {
+        var $changeSubLink = $("#ShowSubscriptionSelection"),
+            $changeSubPlaceHolder = $("#ShowSubscriptionSelectionPlaceHolder"),
+            currentOffsetLeft,
+            offsetLeft,
+            currentOffsetTop,
+            offsetTop,
+            ieOffset = $.browser.msie ? 1 : 0,
+            lineHeight = parseInt($changeSubPlaceHolder.css('line-height'));
+        
+        if ($changeSubLink.length != 0 && $changeSubPlaceHolder.length != 0) {
+            currentOffsetLeft = parseInt($changeSubLink.css("left")),
+            offsetLeft = $changeSubPlaceHolder.offset().left - $changeSubLink.offset().left + 1, // the +1 just centers the text between the parens more evenly
+            
+            currentOffsetTop = parseInt($changeSubLink.css("top")),
+            offsetTop = $changeSubPlaceHolder.offset().top - $changeSubLink.offset().top - lineHeight + 5, // the -5 just centers the text between the parens more evenly
+
+            $changeSubLink.css("left", currentOffsetLeft + offsetLeft + ieOffset);
+            $changeSubLink.css("top", currentOffsetTop + offsetTop + ieOffset);
+        }
+    }
+
+    function adjustEmailLinkPlacement() {
+        var $changeEmailLink = $("#ChangeProfileLink"),
+            $changeEmailPlaceHolder = $("#ChangeProfileLinkPlaceHolder"),
+            currentOffsetLeft,
+            offsetLeft,
+            currentOffsetTop,
+            offsetTop,
+            ieOffset = $.browser.msie ? 1 : 0,
+            lineHeight = parseInt($changeEmailPlaceHolder.css('line-height'));
+
+        if ($changeEmailLink.length != 0 && $changeEmailPlaceHolder.length != 0) {
+            currentOffsetLeft = parseInt($changeEmailLink.css("left")),
+            offsetLeft = $changeEmailPlaceHolder.offset().left - $changeEmailLink.offset().left + 1, // the +1 just centers the text between the parens more evenly
+            
+            currentOffsetTop = parseInt($changeEmailLink.css("top")),
+            offsetTop = $changeEmailPlaceHolder.offset().top - $changeEmailLink.offset().top - lineHeight + 5, // the -5 just centers the text between the parens more evenly
+
+            $changeEmailLink.css("left", currentOffsetLeft + offsetLeft + ieOffset);
+            $changeEmailLink.css("top", currentOffsetTop + offsetTop + ieOffset);
+        }
+    }
+    
+    function showStopNotifications() {
+        $('#stopNotificationsDiv').hide();
+        $('#StopNotificationsCheckBox').attr('checked', false);
+    }
+
+    var currentToolTipHeight = null;
+
+    function showUnsubscribeToolTip() {
+      if (currentToolTipHeight == null) { currentToolTipHeight = $('#unsubscribeToolTip').height()+30 };
+      var toolTip = $('#unsubscribeToolTipImage');
+      var msg = $('#unsubscribeToolTip')[0];
+
+      $('[id=unsubscribeToolTip]').dialog('destroy').remove();
+      $(msg).dialog({
+        height: currentToolTipHeight, 
+        width: 275, 
+        position: [toolTip.offset().left-$(window).scrollLeft()+10, toolTip.offset().top-$(window).scrollTop()+10],
+        dialogClass: 'tooltip',
+        open: function() { $('#unsubscribeToolTip').show(); } 
+      });
+
+    }
+
+    function hideUnsubscribeToolTip() {
+        $('[id=unsubscribeToolTip]').dialog('destroy');
+    }
+</script>
+
+<div id="subscriptionContent">
+    
+    <div class="NoWrap FixedLayoutRoundPanelHeaderTemplatePadding">
+        <img src="http://download-codeplex.sec.s-msft.com/Images/v20552/small-envelope.gif" />
+        <span id="SubscriptionTitleLabel" class="NoWrap Selected AlignTop">Issue notifications</span>
+        <span class="AlignTop">(<a id="subscriptionSignIn" href="https://www.codeplex.com/site/login?RedirectUrl=http%3a%2f%2fz3.codeplex.com%2fworkitem%2flist%2fbasic">sign in</a>)</span>
+    </div>
+
+<div id="subscriptionSettings" class="modal" style="display:none; width: 250px;">
+    <div class="row">
+        <h2>Issue notifications <a href="javascript:return false;" class="close">X</a></h2>
+    </div>
+    <div class="modal_info">
+        <p>Keep up with what's going on in this project's Issue Tracker</p>
+        <div class="ModalDialogContentBody">
+            <div style="margin-top: 2px; margin-bottom: 5px;">
+                Email me 
+                <span id="changeEmailAddressLink">
+                    <a target="_blank"  href="/site/users/update?FocusElement=EmailAddressForChange">
+                        (change e-mail address)
+                    </a>
+                </span>
+            </div>
+            <ul class="button_wrap">
+                <li>
+                    <input type="radio" id="EmailSubscription_EachNewIssue" name="EmailSubscriptionTypeList" value="1" onclick="$('#stopNotificationsDiv').hide()"  />
+                    <label for="EmailSubscription_EachNewIssue">Each new issue, comment, or status change as they come in</label>
+                </li>
+                <li>
+                    <input type="radio" id="EmailSubscription_DailyDigest" name="EmailSubscriptionTypeList" value="2" onclick="$('#stopNotificationsDiv').hide()"  />
+                    <label for="EmailSubscription_DailyDigest">A daily digest (summary) of new issues, comments, or statuses</label>
+                </li>
+                <li id="unsubscribeSection" style="display:none;"><input type="radio" id="EmailSubscription_Unsubscribe" name="EmailSubscriptionTypeList" value="0" onclick="$('#stopNotificationsDiv').show()" checked="checked" /><label for="EmailSubscription_Unsubscribe">Unsubscribe</label></li>
+            </ul>
+            
+            <div class="ClearBoth"></div>
+            <div id="stopNotificationsDiv" style="display:none;overflow:hidden;margin-top:4px;" class="EmailSubscriptionCheck">
+                <div style="float: left; width:24px;">
+                <input id="StopNotificationsCheckBox" name="StopNotificationsCheckBox" type="checkbox" value="true" /><input name="StopNotificationsCheckBox" type="hidden" value="false" />
+                </div>
+                <div style="float: left;">
+                <label for="StopNotificationsCheckBox">
+                    Also stop notifications for <i>individual</i> issue(s) I subscribed to.
+                    <img id="unsubscribeToolTipImage" src="http://download-codeplex.sec.s-msft.com/Images/v20552/helpicon.png" onmouseover="showUnsubscribeToolTip()" onmouseout="hideUnsubscribeToolTip()" />
+                </label>
+                </div>
+                <div id="unsubscribeToolTip" style="display: none;">
+                Besides your subscription to the entire Issue Tracker, you have also chosen to be notified for <b>0</b> individual issues, including:<ul></ul> Check the box if you wish to stop receiving emails about these <b>0</b> issues as well.
+                </div>
+            </div>
+        </div>
+        <div class="modal_buttons">
+            <input id="CancelButton" type="button" value="Cancel" class="cancel" onclick="return closeSubscriptionDialog()"/>
+            <input id="SaveButton" type="button" value="Save" class="ok" onclick="saveSubscriptionData();" />
+        </div>
+        <div class="ClearBoth"></div>
+    </div>
+    <input type="hidden" id="callingComponent"/>
+</div>
+
+<input type="hidden" name="SelectedSubscriptionItem" value="0" />
+
+<script>
+    $(document).ready(function () {
+        adjustEmailLinkPlacement();
+        adjustSubscriptionLinkPlacement();
+    });
+</script>
+
+</div>
+            </div>
+                    
+            <script type="text/javascript" language="javascript">
+
+                $(document).ready(init);
+
+                function init() {
+
+                    var sortField = 'CreationDate';
+                    var sortDirection = 'Descending';
+                    var showOpenIssuesOnly = true;
+                    var pageSize = 100;
+
+                    $('#SortByLink_' + sortField).hide();
+                    $('#SortByText_' + sortField).show();
+                                        
+                    $('#CurrentSortField').val(sortField);
+                    $('#CurrentSortDirection').val(sortDirection);
+                    $('#ShowOpenIssuesOnly').val(showOpenIssuesOnly);
+                    $('#PageSize').val(pageSize);
+
+                    changeSortArrowImage(sortDirection);
+
+                    $('#discussion_search').keypress(checkForEnter);
+                    $('.votebox').voting({ 
+                        voteUrl: "http://z3.codeplex.com/workitem/vote",
+                        loginUrl: 'https://www.codeplex.com/site/login?RedirectUrl=http%3a%2f%2fz3.codeplex.com%2fworkitem%2flist%2fbasic'
+                    });
+
+                    $(document).keyboardShortcuts({
+                        createItem: goToCreateItem
+                    });
+
+                    $('.IssuesToShowSelection').click(function() {
+                        $('#IssuesToShow').val($(this).data('value'));
+                        searchWorkItems();
+                        return false;
+                    });
+                }
+
+                function getCurrentConfigurationState() {
+
+                    var configuration = {
+                        sortField: $('#CurrentSortField').val(),
+                        sortDirection: $('#CurrentSortDirection').val(),
+                        showOpenIssuesOnly: $('#IssuesToShow').val() == '1',
+                        keywords: $('#discussion_search').val(),
+                        myEmailSubscriptions: $("input[name=MyEmailSubscriptionsChecked]:checked").val() ? true : false,
+                        pageSize: $('#PageSize').val()
+                    };
+
+                    return configuration;
+
+                }
+
+                function updateConfigurationState(configuration) {
+                    $('#CurrentSortField').val(configuration.sortField);
+                    $('#CurrentSortDirection').val(configuration.sortDirection);
+                }
+
+                function searchWorkItems() {
+                    sortWorkItems();
+                }
+
+                function filterBySubscriptions() {
+                    sortWorkItems();
+                }
+
+                function changeSortOrder() {
+
+                    var configuration = getCurrentConfigurationState();
+                    var direction = (configuration.sortDirection === 'Ascending') ? 'Descending' : 'Ascending';
+
+                    changeSortArrowImage(direction);
+
+                    configuration.sortDirection = direction;
+                    updateConfigurationState(configuration);
+
+                    sortWorkItems();
+
+                }
+
+                function changeSortArrowImage(direction) {
+
+                    var imagePath = 'http://download-codeplex.sec.s-msft.com/Images/v20552/';
+                    var sort = (direction === 'Ascending') ? 'asc' : 'dsc';
+                    var img = imagePath + 'arrow_' + sort + '.gif';
+                                        
+                    $('#SortByImage').attr('src', img);
+
+                }
+
+                function sortByField(field) {
+                                        
+                    var configuration = getCurrentConfigurationState();
+                    var obj = $('#SortByLink_' + field);
+                    var direction = $(obj).attr('c:defaultSortDirection');
+                    configuration.sortField = field;
+                    configuration.sortDirection = direction;
+                    updateConfigurationState(configuration);
+
+                    sortWorkItems();
+
+                }
+
+                function sortWorkItems() {
+
+                    showUpdating();
+
+                    var url = "http://z3.codeplex.com/workitem/list/basic" + getSearchParams();
+                                                    
+                    window.location.href = url;
+
+                }
+
+                function getSearchParams() {
+                    var configuration = getCurrentConfigurationState();
+                                    
+                    var whichIssues = (configuration.showOpenIssuesOnly) ? 'Open' : 'All';
+                    var params = "?field=" + configuration.sortField 
+                                    + "&direction=" + configuration.sortDirection
+                                    + "&issuesToDisplay=" + whichIssues
+                                    + "&keywords=" + configuration.keywords
+                                    + "&emailSubscribedItemsOnly=" + configuration.myEmailSubscriptions;
+                    return params;
+                }
+
+                function showUpdating() {
+                    CodePlex.UpdateProgress.show(); 
+                }
+                                    
+                function checkForEnter(event) {
+                    if ($keyCode(event) == '13') {
+                        searchWorkItems();
+                        return false;
+                    }
+                }
+
+                CodePlexPaging.initialize('getSearchParams');
+            </script>
+        </div>
+    
+        
+                
+                <div class="clear"></div>
+                
+                <div id="footer">
+                    <div class="row">
+                        <hr />
+                        <ul>
+                            <li>© 2006-2013 Microsoft</li>
+                            <li><a href="http://www.codeplex.com/site/help">Get Help</a></li>
+                            <li><a href="/site/legal/privacy">Privacy Statement</a></li>
+                            <li><a href="http://www.codeplex.com/site/legal/terms">Terms of Use</a></li>
+                            <li><a href="http://www.codeplex.com/site/legal/conduct">Code of Conduct</a></li>
+                            <li><a href="http://www.lakequincy.com" target="_blank">Advertise With Us</a></li>
+                            <li>Version 6.4.2013.20552</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </body>
+
+</html>

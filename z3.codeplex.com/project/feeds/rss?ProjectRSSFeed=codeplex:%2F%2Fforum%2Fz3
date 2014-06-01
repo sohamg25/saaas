@@ -1,0 +1,133 @@
+<?xml version="1.0"?><?xml-stylesheet type="text/xsl" href="/rss.xsl"?><rss version="2.0"><channel><title>z3 Discussions Rss Feed</title><link>https://z3.codeplex.com/discussions</link><description>z3 Discussions Rss Description</description><item><title>New Post: LINQ Support missing</title><link>http://z3.codeplex.com/discussions/437704</link><description>&lt;div style="line-height: normal;"&gt;This is a great suggestion!&lt;br /&gt;
+Note that we are taking &lt;a href="http://research.microsoft.com/en-us/um/people/leonardo/blog/2012/11/19/external-contrib.html" rel="nofollow"&gt;external contributions&lt;/a&gt;.&lt;br /&gt;
+The new Z3 .Net API is much easier to use. &lt;br /&gt;
+Are you interested in implementing the support for LINQ to Z3?&lt;br /&gt;
+&lt;br /&gt;
+Thanks&lt;br /&gt;
+&lt;/div&gt;</description><author>leodemoura</author><pubDate>Fri, 22 Mar 2013 21:51:36 GMT</pubDate><guid isPermaLink="false">New Post: LINQ Support missing 20130322095136P</guid></item><item><title>New Post: LINQ Support missing</title><link>http://z3.codeplex.com/discussions/437704</link><description>&lt;div style="line-height: normal;"&gt;Bart De Smet wrote a LINQ to Z3 Adapter back in 2010. While LINQ is a very handy and more easily understandable notation for solving logic problems, the Interface of Z3 seems to have changed, so that the code is not working anymore. I suggest writing new Monads, so that LINQ can be used to access Z3, and maintain the library here. &lt;br /&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://channel9.msdn.com/Shows/Going+Deep/Bart-De-Smet-LINQ-to-Z3" rel="nofollow"&gt;Bart De Smet: LINQ to Z3, Channel 9&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;&lt;a href="http://community.bartdesmet.net/blogs/bart/archive/2009/04/19/linq-to-z3-theorem-solving-on-steroids-part-0.aspx" rel="nofollow"&gt;LINQ TO Z3 – THEOREM SOLVING ON STEROIDS – PART 0&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;&lt;a href="http://community.bartdesmet.net/blogs/bart/archive/2009/09/27/linq-to-z3-theorem-solving-on-steroids-part-1.aspx" rel="nofollow"&gt;LINQ TO Z3 – THEOREM SOLVING ON STEROIDS – PART 1&lt;/a&gt; &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;</description><author>MovGP0</author><pubDate>Fri, 22 Mar 2013 21:42:51 GMT</pubDate><guid isPermaLink="false">New Post: LINQ Support missing 20130322094251P</guid></item><item><title>New Post: Z3 static library</title><link>http://z3.codeplex.com/discussions/403103</link><description>&lt;div style="line-height: normal;"&gt;The --staticlib option is for OSX, Linux and FreeBSD only. &lt;br /&gt;
+In Windows, the small lib file contains only references to the functions exposed by the Z3 DLL. &lt;br /&gt;
+The 160 Mb is correct. If we combine all object files in the smaller .lib files, we also get that&lt;br /&gt;
+&lt;/div&gt;</description><author>leodemoura</author><pubDate>Wed, 13 Mar 2013 15:35:50 GMT</pubDate><guid isPermaLink="false">New Post: Z3 static library 20130313033550P</guid></item><item><title>New Post: Z3 static library</title><link>http://z3.codeplex.com/discussions/403103</link><description>&lt;div style="line-height: normal;"&gt;Is this option (--staticlib) working on windows ? I only get a z3.lib which is 3Ko big. If I lib.exe all the libs of the libz3.dll file, I get a much bigger file. (160 Mo)&lt;br /&gt;
+&lt;br /&gt;
+AG.&lt;br /&gt;
+&lt;/div&gt;</description><author>Heyji</author><pubDate>Wed, 13 Mar 2013 14:13:47 GMT</pubDate><guid isPermaLink="false">New Post: Z3 static library 20130313021347P</guid></item><item><title>New Post: Compiling z3 on visual c++ express edition 2010 (version 10.0)</title><link>http://z3.codeplex.com/discussions/436231</link><description>&lt;div style="line-height: normal;"&gt;What I did exactly is: &lt;br /&gt;
+&lt;br /&gt;
+change occurrences of /openmp with /D &lt;em&gt;NO_OMP&lt;/em&gt; in the following files: &lt;br /&gt;
+&lt;ul&gt;
+&lt;li&gt;config-vs-debug.mk&lt;/li&gt;
+&lt;li&gt;config-vs-debug-x64.mk&lt;/li&gt;
+&lt;li&gt;config-vs-release-x64.mk&lt;/li&gt;
+&lt;li&gt;
+config-vs-release.mk&lt;br /&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+update &amp;lt;OpenMPSupport&amp;gt;true&amp;lt;/OpenMPSupport&amp;gt; into &amp;lt;OpenMPSupport&amp;gt;false&amp;lt;/OpenMPSupport&amp;gt; in scripts/mk_util.py&lt;br /&gt;
+&lt;br /&gt;
+I could not find any reference to /openmp in this file. &lt;br /&gt;
+&lt;br /&gt;
+I have successfully built the lib this way. &lt;br /&gt;
+&lt;br /&gt;
+Thanks for your help. &lt;br /&gt;
+&lt;br /&gt;
+AG. &lt;br /&gt;
+&lt;/div&gt;</description><author>Heyji</author><pubDate>Tue, 12 Mar 2013 10:53:23 GMT</pubDate><guid isPermaLink="false">New Post: Compiling z3 on visual c++ express edition 2010 (version 10.0) 20130312105323A</guid></item><item><title>New Post: Compiling z3 on visual c++ express edition 2010 (version 10.0)</title><link>http://z3.codeplex.com/discussions/436231</link><description>&lt;div style="line-height: normal;"&gt;You should also remove all occurrences of the string /openmp from the file scripts/mk_util.py&lt;br /&gt;
+&lt;/div&gt;</description><author>leodemoura</author><pubDate>Tue, 12 Mar 2013 05:37:57 GMT</pubDate><guid isPermaLink="false">New Post: Compiling z3 on visual c++ express edition 2010 (version 10.0) 20130312053757A</guid></item><item><title>New Post: Compiling z3 on visual c++ express edition 2010 (version 10.0)</title><link>http://z3.codeplex.com/discussions/436231</link><description>&lt;div style="line-height: normal;"&gt;OpenMP is not available in visual studio 2010. So I would like to turn this feature off when compiling z3. I assume this is ok using the same trick as when compiling with clang++. Also I wonder which file I need to hack for this and how. &lt;br /&gt;
+&lt;br /&gt;
+Would adding /D_NO_OMP_ in config-vs-release-x64.mk be enough ?&lt;br /&gt;
+&lt;br /&gt;
+Thanks, &lt;br /&gt;
+&lt;br /&gt;
+AG. &lt;br /&gt;
+&lt;br /&gt;
+PS: using visual 2012 (which is ok with openmp) is not a solution for me at this time&lt;br /&gt;
+&lt;/div&gt;</description><author>Heyji</author><pubDate>Mon, 11 Mar 2013 22:46:22 GMT</pubDate><guid isPermaLink="false">New Post: Compiling z3 on visual c++ express edition 2010 (version 10.0) 20130311104622P</guid></item><item><title>New Post: Z3 formula fails syntactic check.</title><link>http://z3.codeplex.com/discussions/433190</link><description>&lt;div style="line-height: normal;"&gt;I addressed this question on stackoverflow: &lt;a href="http://stackoverflow.com/questions/14883403/z3-formula-fails-syntatic-check" rel="nofollow"&gt;http://stackoverflow.com/questions/14883403/z3-formula-fails-syntatic-check&lt;/a&gt;&lt;br /&gt;
+&lt;/div&gt;</description><author>leodemoura</author><pubDate>Thu, 14 Feb 2013 20:49:36 GMT</pubDate><guid isPermaLink="false">New Post: Z3 formula fails syntactic check. 20130214084936P</guid></item><item><title>New Post: Z3 formula fails syntactic check.</title><link>http://z3.codeplex.com/discussions/433190</link><description>&lt;div style="line-height: normal;"&gt;The following SMT formula fails syntactic check when x13 is replaced by av5 in the line with arrow&lt;br /&gt;
+&lt;br /&gt;
+(set-info :status unknown)&lt;br /&gt;
+;(set-logic QF_BV)&lt;br /&gt;
+(declare-fun in3  () (_ BitVec 16))&lt;br /&gt;
+(assert&lt;br /&gt;
+(let ((x8 ((_ zero_extend 16) in3))) &lt;br /&gt;
+(let ((x13 (ite (not (= x8 (_ bv00000000 32))) (_ bv00045069 32) (_ bv00000174 32)))) &lt;br /&gt;
+(let ((av5 (= x13 (_ bv00045069 32)))) &lt;br /&gt;
+(= x13 (_ bv4294967295 32))))))    &amp;lt;---------&lt;br /&gt;
+(assert true)&lt;br /&gt;
+(check-sat)&lt;br /&gt;
+&lt;br /&gt;
+The error message is&lt;br /&gt;
+&lt;br /&gt;
+Z3(8, 26): ERROR: invalid function application, sort mismatch on argument at position 2 &lt;br /&gt;
+&lt;br /&gt;
+Any idea what I might I be doing wrong?&lt;br /&gt;
+&lt;/div&gt;</description><author>rvprasad</author><pubDate>Thu, 14 Feb 2013 20:18:27 GMT</pubDate><guid isPermaLink="false">New Post: Z3 formula fails syntactic check. 20130214081827P</guid></item><item><title>New Post: When the result is unsat, it is possible to give some counterexamples? And how to do that?</title><link>http://z3.codeplex.com/discussions/432982</link><description>&lt;div style="line-height: normal;"&gt;We say a formula is unsatisfiable when it does not have any model/solution. Similarly, we say a formula is satisfiable when it has a model/solution.&lt;br /&gt;
+In Z3, to prove that a fomula F is valid (i.e., it is true in any interpretation), we show that its negation is unsatisfiable. &lt;br /&gt;
+So, a counterexample is a model/solution for the negation of F. Note that, in this case the negation of F is sat. &lt;br /&gt;
+&lt;br /&gt;
+Models and counterexamples are associated with satisfiable instances.&lt;br /&gt;
+&lt;br /&gt;
+For unsatisfiable instances, Z3 can produce a proof or extract unsatisfiable cores.&lt;br /&gt;
+&lt;/div&gt;</description><author>leodemoura</author><pubDate>Wed, 13 Feb 2013 16:58:41 GMT</pubDate><guid isPermaLink="false">New Post: When the result is unsat, it is possible to give some counterexamples? And how to do that? 20130213045841P</guid></item><item><title>New Post: When the result is unsat, it is possible to give some counterexamples? And how to do that?</title><link>http://z3.codeplex.com/discussions/432982</link><description>&lt;div style="line-height: normal;"&gt;When the result is unsat, it is possible to give some counterexamples? And how to do that?&lt;br /&gt;
+&lt;/div&gt;</description><author>wxlfrank</author><pubDate>Wed, 13 Feb 2013 16:47:22 GMT</pubDate><guid isPermaLink="false">New Post: When the result is unsat, it is possible to give some counterexamples? And how to do that? 20130213044722P</guid></item><item><title>New Post: C API examples need to be updated</title><link>http://z3.codeplex.com/discussions/429045</link><description>&lt;div style="line-height: normal;"&gt;
+&lt;p&gt;Sounds like a good suggestion to me. It should be relatively straightforward to translate the C# example to get a new one based on the new API. If we want to go this way, I would suggest back-porting the C# example to C++ as well, so we get a consistent
+ set of examples. I'm happy to work on this in the (near) future, as I'll have to do something similar for ML and Java anyways.&lt;/p&gt;
+&lt;/div&gt;</description><author>wintersteiger</author><pubDate>Wed, 09 Jan 2013 17:44:31 GMT</pubDate><guid isPermaLink="false">New Post: C API examples need to be updated 20130109054431P</guid></item><item><title>New Post: C API examples need to be updated</title><link>http://z3.codeplex.com/discussions/429045</link><description>&lt;div style="line-height: normal;"&gt;
+&lt;p&gt;The C API examples&lt;em&gt; examples/c/test_capi.c&lt;/em&gt; use several deprecated APIs, and still use the old memory management policy. We now have the new C&amp;#43;&amp;#43; API and examples for Z3. I think the C&amp;#43;&amp;#43; API is much more convenient to use and makes everything much
+ simpler. So, I imagined nobody would use the C API anymore, and we didn't have to update
+&lt;em&gt;examples/c/test_capi.c&lt;/em&gt; anytime soon. It seems I was completely wrong, several users still use
+&lt;em&gt;test_capi.c&lt;/em&gt; as a &amp;quot;guide&amp;quot; for using Z3. Moreover, we keep getting questions at Stackoverflow that contain code snippets based on deprecated APIs. It is also very counter intuitive to mix the deprecated APIs with the new ones, and users frequently produce
+ code that crashes due to memory management problems.&lt;/p&gt;
+&lt;p&gt;So, it seems the natural solution is to update &lt;em&gt;examples/c/test_capi.c&lt;/em&gt;, or at least delete it from the next release. BTW, if we decide to keep it, we should renamed it to something like
+&lt;em&gt;examples/c/&lt;/em&gt;&lt;em&gt;example.c&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;</description><author>leodemoura</author><pubDate>Wed, 09 Jan 2013 17:00:32 GMT</pubDate><guid isPermaLink="false">New Post: C API examples need to be updated 20130109050032P</guid></item><item><title>New Post: Z3 static library</title><link>http://z3.codeplex.com/discussions/403103</link><description>&lt;div style="line-height: normal;"&gt;
+&lt;p&gt;If you are working on Linux, you can also do the following:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Build Z3 as described in the README file. &lt;/li&gt;&lt;li&gt;Once the compilation is finished, run the following command in the &lt;em&gt;build&lt;/em&gt; directory (you should already be there):
+&lt;div style="color:black; background-color:white"&gt;
+&lt;pre&gt;ar rs libz3.a $(find . &lt;span style="color:gray"&gt;-&lt;/span&gt;name &lt;span style="color:gray"&gt;*&lt;/span&gt;.o)
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div style="color:black; background-color:white"&gt;&lt;/div&gt;
+&lt;/li&gt;&lt;/ol&gt;
+&lt;/div&gt;</description><author>daniel_neider</author><pubDate>Wed, 19 Dec 2012 15:40:34 GMT</pubDate><guid isPermaLink="false">New Post: Z3 static library 20121219034034P</guid></item><item><title>New Post: using 'solve' for real vector variables</title><link>http://z3.codeplex.com/discussions/405738</link><description>&lt;div style="line-height: normal;"&gt;
+&lt;p&gt;When you write &amp;quot;c1*x&amp;quot;, do you mean the dot product of the vectors c1 and x?&lt;/p&gt;
+&lt;p&gt;If that is the case, we can define the dot product function and write the problem as:&lt;/p&gt;
+&lt;p&gt;from z3 import *&lt;br&gt;
+import random&lt;/p&gt;
+&lt;p&gt;def dot_product(V1, V2):&lt;br&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp; return Sum([x*y for x, y in zip(V1, V2)])&lt;/p&gt;
+&lt;p&gt;N = 4&lt;br&gt;
+c = [ random.randint(-5, 5) for i in range(N) ]&lt;br&gt;
+x = RealVector('x', N)&lt;br&gt;
+print dot_product(c, x)&lt;br&gt;
+solve(dot_product(c, x) &amp;gt; 0)&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/div&gt;</description><author>leodemoura</author><pubDate>Thu, 06 Dec 2012 00:36:06 GMT</pubDate><guid isPermaLink="false">New Post: using 'solve' for real vector variables 20121206123606A</guid></item><item><title>New Post: using 'solve' for real vector variables</title><link>http://z3.codeplex.com/discussions/405738</link><description>&lt;div style="line-height: normal;"&gt;
+&lt;p&gt;I was wondering if there is any way to use the solve function for real vector variables .&lt;/p&gt;
+&lt;p&gt;For example when I have the code:&lt;br&gt;
+&lt;br&gt;
+c1= np.random.random_integers(-5,5,size=(1,N))&lt;/p&gt;
+&lt;p&gt;x = RealVector('x', N)&lt;/p&gt;
+&lt;p&gt;solve(c1*x&amp;gt;0)&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;I get the error: &amp;quot;z3types.Z3Exception: 'True, False pr Z3 Boolean expression expected'&lt;br&gt;
+&lt;br&gt;
+Thanks,&amp;nbsp;&lt;/p&gt;
+&lt;/div&gt;</description><author>blurium</author><pubDate>Thu, 06 Dec 2012 00:21:30 GMT</pubDate><guid isPermaLink="false">New Post: using 'solve' for real vector variables 20121206122130A</guid></item><item><title>New Post: Z3 static library</title><link>http://z3.codeplex.com/discussions/403103</link><description>&lt;div style="line-height: normal;"&gt;
+&lt;p&gt;It worked. Thank you!&lt;/p&gt;
+&lt;/div&gt;</description><author>andreis</author><pubDate>Wed, 14 Nov 2012 17:32:44 GMT</pubDate><guid isPermaLink="false">New Post: Z3 static library 20121114053244P</guid></item><item><title>New Post: Z3 static library</title><link>http://z3.codeplex.com/discussions/403103</link><description>&lt;div style="line-height: normal;"&gt;
+&lt;p&gt;I added an option --staticlib to mk_make.py. If we use it, then make will build libz3.lib (on Windows) and libz3.a (on OSX and Linux). The changes are already available in the &amp;quot;unstable&amp;quot; branch.&lt;/p&gt;
+&lt;/div&gt;</description><author>leodemoura</author><pubDate>Wed, 14 Nov 2012 17:05:17 GMT</pubDate><guid isPermaLink="false">New Post: Z3 static library 20121114050517P</guid></item><item><title>New Post: Z3 static library</title><link>http://z3.codeplex.com/discussions/403103</link><description>&lt;div style="line-height: normal;"&gt;
+&lt;p&gt;The latest version does not build a static library containing all modules.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;I will try to add support for that in the future.&lt;/p&gt;
+&lt;p&gt;In the meantime, you can try to hack the Makefile. The new build system creates a static library for each module (subdirectory) in the build directory. The static library in the previous versions is the union of these static libraries.&lt;/p&gt;
+&lt;/div&gt;</description><author>leodemoura</author><pubDate>Wed, 14 Nov 2012 05:59:37 GMT</pubDate><guid isPermaLink="false">New Post: Z3 static library 20121114055937A</guid></item><item><title>New Post: Z3 static library</title><link>http://z3.codeplex.com/discussions/403103</link><description>&lt;div style="line-height: normal;"&gt;
+&lt;p&gt;Hi,&lt;/p&gt;
+&lt;p&gt;I'm not sure how to build the static z3 library with the latest version. Is it still possible?&lt;/p&gt;
+&lt;p&gt;Thank you!&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/div&gt;</description><author>andreis</author><pubDate>Wed, 14 Nov 2012 00:35:58 GMT</pubDate><guid isPermaLink="false">New Post: Z3 static library 20121114123558A</guid></item></channel></rss>

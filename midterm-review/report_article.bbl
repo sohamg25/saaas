@@ -1,0 +1,196 @@
+\begin{thebibliography}{10}
+
+\bibitem{sutter}
+Bertrand Anckaert, Matias Madou, Bjorn De~Sutter, Bruno De~Bus, Koen
+  De~Bosschere, and Bart Preneel.
+\newblock Program obfuscation: a quantitative approach.
+\newblock In {\em Proceedings of the 2007 ACM workshop on Quality of
+  protection}, QoP '07, pages 15--20, New York, NY, USA, 2007. ACM.
+
+\bibitem{jbco}
+Micheal Batchelder and Laurie Hendren.
+\newblock Obfuscating java: the most pain for the least gain.
+\newblock In {\em
+  http://www.sable.mcgill.ca/publications/techreports/sable-tr-2006-5.pdf}.
+
+\bibitem{billionlinesofcode}
+Al~Bessey, Ken Block, Ben Chelf, Andy Chou, Bryan Fulton, Seth Hallem, Charles
+  Henri-Gros, Asya Kamsky, Scott McPeak, and Dawson Engler.
+\newblock A few billion lines of code later: using static analysis to find bugs
+  in the real world.
+\newblock {\em Commun. ACM}, 53(2):66--75, February 2010.
+
+\bibitem{findbugs}
+Brian Cole, Daniel Hakim, David Hovemeyer, Reuven Lazarus, William Pugh, and
+  Kristin Stephens.
+\newblock Improving your software using static analysis to find bugs.
+\newblock In {\em Companion to the 21st ACM SIGPLAN symposium on
+  Object-oriented programming systems, languages, and applications}, OOPSLA
+  '06, pages 673--674, New York, NY, USA, 2006. ACM.
+
+\bibitem{collberg}
+Christian Collberg, Clark Thomborson, and Douglas Low.
+\newblock Manufacturing cheap, resilient, and stealthy opaque constructs.
+\newblock In {\em Proceedings of the 25th ACM SIGPLAN-SIGACT symposium on
+  Principles of programming languages}, POPL '98, pages 184--196, New York, NY,
+  USA, 1998. ACM.
+
+\bibitem{z3}
+Leonardo De~Moura and Nikolaj Bj{\o}rner.
+\newblock Z3: an efficient smt solver.
+\newblock In {\em Proceedings of the Theory and practice of software, 14th
+  international conference on Tools and algorithms for the construction and
+  analysis of systems}, TACAS'08/ETAPS'08, pages 337--340, Berlin, Heidelberg,
+  2008. Springer-Verlag.
+
+\bibitem{dillig}
+Isil Dillig, Thomas Dillig, and Alex Aiken.
+\newblock Sound, complete and scalable path-sensitive analysis.
+\newblock In {\em Proceedings of the 2008 ACM SIGPLAN conference on Programming
+  language design and implementation}, PLDI '08, pages 270--280, New York, NY,
+  USA, 2008. ACM.
+
+\bibitem{engler}
+Dawson Engler, Benjamin Chelf, Andy Chou, and Seth Hallem.
+\newblock Checking system rules using system-specific, programmer-written
+  compiler extensions.
+\newblock In {\em Proceedings of the 4th conference on Symposium on Operating
+  System Design \& Implementation - Volume 4}, OSDI'00, pages 1--1, Berkeley,
+  CA, USA, 2000. USENIX Association.
+
+\bibitem{Fiege}
+U.~Fiege, A.~Fiat, and A.~Shamir.
+\newblock Zero knowledge proofs of identity.
+\newblock In {\em Proceedings of the nineteenth annual ACM symposium on Theory
+  of computing}, STOC '87, pages 210--217, New York, NY, USA, 1987. ACM.
+
+\bibitem{lucene}
+Apache~Software Foundation.
+\newblock Lucene.
+\newblock In {\em http://lucene.apache.org/core}.
+
+\bibitem{tomcat}
+Apache~Software Foundation.
+\newblock Tomcat.
+\newblock In {\em http://tomcat.apache.org/}.
+
+\bibitem{eclipse}
+Eclipse Foundation.
+\newblock Eclipse ide.
+\newblock In {\em http://git.eclipse.org/c/}.
+
+\bibitem{controlflowobf}
+Jun Ge, Soma Chaudhuri, and Akhilesh Tyagi.
+\newblock Control flow based obfuscation.
+\newblock In {\em Proceedings of the 5th ACM workshop on Digital rights
+  management}, DRM '05, pages 83--92, New York, NY, USA, 2005. ACM.
+
+\bibitem{entropy}
+Roberto Giacobazzi and Andrea Toppan.
+\newblock On entropy measures for code obfuscation.
+\newblock In {\em ACM SIGPLAN Software Security and Protection Workshop}, 2013.
+
+\bibitem{Goldreich}
+Oded Goldreich, Silvio Micali, and Avi Wigderson.
+\newblock Proofs that yield nothing but their validity or all languages in np
+  have zero-knowledge proof systems.
+\newblock {\em J. ACM}, 38(3):690--728, July 1991.
+
+\bibitem{Goldwasser}
+S~Goldwasser, S~Micali, and C~Rackoff.
+\newblock The knowledge complexity of interactive proof-systems.
+\newblock In {\em Proceedings of the seventeenth annual ACM symposium on Theory
+  of computing}, STOC '85, pages 291--304, New York, NY, USA, 1985. ACM.
+
+\bibitem{spin}
+Gerard Holzmann.
+\newblock {\em Spin model checker, the: primer and reference manual}.
+\newblock Addison-Wesley Professional, first edition, 2003.
+
+\bibitem{coverity}
+Coverity Inc.
+\newblock Coverity save: Coverity static analysis verification engine.
+\newblock In {\em http://www.coverity.com/}.
+
+\bibitem{klocwork}
+Klockwork.
+\newblock Klockwork insight.
+\newblock In {\em http://www.klocwork.com/}.
+
+\bibitem{proguard}
+Eric Lafortune.
+\newblock Proguard.
+\newblock In {\em http://proguard.sourceforge.net/}.
+
+\bibitem{McCabe}
+Thomas~J. McCabe.
+\newblock A complexity measure.
+\newblock In {\em Proceedings of the 2nd international conference on Software
+  engineering}, ICSE '76, pages 407--, Los Alamitos, CA, USA, 1976. IEEE
+  Computer Society Press.
+
+\bibitem{fse13}
+Scott McPeak, Charles-Henri Gros, and Murali~Krishna Ramanathan.
+\newblock Scalable and incremental software bug detection.
+\newblock In {\em Proceedings of the 2013 9th Joint Meeting on Foundations of
+  Software Engineering}, ESEC/FSE 2013, pages 554--564, New York, NY, USA,
+  2013. ACM.
+
+\bibitem{chess}
+Madanlal Musuvathi, Shaz Qadeer, and Thomas Ball.
+\newblock Chess: A systematic testing tool for concurrent software, 2007.
+
+\bibitem{parasoft}
+Parasoft.
+\newblock Parasoft dottest.
+\newblock In {\em http://www.parasoft.com/}.
+
+\bibitem{cryptdb}
+Raluca~Ada Popa, Catherine M.~S. Redfield, Nickolai Zeldovich, and Hari
+  Balakrishnan.
+\newblock Cryptdb: protecting confidentiality with encrypted query processing.
+\newblock In {\em Proceedings of the Twenty-Third ACM Symposium on Operating
+  Systems Principles}, SOSP '11, pages 85--100, New York, NY, USA, 2011. ACM.
+
+\bibitem{mrcrypt}
+Rupak~Majumdar Sai Deep~Tetali, Mohsen~Lesani and Todd Millstein.
+\newblock Mrcrypt: Static analysis for secure cloud computations.
+\newblock In {\em Conference on Object-Oriented Programming, Systems,
+  Languages, and Applications}, OOPSLA 2013, 2013.
+
+\bibitem{sakabe}
+Yusuke Sakabe, Masakazu Soshi, and Atsuko Miyaji.
+\newblock Java obfuscation with a theoretical basis for building secure mobile
+  agents.
+\newblock In {\em In Communications and Multimedia Security}, pages 89--103,
+  2003.
+
+\bibitem{designobf}
+Mikhail Sosonkin, Gleb Naumovich, and Nasir Memon.
+\newblock Obfuscation of design intent in object-oriented applications.
+\newblock In {\em Proceedings of the 3rd ACM workshop on Digital rights
+  management}, DRM '03, pages 142--153, New York, NY, USA, 2003. ACM.
+
+\bibitem{sonsonkin}
+Mikhail Sosonkin, Gleb Naumovich, and Nasir Memon.
+\newblock Obfuscation of design intent in object-oriented applications.
+\newblock In {\em Proceedings of the 3rd ACM workshop on Digital rights
+  management}, DRM '03, pages 142--153, New York, NY, USA, 2003. ACM.
+
+\bibitem{wang}
+Chenxi Wang, Jonathan Hill, John Knight, and Jack Davidson.
+\newblock Software tamper resistance: Obstructing static analysis of programs.
+\newblock Technical report, Charlottesville, VA, USA, 2000.
+
+\bibitem{saturn}
+Yichen Xie and Alex Aiken.
+\newblock Saturn: A scalable framework for error detection using boolean
+  satisfiability.
+\newblock {\em ACM Trans. Program. Lang. Syst.}, 29(3), May 2007.
+
+\bibitem{zelix}
+Zelix.
+\newblock Klassmaster.
+\newblock In {\em http://www.zelix.com/klassmaster/}.
+
+\end{thebibliography}

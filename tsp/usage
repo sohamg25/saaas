@@ -1,0 +1,63 @@
+org.saiko.ai.genetics.tsp.City:
+    public static final java.lang.String CVS_REVISION
+    protected static final long serialVersionUID
+org.saiko.ai.genetics.tsp.CityTests
+org.saiko.ai.genetics.tsp.Report:
+    public static final java.lang.String CVS_REVISION
+    static final java.lang.String PARAM_COMPUTATION_TIME
+    com.lowagie.text.Image headerImage
+    com.lowagie.text.pdf.PdfPTable headerTable
+    com.lowagie.text.pdf.PdfTemplate tpl
+    com.lowagie.text.pdf.BaseFont headerFont
+====    288:327:public void onOpenDocument(com.lowagie.text.pdf.PdfWriter,com.lowagie.text.Document)
+====    334:360:public void onEndPage(com.lowagie.text.pdf.PdfWriter,com.lowagie.text.Document)
+====    369:374:public void onCloseDocument(com.lowagie.text.pdf.PdfWriter,com.lowagie.text.Document)
+org.saiko.ai.genetics.tsp.TSP:
+    public static final java.lang.String CVS_REVISION
+    protected static final long serialVersionUID
+org.saiko.ai.genetics.tsp.TSPChromosome:
+    public static final java.lang.String CVS_REVISION
+org.saiko.ai.genetics.tsp.TSPChromosomeTests
+org.saiko.ai.genetics.tsp.TSPConfiguration:
+    public static final java.lang.String CVS_REVISION
+org.saiko.ai.genetics.tsp.TSPEngine:
+    public static final java.lang.String CVS_REVISION
+org.saiko.ai.genetics.tsp.TSPGui:
+    public static final java.lang.String CVS_REVISION
+    protected static final long serialVersionUID
+    protected static final java.lang.String appTitle
+org.saiko.ai.genetics.tsp.TSPGui$1:
+    private static final long serialVersionUID
+org.saiko.ai.genetics.tsp.TSPGui$2:
+    private static final long serialVersionUID
+org.saiko.ai.genetics.tsp.TSPGui$3:
+    private static final long serialVersionUID
+org.saiko.ai.genetics.tsp.TSPMenu:
+    public static final java.lang.String CVS_REVISION
+org.saiko.ai.genetics.tsp.TSPMenu$JAntialiasedCheckBoxMenuItem:
+    private static final long serialVersionUID
+org.saiko.ai.genetics.tsp.TSPMenu$JAntialiasedMenu:
+    private static final long serialVersionUID
+org.saiko.ai.genetics.tsp.TSPMenu$JAntialiasedMenuItem:
+    private static final long serialVersionUID
+org.saiko.ai.genetics.tsp.TSPMenu$JAntialiasedRadioButtonMenuItem:
+    private static final long serialVersionUID
+org.saiko.ai.genetics.tsp.TSPMenuTests
+org.saiko.ai.genetics.tsp.engines.crossover.GreedyCrossoverEngine:
+    public static final java.lang.String CVS_REVISION
+org.saiko.ai.genetics.tsp.engines.crossover.GreedyCrossoverEngineTests
+org.saiko.ai.genetics.tsp.engines.crossoverHibrid2opt.GreedyCrossoverHibrid2OptEngine:
+    public static final java.lang.String CVS_REVISION
+org.saiko.ai.genetics.tsp.engines.jgapCrossover.JGapGreedyCrossoverEngine:
+    public static final java.lang.String CVS_REVISION
+====    140:145:public double cost(org.jgap.Gene,org.jgap.Gene)
+org.saiko.ai.genetics.tsp.engines.jgapCrossover.JGapGreedyCrossoverEngine$1:
+    private static final long serialVersionUID
+====    163:172:protected double evaluate(org.jgap.Chromosome)
+org.saiko.ai.genetics.tsp.engines.jgapCrossover.JGapGreedyCrossoverEngineTests
+org.saiko.ai.genetics.tsp.engines.simpleUnisexMutator.SimpleUnisexMutatorEngine:
+    public static final java.lang.String CVS_REVISION
+org.saiko.ai.genetics.tsp.engines.simpleUnisexMutator.SimpleUnisexMutatorEngineTests
+org.saiko.ai.genetics.tsp.engines.simpleUnisexMutatorHibrid2Opt.SimpleUnisexMutatorHibrid2OptEngine:
+    public static final java.lang.String CVS_REVISION
+org.saiko.ant.BuildProperyTask

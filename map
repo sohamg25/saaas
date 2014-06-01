@@ -1,0 +1,319 @@
+org.saiko.ai.genetics.tsp.City -> org.saiko.ai.genetics.tsp._1n53be2:
+    int x -> x
+    int y -> y
+    int SJTSKX -> a
+    int SJTSKY -> b
+    java.lang.String name -> name
+    int id -> id
+    boolean startCity -> c
+    double[][] distanceCache -> d
+    org.saiko.ai.genetics.tsp.TSPConfiguration configuration -> e
+    128:135:void initDistanceCache(int) -> a
+    148:171:double distance(org.saiko.ai.genetics.tsp.City,boolean) -> a
+    183:183:double distance(org.saiko.ai.genetics.tsp.City) -> a
+    191:195:double cost(org.saiko.ai.genetics.tsp.City) -> b
+    207:210:double distance(int,int) -> a
+    217:217:java.lang.String getName() -> getName
+    224:224:int getX() -> getX
+    231:231:int getY() -> getY
+    241:241:int getSJTSKX() -> a
+    248:248:int getSJTSKY() -> b
+    256:256:java.lang.String toString() -> toString
+    265:268:boolean equals(java.lang.Object) -> equals
+    278:278:int getId() -> getId
+org.saiko.ai.genetics.tsp.Report -> org.saiko.ai.genetics.tsp._3emi3s5:
+    java.text.DecimalFormat numberFormatter -> f
+    102:266:void saveReport(java.io.File,org.saiko.ai.genetics.tsp.City[],java.awt.image.BufferedImage,java.util.Map,java.util.Map) -> a
+    380:411:java.util.Map getSystemProperties() -> getSystemProperties
+    420:440:java.util.Map getResultInfo(org.saiko.ai.genetics.tsp.TSP) -> a
+    449:462:java.lang.String getMapHash(java.lang.String) -> a
+org.saiko.ai.genetics.tsp.TSP -> org.saiko.ai.genetics.tsp.TSP:
+    org.saiko.ai.genetics.tsp.TSPConfiguration configuration -> e
+    java.lang.Thread runingThread -> g
+    java.lang.Class[] engineClasses -> h
+    java.lang.String[] mapFiles -> i
+    java.lang.String mapFile -> j
+    java.lang.Object mutex -> mutex
+    org.saiko.ai.genetics.tsp.City[] cities -> k
+    boolean pauseRequestFlag -> l
+    boolean stopRequestFlag -> m
+    boolean startedFlag -> n
+    org.saiko.ai.genetics.tsp.TSPChromosome bestChromosome -> o
+    long startTime -> p
+    long runTime -> q
+    java.lang.Class engineClass -> r
+    org.saiko.ai.genetics.tsp.TSPEngine engine -> s
+    java.lang.String engineName -> t
+    int bestCostAge -> u
+    int generation -> v
+    double bestCost -> w
+    org.saiko.ai.genetics.tsp.TSPGui gui -> z
+    215:284:void loadCities(org.saiko.ai.genetics.tsp.City[],boolean) -> a
+    313:319:void start() -> start
+    330:428:void run() -> run
+    435:450:void setStatus(org.saiko.ai.genetics.tsp.TSPEngine) -> a
+    457:491:java.lang.String getAppVersion() -> c
+    520:685:void main(java.lang.String[]) -> main
+org.saiko.ai.genetics.tsp.TSP$1 -> org.saiko.ai.genetics.tsp.TSP$1:
+    org.saiko.ai.genetics.tsp.TSP this$0 -> A
+    348:353:void run() -> run
+org.saiko.ai.genetics.tsp.TSPChromosome -> org.saiko.ai.genetics.tsp._4q27h4:
+    org.saiko.ai.genetics.tsp.City[] cities -> k
+    double totalDistance -> B
+    double totalCost -> C
+    96:115:void computeCost() -> d
+    123:123:double getTotalDistance() -> e
+    133:133:double getTotalCost() -> f
+    141:141:org.saiko.ai.genetics.tsp.City[] getCities() -> g
+org.saiko.ai.genetics.tsp.TSPConfiguration -> org.saiko.ai.genetics.tsp._2ttjfjf:
+    boolean antialiasing -> D
+    int initialPopulationSize -> E
+    int threadPriority -> F
+    double populationGrow -> G
+    double mutationRatio -> H
+    int maxBestCostAge -> I
+    boolean console -> J
+    boolean rmsCost -> K
+    94:94:boolean isAntialiasing() -> h
+    101:102:void setAntialiasing(boolean) -> a
+    108:108:int getInitialPopulationSize() -> i
+    115:116:void setInitialPopulationSize(int) -> b
+    122:122:int getMaxBestCostAge() -> j
+    129:130:void setMaxBestCostAge(int) -> c
+    136:136:double getMutationRatio() -> k
+    143:144:void setMutationRatio(double) -> a
+    151:151:double getPopulationGrow() -> l
+    159:160:void setPopulationGrow(double) -> b
+    171:171:boolean isRmsCost() -> m
+    183:184:void setRmsCost(boolean) -> b
+    192:192:int getThreadPriority() -> n
+    200:201:void setThreadPriority(int) -> d
+org.saiko.ai.genetics.tsp.TSPEngine -> org.saiko.ai.genetics.tsp._38u5h3t:
+    void initialize(org.saiko.ai.genetics.tsp.TSPConfiguration,org.saiko.ai.genetics.tsp.City[]) -> a
+    int getPopulationSize() -> o
+    org.saiko.ai.genetics.tsp.TSPChromosome getBestChromosome() -> p
+    void nextGeneration() -> q
+org.saiko.ai.genetics.tsp.TSPGui -> org.saiko.ai.genetics.tsp._ee1spr:
+    java.awt.Dimension windowSize -> L
+    org.saiko.ai.genetics.tsp.TSPMenu menu -> M
+    int virtualX0 -> N
+    int virtualX1 -> O
+    int virtualY0 -> P
+    int virtualY1 -> Q
+    javax.swing.JPanel cityMap -> R
+    int border -> S
+    double scale -> T
+    javax.swing.JTextField statusBar -> U
+    java.awt.Rectangle clientBounds -> V
+    java.awt.Rectangle mapDisplayBounds -> W
+    int statusHeight -> X
+    org.saiko.ai.genetics.tsp.TSP parent -> Y
+    182:207:void init() -> init
+    271:272:int transformVirtualX(int) -> e
+    282:283:int transformVirtualY(int) -> f
+    292:324:void createCityMap(boolean) -> c
+org.saiko.ai.genetics.tsp.TSPGui$1 -> org.saiko.ai.genetics.tsp._ee1spr$1:
+    org.saiko.ai.genetics.tsp.TSPGui this$0 -> Z
+    337:375:void paint(java.awt.Graphics) -> paint
+org.saiko.ai.genetics.tsp.TSPGui$2 -> org.saiko.ai.genetics.tsp._ee1spr$2:
+    org.saiko.ai.genetics.tsp.TSPGui this$0 -> Z
+    399:412:void paint(java.awt.Graphics) -> paint
+org.saiko.ai.genetics.tsp.TSPGui$3 -> org.saiko.ai.genetics.tsp._ee1spr$3:
+    org.saiko.ai.genetics.tsp.TSPGui this$0 -> Z
+    437:445:void paintComponent(java.awt.Graphics) -> paintComponent
+org.saiko.ai.genetics.tsp.TSPMenu -> org.saiko.ai.genetics.tsp._3t0hvcv:
+    org.saiko.ai.genetics.tsp.TSP parent -> Y
+    javax.swing.JMenu menuProgram -> aa
+    javax.swing.JMenuItem menuItemStart -> ab
+    javax.swing.JMenuItem menuItemPause -> ac
+    javax.swing.JMenuItem menuItemPDFReport -> ad
+    javax.swing.JMenuItem menuItemXMLReport -> ae
+    javax.swing.JMenuItem menuItemXML2PDFReport -> af
+    javax.swing.JMenuItem menuItemExit -> ag
+    javax.swing.JMenu menuMaps -> ah
+    javax.swing.JMenuItem menuItemExportMaps -> ai
+    javax.swing.JMenu menuEngine -> aj
+    javax.swing.JMenu menuSettings -> ak
+    javax.swing.JMenuItem menuItemPopulationSize -> al
+    javax.swing.JMenuItem menuItemPopulationGrow -> am
+    javax.swing.JMenuItem menuItemMutationRatio -> an
+    javax.swing.JMenuItem menuItemMaxBestAge -> ao
+    javax.swing.JCheckBoxMenuItem menuItemRMS -> ap
+    javax.swing.JMenu menuGraphics -> aq
+    javax.swing.JCheckBoxMenuItem menuItemAntialiasing -> ar
+    javax.swing.JMenu menuHelp -> as
+    javax.swing.JMenuItem menuItemAbout -> at
+    javax.swing.JMenu menuPriority -> au
+    javax.swing.JRadioButtonMenuItem menuItemPriorityHighest -> av
+    javax.swing.JRadioButtonMenuItem menuItemPriorityHigh -> aw
+    javax.swing.JRadioButtonMenuItem menuItemPriorityNormal -> ax
+    javax.swing.JRadioButtonMenuItem menuItemPriorityLo -> ay
+    javax.swing.JRadioButtonMenuItem menuItemPriorityLowest -> az
+    java.io.File mapsPrevDir -> aA
+    java.io.File reportPrevDir -> aB
+    195:298:org.saiko.ai.genetics.tsp.TSPMenu createMenuBar() -> r
+    306:349:void resetMenu() -> s
+    357:369:void enableMenus(boolean) -> d
+    375:391:void addMenuEnginesItems() -> t
+    398:419:void setMenuEnginesActionListeners() -> u
+    484:496:void actionPause$69169593() -> v
+    504:533:void actionStart$69169593() -> w
+    543:563:java.lang.String alignText(java.lang.String,java.lang.Object) -> a
+    662:680:java.lang.Double doubleInputDialog(java.lang.String,double) -> a
+    690:708:java.lang.Integer intInputDialog(java.lang.String,int) -> a
+    722:793:void actionExportMaps$69169593() -> x
+    808:922:void actionPDFReport$69169593() -> y
+    1045:1059:void addMenuMapsItems() -> z
+    1065:1085:void setMenuMapsActionListeners() -> A
+    1117:1252:void actionXMLReport(java.lang.String) -> b
+    1265:1468:void actionXML2PDFReport$69169593() -> B
+    1477:1490:void actionAbout$69169593() -> C
+org.saiko.ai.genetics.tsp.TSPMenu$1 -> org.saiko.ai.genetics.tsp._3t0hvcv$1:
+    org.saiko.ai.genetics.tsp.TSPMenu this$0 -> aC
+    401:416:void actionPerformed(java.awt.event.ActionEvent) -> actionPerformed
+org.saiko.ai.genetics.tsp.TSPMenu$10 -> org.saiko.ai.genetics.tsp._3t0hvcv$2:
+    931:932:void actionPerformed(java.awt.event.ActionEvent) -> actionPerformed
+org.saiko.ai.genetics.tsp.TSPMenu$11 -> org.saiko.ai.genetics.tsp._3t0hvcv$3:
+    org.saiko.ai.genetics.tsp.TSPMenu this$0 -> aC
+    937:938:void actionPerformed(java.awt.event.ActionEvent) -> actionPerformed
+org.saiko.ai.genetics.tsp.TSPMenu$12 -> org.saiko.ai.genetics.tsp._3t0hvcv$4:
+    org.saiko.ai.genetics.tsp.TSPMenu this$0 -> aC
+    943:944:void actionPerformed(java.awt.event.ActionEvent) -> actionPerformed
+org.saiko.ai.genetics.tsp.TSPMenu$13 -> org.saiko.ai.genetics.tsp._3t0hvcv$5:
+    org.saiko.ai.genetics.tsp.TSPMenu this$0 -> aC
+    949:950:void actionPerformed(java.awt.event.ActionEvent) -> actionPerformed
+org.saiko.ai.genetics.tsp.TSPMenu$14 -> org.saiko.ai.genetics.tsp._3t0hvcv$6:
+    org.saiko.ai.genetics.tsp.TSPMenu this$0 -> aC
+    956:957:void actionPerformed(java.awt.event.ActionEvent) -> actionPerformed
+org.saiko.ai.genetics.tsp.TSPMenu$15 -> org.saiko.ai.genetics.tsp._3t0hvcv$7:
+    org.saiko.ai.genetics.tsp.TSPMenu this$0 -> aC
+    963:964:void actionPerformed(java.awt.event.ActionEvent) -> actionPerformed
+org.saiko.ai.genetics.tsp.TSPMenu$16 -> org.saiko.ai.genetics.tsp._3t0hvcv$8:
+    org.saiko.ai.genetics.tsp.TSPMenu this$0 -> aC
+    976:984:void actionPerformed(java.awt.event.ActionEvent) -> actionPerformed
+org.saiko.ai.genetics.tsp.TSPMenu$17 -> org.saiko.ai.genetics.tsp._3t0hvcv$9:
+    org.saiko.ai.genetics.tsp.TSPMenu this$0 -> aC
+    989:998:void actionPerformed(java.awt.event.ActionEvent) -> actionPerformed
+org.saiko.ai.genetics.tsp.TSPMenu$18 -> org.saiko.ai.genetics.tsp._3t0hvcv$10:
+    org.saiko.ai.genetics.tsp.TSPMenu this$0 -> aC
+    1003:1012:void actionPerformed(java.awt.event.ActionEvent) -> actionPerformed
+org.saiko.ai.genetics.tsp.TSPMenu$19 -> org.saiko.ai.genetics.tsp._3t0hvcv$11:
+    org.saiko.ai.genetics.tsp.TSPMenu this$0 -> aC
+    1017:1025:void actionPerformed(java.awt.event.ActionEvent) -> actionPerformed
+org.saiko.ai.genetics.tsp.TSPMenu$2 -> org.saiko.ai.genetics.tsp._3t0hvcv$12:
+    org.saiko.ai.genetics.tsp.TSPMenu this$0 -> aC
+    427:431:void actionPerformed(java.awt.event.ActionEvent) -> actionPerformed
+org.saiko.ai.genetics.tsp.TSPMenu$20 -> org.saiko.ai.genetics.tsp._3t0hvcv$13:
+    org.saiko.ai.genetics.tsp.TSPMenu this$0 -> aC
+    1030:1037:void actionPerformed(java.awt.event.ActionEvent) -> actionPerformed
+org.saiko.ai.genetics.tsp.TSPMenu$21 -> org.saiko.ai.genetics.tsp._3t0hvcv$14:
+    org.saiko.ai.genetics.tsp.TSPMenu this$0 -> aC
+    1070:1075:void actionPerformed(java.awt.event.ActionEvent) -> actionPerformed
+org.saiko.ai.genetics.tsp.TSPMenu$22 -> org.saiko.ai.genetics.tsp._3t0hvcv$15:
+    org.saiko.ai.genetics.tsp.TSPMenu this$0 -> aC
+    1082:1083:void actionPerformed(java.awt.event.ActionEvent) -> actionPerformed
+org.saiko.ai.genetics.tsp.TSPMenu$23 -> org.saiko.ai.genetics.tsp._3t0hvcv$16:
+    org.saiko.ai.genetics.tsp.TSPMenu this$0 -> aC
+    1094:1095:void actionPerformed(java.awt.event.ActionEvent) -> actionPerformed
+org.saiko.ai.genetics.tsp.TSPMenu$24 -> org.saiko.ai.genetics.tsp._3t0hvcv$17:
+    org.saiko.ai.genetics.tsp.TSPMenu this$0 -> aC
+    1106:1107:void actionPerformed(java.awt.event.ActionEvent) -> actionPerformed
+org.saiko.ai.genetics.tsp.TSPMenu$25 -> org.saiko.ai.genetics.tsp._3t0hvcv$18:
+    1131:1133:boolean accept(java.io.File) -> accept
+    1138:1138:java.lang.String getDescription() -> getDescription
+org.saiko.ai.genetics.tsp.TSPMenu$26 -> org.saiko.ai.genetics.tsp._3t0hvcv$19:
+    1276:1278:boolean accept(java.io.File) -> accept
+    1283:1283:java.lang.String getDescription() -> getDescription
+org.saiko.ai.genetics.tsp.TSPMenu$27 -> org.saiko.ai.genetics.tsp._3t0hvcv$20:
+    1376:1378:boolean accept(java.io.File) -> accept
+    1383:1383:java.lang.String getDescription() -> getDescription
+org.saiko.ai.genetics.tsp.TSPMenu$28 -> org.saiko.ai.genetics.tsp._3t0hvcv$21:
+    javax.swing.JDialog val$dlg -> aD
+    1510:1511:void actionPerformed(java.awt.event.ActionEvent) -> actionPerformed
+org.saiko.ai.genetics.tsp.TSPMenu$29 -> org.saiko.ai.genetics.tsp._3t0hvcv$22:
+    1538:1550:void hyperlinkUpdate(javax.swing.event.HyperlinkEvent) -> hyperlinkUpdate
+org.saiko.ai.genetics.tsp.TSPMenu$3 -> org.saiko.ai.genetics.tsp._3t0hvcv$23:
+    org.saiko.ai.genetics.tsp.TSPMenu this$0 -> aC
+    434:438:void actionPerformed(java.awt.event.ActionEvent) -> actionPerformed
+org.saiko.ai.genetics.tsp.TSPMenu$4 -> org.saiko.ai.genetics.tsp._3t0hvcv$24:
+    org.saiko.ai.genetics.tsp.TSPMenu this$0 -> aC
+    441:445:void actionPerformed(java.awt.event.ActionEvent) -> actionPerformed
+org.saiko.ai.genetics.tsp.TSPMenu$5 -> org.saiko.ai.genetics.tsp._3t0hvcv$25:
+    org.saiko.ai.genetics.tsp.TSPMenu this$0 -> aC
+    448:452:void actionPerformed(java.awt.event.ActionEvent) -> actionPerformed
+org.saiko.ai.genetics.tsp.TSPMenu$6 -> org.saiko.ai.genetics.tsp._3t0hvcv$26:
+    org.saiko.ai.genetics.tsp.TSPMenu this$0 -> aC
+    455:459:void actionPerformed(java.awt.event.ActionEvent) -> actionPerformed
+org.saiko.ai.genetics.tsp.TSPMenu$7 -> org.saiko.ai.genetics.tsp._3t0hvcv$27:
+    org.saiko.ai.genetics.tsp.TSPMenu this$0 -> aC
+    518:519:void run() -> run
+org.saiko.ai.genetics.tsp.TSPMenu$8 -> org.saiko.ai.genetics.tsp._3t0hvcv$28:
+    734:736:boolean accept(java.io.File) -> accept
+    741:741:java.lang.String getDescription() -> getDescription
+org.saiko.ai.genetics.tsp.TSPMenu$9 -> org.saiko.ai.genetics.tsp._3t0hvcv$29:
+    820:822:boolean accept(java.io.File) -> accept
+    827:827:java.lang.String getDescription() -> getDescription
+org.saiko.ai.genetics.tsp.TSPMenu$JAntialiasedCheckBoxMenuItem -> org.saiko.ai.genetics.tsp._f5fqlm:
+    org.saiko.ai.genetics.tsp.TSPMenu this$0 -> aC
+    621:629:void paint(java.awt.Graphics) -> paint
+org.saiko.ai.genetics.tsp.TSPMenu$JAntialiasedMenu -> org.saiko.ai.genetics.tsp._b3sl9q:
+    org.saiko.ai.genetics.tsp.TSPMenu this$0 -> aC
+    577:585:void paint(java.awt.Graphics) -> paint
+org.saiko.ai.genetics.tsp.TSPMenu$JAntialiasedMenuItem -> org.saiko.ai.genetics.tsp._1h98iet:
+    org.saiko.ai.genetics.tsp.TSPMenu this$0 -> aC
+    599:607:void paint(java.awt.Graphics) -> paint
+org.saiko.ai.genetics.tsp.TSPMenu$JAntialiasedRadioButtonMenuItem -> org.saiko.ai.genetics.tsp._k7phtm:
+    org.saiko.ai.genetics.tsp.TSPMenu this$0 -> aC
+    643:651:void paint(java.awt.Graphics) -> paint
+org.saiko.ai.genetics.tsp.engines.crossover.GreedyCrossoverEngine -> org.saiko.ai.genetics.tsp._150uts9._2u2od72._1hj710a:
+    69:76:void growPopulation(int) -> g
+    89:109:void getChild(org.saiko.ai.genetics.tsp.TSPChromosome,org.saiko.ai.genetics.tsp.TSPChromosome) -> a
+    127:192:org.saiko.ai.genetics.tsp.City[] haveSex(org.saiko.ai.genetics.tsp.TSPChromosome,org.saiko.ai.genetics.tsp.TSPChromosome) -> b
+    204:209:org.saiko.ai.genetics.tsp.City findNext(org.saiko.ai.genetics.tsp.City[],org.saiko.ai.genetics.tsp.City) -> a
+org.saiko.ai.genetics.tsp.engines.crossoverHibrid2opt.GreedyCrossoverHibrid2OptEngine -> org.saiko.ai.genetics.tsp._150uts9._2130gp0._22uqhts:
+    75:103:void getChild(org.saiko.ai.genetics.tsp.TSPChromosome,org.saiko.ai.genetics.tsp.TSPChromosome) -> a
+    112:134:void heuristics2opt(org.saiko.ai.genetics.tsp.City[]) -> a
+org.saiko.ai.genetics.tsp.engines.jgapCrossover.JGapGreedyCrossoverEngine -> org.saiko.ai.genetics.tsp._150uts9._1blsmgf._bqr8qv:
+    org.jgap.Genotype population -> aE
+    org.saiko.ai.genetics.tsp.City[] originalCities -> aF
+    org.saiko.ai.genetics.tsp.TSPConfiguration configuration -> e
+    102:129:void initialize(org.saiko.ai.genetics.tsp.TSPConfiguration,org.saiko.ai.genetics.tsp.City[]) -> a
+    186:209:org.jgap.Configuration createConfiguration() -> D
+    222:227:org.jgap.impl.IntegerGene[] cities2gene(org.saiko.ai.genetics.tsp.City[]) -> b
+    238:242:org.saiko.ai.genetics.tsp.City[] genes2cities(org.jgap.Gene[]) -> a
+    257:257:int getPopulationSize() -> o
+    264:265:org.saiko.ai.genetics.tsp.TSPChromosome getBestChromosome() -> p
+    272:273:void nextGeneration() -> q
+org.saiko.ai.genetics.tsp.engines.jgapCrossover.JGapGreedyCrossoverEngine$1 -> org.saiko.ai.genetics.tsp._150uts9._1blsmgf._bqr8qv$1:
+org.saiko.ai.genetics.tsp.engines.simpleUnisexMutator.SimpleUnisexMutatorEngine -> org.saiko.ai.genetics.tsp._150uts9._eohkkp._2iupto:
+    java.util.List population -> aG
+    java.util.Random rnd -> aH
+    int populationSize -> aI
+    int mutationRatio -> aJ
+    org.saiko.ai.genetics.tsp.TSPConfiguration configuration -> e
+    103:141:void initialize(org.saiko.ai.genetics.tsp.TSPConfiguration,org.saiko.ai.genetics.tsp.City[]) -> a
+    150:178:void randomize(java.util.Random,org.saiko.ai.genetics.tsp.City[]) -> a
+    184:184:int getPopulationSize() -> o
+    191:191:org.saiko.ai.genetics.tsp.TSPChromosome getBestChromosome() -> p
+    199:206:void orderPopulation() -> E
+    214:267:void nextGeneration() -> q
+    275:276:void growPopulation(int) -> g
+    286:293:void getChild(org.saiko.ai.genetics.tsp.TSPChromosome) -> a
+    301:316:void mutate(org.saiko.ai.genetics.tsp.City[]) -> c
+org.saiko.ai.genetics.tsp.engines.simpleUnisexMutator.SimpleUnisexMutatorEngine$1 -> org.saiko.ai.genetics.tsp._150uts9._eohkkp._2iupto$1:
+    org.saiko.ai.genetics.tsp.engines.simpleUnisexMutator.SimpleUnisexMutatorEngine this$0 -> aK
+    org.saiko.ai.genetics.tsp.City[] val$cities -> aL
+    java.util.List val$runningThreads -> aM
+    java.lang.Thread val$parentThread -> aN
+    120:128:void run() -> run
+org.saiko.ai.genetics.tsp.engines.simpleUnisexMutator.SimpleUnisexMutatorEngine$2 -> org.saiko.ai.genetics.tsp._150uts9._eohkkp._2iupto$2:
+    1:1:int compare(java.lang.Object,java.lang.Object) -> compare
+org.saiko.ai.genetics.tsp.engines.simpleUnisexMutator.SimpleUnisexMutatorEngine$3 -> org.saiko.ai.genetics.tsp._150uts9._eohkkp._2iupto$3:
+    org.saiko.ai.genetics.tsp.engines.simpleUnisexMutator.SimpleUnisexMutatorEngine this$0 -> aK
+    int val$countPerThread -> aO
+    int val$bestCount -> aP
+    java.util.List val$runningThreads -> aM
+    java.lang.Thread val$parentThread -> aN
+    236:241:void run() -> run
+org.saiko.ai.genetics.tsp.engines.simpleUnisexMutatorHibrid2Opt.SimpleUnisexMutatorHibrid2OptEngine -> org.saiko.ai.genetics.tsp._150uts9._cbvlju._2bue1ae:
+    72:82:void getChild(org.saiko.ai.genetics.tsp.TSPChromosome) -> a

@@ -1,0 +1,636 @@
+<?xml version="1.0"?><?xml-stylesheet type="text/xsl" href="/rss.xsl"?><rss version="2.0"><channel><title>z3 Wiki Rss Feed</title><link>https://z3.codeplex.com/</link><description>z3 Wiki Rss Description</description><item><title>Updated Wiki: Publications</title><link>http://z3.codeplex.com/wikipage?title=Publications&amp;version=7</link><description>&lt;div class="wikidoc"&gt;
+&lt;ol&gt;
+&lt;li&gt;Leonardo de Moura and Grant Passmore. &lt;em&gt;Computation in real closed infinitesimal and transcendental extensions of the rationals&lt;/em&gt;. In Automated Deduction - CADE-24, 24th International Conference on Automated Deduction, Lake Placid, New York, June 9-14,
+ 2013, Proceedings, 2013. [ &lt;a href="http://z3.codeplex.com/wikipage?title=CADE24"&gt;
+http&lt;/a&gt;&amp;nbsp;] &lt;/li&gt;&lt;li&gt;Leonardo de Moura and Grant Passmore. &lt;em&gt;The Strategy Challenge in SMT Solving&lt;/em&gt;, volume 7788 of
+&lt;em&gt;Lecture Notes in Artificial Intelligence&lt;/em&gt;. Springer, 2013. [ .&lt;a href="http://research.microsoft.com/en-us/um/people/leonardo/files/smt-strategy.pdf"&gt;pdf&lt;/a&gt; ]
+&lt;/li&gt;&lt;li&gt;Leonardo de&amp;nbsp;Moura and Dejan Jovanović. A model-constructing satisfiability calculus. In
+&lt;em&gt;14th International Conference on Verification, Model Checking, and Abstract Interpretation, VMCAI, Rome, Italy, 2013&lt;/em&gt;, 2013. [&amp;nbsp;&lt;a href=" http://research.microsoft.com/en-us/um/people/leonardo/files/mcsat.pdf"&gt;.pdf&lt;/a&gt;&amp;nbsp;]
+&lt;/li&gt;&lt;li&gt;Dejan Jovanović and Leonardo de&amp;nbsp;Moura. Solving non-linear arithmetic. In
+&lt;em&gt;Automated Reasoning - 6th International Joint Conference, IJCAR 2012, Manchester, UK, June 26-29, 2012. Proceedings&lt;/em&gt;, volume 7364 of
+&lt;em&gt;Lecture Notes in Computer Science&lt;/em&gt;, pages 339-354. Springer, 2012. [&amp;nbsp;&lt;a href=" http://research.microsoft.com/en-us/um/people/leonardo/files/IJCAR2012.pdf"&gt;.pdf&lt;/a&gt;&amp;nbsp;]
+&lt;/li&gt;&lt;li&gt;Dejan Jovanović and Leonardo de&amp;nbsp;Moura. Solving non-linear arithmetic. Technical Report MSR-TR-2012-20, Microsoft Research, 2012. [&amp;nbsp;&lt;a href="http://research.microsoft.com/apps/pubs/default.aspx?id=159549"&gt;http&lt;/a&gt;&amp;nbsp;]
+&lt;/li&gt;&lt;li&gt;Nikolaj Bj&amp;oslash;rner. Taking Satisfiability to the Next Level with Z3. IJCAR 2012.
+&lt;/li&gt;&lt;li&gt;Anh-Dung Phan, Nikolaj Bj&amp;oslash;rner, David Monniaux. Anatomy of Alternating Quantifier Satisfiability. SMT workshop 2012. [&amp;nbsp;&lt;a href="http://research.microsoft.com/en-us/people/nbjorner/qt-smt2012.pdf"&gt;.pdf&lt;/a&gt;&amp;nbsp;]
+&lt;/li&gt;&lt;li&gt;Krystof Hoder and Nikolaj Bj&amp;oslash;rner. Generalized Property Directed Reachability. In SAT 2012. [&lt;a href="http://research.microsoft.com/en-us/people/nbjorner/z3pdr.pdf"&gt;.pdf&lt;/a&gt;&amp;nbsp;]
+&lt;/li&gt;&lt;li&gt;Christoph Wintersteiger, Youssef Hamadi, and Leonardo de&amp;nbsp;Moura. Efficiently solving quantified bit-vector formulas.
+&lt;em&gt;Formal Methods in System Design&lt;/em&gt;, 2012. [&amp;nbsp;&lt;a href="http://dx.doi.org/10.1007/s10703-012-0156-2"&gt;http&lt;/a&gt;&amp;nbsp;|
+&lt;a href=" http://research.microsoft.com/en-us/um/people/leonardo/files/ufbv_journal.pdf"&gt;
+.pdf&lt;/a&gt;&amp;nbsp;] &lt;/li&gt;&lt;li&gt;Nikolaj Bj&amp;oslash;rner and Leonardo de&amp;nbsp;Moura. Tractability and Modern Satisfiability Modulo Theories Solvers. In
+&lt;em&gt;Handbook of Tractability&lt;/em&gt;. Cambridge University Press, 2012. [&amp;nbsp;&lt;a href=" http://research.microsoft.com/en-us/um/people/leonardo/files/tractability.pdf"&gt;.pdf&lt;/a&gt;&amp;nbsp;]
+&lt;/li&gt;&lt;li&gt;Krystof Hoder, Nikolaj Bj&amp;oslash;rner, and Leonardo de&amp;nbsp;Moura. muZ - an efficient engine for fixed points with constraints. In
+&lt;em&gt;Computer Aided Verification - 23rd International Conference, CAV 2011, Snowbird, UT, USA, July 14-20, 2011. Proceedings&lt;/em&gt;, volume 6806 of
+&lt;em&gt;Lecture Notes in Computer Science&lt;/em&gt;, pages 457-462, 2011. [&amp;nbsp;&lt;a href=" http://research.microsoft.com/en-us/um/people/leonardo/files/muze.pdf"&gt;.pdf&lt;/a&gt;&amp;nbsp;]
+&lt;/li&gt;&lt;li&gt;Leonardo de&amp;nbsp;Moura and Nikolaj Bj&amp;oslash;rner. Satisfiability modulo theories: introduction and applications.
+&lt;em&gt;Commun. ACM&lt;/em&gt;, 54(9):69-77, 2011. [&amp;nbsp;&lt;a href="http://dl.acm.org/citation.cfm?id=1995394"&gt;http&lt;/a&gt;&amp;nbsp;]
+&lt;/li&gt;&lt;li&gt;Dejan Jovanović and Leonardo de&amp;nbsp;Moura. Cutting to the chase solving linear integer arithmetic. In
+&lt;em&gt;Automated Deduction - CADE-23 - 23rd International Conference on Automated Deduction, Wroclaw, Poland, July 31 - August 5, 2011. Proceedings&lt;/em&gt;, volume 6803 of
+&lt;em&gt;Lecture Notes in Computer Science&lt;/em&gt;, pages 338-353. Springer, 2011. [&amp;nbsp;&lt;a href=" http://research.microsoft.com/en-us/um/people/leonardo/files/cutsat.pdf"&gt;.pdf&lt;/a&gt;&amp;nbsp;]
+&lt;/li&gt;&lt;li&gt;Maria&amp;nbsp;Paola Bonacina, Christopher Lynch, and Leonardo de&amp;nbsp;Moura. On deciding satisfiability by theorem proving with speculative inferences.
+&lt;em&gt;J. Autom. Reasoning&lt;/em&gt;, 47(2):161-189, 2011. [&amp;nbsp;&lt;a href=" http://research.microsoft.com/en-us/um/people/leonardo/files/JAR2010dpllSPsi.pdf"&gt;.pdf&lt;/a&gt;&amp;nbsp;]
+&lt;/li&gt;&lt;li&gt;Leonardo de&amp;nbsp;Moura and Nikolaj Bj&amp;oslash;rner. Bugs, moles and skeletons: Symbolic reasoning for software development. In
+&lt;em&gt;Automated Reasoning, 5th International Joint Conference, IJCAR 2010, Edinburgh, UK, July 16-19, 2010. Proceedings&lt;/em&gt;, volume 6173 of
+&lt;em&gt;Lecture Notes in Computer Science&lt;/em&gt;, pages 400-411. Springer, 2010. [&amp;nbsp;&lt;a href=" http://research.microsoft.com/en-us/um/people/leonardo/files/ijcar10.pdf"&gt;.pdf&lt;/a&gt;&amp;nbsp;]
+&lt;/li&gt;&lt;li&gt;Nikolaj Bj&amp;oslash;rner. Linear Quantifier Elimination as an Abstract Decision Procedure. IJCAR 2010.
+&lt;/li&gt;&lt;li&gt;Margus Veanes, Nikolaj Bj&amp;oslash;rner, and Leonardo de&amp;nbsp;Moura. Symbolic automata constraint solving. In
+&lt;em&gt;Logic for Programming, Artificial Intelligence, and Reasoning - 17th International Conference, LPAR-17, Yogyakarta, Indonesia, October 10-15, 2010. Proceedings&lt;/em&gt;, volume 6397 of
+&lt;em&gt;Lecture Notes in Computer Science&lt;/em&gt;, pages 640-654, 2010. [&amp;nbsp;&lt;a href=" http://research.microsoft.com/en-us/um/people/leonardo/files/lpar2010.pdf"&gt;.pdf&lt;/a&gt;&amp;nbsp;]
+&lt;/li&gt;&lt;li&gt;Ruzica Piskac, Leonardo de&amp;nbsp;Moura, and Nikolaj Bj&amp;oslash;rner. Deciding effectively propositional logic using DPLL and substitution sets.
+&lt;em&gt;J. Autom. Reasoning&lt;/em&gt;, 44(4):401-424, 2010. [&amp;nbsp;&lt;a href="http://www.springerlink.com/content/p54255p52430242t/"&gt;http&lt;/a&gt;&amp;nbsp;]
+&lt;/li&gt;&lt;li&gt;Christoph&amp;nbsp;M. Wintersteiger, Youssef Hamadi, and Leonardo de&amp;nbsp;Moura. Efficiently solving quantified bit-vector formulas. In
+&lt;em&gt;Proceedings of 10th International Conference on Formal Methods in Computer-Aided Design, FMCAD 2010, Lugano, Switzerland, October 20-23&lt;/em&gt;, pages 239-246. IEEE, 2010. [&amp;nbsp;&lt;a href=" http://research.microsoft.com/en-us/um/people/leonardo/files/fmcad10.pdf"&gt;.pdf&lt;/a&gt;&amp;nbsp;]
+&lt;/li&gt;&lt;li&gt;Leonardo de&amp;nbsp;Moura and Nikolaj Bj&amp;oslash;rner. Generalized, efficient array decision procedures. In
+&lt;em&gt;Proceedings of 9th International Conference on Formal Methods in Computer-Aided Design, FMCAD 2009, 15-18 November 2009, Austin, Texas, USA&lt;/em&gt;, pages 45-52. IEEE, 2009. [&amp;nbsp;&lt;a href=" http://research.microsoft.com/en-us/um/people/leonardo/files/fmcad09.pdf"&gt;.pdf&lt;/a&gt;&amp;nbsp;]
+&lt;/li&gt;&lt;li&gt;Nikolaj Bj&amp;oslash;rner and Leonardo de&amp;nbsp;Moura. Tapas: Theory combinations and practical applications. In
+&lt;em&gt;Formal Modeling and Analysis of Timed Systems, 7th International Conference, FORMATS 2009, Budapest, Hungary, September 14-16, 2009. Proceedings&lt;/em&gt;, volume 5813 of
+&lt;em&gt;Lecture Notes in Computer Science&lt;/em&gt;, pages 1-6. Springer, 2009. [&amp;nbsp;&lt;a href="http://www.springerlink.com/content/u510v392760624q5/"&gt;http&lt;/a&gt;&amp;nbsp;]
+&lt;/li&gt;&lt;li&gt;Leonardo de&amp;nbsp;Moura and Nikolaj Bj&amp;oslash;rner. Satisfiability modulo theories: An appetizer. In
+&lt;em&gt;Formal Methods: Foundations and Applications, 12th Brazilian Symposium on Formal Methods, SBMF 2009, Gramado, Brazil, August 19-21, 2009, Revised Selected Papers&lt;/em&gt;, volume 5902 of
+&lt;em&gt;Lecture Notes in Computer Science&lt;/em&gt;, pages 23-36. Springer, 2009. [&amp;nbsp;&lt;a href=" http://research.microsoft.com/en-us/um/people/leonardo/files/sbmf09.pdf"&gt;.pdf&lt;/a&gt;&amp;nbsp;]&amp;nbsp;
+&lt;/li&gt;&lt;li&gt;Nikolaj Bj&amp;oslash;rner and Joe Hendrix. Linear Functional Fixed-points. CAV 2009.
+&lt;/li&gt;&lt;li&gt;Maria&amp;nbsp;Paola Bonacina, Christopher Lynch, and Leonardo de&amp;nbsp;Moura. On deciding satisfiability by DPLL(&amp;Gamma;&amp;#43;T) and unsound theorem proving. In
+&lt;em&gt;Automated Deduction - CADE-22, 22nd International Conference on Automated Deduction, Montreal, Canada, August 2-7, 2009. Proceedings&lt;/em&gt;, volume 5663 of
+&lt;em&gt;Lecture Notes in Computer Science&lt;/em&gt;, pages 35-50. Springer, 2009. [&amp;nbsp;&lt;a href=" http://research.microsoft.com/en-us/um/people/leonardo/files/cade09.pdf"&gt;.pdf&lt;/a&gt;&amp;nbsp;]
+&lt;/li&gt;&lt;li&gt;Yeting Ge and Leonardo de&amp;nbsp;Moura. Complete instantiation for quantified formulas in satisfiabiliby modulo theories. In
+&lt;em&gt;Computer Aided Verification, 21st International Conference, CAV 2009, Grenoble, France, June 26 - July 2, 2009. Proceedings&lt;/em&gt;, volume 5643 of
+&lt;em&gt;Lecture Notes in Computer Science&lt;/em&gt;, pages 306-320. Springer, 2009. [&amp;nbsp;&lt;a href=" http://research.microsoft.com/en-us/um/people/leonardo/files/ci.pdf"&gt;.pdf&lt;/a&gt;&amp;nbsp;]
+&lt;/li&gt;&lt;li&gt;Christoph&amp;nbsp;M. Wintersteiger, Youssef Hamadi, and Leonardo de&amp;nbsp;Moura. A concurrent portfolio approach to SMT solving. In
+&lt;em&gt;Computer Aided Verification, 21st International Conference, CAV 2009, Grenoble, France, June 26 - July 2, 2009. Proceedings&lt;/em&gt;, volume 5643 of
+&lt;em&gt;Lecture Notes in Computer Science&lt;/em&gt;, pages 715-720. Springer, 2009. [&amp;nbsp;&lt;a href=" http://research.microsoft.com/en-us/um/people/leonardo/files/parallel_z3.pdf"&gt;.pdf&lt;/a&gt;&amp;nbsp;]
+&lt;/li&gt;&lt;li&gt;Grant&amp;nbsp;Olney Passmore and Leonardo de&amp;nbsp;Moura. Superfluous S-polynomials in strategy-independent groebner bases. In
+&lt;em&gt;11th International Symposium on Symbolic and Numeric Algorithms for Scientific Computing, SYNASC 2009, Timisoara, Romania, September 26-29, 2009&lt;/em&gt;, pages 45-53. IEEE Computer Society, 2009. [&amp;nbsp;&lt;a href=" http://research.microsoft.com/en-us/um/people/leonardo/files/synasc.pdf"&gt;.pdf&lt;/a&gt;&amp;nbsp;]
+&lt;/li&gt;&lt;li&gt;Nikolaj Bj&amp;oslash;rner and Leonardo de&amp;nbsp;Moura. &lt;em&gt;z&lt;/em&gt;3&lt;sup&gt;10&lt;/sup&gt;: Applications, enablers, challenges and directions. In
+&lt;em&gt;Sixth International Workshop on Constraints in Formal Verification Grenoble, France&lt;/em&gt;, 2009. [&amp;nbsp;&lt;a href=" http://research.microsoft.com/en-us/um/people/leonardo/files/cfv09.pdf"&gt;.pdf&lt;/a&gt;&amp;nbsp;]
+&lt;/li&gt;&lt;li&gt;Leonardo de&amp;nbsp;Moura and Grant&amp;nbsp;Olney Passmore. On locally minimal nullstellensatz proofs. In
+&lt;em&gt;7th International Workshop on Satisfiability Modulo Theories, SMT, Montreal, Canada&lt;/em&gt;, 2009. [&amp;nbsp;&lt;a href=" http://research.microsoft.com/en-us/um/people/leonardo/files/SMT-09.pdf"&gt;.pdf&lt;/a&gt;&amp;nbsp;]
+&lt;/li&gt;&lt;li&gt;Leonardo de&amp;nbsp;Moura and Grant&amp;nbsp;Olney Passmore. On locally minimal nullstellensatz proofs. Technical Report MSR-TR-2009-90, Microsoft Research, 2009. [&amp;nbsp;&lt;a href=" http://research.microsoft.com/en-us/um/people/leonardo/files/MSR-TR-2009-90.pdf"&gt;.pdf&lt;/a&gt;&amp;nbsp;]
+&lt;/li&gt;&lt;li&gt;Grant&amp;nbsp;Olney Passmore and Leonardo de&amp;nbsp;Moura. Universality of polynomial positivity and a variant of Hilbert's 17th problem. In
+&lt;em&gt;Automated Deduction: Decidability, Complexity, Tractability, ADDCT'09, Montreal, Canada&lt;/em&gt;, 2009. [&amp;nbsp;&lt;a href=" http://research.microsoft.com/en-us/um/people/leonardo/files/addct-09.pdf"&gt;.pdf&lt;/a&gt;&amp;nbsp;]
+&lt;/li&gt;&lt;li&gt;Ruzica Piskac, Leonardo de&amp;nbsp;Moura, and Nikolaj Bj&amp;oslash;rner. Deciding effectively propositional logic with equality. Technical Report MSR-TR-2008-181, Microsoft Research, 2008. [&amp;nbsp;&lt;a href="http://research.microsoft.com/apps/pubs/default.aspx?id=76532"&gt;http&lt;/a&gt;&amp;nbsp;]
+&lt;/li&gt;&lt;li&gt;Leonardo de&amp;nbsp;Moura and Nikolaj Bj&amp;oslash;rner. Deciding effectively propositional logic using DPLL and substitution sets. In
+&lt;em&gt;Automated Reasoning, 4th International Joint Conference, IJCAR 2008, Sydney, Australia, August 12-15, 2008, Proceedings&lt;/em&gt;, volume 5195 of
+&lt;em&gt;Lecture Notes in Computer Science&lt;/em&gt;, pages 410-425. Springer, 2008. [&amp;nbsp;&lt;a href=" http://research.microsoft.com/en-us/um/people/leonardo/files/epr.pdf"&gt;.pdf&lt;/a&gt;&amp;nbsp;]
+&lt;/li&gt;&lt;li&gt;Leonardo de&amp;nbsp;Moura and Nikolaj Bj&amp;oslash;rner. Engineering DPLL(T) &amp;#43; Saturation. In
+&lt;em&gt;Automated Reasoning, 4th International Joint Conference, IJCAR 2008, Sydney, Australia, August 12-15, 2008, Proceedings&lt;/em&gt;, volume 5195 of
+&lt;em&gt;Lecture Notes in Computer Science&lt;/em&gt;, pages 475-490. Springer, 2008. [&amp;nbsp;&lt;a href=" http://research.microsoft.com/en-us/um/people/leonardo/files/z3spc.pdf"&gt;.pdf&lt;/a&gt;&amp;nbsp;]
+&lt;/li&gt;&lt;li&gt;Leonardo de&amp;nbsp;Moura and Nikolaj Bj&amp;oslash;rner. Proofs and refutations, and Z3. In
+&lt;em&gt;Proceedings of the LPAR 2008 Workshops, Knowledge Exchange: Automated Provers and Proof Assistants, and the 7th International Workshop on the Implementation of Logics, Doha, Qatar, November 22, 2008&lt;/em&gt;, volume 418 of
+&lt;em&gt;CEUR Workshop Proceedings&lt;/em&gt;. CEUR-WS.org, 2008. [&amp;nbsp;&lt;a href=" http://research.microsoft.com/en-us/um/people/leonardo/files/iwil08.pdf"&gt;.pdf&lt;/a&gt;&amp;nbsp;]
+&lt;/li&gt;&lt;li&gt;Leonardo de&amp;nbsp;Moura and Nikolaj Bj&amp;oslash;rner. Z3: An efficient SMT solver. In
+&lt;em&gt;Tools and Algorithms for the Construction and Analysis of Systems, 14th International Conference, TACAS 2008, Held as Part of the Joint European Conferences on Theory and Practice of Software, ETAPS 2008, Budapest, Hungary, March 29-April 6, 2008. Proceedings&lt;/em&gt;,
+ volume 4963 of &lt;em&gt;Lecture Notes in Computer Science&lt;/em&gt;, pages 337-340. Springer, 2008. [&amp;nbsp;&lt;a href="http://research.microsoft.com/projects/z3/z3.pdf"&gt;.pdf&lt;/a&gt;&amp;nbsp;]
+&lt;/li&gt;&lt;li&gt;Leonardo de&amp;nbsp;Moura and Nikolaj Bj&amp;oslash;rner. Model-based theory combination.
+&lt;em&gt;Electr. Notes Theor. Comput. Sci.&lt;/em&gt;, 198(2):37-49, 2008. [&amp;nbsp;&lt;a href="http://research.microsoft.com/projects/z3/smt07.pdf"&gt;.pdf&lt;/a&gt;&amp;nbsp;]
+&lt;/li&gt;&lt;li&gt;Nikolaj Bj&amp;oslash;rner, Bruno Dutertre, and Leonardo de&amp;nbsp;Moura. Accelerating lemma learning using joins - DPPL(Join). In
+&lt;em&gt;15th International Conference on Logic for Programming Artificial Intelligence and Reasoning, LPAR'08&lt;/em&gt;, 2008. [&amp;nbsp;&lt;a href=" http://research.microsoft.com/en-us/um/people/leonardo/files/joins.pdf"&gt;.pdf&lt;/a&gt;&amp;nbsp;]
+&lt;/li&gt;&lt;li&gt;Nikolaj Bj&amp;oslash;rner, Leonardo de&amp;nbsp;Moura, and Nikolai Tillmann. Satisfiability modulo bit-precise theories for program exploration. In
+&lt;em&gt;Fifth International Workshop on Constraints in Formal Verification, (CFV'08), Sydney, Australia&lt;/em&gt;, 2008. [&amp;nbsp;&lt;a href=" http://research.microsoft.com/en-us/um/people/leonardo/files/smbpex.pdf"&gt;.pdf&lt;/a&gt;&amp;nbsp;]
+&lt;/li&gt;&lt;li&gt;Leonardo de&amp;nbsp;Moura and Nikolaj Bj&amp;oslash;rner. Efficient E-Matching for SMT solvers. In
+&lt;em&gt;Automated Deduction - CADE-21, 21st International Conference on Automated Deduction, Bremen, Germany, July 17-20, 2007, Proceedings&lt;/em&gt;, volume 4603 of
+&lt;em&gt;Lecture Notes in Computer Science&lt;/em&gt;, pages 183-198. Springer, 2007. [&amp;nbsp;&lt;a href="http://research.microsoft.com/projects/z3/cade07.pdf"&gt;.pdf&lt;/a&gt;&amp;nbsp;]
+&lt;/li&gt;&lt;/ol&gt;
+&lt;/div&gt;&lt;div class="ClearBoth"&gt;&lt;/div&gt;</description><author>leodemoura</author><pubDate>Wed, 13 Mar 2013 15:40:17 GMT</pubDate><guid isPermaLink="false">Updated Wiki: Publications 20130313034017P</guid></item><item><title>Updated Wiki: Documentation</title><link>http://z3.codeplex.com/documentation?version=20</link><description>&lt;div class="wikidoc"&gt;&lt;h2&gt;API and Code&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="http://research.microsoft.com/en-us/um/redmond/projects/z3/index.html"&gt;API documentation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://research.microsoft.com/en-us/um/redmond/projects/z3/code/index.html"&gt;Implementation (doxygen) documentation&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;h2&gt;Online tutorials&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="http://rise4fun.com/z3py/tutorial/guide"&gt;Z3 Python&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://rise4fun.com/z3/tutorial/guide"&gt;Z3 SMT 2.0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://rise4fun.com/z3py/tutorial/fixedpoints"&gt;Z3 fixed-points&lt;/a&gt; &lt;/li&gt;&lt;/ul&gt;
+&lt;h2&gt;Background material&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;Browse our &lt;a href="http://z3.codeplex.com/wikipage?title=Slides&amp;referringTitle=Documentation"&gt;Slides&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Read our &lt;a href="http://z3.codeplex.com/wikipage?title=Publications&amp;referringTitle=Documentation"&gt;Papers&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;h2&gt;Bug Reports &amp;amp; Questions:&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="http://z3.codeplex.com/WorkItem/Create"&gt;Submit bug reports&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Engage with other Z3 users and developers on &lt;a href="http://stackoverflow.com/questions/tagged/z3"&gt;StackOverflow&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;h2&gt;How To&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="http://z3.codeplex.com/wikipage?title=Z3Py%20on%20Windows&amp;referringTitle=Documentation"&gt;Z3Py on Windows&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://z3.codeplex.com/wikipage?title=Building%20the%20unstable%20%28working-in-progress%29%20branch&amp;referringTitle=Documentation"&gt;Building the unstable &amp;#40;working-in-progress&amp;#41; branch&lt;/a&gt; on OSX, Linux and FreeBSD&lt;/li&gt;&lt;/ul&gt;
+&lt;h2&gt;Latest questions at StackOverflow&lt;/h2&gt;&lt;div class="rss"&gt;&lt;div class="accentbar"&gt;&lt;span class="left"&gt;&amp;nbsp;&lt;/span&gt;active questions tagged z3 - Stack Overflow News Feed&lt;span class="right"&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div class="entry"&gt;&lt;div class="title"&gt;&lt;a href="http://stackoverflow.com/questions/14964726/z3-theory-plugins-splitting-to-sub-problems"&gt;Z3 Theory Plugins splitting to sub-problems&lt;/a&gt;&lt;/div&gt;&lt;div class="moreinfo"&gt;&lt;span class="date"&gt;Tuesday, February 19, 2013&lt;/span&gt; &amp;nbsp;|&amp;nbsp; &lt;span class="source"&gt;From &lt;a target="_blank" href="http://feeds.feedburner.com/z3questions"&gt;active questions tagged z3 - Stack Overflow&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="entry"&gt;&lt;div class="title"&gt;&lt;a href="http://stackoverflow.com/questions/14958620/iteratively-declaring-distinct-variables"&gt;Iteratively declaring distinct variables&lt;/a&gt;&lt;/div&gt;&lt;div class="moreinfo"&gt;&lt;span class="date"&gt;Tuesday, February 19, 2013&lt;/span&gt; &amp;nbsp;|&amp;nbsp; &lt;span class="source"&gt;From &lt;a target="_blank" href="http://feeds.feedburner.com/z3questions"&gt;active questions tagged z3 - Stack Overflow&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="entry"&gt;&lt;div class="title"&gt;&lt;a href="http://stackoverflow.com/questions/14958620/iteratively-declaring-distinct-variables"&gt;Iteratively declaring distinct variables&lt;/a&gt;&lt;/div&gt;&lt;div class="moreinfo"&gt;&lt;span class="date"&gt;Monday, February 18, 2013&lt;/span&gt; &amp;nbsp;|&amp;nbsp; &lt;span class="source"&gt;From &lt;a target="_blank" href="http://feeds.feedburner.com/z3questions"&gt;active questions tagged z3 - Stack Overflow&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="entry"&gt;&lt;div class="title"&gt;&lt;a href="http://stackoverflow.com/questions/14955455/distinct-values-in-z3"&gt;Distinct values in Z3&lt;/a&gt;&lt;/div&gt;&lt;div class="moreinfo"&gt;&lt;span class="date"&gt;Monday, February 18, 2013&lt;/span&gt; &amp;nbsp;|&amp;nbsp; &lt;span class="source"&gt;From &lt;a target="_blank" href="http://feeds.feedburner.com/z3questions"&gt;active questions tagged z3 - Stack Overflow&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="entry"&gt;&lt;div class="title"&gt;&lt;a href="http://stackoverflow.com/questions/14955455/distinct-values-in-z3"&gt;Distinct values in Z3&lt;/a&gt;&lt;/div&gt;&lt;div class="moreinfo"&gt;&lt;span class="date"&gt;Monday, February 18, 2013&lt;/span&gt; &amp;nbsp;|&amp;nbsp; &lt;span class="source"&gt;From &lt;a target="_blank" href="http://feeds.feedburner.com/z3questions"&gt;active questions tagged z3 - Stack Overflow&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="entry"&gt;&lt;div class="title"&gt;&lt;a href="http://stackoverflow.com/questions/14948246/using-quantifer-elimination-with-z3-python"&gt;Using quantifer elimination with Z3 Python&lt;/a&gt;&lt;/div&gt;&lt;div class="moreinfo"&gt;&lt;span class="date"&gt;Monday, February 18, 2013&lt;/span&gt; &amp;nbsp;|&amp;nbsp; &lt;span class="source"&gt;From &lt;a target="_blank" href="http://feeds.feedburner.com/z3questions"&gt;active questions tagged z3 - Stack Overflow&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="entry"&gt;&lt;div class="title"&gt;&lt;a href="http://stackoverflow.com/questions/14948246/using-quantifer-elimination-with-z3-python"&gt;Using quantifer elimination with Z3 Python&lt;/a&gt;&lt;/div&gt;&lt;div class="moreinfo"&gt;&lt;span class="date"&gt;Monday, February 18, 2013&lt;/span&gt; &amp;nbsp;|&amp;nbsp; &lt;span class="source"&gt;From &lt;a target="_blank" href="http://feeds.feedburner.com/z3questions"&gt;active questions tagged z3 - Stack Overflow&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="entry"&gt;&lt;div class="title"&gt;&lt;a href="http://stackoverflow.com/questions/14935625/segfault-when-using-quantifier-elimination-in-z3"&gt;SegFault when using quantifier elimination in Z3&lt;/a&gt;&lt;/div&gt;&lt;div class="moreinfo"&gt;&lt;span class="date"&gt;Monday, February 18, 2013&lt;/span&gt; &amp;nbsp;|&amp;nbsp; &lt;span class="source"&gt;From &lt;a target="_blank" href="http://feeds.feedburner.com/z3questions"&gt;active questions tagged z3 - Stack Overflow&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="entry"&gt;&lt;div class="title"&gt;&lt;a href="http://stackoverflow.com/questions/14935625/segfault-when-using-quantifier-elimination-in-z3"&gt;SegFault when using quantifier elimination in Z3&lt;/a&gt;&lt;/div&gt;&lt;div class="moreinfo"&gt;&lt;span class="date"&gt;Sunday, February 17, 2013&lt;/span&gt; &amp;nbsp;|&amp;nbsp; &lt;span class="source"&gt;From &lt;a target="_blank" href="http://feeds.feedburner.com/z3questions"&gt;active questions tagged z3 - Stack Overflow&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="entry"&gt;&lt;div class="title"&gt;&lt;a href="http://stackoverflow.com/questions/14935625/segfault-when-using-quantifier-elimination-in-z3"&gt;SegFault when using quantifier elimination in Z3&lt;/a&gt;&lt;/div&gt;&lt;div class="moreinfo"&gt;&lt;span class="date"&gt;Sunday, February 17, 2013&lt;/span&gt; &amp;nbsp;|&amp;nbsp; &lt;span class="source"&gt;From &lt;a target="_blank" href="http://feeds.feedburner.com/z3questions"&gt;active questions tagged z3 - Stack Overflow&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="accentbar"&gt;&lt;span class="left"&gt;&amp;nbsp;&lt;/span&gt;active questions tagged z3 - Stack Overflow News Feed&lt;span class="right"&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="ClearBoth"&gt;&lt;/div&gt;</description><author>leodemoura</author><pubDate>Tue, 19 Feb 2013 19:07:52 GMT</pubDate><guid isPermaLink="false">Updated Wiki: Documentation 20130219070752P</guid></item><item><title>Updated Wiki: Building the unstable (working-in-progress) branch</title><link>http://z3.codeplex.com/wikipage?title=Building the unstable (working-in-progress) branch&amp;version=3</link><description>&lt;div class="wikidoc"&gt;To build the &lt;b&gt;unstable&lt;/b&gt; (working-in-progress) branch on OSX, Linux and FreeBSD, we should use the following instructions&lt;br /&gt;
+&lt;ul&gt;&lt;li&gt;Retrieve the &lt;b&gt;unstable&lt;/b&gt; branch using the command&lt;/li&gt;&lt;/ul&gt;
+&lt;pre&gt;
+git clone https:\\git01.codeplex.com\z3 -b unstable
+&lt;/pre&gt;&lt;br /&gt;This command will create a new &lt;b&gt;z3&lt;/b&gt; subdirectory with the source code from the &lt;b&gt;unstable&lt;/b&gt; branch.&lt;br /&gt;Here are instruction to &lt;a href="http://z3.codeplex.com/wikipage?title=Git%20HTTPS%20cloning%20errors"&gt;avoid HTTPS cloning errors&lt;/a&gt;:  error &amp;quot;RPC failed; result=56, HTTP code = 200&amp;quot; when cloning the Z3 repository
+&lt;ul&gt;&lt;li&gt;Create Makefile and build using the commands&lt;/li&gt;&lt;/ul&gt;
+&lt;pre&gt;
+cd z3
+python scripts/mk_make.py
+cd build
+make
+&lt;/pre&gt;&lt;br /&gt;&lt;br /&gt;&lt;/div&gt;&lt;div class="ClearBoth"&gt;&lt;/div&gt;</description><author>leodemoura</author><pubDate>Tue, 19 Feb 2013 19:06:43 GMT</pubDate><guid isPermaLink="false">Updated Wiki: Building the unstable (working-in-progress) branch 20130219070643P</guid></item><item><title>Updated Wiki: Building the unstable (working-in-progress) branch</title><link>http://z3.codeplex.com/wikipage?title=Building the unstable (working-in-progress) branch&amp;version=2</link><description>&lt;div class="wikidoc"&gt;To build the &lt;b&gt;unstable&lt;/b&gt; (working-in-progress) branch on OSX, Linux and FreeBSD, we should use the following instructions&lt;br /&gt;
+&lt;ul&gt;&lt;li&gt;Retrieve the &lt;b&gt;unstable&lt;/b&gt; branch using the command&lt;/li&gt;&lt;/ul&gt;
+&lt;pre&gt;
+git clone https:\\git01.codeplex.com\z3 -b unstable
+&lt;/pre&gt;&lt;br /&gt;This command will create the &lt;b&gt;z3&lt;/b&gt; subdirectory with the source code in the &lt;b&gt;unstable&lt;/b&gt; branch.&lt;br /&gt;Here are instruction to &lt;a href="http://z3.codeplex.com/wikipage?title=Git%20HTTPS%20cloning%20errors"&gt;avoid HTTPS cloning errors&lt;/a&gt;:  error &amp;quot;RPC failed; result=56, HTTP code = 200&amp;quot; when cloning the Z3 repository
+&lt;ul&gt;&lt;li&gt;Create Makefile and build using the commands&lt;/li&gt;&lt;/ul&gt;
+&lt;pre&gt;
+cd z3
+python scripts/mk_make.py
+cd build
+make
+&lt;/pre&gt;&lt;br /&gt;&lt;br /&gt;&lt;/div&gt;&lt;div class="ClearBoth"&gt;&lt;/div&gt;</description><author>leodemoura</author><pubDate>Tue, 19 Feb 2013 19:06:18 GMT</pubDate><guid isPermaLink="false">Updated Wiki: Building the unstable (working-in-progress) branch 20130219070618P</guid></item><item><title>Updated Wiki: Building the unstable (working-in-progress) branch</title><link>http://z3.codeplex.com/wikipage?title=Building the unstable (working-in-progress) branch&amp;version=1</link><description>&lt;div class="wikidoc"&gt;To build the &lt;b&gt;unstable&lt;/b&gt; (working-in-progress) branch on OSX, Linux and FreeBSD, we should use the following instructions&lt;br /&gt;
+&lt;ul&gt;&lt;li&gt;Retrieve the &lt;b&gt;unstable&lt;/b&gt; branch using the command&lt;/li&gt;&lt;/ul&gt;
+&lt;pre&gt;
+git clone https:\\git01.codeplex.com\z3 -b unstable
+&lt;/pre&gt;&lt;br /&gt;&lt;br /&gt;This command will create the &lt;b&gt;z3&lt;/b&gt; subdirectory with the source code in the &lt;b&gt;unstable&lt;/b&gt; branch.&lt;br /&gt;&lt;br /&gt;Here are instruction to &lt;a href="http://z3.codeplex.com/wikipage?title=Git%20HTTPS%20cloning%20errors"&gt;avoid HTTPS cloning errors&lt;/a&gt;:  error &amp;quot;RPC failed; result=56, HTTP code = 200&amp;quot; when cloning the Z3 repository&lt;br /&gt;
+&lt;ul&gt;&lt;li&gt;Create Makefile and build using the commands&lt;/li&gt;&lt;/ul&gt;
+&lt;pre&gt;
+cd z3
+python scripts/mk_make.py
+cd build
+make
+&lt;/pre&gt;&lt;br /&gt;&lt;br /&gt;&lt;/div&gt;&lt;div class="ClearBoth"&gt;&lt;/div&gt;</description><author>leodemoura</author><pubDate>Tue, 19 Feb 2013 19:05:58 GMT</pubDate><guid isPermaLink="false">Updated Wiki: Building the unstable (working-in-progress) branch 20130219070558P</guid></item><item><title>Updated Wiki: Home</title><link>http://z3.codeplex.com/wikipage?version=64</link><description>&lt;div class="wikidoc"&gt;Z3 is a high-performance theorem prover being developed at Microsoft Research.  &lt;br /&gt; 
+&lt;ul&gt;&lt;li&gt;Try Z3 online at &lt;a href="http://rise4fun.com/z3py"&gt;RiSE4Fun&lt;/a&gt; using &lt;a href="http://rise4fun.com/z3py"&gt;Python&lt;/a&gt; or &lt;a href="http://rise4fun.com/z3"&gt;SMT 2.0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.facebook.com/pages/Z3-Theorem-Prover/121634907904643#!/pages/Z3-Theorem-Prover/121634907904643?v=wall"&gt;Follow Z3 on Facebook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Browse Z3 Q&amp;amp;A at &lt;a href="http://stackoverflow.com/questions/tagged/z3"&gt;StackOverflow&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Read our &lt;a href="http://z3.codeplex.com/wikipage?title=FAQ&amp;referringTitle=Home"&gt;FAQ&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://research.microsoft.com/en-us/um/people/leonardo/blog.html"&gt;Leo de Moura&amp;#39;s Blog&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+
+&lt;h3&gt;Background&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Browse our &lt;a href="http://z3.codeplex.com/wikipage?title=Slides&amp;referringTitle=Home"&gt;Slides&lt;/a&gt;, read our &lt;a href="http://z3.codeplex.com/wikipage?title=Publications&amp;referringTitle=Home"&gt;Papers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Papers citing Z3 at &lt;a href="http://scholar.google.com/scholar?cites=4828743947843773221&amp;amp;as_sdt=5,48&amp;amp;sciodt=0,48&amp;amp;hl=en"&gt;Google Scholar&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://channel9.msdn.com/posts/Peli/The-Z3-Constraint-Solver/"&gt;Watch Z3 on Channel 9&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+
+&lt;h3&gt;Source Code&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="http://z3.codeplex.com/SourceControl/BrowseLatest"&gt;Browse the source code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Download the source code of the latest release in a zip file
+&lt;ul&gt;&lt;li&gt;Go to &lt;b&gt;&lt;a href="http://z3.codeplex.com/SourceControl/list/changesets?branch=master"&gt;master branch&lt;/a&gt;&lt;/b&gt; and&lt;/li&gt;
+&lt;li&gt;Click the &lt;b&gt;Download&lt;/b&gt; link&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Clone the source repository by using &lt;a href="http://git-scm.com/download"&gt;git&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;blockquote&gt; &lt;span class="codeInline"&gt;  git clone https://git01.codeplex.com/z3 &lt;/span&gt;&lt;/blockquote&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="http://z3.codeplex.com/wikipage?title=Git%20HTTPS%20cloning%20errors"&gt;Avoiding HTTPS cloning errors&lt;/a&gt;:  error &amp;quot;RPC failed; result=56, HTTP code = 200&amp;quot; when cloning the Z3 repository&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://research.microsoft.com/en-us/um/redmond/projects/z3/z3commits.xml"&gt;RSS Feed for all Z3 commits&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;br /&gt;&lt;b&gt;REMARK:&lt;/b&gt; &lt;i&gt;master&lt;/i&gt; is the stable and official branch. &lt;i&gt;pure&lt;/i&gt; is a stable branch containing Microsoft-only contributions. The branch &lt;i&gt;contrib&lt;/i&gt; should be used to submit external contributions (see this &lt;a href="http://research.microsoft.com/en-us/um/people/leonardo/blog/2012/11/19/external-contrib.html"&gt;link&lt;/a&gt; for more details). All other branches should be viewed as &amp;quot;work in progress&amp;quot;, they may contain unstable and/or untested code.&lt;br /&gt;
+&lt;h3&gt;Platforms&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Download &lt;a href="http://z3.codeplex.com/releases"&gt;pre-compiled binaries&lt;/a&gt; for Windows&lt;/li&gt;
+&lt;li&gt;Supported platforms: Windows, OSX, Linux and FreeBSD&lt;/li&gt;
+&lt;li&gt;Download nightly builds for 
+&lt;ul&gt;&lt;li&gt;&lt;a href="http://z3.codeplex.com/releases/view/101914"&gt;Windows (32 bit)&lt;/a&gt;, &lt;a href="http://z3.codeplex.com/releases/view/101912"&gt;Windows (64 bit)&lt;/a&gt;, &lt;/li&gt;
+&lt;li&gt;&lt;a href="http://z3.codeplex.com/releases/view/101918"&gt;OSX (64 bit)&lt;/a&gt;, &lt;/li&gt;
+&lt;li&gt;&lt;a href="http://z3.codeplex.com/releases/view/101913"&gt;Linux Ubuntu (32 bit)&lt;/a&gt;, &lt;a href="http://z3.codeplex.com/releases/view/101911"&gt;Linux Ubuntu (64 bit)&lt;/a&gt;, &lt;/li&gt;
+&lt;li&gt;&lt;a href="http://z3.codeplex.com/releases/view/101916"&gt;Linux Debian (64 bit)&lt;/a&gt;, &lt;/li&gt;
+&lt;li&gt;&lt;a href="http://z3.codeplex.com/releases/view/101907"&gt;FreeBSD (64 bit)&lt;/a&gt;.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Z3 source code can be compiled using Visual Studio, g++ and clang++&lt;/li&gt;&lt;/ul&gt;
+
+&lt;h3&gt;Contribute&lt;/h3&gt;There are many ways to contribute to Z3.&lt;br /&gt;
+&lt;ul&gt;&lt;li&gt;Review &lt;a href="http://z3.codeplex.com/SourceControl/list/changesets"&gt;code checkins&lt;/a&gt; and send &lt;a href="http://z3.codeplex.com/discussions"&gt;feedback&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://z3.codeplex.com/WorkItem/Create"&gt;Submit bugs&lt;/a&gt; and help us verify fixes as they are checked in.&lt;/li&gt;
+&lt;li&gt;Engage with other Z3 users and developers on &lt;a href="http://stackoverflow.com/questions/tagged/z3"&gt;StackOverflow&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Contribute tests and benchmarks at &lt;a href="http://z3test.codeplex.com"&gt;http://z3test.codeplex.com&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Contribute code. &lt;i&gt;We only accept pull requests in the branch contrib&lt;/i&gt;. See this &lt;a href="http://research.microsoft.com/en-us/um/people/leonardo/blog/2012/11/19/external-contrib.html"&gt;link&lt;/a&gt; for more details. We initially released the Z3 source code because it  complements our research papers, and may help others to clarify misunderstandings, dispute claims made in our papers, experiment new ideas, reproduce our results, and advance the state-of-the-art.  &lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class="ClearBoth"&gt;&lt;/div&gt;</description><author>leodemoura</author><pubDate>Sat, 16 Feb 2013 02:55:48 GMT</pubDate><guid isPermaLink="false">Updated Wiki: Home 20130216025548A</guid></item><item><title>Updated Wiki: Home</title><link>http://z3.codeplex.com/wikipage?version=63</link><description>&lt;div class="wikidoc"&gt;Z3 is a high-performance theorem prover being developed at Microsoft Research.  &lt;br /&gt; 
+&lt;ul&gt;&lt;li&gt;Try Z3 online at &lt;a href="http://rise4fun.com/z3py"&gt;RiSE4Fun&lt;/a&gt; using &lt;a href="http://rise4fun.com/z3py"&gt;Python&lt;/a&gt; or &lt;a href="http://rise4fun.com/z3"&gt;SMT 2.0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.facebook.com/pages/Z3-Theorem-Prover/121634907904643#!/pages/Z3-Theorem-Prover/121634907904643?v=wall"&gt;Follow Z3 on Facebook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Browse Z3 Q&amp;amp;A at &lt;a href="http://stackoverflow.com/questions/tagged/z3"&gt;StackOverflow&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Read our &lt;a href="http://z3.codeplex.com/wikipage?title=FAQ&amp;referringTitle=Home"&gt;FAQ&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+
+&lt;h3&gt;Background&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Browse our &lt;a href="http://z3.codeplex.com/wikipage?title=Slides&amp;referringTitle=Home"&gt;Slides&lt;/a&gt;, read our &lt;a href="http://z3.codeplex.com/wikipage?title=Publications&amp;referringTitle=Home"&gt;Papers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Papers citing Z3 at &lt;a href="http://scholar.google.com/scholar?cites=4828743947843773221&amp;amp;as_sdt=5,48&amp;amp;sciodt=0,48&amp;amp;hl=en"&gt;Google Scholar&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://channel9.msdn.com/posts/Peli/The-Z3-Constraint-Solver/"&gt;Watch Z3 on Channel 9&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+
+&lt;h3&gt;Source Code&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="http://z3.codeplex.com/SourceControl/BrowseLatest"&gt;Browse the source code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Download the source code of the latest release in a zip file
+&lt;ul&gt;&lt;li&gt;Go to &lt;b&gt;&lt;a href="http://z3.codeplex.com/SourceControl/list/changesets?branch=master"&gt;master branch&lt;/a&gt;&lt;/b&gt; and&lt;/li&gt;
+&lt;li&gt;Click the &lt;b&gt;Download&lt;/b&gt; link&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Clone the source repository by using &lt;a href="http://git-scm.com/download"&gt;git&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;blockquote&gt; &lt;span class="codeInline"&gt;  git clone https://git01.codeplex.com/z3 &lt;/span&gt;&lt;/blockquote&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="http://z3.codeplex.com/wikipage?title=Git%20HTTPS%20cloning%20errors"&gt;Avoiding HTTPS cloning errors&lt;/a&gt;:  error &amp;quot;RPC failed; result=56, HTTP code = 200&amp;quot; when cloning the Z3 repository&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://research.microsoft.com/en-us/um/redmond/projects/z3/z3commits.xml"&gt;RSS Feed for all Z3 commits&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;br /&gt;&lt;b&gt;REMARK:&lt;/b&gt; &lt;i&gt;master&lt;/i&gt; is the stable and official branch. &lt;i&gt;pure&lt;/i&gt; is a stable branch containing Microsoft-only contributions. The branch &lt;i&gt;contrib&lt;/i&gt; should be used to submit external contributions (see this &lt;a href="http://research.microsoft.com/en-us/um/people/leonardo/blog/2012/11/19/external-contrib.html"&gt;link&lt;/a&gt; for more details). All other branches should be viewed as &amp;quot;work in progress&amp;quot;, they may contain unstable and/or untested code.&lt;br /&gt;
+&lt;h3&gt;Platforms&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Download &lt;a href="http://z3.codeplex.com/releases"&gt;pre-compiled binaries&lt;/a&gt; for Windows&lt;/li&gt;
+&lt;li&gt;Supported platforms: Windows, OSX, Linux and FreeBSD&lt;/li&gt;
+&lt;li&gt;Download nightly builds for 
+&lt;ul&gt;&lt;li&gt;&lt;a href="http://z3.codeplex.com/releases/view/101914"&gt;Windows (32 bit)&lt;/a&gt;, &lt;a href="http://z3.codeplex.com/releases/view/101912"&gt;Windows (64 bit)&lt;/a&gt;, &lt;/li&gt;
+&lt;li&gt;&lt;a href="http://z3.codeplex.com/releases/view/101918"&gt;OSX (64 bit)&lt;/a&gt;, &lt;/li&gt;
+&lt;li&gt;&lt;a href="http://z3.codeplex.com/releases/view/101913"&gt;Linux Ubuntu (32 bit)&lt;/a&gt;, &lt;a href="http://z3.codeplex.com/releases/view/101911"&gt;Linux Ubuntu (64 bit)&lt;/a&gt;, &lt;/li&gt;
+&lt;li&gt;&lt;a href="http://z3.codeplex.com/releases/view/101916"&gt;Linux Debian (64 bit)&lt;/a&gt;, &lt;/li&gt;
+&lt;li&gt;&lt;a href="http://z3.codeplex.com/releases/view/101907"&gt;FreeBSD (64 bit)&lt;/a&gt;.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Z3 source code can be compiled using Visual Studio, g++ and clang++&lt;/li&gt;&lt;/ul&gt;
+
+&lt;h3&gt;Contribute&lt;/h3&gt;There are many ways to contribute to Z3.&lt;br /&gt;
+&lt;ul&gt;&lt;li&gt;Review &lt;a href="http://z3.codeplex.com/SourceControl/list/changesets"&gt;code checkins&lt;/a&gt; and send &lt;a href="http://z3.codeplex.com/discussions"&gt;feedback&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://z3.codeplex.com/WorkItem/Create"&gt;Submit bugs&lt;/a&gt; and help us verify fixes as they are checked in.&lt;/li&gt;
+&lt;li&gt;Engage with other Z3 users and developers on &lt;a href="http://stackoverflow.com/questions/tagged/z3"&gt;StackOverflow&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Contribute tests and benchmarks at &lt;a href="http://z3test.codeplex.com"&gt;http://z3test.codeplex.com&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Contribute code. &lt;i&gt;We only accept pull requests in the branch contrib&lt;/i&gt;. See this &lt;a href="http://research.microsoft.com/en-us/um/people/leonardo/blog/2012/11/19/external-contrib.html"&gt;link&lt;/a&gt; for more details. We initially released the Z3 source code because it  complements our research papers, and may help others to clarify misunderstandings, dispute claims made in our papers, experiment new ideas, reproduce our results, and advance the state-of-the-art.  &lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class="ClearBoth"&gt;&lt;/div&gt;</description><author>leodemoura</author><pubDate>Fri, 15 Feb 2013 22:23:23 GMT</pubDate><guid isPermaLink="false">Updated Wiki: Home 20130215102323P</guid></item><item><title>Updated Wiki: Home</title><link>http://z3.codeplex.com/wikipage?version=62</link><description>&lt;div class="wikidoc"&gt;Z3 is a high-performance theorem prover being developed at Microsoft Research.  &lt;br /&gt; 
+&lt;ul&gt;&lt;li&gt;Try Z3 online at &lt;a href="http://rise4fun.com/z3py"&gt;RiSE4Fun&lt;/a&gt; using &lt;a href="http://rise4fun.com/z3py"&gt;Python&lt;/a&gt; or &lt;a href="http://rise4fun.com/z3"&gt;SMT 2.0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.facebook.com/pages/Z3-Theorem-Prover/121634907904643#!/pages/Z3-Theorem-Prover/121634907904643?v=wall"&gt;Follow Z3 on Facebook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Browse Z3 Q&amp;amp;A at &lt;a href="http://stackoverflow.com/questions/tagged/z3"&gt;StackOverflow&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Read our &lt;a href="http://z3.codeplex.com/wikipage?title=FAQ&amp;referringTitle=Home"&gt;FAQ&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+
+&lt;h3&gt;Background&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Browse our &lt;a href="http://z3.codeplex.com/wikipage?title=Slides&amp;referringTitle=Home"&gt;Slides&lt;/a&gt;, read our &lt;a href="http://z3.codeplex.com/wikipage?title=Publications&amp;referringTitle=Home"&gt;Papers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Papers citing Z3 at &lt;a href="http://scholar.google.com/scholar?cites=4828743947843773221&amp;amp;as_sdt=5,48&amp;amp;sciodt=0,48&amp;amp;hl=en"&gt;Google Scholar&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://channel9.msdn.com/posts/Peli/The-Z3-Constraint-Solver/"&gt;Watch Z3 on Channel 9&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+
+&lt;h3&gt;Source Code&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="http://z3.codeplex.com/SourceControl/BrowseLatest"&gt;Browse the source code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Download the source code of the latest release in a zip file
+&lt;ul&gt;&lt;li&gt;Go to &lt;b&gt;&lt;a href="http://z3.codeplex.com/SourceControl/list/changesets?branch=master"&gt;master branch&lt;/a&gt;&lt;/b&gt; and&lt;/li&gt;
+&lt;li&gt;Click the &lt;b&gt;Download&lt;/b&gt; link&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Clone the source repository by using &lt;a href="http://git-scm.com/download"&gt;git&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;blockquote&gt; &lt;span class="codeInline"&gt;  git clone https://git01.codeplex.com/z3 &lt;/span&gt;&lt;/blockquote&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="http://z3.codeplex.com/wikipage?title=Git%20HTTPS%20cloning%20errors"&gt;Avoiding HTTPS cloning errors&lt;/a&gt;:  error &amp;quot;RPC failed; result=56, HTTP code = 200&amp;quot; when cloning the Z3 repository&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://research.microsoft.com/en-us/um/redmond/projects/z3/z3commits.xml"&gt;RSS Feed for all Z3 commits&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;br /&gt;&lt;b&gt;REMARK:&lt;/b&gt; &lt;i&gt;master&lt;/i&gt; is the stable and official branch. &lt;i&gt;pure&lt;/i&gt; is a stable branch containing Microsoft-only contributions. The branch &lt;i&gt;contrib&lt;/i&gt; should be used to submit external contributions (see this &lt;a href="http://research.microsoft.com/en-us/um/people/leonardo/blog/2012/11/19/external-contrib.html"&gt;link&lt;/a&gt; for more details). All other branches should be viewed as &amp;quot;work in progress&amp;quot;, they may contain unstable and/or untested code.&lt;br /&gt;
+&lt;h3&gt;Platforms&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Download &lt;a href="http://z3.codeplex.com/releases"&gt;pre-compiled binaries&lt;/a&gt; for Windows&lt;/li&gt;
+&lt;li&gt;Supported platforms: Windows, OSX, Linux and FreeBSD&lt;/li&gt;
+&lt;li&gt;Download nightly builds for 
+&lt;ul&gt;&lt;li&gt;&lt;a href="http://z3.codeplex.com/releases/view/101914"&gt;Windows (32 bit)&lt;/a&gt;, &lt;a href="http://z3.codeplex.com/releases/view/101912"&gt;Windows (64 bit)&lt;/a&gt;, &lt;/li&gt;
+&lt;li&gt;&lt;a href="http://z3.codeplex.com/releases/view/101918"&gt;OSX (64 bit)&lt;/a&gt;, &lt;/li&gt;
+&lt;li&gt;&lt;a href="http://Linux Ubuntu (32 bit):http://z3.codeplex.com/releases/view/101913"&gt;Linux Ubuntu (32 bit):http://z3.codeplex.com/releases/view/101913&lt;/a&gt;, &lt;a href="http://z3.codeplex.com/releases/view/101911"&gt;Linux Ubuntu (64 bit)&lt;/a&gt;, &lt;/li&gt;
+&lt;li&gt;&lt;a href="http://z3.codeplex.com/releases/view/101916"&gt;Linux Debian (64 bit)&lt;/a&gt;, &lt;/li&gt;
+&lt;li&gt;&lt;a href="http://z3.codeplex.com/releases/view/101907"&gt;FreeBSD (64 bit)&lt;/a&gt;.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Z3 source code can be compiled using Visual Studio, g++ and clang++&lt;/li&gt;&lt;/ul&gt;
+
+&lt;h3&gt;Contribute&lt;/h3&gt;There are many ways to contribute to Z3.&lt;br /&gt;
+&lt;ul&gt;&lt;li&gt;Review &lt;a href="http://z3.codeplex.com/SourceControl/list/changesets"&gt;code checkins&lt;/a&gt; and send &lt;a href="http://z3.codeplex.com/discussions"&gt;feedback&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://z3.codeplex.com/WorkItem/Create"&gt;Submit bugs&lt;/a&gt; and help us verify fixes as they are checked in.&lt;/li&gt;
+&lt;li&gt;Engage with other Z3 users and developers on &lt;a href="http://stackoverflow.com/questions/tagged/z3"&gt;StackOverflow&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Contribute tests and benchmarks at &lt;a href="http://z3test.codeplex.com"&gt;http://z3test.codeplex.com&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Contribute code. &lt;i&gt;We only accept pull requests in the branch contrib&lt;/i&gt;. See this &lt;a href="http://research.microsoft.com/en-us/um/people/leonardo/blog/2012/11/19/external-contrib.html"&gt;link&lt;/a&gt; for more details. We initially released the Z3 source code because it  complements our research papers, and may help others to clarify misunderstandings, dispute claims made in our papers, experiment new ideas, reproduce our results, and advance the state-of-the-art.  &lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class="ClearBoth"&gt;&lt;/div&gt;</description><author>leodemoura</author><pubDate>Fri, 15 Feb 2013 22:22:43 GMT</pubDate><guid isPermaLink="false">Updated Wiki: Home 20130215102243P</guid></item><item><title>Updated Wiki: Home</title><link>http://z3.codeplex.com/wikipage?version=61</link><description>&lt;div class="wikidoc"&gt;Z3 is a high-performance theorem prover being developed at Microsoft Research.  &lt;br /&gt; 
+&lt;ul&gt;&lt;li&gt;Try Z3 online at &lt;a href="http://rise4fun.com/z3py"&gt;RiSE4Fun&lt;/a&gt; using &lt;a href="http://rise4fun.com/z3py"&gt;Python&lt;/a&gt; or &lt;a href="http://rise4fun.com/z3"&gt;SMT 2.0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.facebook.com/pages/Z3-Theorem-Prover/121634907904643#!/pages/Z3-Theorem-Prover/121634907904643?v=wall"&gt;Follow Z3 on Facebook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Browse Z3 Q&amp;amp;A at &lt;a href="http://stackoverflow.com/questions/tagged/z3"&gt;StackOverflow&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Read our &lt;a href="http://z3.codeplex.com/wikipage?title=FAQ&amp;referringTitle=Home"&gt;FAQ&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+
+&lt;h3&gt;Background&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Browse our &lt;a href="http://z3.codeplex.com/wikipage?title=Slides&amp;referringTitle=Home"&gt;Slides&lt;/a&gt;, read our &lt;a href="http://z3.codeplex.com/wikipage?title=Publications&amp;referringTitle=Home"&gt;Papers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Papers citing Z3 at &lt;a href="http://scholar.google.com/scholar?cites=4828743947843773221&amp;amp;as_sdt=5,48&amp;amp;sciodt=0,48&amp;amp;hl=en"&gt;Google Scholar&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://channel9.msdn.com/posts/Peli/The-Z3-Constraint-Solver/"&gt;Watch Z3 on Channel 9&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+
+&lt;h3&gt;Source Code&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="http://z3.codeplex.com/SourceControl/BrowseLatest"&gt;Browse the source code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Download the source code of the latest release in a zip file
+&lt;ul&gt;&lt;li&gt;Go to &lt;b&gt;&lt;a href="http://z3.codeplex.com/SourceControl/list/changesets?branch=master"&gt;master branch&lt;/a&gt;&lt;/b&gt; and&lt;/li&gt;
+&lt;li&gt;Click the &lt;b&gt;Download&lt;/b&gt; link&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Clone the source repository by using &lt;a href="http://git-scm.com/download"&gt;git&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;blockquote&gt; &lt;span class="codeInline"&gt;  git clone https://git01.codeplex.com/z3 &lt;/span&gt;&lt;/blockquote&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="http://z3.codeplex.com/wikipage?title=Git%20HTTPS%20cloning%20errors"&gt;Avoiding HTTPS cloning errors&lt;/a&gt;:  error &amp;quot;RPC failed; result=56, HTTP code = 200&amp;quot; when cloning the Z3 repository&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://research.microsoft.com/en-us/um/redmond/projects/z3/z3commits.xml"&gt;RSS Feed for all Z3 commits&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;br /&gt;&lt;b&gt;REMARK:&lt;/b&gt; &lt;i&gt;master&lt;/i&gt; is the stable and official branch. &lt;i&gt;pure&lt;/i&gt; is a stable branch containing Microsoft-only contributions. The branch &lt;i&gt;contrib&lt;/i&gt; should be used to submit external contributions (see this &lt;a href="http://research.microsoft.com/en-us/um/people/leonardo/blog/2012/11/19/external-contrib.html"&gt;link&lt;/a&gt; for more details). All other branches should be viewed as &amp;quot;work in progress&amp;quot;, they may contain unstable and/or untested code.&lt;br /&gt;
+&lt;h3&gt;Platforms&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Download &lt;a href="http://z3.codeplex.com/releases"&gt;pre-compiled binaries&lt;/a&gt; for Windows&lt;/li&gt;
+&lt;li&gt;Supported platforms: Windows, OSX, Linux and FreeBSD&lt;/li&gt;
+&lt;li&gt;Download nightly builds for &lt;/li&gt;&lt;/ul&gt;
+      ** &lt;a href="http://z3.codeplex.com/releases/view/101914"&gt;Windows (32 bit)&lt;/a&gt;, &lt;a href="http://z3.codeplex.com/releases/view/101912"&gt;Windows (64 bit)&lt;/a&gt;, &lt;br /&gt;      ** &lt;a href="http://z3.codeplex.com/releases/view/101918"&gt;OSX (64 bit)&lt;/a&gt;, &lt;br /&gt;      ** &lt;a href="http://Linux Ubuntu (32 bit):http://z3.codeplex.com/releases/view/101913"&gt;Linux Ubuntu (32 bit):http://z3.codeplex.com/releases/view/101913&lt;/a&gt;, &lt;a href="http://z3.codeplex.com/releases/view/101911"&gt;Linux Ubuntu (64 bit)&lt;/a&gt;, &lt;br /&gt;      ** &lt;a href="http://z3.codeplex.com/releases/view/101916"&gt;Linux Debian (64 bit)&lt;/a&gt;, &lt;br /&gt;      ** &lt;a href="http://z3.codeplex.com/releases/view/101907"&gt;FreeBSD (64 bit)&lt;/a&gt;.
+&lt;ul&gt;&lt;li&gt;Z3 source code can be compiled using Visual Studio, g++ and clang++&lt;/li&gt;&lt;/ul&gt;
+
+&lt;h3&gt;Contribute&lt;/h3&gt;There are many ways to contribute to Z3.&lt;br /&gt;
+&lt;ul&gt;&lt;li&gt;Review &lt;a href="http://z3.codeplex.com/SourceControl/list/changesets"&gt;code checkins&lt;/a&gt; and send &lt;a href="http://z3.codeplex.com/discussions"&gt;feedback&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://z3.codeplex.com/WorkItem/Create"&gt;Submit bugs&lt;/a&gt; and help us verify fixes as they are checked in.&lt;/li&gt;
+&lt;li&gt;Engage with other Z3 users and developers on &lt;a href="http://stackoverflow.com/questions/tagged/z3"&gt;StackOverflow&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Contribute tests and benchmarks at &lt;a href="http://z3test.codeplex.com"&gt;http://z3test.codeplex.com&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Contribute code. &lt;i&gt;We only accept pull requests in the branch contrib&lt;/i&gt;. See this &lt;a href="http://research.microsoft.com/en-us/um/people/leonardo/blog/2012/11/19/external-contrib.html"&gt;link&lt;/a&gt; for more details. We initially released the Z3 source code because it  complements our research papers, and may help others to clarify misunderstandings, dispute claims made in our papers, experiment new ideas, reproduce our results, and advance the state-of-the-art.  &lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class="ClearBoth"&gt;&lt;/div&gt;</description><author>leodemoura</author><pubDate>Fri, 15 Feb 2013 22:22:19 GMT</pubDate><guid isPermaLink="false">Updated Wiki: Home 20130215102219P</guid></item><item><title>Updated Wiki: Home</title><link>http://z3.codeplex.com/wikipage?version=60</link><description>&lt;div class="wikidoc"&gt;Z3 is a high-performance theorem prover being developed at Microsoft Research.  &lt;br /&gt; 
+&lt;ul&gt;&lt;li&gt;Try Z3 online at &lt;a href="http://rise4fun.com/z3py"&gt;RiSE4Fun&lt;/a&gt; using &lt;a href="http://rise4fun.com/z3py"&gt;Python&lt;/a&gt; or &lt;a href="http://rise4fun.com/z3"&gt;SMT 2.0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.facebook.com/pages/Z3-Theorem-Prover/121634907904643#!/pages/Z3-Theorem-Prover/121634907904643?v=wall"&gt;Follow Z3 on Facebook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Browse Z3 Q&amp;amp;A at &lt;a href="http://stackoverflow.com/questions/tagged/z3"&gt;StackOverflow&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Read our &lt;a href="http://z3.codeplex.com/wikipage?title=FAQ&amp;referringTitle=Home"&gt;FAQ&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+
+&lt;h3&gt;Background&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Browse our &lt;a href="http://z3.codeplex.com/wikipage?title=Slides&amp;referringTitle=Home"&gt;Slides&lt;/a&gt;, read our &lt;a href="http://z3.codeplex.com/wikipage?title=Publications&amp;referringTitle=Home"&gt;Papers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Papers citing Z3 at &lt;a href="http://scholar.google.com/scholar?cites=4828743947843773221&amp;amp;as_sdt=5,48&amp;amp;sciodt=0,48&amp;amp;hl=en"&gt;Google Scholar&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://channel9.msdn.com/posts/Peli/The-Z3-Constraint-Solver/"&gt;Watch Z3 on Channel 9&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+
+&lt;h3&gt;Source Code&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="http://z3.codeplex.com/SourceControl/BrowseLatest"&gt;Browse the source code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Download the source code of the latest release in a zip file
+&lt;ul&gt;&lt;li&gt;Go to &lt;b&gt;&lt;a href="http://z3.codeplex.com/SourceControl/list/changesets?branch=master"&gt;master branch&lt;/a&gt;&lt;/b&gt; and&lt;/li&gt;
+&lt;li&gt;Click the &lt;b&gt;Download&lt;/b&gt; link&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Clone the source repository by using &lt;a href="http://git-scm.com/download"&gt;git&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;blockquote&gt; &lt;span class="codeInline"&gt;  git clone https://git01.codeplex.com/z3 &lt;/span&gt;&lt;/blockquote&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="http://z3.codeplex.com/wikipage?title=Git%20HTTPS%20cloning%20errors"&gt;Avoiding HTTPS cloning errors&lt;/a&gt;:  error &amp;quot;RPC failed; result=56, HTTP code = 200&amp;quot; when cloning the Z3 repository&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://research.microsoft.com/en-us/um/redmond/projects/z3/z3commits.xml"&gt;RSS Feed for all Z3 commits&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;br /&gt;&lt;b&gt;REMARK:&lt;/b&gt; &lt;i&gt;master&lt;/i&gt; is the stable and official branch. &lt;i&gt;pure&lt;/i&gt; is a stable branch containing Microsoft-only contributions. The branch &lt;i&gt;contrib&lt;/i&gt; should be used to submit external contributions (see this &lt;a href="http://research.microsoft.com/en-us/um/people/leonardo/blog/2012/11/19/external-contrib.html"&gt;link&lt;/a&gt; for more details). All other branches should be viewed as &amp;quot;work in progress&amp;quot;, they may contain unstable and/or untested code.&lt;br /&gt;
+&lt;h3&gt;Platforms&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Download &lt;a href="http://z3.codeplex.com/releases"&gt;pre-compiled binaries&lt;/a&gt; for Windows&lt;/li&gt;
+&lt;li&gt;Supported platforms: Windows, OSX, Linux and FreeBSD&lt;/li&gt;
+&lt;li&gt;Download nightly builds for &lt;a href="http://z3.codeplex.com/releases/view/101914"&gt;Windows (32 bit)&lt;/a&gt;, &lt;a href="http://z3.codeplex.com/releases/view/101912"&gt;Windows (64 bit)&lt;/a&gt;, &lt;a href="http://z3.codeplex.com/releases/view/101918"&gt;OSX (64 bit)&lt;/a&gt;, &lt;a href="http://Linux Ubuntu (32 bit):http://z3.codeplex.com/releases/view/101913"&gt;Linux Ubuntu (32 bit):http://z3.codeplex.com/releases/view/101913&lt;/a&gt;, &lt;a href="http://z3.codeplex.com/releases/view/101911"&gt;Linux Ubuntu (64 bit)&lt;/a&gt;, &lt;a href="http://z3.codeplex.com/releases/view/101916"&gt;Linux Debian (64 bit)&lt;/a&gt;, &lt;a href="http://z3.codeplex.com/releases/view/101907"&gt;FreeBSD (64 bit)&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Z3 source code can be compiled using Visual Studio, g++ and clang++&lt;/li&gt;&lt;/ul&gt;
+
+&lt;h3&gt;Contribute&lt;/h3&gt;There are many ways to contribute to Z3.&lt;br /&gt;
+&lt;ul&gt;&lt;li&gt;Review &lt;a href="http://z3.codeplex.com/SourceControl/list/changesets"&gt;code checkins&lt;/a&gt; and send &lt;a href="http://z3.codeplex.com/discussions"&gt;feedback&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://z3.codeplex.com/WorkItem/Create"&gt;Submit bugs&lt;/a&gt; and help us verify fixes as they are checked in.&lt;/li&gt;
+&lt;li&gt;Engage with other Z3 users and developers on &lt;a href="http://stackoverflow.com/questions/tagged/z3"&gt;StackOverflow&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Contribute tests and benchmarks at &lt;a href="http://z3test.codeplex.com"&gt;http://z3test.codeplex.com&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Contribute code. &lt;i&gt;We only accept pull requests in the branch contrib&lt;/i&gt;. See this &lt;a href="http://research.microsoft.com/en-us/um/people/leonardo/blog/2012/11/19/external-contrib.html"&gt;link&lt;/a&gt; for more details. We initially released the Z3 source code because it  complements our research papers, and may help others to clarify misunderstandings, dispute claims made in our papers, experiment new ideas, reproduce our results, and advance the state-of-the-art.  &lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class="ClearBoth"&gt;&lt;/div&gt;</description><author>leodemoura</author><pubDate>Fri, 15 Feb 2013 22:21:24 GMT</pubDate><guid isPermaLink="false">Updated Wiki: Home 20130215102124P</guid></item><item><title>Updated Wiki: CADE24</title><link>http://z3.codeplex.com/wikipage?title=CADE24&amp;version=24</link><description>&lt;div class="wikidoc"&gt;Supplementary material for the paper &amp;quot;Computation in Real Closed Infinitesimal and&lt;br /&gt;Transcendental Extensions of the Rationals&amp;quot;.
+&lt;ul&gt;&lt;li&gt;&lt;a href="http://research.microsoft.com/en-us/um/people/leonardo/blog/2013/02/02/inf-trans.html"&gt;Introduction&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://z3.codeplex.com/downloads/get/606232"&gt;Download Examples&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://rise4fun.com/Z3RCF"&gt;Try examples online&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://z3.codeplex.com/downloads/get/606242"&gt;Source Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://research.microsoft.com/en-us/um/people/leonardo/files/rcf.pdf"&gt;Paper&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;h2&gt;Browsing the source code described in the paper&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;Go to &lt;b&gt;&lt;a href="http://z3.codeplex.com/SourceControl/list/changesets?branch=cade24"&gt;cade24 branch&lt;/a&gt;&lt;/b&gt;&lt;/li&gt;
+&lt;li&gt;Click in &lt;b&gt;Files&lt;/b&gt;&lt;/li&gt;
+&lt;li&gt;The main files are located in the sub-directory &lt;b&gt;src/math/realclosure&lt;/b&gt;, they contain approximately 7000 lines of C++ code. The main module only depends on the Z3 interval arithmetic package (sub-directory &lt;b&gt;src/math/interval&lt;/b&gt;), and basic data-structures and numeral types such as binary rationals (sub-directory &lt;b&gt;src/util&lt;/b&gt;).&lt;/li&gt;&lt;/ul&gt;
+
+&lt;h2&gt;Download pre-compiled binaries for Windows&lt;/h2&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href="http://z3.codeplex.com/downloads/get/606245"&gt;Windows 64 bits binaries&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://z3.codeplex.com/downloads/get/606246"&gt;Windows 32 bits binaries&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;br /&gt;To be able to run the examples, you have to include the &lt;b&gt;bin&lt;/b&gt; subdirectory in your PYTHONPATH environment variable.&lt;br /&gt;
+&lt;h2&gt;Compilation instructions for Linux and OSX&lt;/h2&gt;
+&lt;ul&gt;&lt;li&gt;Download the source code using the link above.&lt;/li&gt;
+&lt;li&gt;Go to the &lt;b&gt;z3-cade24&lt;/b&gt; directory.&lt;/li&gt;
+&lt;li&gt;If you have the &lt;a href="http://gmplib.org/"&gt;Gnu Multiple precision library&lt;/a&gt; (GMP) installed in your system, use the option &amp;#39;-g&amp;#39;. GMP is faster than the Z3 big number package.&lt;/li&gt;&lt;/ul&gt;
+&lt;pre&gt;
+      ./configure -g
+&lt;/pre&gt;
+&lt;ul&gt;&lt;li&gt;If you don&amp;#39;t have GMP, then use&lt;/li&gt;&lt;/ul&gt;
+&lt;pre&gt;
+      ./configure
+&lt;/pre&gt;
+&lt;ul&gt;&lt;li&gt;Then, execute&lt;/li&gt;&lt;/ul&gt;
+&lt;pre&gt;
+      cd build
+      make
+&lt;/pre&gt;
+&lt;ul&gt;&lt;li&gt;To execute the examples, include the build directory in your &amp;#39;PYTHONPATH&amp;#39;. For example, if &lt;b&gt;z3-cade24&lt;/b&gt; is in the directory &amp;#39;/home/grant/z3-cade24&amp;#39;, and you use bash.&lt;/li&gt;&lt;/ul&gt;
+&lt;pre&gt;
+     export PYTHONPATH=/home/grant/z3-cade24
+&lt;/pre&gt;
+&lt;ul&gt;&lt;li&gt;The installation is complete, you can execute the example &amp;#39;basic.py&amp;#39; in the examples zip file using&lt;/li&gt;&lt;/ul&gt;
+&lt;pre&gt;
+     python basic.py
+&lt;/pre&gt;&lt;/div&gt;&lt;div class="ClearBoth"&gt;&lt;/div&gt;</description><author>leodemoura</author><pubDate>Thu, 07 Feb 2013 04:22:00 GMT</pubDate><guid isPermaLink="false">Updated Wiki: CADE24 20130207042200A</guid></item><item><title>Updated Wiki: Publications</title><link>http://z3.codeplex.com/wikipage?title=Publications&amp;version=6</link><description>&lt;div class="wikidoc"&gt;
+&lt;ol&gt;
+&lt;li&gt;Leonardo de Moura and Grant Passmore. &lt;em&gt;The Strategy Challenge in SMT Solving&lt;/em&gt;, volume 7788 of
+&lt;em&gt;Lecture Notes in Artificial Intelligence&lt;/em&gt;. Springer, 2013. [ .&lt;a href="http://research.microsoft.com/en-us/um/people/leonardo/files/smt-strategy.pdf"&gt;pdf&lt;/a&gt; ]
+&lt;/li&gt;&lt;li&gt;Leonardo de&amp;nbsp;Moura and Dejan Jovanović. A model-constructing satisfiability calculus. In
+&lt;em&gt;14th International Conference on Verification, Model Checking, and Abstract Interpretation, VMCAI, Rome, Italy, 2013&lt;/em&gt;, 2013. [&amp;nbsp;&lt;a href=" http://research.microsoft.com/en-us/um/people/leonardo/files/mcsat.pdf"&gt;.pdf&lt;/a&gt;&amp;nbsp;]
+&lt;/li&gt;&lt;li&gt;Dejan Jovanović and Leonardo de&amp;nbsp;Moura. Solving non-linear arithmetic. In
+&lt;em&gt;Automated Reasoning - 6th International Joint Conference, IJCAR 2012, Manchester, UK, June 26-29, 2012. Proceedings&lt;/em&gt;, volume 7364 of
+&lt;em&gt;Lecture Notes in Computer Science&lt;/em&gt;, pages 339-354. Springer, 2012. [&amp;nbsp;&lt;a href=" http://research.microsoft.com/en-us/um/people/leonardo/files/IJCAR2012.pdf"&gt;.pdf&lt;/a&gt;&amp;nbsp;]
+&lt;/li&gt;&lt;li&gt;Dejan Jovanović and Leonardo de&amp;nbsp;Moura. Solving non-linear arithmetic. Technical Report MSR-TR-2012-20, Microsoft Research, 2012. [&amp;nbsp;&lt;a href="http://research.microsoft.com/apps/pubs/default.aspx?id=159549"&gt;http&lt;/a&gt;&amp;nbsp;]
+&lt;/li&gt;&lt;li&gt;Nikolaj Bj&amp;oslash;rner. Taking Satisfiability to the Next Level with Z3. IJCAR 2012.
+&lt;/li&gt;&lt;li&gt;Anh-Dung Phan, Nikolaj Bj&amp;oslash;rner, David Monniaux. Anatomy of Alternating Quantifier Satisfiability. SMT workshop 2012. [&amp;nbsp;&lt;a href="http://research.microsoft.com/en-us/people/nbjorner/qt-smt2012.pdf"&gt;.pdf&lt;/a&gt;&amp;nbsp;]
+&lt;/li&gt;&lt;li&gt;Krystof Hoder and Nikolaj Bj&amp;oslash;rner. Generalized Property Directed Reachability. In SAT 2012. [&lt;a href="http://research.microsoft.com/en-us/people/nbjorner/z3pdr.pdf"&gt;.pdf&lt;/a&gt;&amp;nbsp;]
+&lt;/li&gt;&lt;li&gt;Christoph Wintersteiger, Youssef Hamadi, and Leonardo de&amp;nbsp;Moura. Efficiently solving quantified bit-vector formulas.
+&lt;em&gt;Formal Methods in System Design&lt;/em&gt;, 2012. [&amp;nbsp;&lt;a href="http://dx.doi.org/10.1007/s10703-012-0156-2"&gt;http&lt;/a&gt;&amp;nbsp;|
+&lt;a href=" http://research.microsoft.com/en-us/um/people/leonardo/files/ufbv_journal.pdf"&gt;
+.pdf&lt;/a&gt;&amp;nbsp;] &lt;/li&gt;&lt;li&gt;Nikolaj Bj&amp;oslash;rner and Leonardo de&amp;nbsp;Moura. Tractability and Modern Satisfiability Modulo Theories Solvers. In
+&lt;em&gt;Handbook of Tractability&lt;/em&gt;. Cambridge University Press, 2012. [&amp;nbsp;&lt;a href=" http://research.microsoft.com/en-us/um/people/leonardo/files/tractability.pdf"&gt;.pdf&lt;/a&gt;&amp;nbsp;]
+&lt;/li&gt;&lt;li&gt;Krystof Hoder, Nikolaj Bj&amp;oslash;rner, and Leonardo de&amp;nbsp;Moura. muZ - an efficient engine for fixed points with constraints. In
+&lt;em&gt;Computer Aided Verification - 23rd International Conference, CAV 2011, Snowbird, UT, USA, July 14-20, 2011. Proceedings&lt;/em&gt;, volume 6806 of
+&lt;em&gt;Lecture Notes in Computer Science&lt;/em&gt;, pages 457-462, 2011. [&amp;nbsp;&lt;a href=" http://research.microsoft.com/en-us/um/people/leonardo/files/muze.pdf"&gt;.pdf&lt;/a&gt;&amp;nbsp;]
+&lt;/li&gt;&lt;li&gt;Leonardo de&amp;nbsp;Moura and Nikolaj Bj&amp;oslash;rner. Satisfiability modulo theories: introduction and applications.
+&lt;em&gt;Commun. ACM&lt;/em&gt;, 54(9):69-77, 2011. [&amp;nbsp;&lt;a href="http://dl.acm.org/citation.cfm?id=1995394"&gt;http&lt;/a&gt;&amp;nbsp;]
+&lt;/li&gt;&lt;li&gt;Dejan Jovanović and Leonardo de&amp;nbsp;Moura. Cutting to the chase solving linear integer arithmetic. In
+&lt;em&gt;Automated Deduction - CADE-23 - 23rd International Conference on Automated Deduction, Wroclaw, Poland, July 31 - August 5, 2011. Proceedings&lt;/em&gt;, volume 6803 of
+&lt;em&gt;Lecture Notes in Computer Science&lt;/em&gt;, pages 338-353. Springer, 2011. [&amp;nbsp;&lt;a href=" http://research.microsoft.com/en-us/um/people/leonardo/files/cutsat.pdf"&gt;.pdf&lt;/a&gt;&amp;nbsp;]
+&lt;/li&gt;&lt;li&gt;Maria&amp;nbsp;Paola Bonacina, Christopher Lynch, and Leonardo de&amp;nbsp;Moura. On deciding satisfiability by theorem proving with speculative inferences.
+&lt;em&gt;J. Autom. Reasoning&lt;/em&gt;, 47(2):161-189, 2011. [&amp;nbsp;&lt;a href=" http://research.microsoft.com/en-us/um/people/leonardo/files/JAR2010dpllSPsi.pdf"&gt;.pdf&lt;/a&gt;&amp;nbsp;]
+&lt;/li&gt;&lt;li&gt;Leonardo de&amp;nbsp;Moura and Nikolaj Bj&amp;oslash;rner. Bugs, moles and skeletons: Symbolic reasoning for software development. In
+&lt;em&gt;Automated Reasoning, 5th International Joint Conference, IJCAR 2010, Edinburgh, UK, July 16-19, 2010. Proceedings&lt;/em&gt;, volume 6173 of
+&lt;em&gt;Lecture Notes in Computer Science&lt;/em&gt;, pages 400-411. Springer, 2010. [&amp;nbsp;&lt;a href=" http://research.microsoft.com/en-us/um/people/leonardo/files/ijcar10.pdf"&gt;.pdf&lt;/a&gt;&amp;nbsp;]
+&lt;/li&gt;&lt;li&gt;Nikolaj Bj&amp;oslash;rner. Linear Quantifier Elimination as an Abstract Decision Procedure. IJCAR 2010.
+&lt;/li&gt;&lt;li&gt;Margus Veanes, Nikolaj Bj&amp;oslash;rner, and Leonardo de&amp;nbsp;Moura. Symbolic automata constraint solving. In
+&lt;em&gt;Logic for Programming, Artificial Intelligence, and Reasoning - 17th International Conference, LPAR-17, Yogyakarta, Indonesia, October 10-15, 2010. Proceedings&lt;/em&gt;, volume 6397 of
+&lt;em&gt;Lecture Notes in Computer Science&lt;/em&gt;, pages 640-654, 2010. [&amp;nbsp;&lt;a href=" http://research.microsoft.com/en-us/um/people/leonardo/files/lpar2010.pdf"&gt;.pdf&lt;/a&gt;&amp;nbsp;]
+&lt;/li&gt;&lt;li&gt;Ruzica Piskac, Leonardo de&amp;nbsp;Moura, and Nikolaj Bj&amp;oslash;rner. Deciding effectively propositional logic using DPLL and substitution sets.
+&lt;em&gt;J. Autom. Reasoning&lt;/em&gt;, 44(4):401-424, 2010. [&amp;nbsp;&lt;a href="http://www.springerlink.com/content/p54255p52430242t/"&gt;http&lt;/a&gt;&amp;nbsp;]
+&lt;/li&gt;&lt;li&gt;Christoph&amp;nbsp;M. Wintersteiger, Youssef Hamadi, and Leonardo de&amp;nbsp;Moura. Efficiently solving quantified bit-vector formulas. In
+&lt;em&gt;Proceedings of 10th International Conference on Formal Methods in Computer-Aided Design, FMCAD 2010, Lugano, Switzerland, October 20-23&lt;/em&gt;, pages 239-246. IEEE, 2010. [&amp;nbsp;&lt;a href=" http://research.microsoft.com/en-us/um/people/leonardo/files/fmcad10.pdf"&gt;.pdf&lt;/a&gt;&amp;nbsp;]
+&lt;/li&gt;&lt;li&gt;Leonardo de&amp;nbsp;Moura and Nikolaj Bj&amp;oslash;rner. Generalized, efficient array decision procedures. In
+&lt;em&gt;Proceedings of 9th International Conference on Formal Methods in Computer-Aided Design, FMCAD 2009, 15-18 November 2009, Austin, Texas, USA&lt;/em&gt;, pages 45-52. IEEE, 2009. [&amp;nbsp;&lt;a href=" http://research.microsoft.com/en-us/um/people/leonardo/files/fmcad09.pdf"&gt;.pdf&lt;/a&gt;&amp;nbsp;]
+&lt;/li&gt;&lt;li&gt;Nikolaj Bj&amp;oslash;rner and Leonardo de&amp;nbsp;Moura. Tapas: Theory combinations and practical applications. In
+&lt;em&gt;Formal Modeling and Analysis of Timed Systems, 7th International Conference, FORMATS 2009, Budapest, Hungary, September 14-16, 2009. Proceedings&lt;/em&gt;, volume 5813 of
+&lt;em&gt;Lecture Notes in Computer Science&lt;/em&gt;, pages 1-6. Springer, 2009. [&amp;nbsp;&lt;a href="http://www.springerlink.com/content/u510v392760624q5/"&gt;http&lt;/a&gt;&amp;nbsp;]
+&lt;/li&gt;&lt;li&gt;Leonardo de&amp;nbsp;Moura and Nikolaj Bj&amp;oslash;rner. Satisfiability modulo theories: An appetizer. In
+&lt;em&gt;Formal Methods: Foundations and Applications, 12th Brazilian Symposium on Formal Methods, SBMF 2009, Gramado, Brazil, August 19-21, 2009, Revised Selected Papers&lt;/em&gt;, volume 5902 of
+&lt;em&gt;Lecture Notes in Computer Science&lt;/em&gt;, pages 23-36. Springer, 2009. [&amp;nbsp;&lt;a href=" http://research.microsoft.com/en-us/um/people/leonardo/files/sbmf09.pdf"&gt;.pdf&lt;/a&gt;&amp;nbsp;]&amp;nbsp;
+&lt;/li&gt;&lt;li&gt;Nikolaj Bj&amp;oslash;rner and Joe Hendrix. Linear Functional Fixed-points. CAV 2009.
+&lt;/li&gt;&lt;li&gt;Maria&amp;nbsp;Paola Bonacina, Christopher Lynch, and Leonardo de&amp;nbsp;Moura. On deciding satisfiability by DPLL(&amp;Gamma;&amp;#43;T) and unsound theorem proving. In
+&lt;em&gt;Automated Deduction - CADE-22, 22nd International Conference on Automated Deduction, Montreal, Canada, August 2-7, 2009. Proceedings&lt;/em&gt;, volume 5663 of
+&lt;em&gt;Lecture Notes in Computer Science&lt;/em&gt;, pages 35-50. Springer, 2009. [&amp;nbsp;&lt;a href=" http://research.microsoft.com/en-us/um/people/leonardo/files/cade09.pdf"&gt;.pdf&lt;/a&gt;&amp;nbsp;]
+&lt;/li&gt;&lt;li&gt;Yeting Ge and Leonardo de&amp;nbsp;Moura. Complete instantiation for quantified formulas in satisfiabiliby modulo theories. In
+&lt;em&gt;Computer Aided Verification, 21st International Conference, CAV 2009, Grenoble, France, June 26 - July 2, 2009. Proceedings&lt;/em&gt;, volume 5643 of
+&lt;em&gt;Lecture Notes in Computer Science&lt;/em&gt;, pages 306-320. Springer, 2009. [&amp;nbsp;&lt;a href=" http://research.microsoft.com/en-us/um/people/leonardo/files/ci.pdf"&gt;.pdf&lt;/a&gt;&amp;nbsp;]
+&lt;/li&gt;&lt;li&gt;Christoph&amp;nbsp;M. Wintersteiger, Youssef Hamadi, and Leonardo de&amp;nbsp;Moura. A concurrent portfolio approach to SMT solving. In
+&lt;em&gt;Computer Aided Verification, 21st International Conference, CAV 2009, Grenoble, France, June 26 - July 2, 2009. Proceedings&lt;/em&gt;, volume 5643 of
+&lt;em&gt;Lecture Notes in Computer Science&lt;/em&gt;, pages 715-720. Springer, 2009. [&amp;nbsp;&lt;a href=" http://research.microsoft.com/en-us/um/people/leonardo/files/parallel_z3.pdf"&gt;.pdf&lt;/a&gt;&amp;nbsp;]
+&lt;/li&gt;&lt;li&gt;Grant&amp;nbsp;Olney Passmore and Leonardo de&amp;nbsp;Moura. Superfluous S-polynomials in strategy-independent groebner bases. In
+&lt;em&gt;11th International Symposium on Symbolic and Numeric Algorithms for Scientific Computing, SYNASC 2009, Timisoara, Romania, September 26-29, 2009&lt;/em&gt;, pages 45-53. IEEE Computer Society, 2009. [&amp;nbsp;&lt;a href=" http://research.microsoft.com/en-us/um/people/leonardo/files/synasc.pdf"&gt;.pdf&lt;/a&gt;&amp;nbsp;]
+&lt;/li&gt;&lt;li&gt;Nikolaj Bj&amp;oslash;rner and Leonardo de&amp;nbsp;Moura. &lt;em&gt;z&lt;/em&gt;3&lt;sup&gt;10&lt;/sup&gt;: Applications, enablers, challenges and directions. In
+&lt;em&gt;Sixth International Workshop on Constraints in Formal Verification Grenoble, France&lt;/em&gt;, 2009. [&amp;nbsp;&lt;a href=" http://research.microsoft.com/en-us/um/people/leonardo/files/cfv09.pdf"&gt;.pdf&lt;/a&gt;&amp;nbsp;]
+&lt;/li&gt;&lt;li&gt;Leonardo de&amp;nbsp;Moura and Grant&amp;nbsp;Olney Passmore. On locally minimal nullstellensatz proofs. In
+&lt;em&gt;7th International Workshop on Satisfiability Modulo Theories, SMT, Montreal, Canada&lt;/em&gt;, 2009. [&amp;nbsp;&lt;a href=" http://research.microsoft.com/en-us/um/people/leonardo/files/SMT-09.pdf"&gt;.pdf&lt;/a&gt;&amp;nbsp;]
+&lt;/li&gt;&lt;li&gt;Leonardo de&amp;nbsp;Moura and Grant&amp;nbsp;Olney Passmore. On locally minimal nullstellensatz proofs. Technical Report MSR-TR-2009-90, Microsoft Research, 2009. [&amp;nbsp;&lt;a href=" http://research.microsoft.com/en-us/um/people/leonardo/files/MSR-TR-2009-90.pdf"&gt;.pdf&lt;/a&gt;&amp;nbsp;]
+&lt;/li&gt;&lt;li&gt;Grant&amp;nbsp;Olney Passmore and Leonardo de&amp;nbsp;Moura. Universality of polynomial positivity and a variant of Hilbert's 17th problem. In
+&lt;em&gt;Automated Deduction: Decidability, Complexity, Tractability, ADDCT'09, Montreal, Canada&lt;/em&gt;, 2009. [&amp;nbsp;&lt;a href=" http://research.microsoft.com/en-us/um/people/leonardo/files/addct-09.pdf"&gt;.pdf&lt;/a&gt;&amp;nbsp;]
+&lt;/li&gt;&lt;li&gt;Ruzica Piskac, Leonardo de&amp;nbsp;Moura, and Nikolaj Bj&amp;oslash;rner. Deciding effectively propositional logic with equality. Technical Report MSR-TR-2008-181, Microsoft Research, 2008. [&amp;nbsp;&lt;a href="http://research.microsoft.com/apps/pubs/default.aspx?id=76532"&gt;http&lt;/a&gt;&amp;nbsp;]
+&lt;/li&gt;&lt;li&gt;Leonardo de&amp;nbsp;Moura and Nikolaj Bj&amp;oslash;rner. Deciding effectively propositional logic using DPLL and substitution sets. In
+&lt;em&gt;Automated Reasoning, 4th International Joint Conference, IJCAR 2008, Sydney, Australia, August 12-15, 2008, Proceedings&lt;/em&gt;, volume 5195 of
+&lt;em&gt;Lecture Notes in Computer Science&lt;/em&gt;, pages 410-425. Springer, 2008. [&amp;nbsp;&lt;a href=" http://research.microsoft.com/en-us/um/people/leonardo/files/epr.pdf"&gt;.pdf&lt;/a&gt;&amp;nbsp;]
+&lt;/li&gt;&lt;li&gt;Leonardo de&amp;nbsp;Moura and Nikolaj Bj&amp;oslash;rner. Engineering DPLL(T) &amp;#43; Saturation. In
+&lt;em&gt;Automated Reasoning, 4th International Joint Conference, IJCAR 2008, Sydney, Australia, August 12-15, 2008, Proceedings&lt;/em&gt;, volume 5195 of
+&lt;em&gt;Lecture Notes in Computer Science&lt;/em&gt;, pages 475-490. Springer, 2008. [&amp;nbsp;&lt;a href=" http://research.microsoft.com/en-us/um/people/leonardo/files/z3spc.pdf"&gt;.pdf&lt;/a&gt;&amp;nbsp;]
+&lt;/li&gt;&lt;li&gt;Leonardo de&amp;nbsp;Moura and Nikolaj Bj&amp;oslash;rner. Proofs and refutations, and Z3. In
+&lt;em&gt;Proceedings of the LPAR 2008 Workshops, Knowledge Exchange: Automated Provers and Proof Assistants, and the 7th International Workshop on the Implementation of Logics, Doha, Qatar, November 22, 2008&lt;/em&gt;, volume 418 of
+&lt;em&gt;CEUR Workshop Proceedings&lt;/em&gt;. CEUR-WS.org, 2008. [&amp;nbsp;&lt;a href=" http://research.microsoft.com/en-us/um/people/leonardo/files/iwil08.pdf"&gt;.pdf&lt;/a&gt;&amp;nbsp;]
+&lt;/li&gt;&lt;li&gt;Leonardo de&amp;nbsp;Moura and Nikolaj Bj&amp;oslash;rner. Z3: An efficient SMT solver. In
+&lt;em&gt;Tools and Algorithms for the Construction and Analysis of Systems, 14th International Conference, TACAS 2008, Held as Part of the Joint European Conferences on Theory and Practice of Software, ETAPS 2008, Budapest, Hungary, March 29-April 6, 2008. Proceedings&lt;/em&gt;,
+ volume 4963 of &lt;em&gt;Lecture Notes in Computer Science&lt;/em&gt;, pages 337-340. Springer, 2008. [&amp;nbsp;&lt;a href="http://research.microsoft.com/projects/z3/z3.pdf"&gt;.pdf&lt;/a&gt;&amp;nbsp;]
+&lt;/li&gt;&lt;li&gt;Leonardo de&amp;nbsp;Moura and Nikolaj Bj&amp;oslash;rner. Model-based theory combination.
+&lt;em&gt;Electr. Notes Theor. Comput. Sci.&lt;/em&gt;, 198(2):37-49, 2008. [&amp;nbsp;&lt;a href="http://research.microsoft.com/projects/z3/smt07.pdf"&gt;.pdf&lt;/a&gt;&amp;nbsp;]
+&lt;/li&gt;&lt;li&gt;Nikolaj Bj&amp;oslash;rner, Bruno Dutertre, and Leonardo de&amp;nbsp;Moura. Accelerating lemma learning using joins - DPPL(Join). In
+&lt;em&gt;15th International Conference on Logic for Programming Artificial Intelligence and Reasoning, LPAR'08&lt;/em&gt;, 2008. [&amp;nbsp;&lt;a href=" http://research.microsoft.com/en-us/um/people/leonardo/files/joins.pdf"&gt;.pdf&lt;/a&gt;&amp;nbsp;]
+&lt;/li&gt;&lt;li&gt;Nikolaj Bj&amp;oslash;rner, Leonardo de&amp;nbsp;Moura, and Nikolai Tillmann. Satisfiability modulo bit-precise theories for program exploration. In
+&lt;em&gt;Fifth International Workshop on Constraints in Formal Verification, (CFV'08), Sydney, Australia&lt;/em&gt;, 2008. [&amp;nbsp;&lt;a href=" http://research.microsoft.com/en-us/um/people/leonardo/files/smbpex.pdf"&gt;.pdf&lt;/a&gt;&amp;nbsp;]
+&lt;/li&gt;&lt;li&gt;Leonardo de&amp;nbsp;Moura and Nikolaj Bj&amp;oslash;rner. Efficient E-Matching for SMT solvers. In
+&lt;em&gt;Automated Deduction - CADE-21, 21st International Conference on Automated Deduction, Bremen, Germany, July 17-20, 2007, Proceedings&lt;/em&gt;, volume 4603 of
+&lt;em&gt;Lecture Notes in Computer Science&lt;/em&gt;, pages 183-198. Springer, 2007. [&amp;nbsp;&lt;a href="http://research.microsoft.com/projects/z3/cade07.pdf"&gt;.pdf&lt;/a&gt;&amp;nbsp;]
+&lt;/li&gt;&lt;/ol&gt;
+&lt;/div&gt;&lt;div class="ClearBoth"&gt;&lt;/div&gt;</description><author>leodemoura</author><pubDate>Sun, 27 Jan 2013 02:41:00 GMT</pubDate><guid isPermaLink="false">Updated Wiki: Publications 20130127024100A</guid></item><item><title>Updated Wiki: CADE24</title><link>http://z3.codeplex.com/wikipage?title=CADE24&amp;version=23</link><description>&lt;div class="wikidoc"&gt;Supplementary material for the paper &amp;quot;Computation in Real Closed Infinitesimal and&lt;br /&gt;Transcendental Extensions of the Rationals&amp;quot;.
+&lt;ul&gt;&lt;li&gt;&lt;a href="http://z3.codeplex.com/downloads/get/606232"&gt;Download Examples&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://rise4fun.com/Z3RCF"&gt;Try examples online&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://z3.codeplex.com/downloads/get/606242"&gt;Source Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://research.microsoft.com/en-us/um/people/leonardo/files/rcf.pdf"&gt;Paper&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;h2&gt;Browsing the source code described in the paper&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;Go to &lt;b&gt;&lt;a href="http://z3.codeplex.com/SourceControl/list/changesets?branch=cade24"&gt;cade24 branch&lt;/a&gt;&lt;/b&gt;&lt;/li&gt;
+&lt;li&gt;Click in &lt;b&gt;Files&lt;/b&gt;&lt;/li&gt;
+&lt;li&gt;The main files are located in the sub-directory &lt;b&gt;src/math/realclosure&lt;/b&gt;, they contain approximately 7000 lines of C++ code. The main module only depends on the Z3 interval arithmetic package (sub-directory &lt;b&gt;src/math/interval&lt;/b&gt;), and basic data-structures and numeral types such as binary rationals (sub-directory &lt;b&gt;src/util&lt;/b&gt;).&lt;/li&gt;&lt;/ul&gt;
+
+&lt;h2&gt;Download pre-compiled binaries for Windows&lt;/h2&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href="http://z3.codeplex.com/downloads/get/606245"&gt;Windows 64 bits binaries&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://z3.codeplex.com/downloads/get/606246"&gt;Windows 32 bits binaries&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;br /&gt;To be able to run the examples, you have to include the &lt;b&gt;bin&lt;/b&gt; subdirectory in your PYTHONPATH environment variable.&lt;br /&gt;
+&lt;h2&gt;Compilation instructions for Linux and OSX&lt;/h2&gt;
+&lt;ul&gt;&lt;li&gt;Download the source code using the link above.&lt;/li&gt;
+&lt;li&gt;Go to the &lt;b&gt;z3-cade24&lt;/b&gt; directory.&lt;/li&gt;
+&lt;li&gt;If you have the &lt;a href="http://gmplib.org/"&gt;Gnu Multiple precision library&lt;/a&gt; (GMP) installed in your system, use the option &amp;#39;-g&amp;#39;. GMP is faster than the Z3 big number package.&lt;/li&gt;&lt;/ul&gt;
+&lt;pre&gt;
+      ./configure -g
+&lt;/pre&gt;
+&lt;ul&gt;&lt;li&gt;If you don&amp;#39;t have GMP, then use&lt;/li&gt;&lt;/ul&gt;
+&lt;pre&gt;
+      ./configure
+&lt;/pre&gt;
+&lt;ul&gt;&lt;li&gt;Then, execute&lt;/li&gt;&lt;/ul&gt;
+&lt;pre&gt;
+      cd build
+      make
+&lt;/pre&gt;
+&lt;ul&gt;&lt;li&gt;To execute the examples, include the build directory in your &amp;#39;PYTHONPATH&amp;#39;. For example, if &lt;b&gt;z3-cade24&lt;/b&gt; is in the directory &amp;#39;/home/grant/z3-cade24&amp;#39;, and you use bash.&lt;/li&gt;&lt;/ul&gt;
+&lt;pre&gt;
+     export PYTHONPATH=/home/grant/z3-cade24
+&lt;/pre&gt;
+&lt;ul&gt;&lt;li&gt;The installation is complete, you can execute the example &amp;#39;basic.py&amp;#39; in the examples zip file using&lt;/li&gt;&lt;/ul&gt;
+&lt;pre&gt;
+     python basic.py
+&lt;/pre&gt;&lt;/div&gt;&lt;div class="ClearBoth"&gt;&lt;/div&gt;</description><author>leodemoura</author><pubDate>Sat, 26 Jan 2013 00:02:18 GMT</pubDate><guid isPermaLink="false">Updated Wiki: CADE24 20130126120218A</guid></item><item><title>Updated Wiki: CADE24</title><link>http://z3.codeplex.com/wikipage?title=CADE24&amp;version=22</link><description>&lt;div class="wikidoc"&gt;Supplementary material for the paper &amp;quot;Computation in Real Closed Infinitesimal and&lt;br /&gt;Transcendental Extensions of the Rationals&amp;quot;.
+&lt;ul&gt;&lt;li&gt;&lt;a href="http://z3.codeplex.com/downloads/get/606232"&gt;Download Examples&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://z3.codeplex.com/downloads/get/606242"&gt;Source Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://research.microsoft.com/en-us/um/people/leonardo/files/rcf.pdf"&gt;Paper&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;h2&gt;Browsing the source code described in the paper&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;Go to &lt;b&gt;&lt;a href="http://z3.codeplex.com/SourceControl/list/changesets?branch=cade24"&gt;cade24 branch&lt;/a&gt;&lt;/b&gt;&lt;/li&gt;
+&lt;li&gt;Click in &lt;b&gt;Files&lt;/b&gt;&lt;/li&gt;
+&lt;li&gt;The main files are located in the sub-directory &lt;b&gt;src/math/realclosure&lt;/b&gt;, they contain approximately 7000 lines of C++ code. The main module only depends on the Z3 interval arithmetic package (sub-directory &lt;b&gt;src/math/interval&lt;/b&gt;), and basic data-structures and numeral types such as binary rationals (sub-directory &lt;b&gt;src/util&lt;/b&gt;).&lt;/li&gt;&lt;/ul&gt;
+
+&lt;h2&gt;Download pre-compiled binaries for Windows&lt;/h2&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href="http://z3.codeplex.com/downloads/get/606245"&gt;Windows 64 bits binaries&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://z3.codeplex.com/downloads/get/606246"&gt;Windows 32 bits binaries&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;br /&gt;To be able to run the examples, you have to include the &lt;b&gt;bin&lt;/b&gt; subdirectory in your PYTHONPATH environment variable.&lt;br /&gt;
+&lt;h2&gt;Compilation instructions for Linux and OSX&lt;/h2&gt;
+&lt;ul&gt;&lt;li&gt;Download the source code using the link above.&lt;/li&gt;
+&lt;li&gt;Go to the &lt;b&gt;z3-cade24&lt;/b&gt; directory.&lt;/li&gt;
+&lt;li&gt;If you have the &lt;a href="http://gmplib.org/"&gt;Gnu Multiple precision library&lt;/a&gt; (GMP) installed in your system, use the option &amp;#39;-g&amp;#39;. GMP is faster than the Z3 big number package.&lt;/li&gt;&lt;/ul&gt;
+&lt;pre&gt;
+      ./configure -g
+&lt;/pre&gt;
+&lt;ul&gt;&lt;li&gt;If you don&amp;#39;t have GMP, then use&lt;/li&gt;&lt;/ul&gt;
+&lt;pre&gt;
+      ./configure
+&lt;/pre&gt;
+&lt;ul&gt;&lt;li&gt;Then, execute&lt;/li&gt;&lt;/ul&gt;
+&lt;pre&gt;
+      cd build
+      make
+&lt;/pre&gt;
+&lt;ul&gt;&lt;li&gt;To execute the examples, include the build directory in your &amp;#39;PYTHONPATH&amp;#39;. For example, if &lt;b&gt;z3-cade24&lt;/b&gt; is in the directory &amp;#39;/home/grant/z3-cade24&amp;#39;, and you use bash.&lt;/li&gt;&lt;/ul&gt;
+&lt;pre&gt;
+     export PYTHONPATH=/home/grant/z3-cade24
+&lt;/pre&gt;
+&lt;ul&gt;&lt;li&gt;The installation is complete, you can execute the example &amp;#39;basic.py&amp;#39; in the examples zip file using&lt;/li&gt;&lt;/ul&gt;
+&lt;pre&gt;
+     python basic.py
+&lt;/pre&gt;&lt;/div&gt;&lt;div class="ClearBoth"&gt;&lt;/div&gt;</description><author>leodemoura</author><pubDate>Fri, 25 Jan 2013 22:40:34 GMT</pubDate><guid isPermaLink="false">Updated Wiki: CADE24 20130125104034P</guid></item><item><title>Updated Wiki: CADE24</title><link>http://z3.codeplex.com/wikipage?title=CADE24&amp;version=21</link><description>&lt;div class="wikidoc"&gt;Supplementary material for the paper &amp;quot;Computation in Real Closed Infinitesimal and&lt;br /&gt;Transcendental Extensions of the Rationals&amp;quot;.
+&lt;ul&gt;&lt;li&gt;&lt;a href="http://z3.codeplex.com/downloads/get/606232"&gt;Download Examples&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://rise4fun.com/Z3RCF"&gt;Try examples online&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://z3.codeplex.com/downloads/get/606242"&gt;Source Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://research.microsoft.com/en-us/um/people/leonardo/files/rcf.pdf"&gt;Paper&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;h2&gt;Browsing the source code described in the paper&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;Go to &lt;b&gt;&lt;a href="http://z3.codeplex.com/SourceControl/list/changesets?branch=cade24"&gt;cade24 branch&lt;/a&gt;&lt;/b&gt;&lt;/li&gt;
+&lt;li&gt;Click in &lt;b&gt;Files&lt;/b&gt;&lt;/li&gt;
+&lt;li&gt;The main files are located in the sub-directory &lt;b&gt;src/math/realclosure&lt;/b&gt;, they contain approximately 7000 lines of C++ code. The main module only depends on the Z3 interval arithmetic package (sub-directory &lt;b&gt;src/math/interval&lt;/b&gt;), and basic data-structures and numeral types such as binary rationals (sub-directory &lt;b&gt;src/util&lt;/b&gt;).&lt;/li&gt;&lt;/ul&gt;
+
+&lt;h2&gt;Download pre-compiled binaries for Windows&lt;/h2&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href="http://z3.codeplex.com/downloads/get/606245"&gt;Windows 64 bits binaries&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://z3.codeplex.com/downloads/get/606246"&gt;Windows 32 bits binaries&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;br /&gt;To be able to run the examples, you have to include the &lt;b&gt;bin&lt;/b&gt; subdirectory in your PYTHONPATH environment variable.&lt;br /&gt;
+&lt;h2&gt;Compilation instructions for Linux and OSX&lt;/h2&gt;
+&lt;ul&gt;&lt;li&gt;Download the source code using the link above.&lt;/li&gt;
+&lt;li&gt;Go to the &lt;b&gt;z3-cade24&lt;/b&gt; directory.&lt;/li&gt;
+&lt;li&gt;If you have the &lt;a href="http://gmplib.org/"&gt;Gnu Multiple precision library&lt;/a&gt; (GMP) installed in your system, use the option &amp;#39;-g&amp;#39;. GMP is faster than the Z3 big number package.&lt;/li&gt;&lt;/ul&gt;
+&lt;pre&gt;
+      ./configure -g
+&lt;/pre&gt;
+&lt;ul&gt;&lt;li&gt;If you don&amp;#39;t have GMP, then use&lt;/li&gt;&lt;/ul&gt;
+&lt;pre&gt;
+      ./configure
+&lt;/pre&gt;
+&lt;ul&gt;&lt;li&gt;Then, execute&lt;/li&gt;&lt;/ul&gt;
+&lt;pre&gt;
+      cd build
+      make
+&lt;/pre&gt;
+&lt;ul&gt;&lt;li&gt;To execute the examples, include the build directory in your &amp;#39;PYTHONPATH&amp;#39;. For example, if &lt;b&gt;z3-cade24&lt;/b&gt; is in the directory &amp;#39;/home/grant/z3-cade24&amp;#39;, and you use bash.&lt;/li&gt;&lt;/ul&gt;
+&lt;pre&gt;
+     export PYTHONPATH=/home/grant/z3-cade24
+&lt;/pre&gt;
+&lt;ul&gt;&lt;li&gt;The installation is complete, you can execute the example &amp;#39;basic.py&amp;#39; in the examples zip file using&lt;/li&gt;&lt;/ul&gt;
+&lt;pre&gt;
+     python basic.py
+&lt;/pre&gt;&lt;/div&gt;&lt;div class="ClearBoth"&gt;&lt;/div&gt;</description><author>leodemoura</author><pubDate>Fri, 25 Jan 2013 22:29:38 GMT</pubDate><guid isPermaLink="false">Updated Wiki: CADE24 20130125102938P</guid></item><item><title>Updated Wiki: CADE24</title><link>http://z3.codeplex.com/wikipage?title=CADE24&amp;version=20</link><description>&lt;div class="wikidoc"&gt;Supplementary material for the paper &amp;quot;Computation in Real Closed Infinitesimal and&lt;br /&gt;Transcendental Extensions of the Rationals&amp;quot;.&lt;br /&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href="http://z3.codeplex.com/downloads/get/606232"&gt;Download Examples&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://rise4fun.com/Z3RCF"&gt;Try examples online&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://z3.codeplex.com/downloads/get/606242"&gt;Source Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://research.microsoft.com/en-us/um/people/leonardo/files/rcf.pdf"&gt;Paper&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;br /&gt;
+&lt;h2&gt;Browsing the source code described in the paper&lt;/h2&gt;
+&lt;ul&gt;&lt;li&gt;Go to &lt;b&gt;&lt;a href="http://z3.codeplex.com/SourceControl/list/changesets?branch=cade24"&gt;cade24 branch&lt;/a&gt;&lt;/b&gt;&lt;/li&gt;
+&lt;li&gt;Click in &lt;b&gt;Files&lt;/b&gt;&lt;/li&gt;
+&lt;li&gt;The main files are located in the sub-directory &lt;b&gt;src/math/realclosure&lt;/b&gt;, they contain approximately 7000 lines of C++ code. The main module only depends on the Z3 interval arithmetic package (sub-directory &lt;b&gt;src/math/interval&lt;/b&gt;), and basic data-structures and numeral types such as binary rationals (sub-directory &lt;b&gt;src/util&lt;/b&gt;).&lt;/li&gt;&lt;/ul&gt;
+
+&lt;h2&gt;Download pre-compiled binaries for Windows&lt;/h2&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href="http://z3.codeplex.com/downloads/get/606245"&gt;Windows 64 bits binaries&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://z3.codeplex.com/downloads/get/606246"&gt;Windows 32 bits binaries&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;br /&gt;To be able to run the examples, you have to include the &lt;b&gt;bin&lt;/b&gt; subdirectory in your PYTHONPATH environment variable.&lt;br /&gt;
+&lt;h2&gt;Compilation instructions for Linux and OSX&lt;/h2&gt;
+&lt;ul&gt;&lt;li&gt;Download the source code using the link above.&lt;/li&gt;
+&lt;li&gt;Go to the &lt;b&gt;z3-cade24&lt;/b&gt; directory.&lt;/li&gt;
+&lt;li&gt;If you have the &lt;a href="http://gmplib.org/"&gt;Gnu Multiple precision library&lt;/a&gt; (GMP) installed in your system, use the option &amp;#39;-g&amp;#39;. GMP is faster than the Z3 big number package.&lt;/li&gt;&lt;/ul&gt;
+&lt;pre&gt;
+      ./configure -g
+&lt;/pre&gt;
+&lt;ul&gt;&lt;li&gt;If you don&amp;#39;t have GMP, then use&lt;/li&gt;&lt;/ul&gt;
+&lt;pre&gt;
+      ./configure
+&lt;/pre&gt;
+&lt;ul&gt;&lt;li&gt;Then, execute&lt;/li&gt;&lt;/ul&gt;
+&lt;pre&gt;
+      cd build
+      make
+&lt;/pre&gt;
+&lt;ul&gt;&lt;li&gt;To execute the examples, include the build directory in your &amp;#39;PYTHONPATH&amp;#39;. For example, if &lt;b&gt;z3-cade24&lt;/b&gt; is in the directory &amp;#39;/home/grant/z3-cade24&amp;#39;, and you use bash.&lt;/li&gt;&lt;/ul&gt;
+&lt;pre&gt;
+     export PYTHONPATH=/home/grant/z3-cade24
+&lt;/pre&gt;
+&lt;ul&gt;&lt;li&gt;The installation is complete, you can execute the example &amp;#39;basic.py&amp;#39; in the examples zip file using&lt;/li&gt;&lt;/ul&gt;
+&lt;pre&gt;
+     python basic.py
+&lt;/pre&gt;&lt;/div&gt;&lt;div class="ClearBoth"&gt;&lt;/div&gt;</description><author>leodemoura</author><pubDate>Fri, 25 Jan 2013 22:29:23 GMT</pubDate><guid isPermaLink="false">Updated Wiki: CADE24 20130125102923P</guid></item><item><title>Updated Wiki: CADE24</title><link>http://z3.codeplex.com/wikipage?title=CADE24&amp;version=19</link><description>&lt;div class="wikidoc"&gt;Supplementary material for the paper &amp;quot;Computation in Real Closed Infinitesimal and&lt;br /&gt;Transcendental Extensions of the Rationals&amp;quot;.&lt;br /&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href="http://z3.codeplex.com/downloads/get/606232"&gt;Download Examples&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://z3.codeplex.com/downloads/get/606242"&gt;Source Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://research.microsoft.com/en-us/um/people/leonardo/files/rcf.pdf"&gt;Paper&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://rise4fun.com/Z3RCF"&gt;Try it online&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+
+&lt;h2&gt;Browsing the source code described in the paper&lt;/h2&gt;
+&lt;ul&gt;&lt;li&gt;Go to &lt;b&gt;&lt;a href="http://z3.codeplex.com/SourceControl/list/changesets?branch=cade24"&gt;cade24 branch&lt;/a&gt;&lt;/b&gt;&lt;/li&gt;
+&lt;li&gt;Click in &lt;b&gt;Files&lt;/b&gt;&lt;/li&gt;
+&lt;li&gt;The main files are located in the sub-directory &lt;b&gt;src/math/realclosure&lt;/b&gt;, they contain approximately 7000 lines of C++ code. The main module only depends on the Z3 interval arithmetic package (sub-directory &lt;b&gt;src/math/interval&lt;/b&gt;), and basic data-structures and numeral types such as binary rationals (sub-directory &lt;b&gt;src/util&lt;/b&gt;).&lt;/li&gt;&lt;/ul&gt;
+
+&lt;h2&gt;Download pre-compiled binaries for Windows&lt;/h2&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href="http://z3.codeplex.com/downloads/get/606245"&gt;Windows 64 bits binaries&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://z3.codeplex.com/downloads/get/606246"&gt;Windows 32 bits binaries&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;br /&gt;To be able to run the examples, you have to include the &lt;b&gt;bin&lt;/b&gt; subdirectory in your PYTHONPATH environment variable.&lt;br /&gt;
+&lt;h2&gt;Compilation instructions for Linux and OSX&lt;/h2&gt;
+&lt;ul&gt;&lt;li&gt;Download the source code using the link above.&lt;/li&gt;
+&lt;li&gt;Go to the &lt;b&gt;z3-cade24&lt;/b&gt; directory.&lt;/li&gt;
+&lt;li&gt;If you have the &lt;a href="http://gmplib.org/"&gt;Gnu Multiple precision library&lt;/a&gt; (GMP) installed in your system, use the option &amp;#39;-g&amp;#39;. GMP is faster than the Z3 big number package.&lt;/li&gt;&lt;/ul&gt;
+&lt;pre&gt;
+      ./configure -g
+&lt;/pre&gt;
+&lt;ul&gt;&lt;li&gt;If you don&amp;#39;t have GMP, then use&lt;/li&gt;&lt;/ul&gt;
+&lt;pre&gt;
+      ./configure
+&lt;/pre&gt;
+&lt;ul&gt;&lt;li&gt;Then, execute&lt;/li&gt;&lt;/ul&gt;
+&lt;pre&gt;
+      cd build
+      make
+&lt;/pre&gt;
+&lt;ul&gt;&lt;li&gt;To execute the examples, include the build directory in your &amp;#39;PYTHONPATH&amp;#39;. For example, if &lt;b&gt;z3-cade24&lt;/b&gt; is in the directory &amp;#39;/home/grant/z3-cade24&amp;#39;, and you use bash.&lt;/li&gt;&lt;/ul&gt;
+&lt;pre&gt;
+     export PYTHONPATH=/home/grant/z3-cade24
+&lt;/pre&gt;
+&lt;ul&gt;&lt;li&gt;The installation is complete, you can execute the example &amp;#39;basic.py&amp;#39; in the examples zip file using&lt;/li&gt;&lt;/ul&gt;
+&lt;pre&gt;
+     python basic.py
+&lt;/pre&gt;&lt;/div&gt;&lt;div class="ClearBoth"&gt;&lt;/div&gt;</description><author>leodemoura</author><pubDate>Fri, 25 Jan 2013 22:28:35 GMT</pubDate><guid isPermaLink="false">Updated Wiki: CADE24 20130125102835P</guid></item><item><title>Updated Wiki: Git HTTPS cloning errors</title><link>http://z3.codeplex.com/wikipage?title=Git HTTPS cloning errors&amp;version=3</link><description>&lt;div class="wikidoc"&gt;CodePlex requires a recent version of git to avoid HTTPS cloning errors. It is unclear which version number contains the fix. If we are using an older version of git, we may get the following error message when cloning the Z3 repository. The following instructions fixed the problem in all distributions we tried.&lt;br /&gt;&lt;br /&gt;&lt;pre&gt;    error: RPC failed; result=56, HTTP code = 200 
+&lt;/pre&gt;&lt;br /&gt;I noticed this problem in some Linux distributions. We can avoid this problem by installing the latest version of git. Here are some instructions that I found &lt;a href="http://en.wikibooks.org/wiki/ROSE_Compiler_Framework/Print_version#git_1.7.10_or_later_for_github.com_2"&gt;here&lt;/a&gt;
+&lt;ul&gt;&lt;li&gt;Clone the latest git repository&lt;/li&gt;&lt;/ul&gt;
+&lt;pre&gt;     git clone https://github.com/git/git.git 
+&lt;/pre&gt;
+&lt;ul&gt;&lt;li&gt;Install all prerequisite packages needed to build git from source files(assuming you already installed GNU tool chain with GCC compiler, make, etc.)&lt;/li&gt;&lt;/ul&gt;
+&lt;pre&gt;     sudo apt-get install gettext zlib1g-dev asciidoc libcurl4-openssl-dev &lt;/pre&gt;
+&lt;ul&gt;&lt;li&gt;Enter the clone git directory&lt;/li&gt;&lt;/ul&gt;
+&lt;pre&gt;    cd git 
+&lt;/pre&gt;
+&lt;ul&gt;&lt;li&gt;Configure and compile&lt;/li&gt;&lt;/ul&gt;
+&lt;pre&gt;    make configure 
+    ./configure --prefix=/usr
+    make all doc 
+&lt;/pre&gt;
+&lt;ul&gt;&lt;li&gt;Install as super user&lt;/li&gt;&lt;/ul&gt;
+&lt;pre&gt;    sudo make install install-doc install-html 
+&lt;/pre&gt;&lt;/div&gt;&lt;div class="ClearBoth"&gt;&lt;/div&gt;</description><author>leodemoura</author><pubDate>Thu, 24 Jan 2013 22:43:20 GMT</pubDate><guid isPermaLink="false">Updated Wiki: Git HTTPS cloning errors 20130124104320P</guid></item><item><title>Updated Wiki: Git HTTPS cloning errors</title><link>http://z3.codeplex.com/wikipage?title=Git HTTPS cloning errors&amp;version=2</link><description>&lt;div class="wikidoc"&gt;CodePlex requires a recent version of git to avoid HTTPS cloning errors. It is unclear which version number contains the fix. &lt;br /&gt;If we are using an older version of git, we may get the following error message when cloning the Z3 repository.&lt;br /&gt;The following instructions fixed the problem in all distributions we tried.&lt;br /&gt;&lt;br /&gt;&lt;pre&gt;    error: RPC failed; result=56, HTTP code = 200 
+&lt;/pre&gt;&lt;br /&gt;I noticed this problem in some Linux distributions. We can avoid this problem by installing the latest version of git. Here are some instructions that I found &lt;a href="http://en.wikibooks.org/wiki/ROSE_Compiler_Framework/Print_version#git_1.7.10_or_later_for_github.com_2"&gt;here&lt;/a&gt;
+&lt;ul&gt;&lt;li&gt;Clone the latest git repository&lt;/li&gt;&lt;/ul&gt;
+&lt;pre&gt;     git clone https://github.com/git/git.git 
+&lt;/pre&gt;
+&lt;ul&gt;&lt;li&gt;Install all prerequisite packages needed to build git from source files(assuming you already installed GNU tool chain with GCC compiler, make, etc.)&lt;/li&gt;&lt;/ul&gt;
+&lt;pre&gt;     sudo apt-get install gettext zlib1g-dev asciidoc libcurl4-openssl-dev &lt;/pre&gt;
+&lt;ul&gt;&lt;li&gt;Enter the clone git directory&lt;/li&gt;&lt;/ul&gt;
+&lt;pre&gt;    cd git 
+&lt;/pre&gt;
+&lt;ul&gt;&lt;li&gt;Configure and compile&lt;/li&gt;&lt;/ul&gt;
+&lt;pre&gt;    make configure 
+    ./configure --prefix=/usr
+    make all doc 
+&lt;/pre&gt;
+&lt;ul&gt;&lt;li&gt;Install as super user&lt;/li&gt;&lt;/ul&gt;
+&lt;pre&gt;    sudo make install install-doc install-html 
+&lt;/pre&gt;&lt;/div&gt;&lt;div class="ClearBoth"&gt;&lt;/div&gt;</description><author>leodemoura</author><pubDate>Thu, 24 Jan 2013 22:42:56 GMT</pubDate><guid isPermaLink="false">Updated Wiki: Git HTTPS cloning errors 20130124104256P</guid></item><item><title>New Comment on "Git HTTPS cloning errors"</title><link>http://z3.codeplex.com/wikipage?title=Git HTTPS cloning errors&amp;ANCHOR#C26304</link><description>logicgeezer and Carsten, &amp;#10;&amp;#10;Do you still get the error if you build git using the instructions above&amp;#63;&amp;#10;A possible workaround is to avoid git and download the code as a zip file.&amp;#10;You can do that by clicking the &amp;#34;Download&amp;#34; button in the source code tab.&amp;#10;This feature allows us to download any version&amp;#47;branch&amp;#47;commit as a zip file.&amp;#10;In the meantime, I will try to figure out with the codeplex guys why this problem happens.&amp;#10;&amp;#10;Thanks,&amp;#10;Leo</description><author>leodemoura</author><pubDate>Thu, 24 Jan 2013 21:26:51 GMT</pubDate><guid isPermaLink="false">New Comment on "Git HTTPS cloning errors" 20130124092651P</guid></item></channel></rss>

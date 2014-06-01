@@ -1,0 +1,620 @@
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" class="">
+    
+    
+    
+    
+
+    
+    <head>
+        <meta id="CompatabilityMode" http-equiv="X-UA-Compatible" content="IE=edge" />
+	    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link href="http://download-codeplex.sec.s-msft.com/css/v20552/i1970439/StyleSheet.ashx" id="MasterCss" rel="stylesheet" type="text/css" />
+        <link rel="SHORTCUT ICON" href="http://www.codeplex.com/favicon.ico" />
+        <title>Z3 - View Discussion</title>
+        
+        <!--
+        Third party scripts and code linked to or referenced from this website are licensed to you by the parties that own such code,
+        not by Microsoft.  See ASP.NET Ajax CDN Terms of Use – http://www.asp.net/ajaxlibrary/CDN.ashx.
+        -->
+        <script src="http://ajax.aspnetcdn.com/ajax/jquery/jquery-1.4.4.min.js" type="text/javascript"></script>
+        <script src="http://ajax.aspnetcdn.com/ajax/jquery.ui/1.8.6/jquery-ui.min.js" type="text/javascript"></script>
+        
+        
+    <style type="text/css">.SideBar, .SideBarPadding{display:none;}.MainContent{width:auto;}.SiteContentTable{width:100%;}</style>
+    <style id="ProjectStyles" type="text/css">
+        .SiteHeader, .SiteHeaderLeft {
+            height:45px !important;
+            overflow:hidden;
+        }
+        .SiteContent 
+        {
+            padding: 0 0 1em 0;
+            margin-top:0;
+            min-height:225px;
+            border-right: 1px solid lightgrey;
+            border-left: 1px solid lightgrey;
+            border-bottom: 1px solid lightgrey;
+        }
+        .IE table.MinWidthContent
+        {
+	        table-layout: auto !important;	
+        }
+    </style>
+    
+    
+    
+    
+    <meta id="WTProjectName" name="WT.pi" content="z3"/>
+    
+
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href='http://z3.codeplex.com/rsd' />
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml" title="WLWManifest" href='/wlwmanifest.xml' />
+    
+    
+        <link rel="alternate" type="application/rss+xml" title="Z3" url="http://z3.codeplex.com/project/feeds/rss"/>
+    
+        
+        <link rel="alternate" type="application/rss+xml" title="Z3&#32;-&#32;Discussions" url="http://z3.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2fforum%2fz3"/>
+        
+        <link rel="alternate" type="application/rss+xml" title="Z3&#32;-&#32;Issues" url="http://z3.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2fworkitem%2fz3"/>
+        
+        <link rel="alternate" type="application/rss+xml" title="Z3&#32;-&#32;Downloads" url="http://z3.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2frelease%2fz3"/>
+        <link rel="alternate" type="application/rss+xml" title="Z3&#32;-&#32;Reviews" url="http://z3.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2freview%2fz3"/>
+        
+    
+        <link rel="alternate" type="application/rss+xml" title="Z3&#32;-&#32;Source&#32;code" url="http://z3.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2fsourcecontrol%2fz3"/>
+        <link rel="alternate" type="application/rss+xml" title="Z3&#32;-&#32;Wiki" url="http://z3.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2fwiki%2fz3"/>
+    
+        
+    
+        <meta content="summary" name="twitter:card"></meta><meta content="@CodePlex" name="twitter:site"></meta><meta content="http://z3.codeplex.com/discussions/405738?ProjectName=z3" name="twitter:url"></meta><meta content="Z3" name="twitter:title"></meta><meta content="Z3 is a high-performance theorem prover being developed at Microsoft Research. " name="twitter:description"></meta><meta content="http://www.codeplex.com/favicon.ico" name="twitter:image"></meta>
+    
+
+    </head>
+    
+    <body>
+        <script src="http://download-codeplex.sec.s-msft.com/scripts/v20552/i7/ScriptLoader.ashx" type="text/javascript"></script>
+        <form id="aspnetForm" autocomplete="off" method="POST" enctype="multipart/form-data">
+            <input name="__RequestVerificationToken" type="hidden" value="RkBkPExNsRe9_cVF_pbGMwqe7VQoI_Bk_RO22toODWUiGughQtFRaINKB7_WF5zderPmybQef3CbugwnxOyaU3SIueE8du_pouJd8haPAt8wIh5wCbefZUrMYfVX43SGGNawiA2" />
+            
+            <div id="UpdateProgressPanel" class="loading_animation" style="display:none;">
+                <div class="row">
+                    <h2 class="anim_h2">
+                        <span id="UpdateProgressText">Updating...</span>
+                        <span id="animatedLoadingIconContainer">
+                            <img id="animatedLoadingIcon" src="http://download-codeplex.sec.s-msft.com/Images/v20552/loading_animation.gif" class="anim_img"/>
+                        </span>
+                    </h2>
+                </div>
+            </div>
+            
+            <div style="display:none;">
+                
+                    <script type="text/javascript">
+                        $loadScript("https://siterecruit.comscore.com/sr/codeplex/broker.js");
+                    </script>
+
+                
+                
+                <img id="BlankImage" style="width:0;height:0;" src="http://download-codeplex.sec.s-msft.com/Images/v20552/blank.png" onload="self.logoImageLoaded=true;"/>
+
+                <script language="javascript" type="text/javascript">
+                    var date = new Date();
+                    var timezoneOffset = date.getTimezoneOffset() / 60 * -1;
+                    var timezoneOffsetCookie = getCookie("TimezoneOffset");
+                    var firstTimeSetTimezoneCookie = false;
+
+                    if (timezoneOffsetCookie == null || timezoneOffsetCookie != timezoneOffset) {
+                        firstTimeSetTimezoneCookie = true;
+                        document.cookie = "TimezoneOffset=" + timezoneOffset + '; domain=.codeplex.com;expires=Wed, 11 Jun 2014 23:11:03 UTC';
+                    }
+                </script>
+                
+                
+                    <noscript>
+                        <a href="http://www.omniture.com" title="Web Analytics"><img src="http://msstonojstemp.112.2O7.net/b/ss/msstonojstemp/1/H.20.2--NS/0" height="1" width="1" border="0" alt="" /></a>
+                    </noscript>
+                
+            </div>
+            
+            <div id="header">
+                <div id="header_wrap" class="row">
+                    <p id="logo"><a href="http://www.codeplex.com">Code<span class="semi">Plex</span></a><span id="tagline">Project Hosting for Open Source Software</span></p>
+                    
+
+<ul id="nav">
+
+    <li><a href="/site/register/new" id="registerLink" class="ZoomFix">Register</a></li>
+    <li ><a class="SignInLink" href="https://www.codeplex.com/site/login?RedirectUrl=http%3a%2f%2fz3.codeplex.com%2fdiscussions%2f405738" id="signInLink">Sign In</a></li>
+  
+    <li class="last"><a class="rss_site_icon" href="http://www.codeplex.com/site/feeds/rss" type="application/rss+xml" rel="Alternate" title="CodePlex Site Activity"></a></li>
+</ul>
+                    <input id="searchsite" name="searchsite" maxlength="500" type="text" value="" /><span id="search_mag"><a id="submitSearch" name="submitSearch" class="magnify" title="Search" href="#"></a></span>
+                    <script>
+	$(document).ready(function() {
+    var searchButton = $('#submitSearch'),
+        searchBar = $('#searchsite');
+
+    // Register our own handler for the search event while we wait for the SearchBox script to load.
+    searchButton.bind('click.backupSearchBox', doProjectSearch);
+    searchBar.bind('keypress.backupSearchBox', function(e) { if ($keyCode(e) === 13) { doProjectSearch(); return false; } });
+
+    function cleanupSearchEvents() {
+        // If the SearchBox was loaded, unregister our handlers.
+        if (epx_loaded) {
+            searchButton.unbind('.backupSearchBox');
+            searchBar.unbind('.backupSearchBox');
+        }
+    }
+
+    $loadScript('http://i4.services.social.microsoft.com/search/Widgets/SearchBox.jss?appid=1000&scopeid=1&boxId=searchsite&btnId=submitSearch&watermark=Search%20all%20projects&overrideWatermark=true&searchLocation=%2fsite%2fsearch&allowEmptySearch=true&focusOnInit=False&minimumTermLength=3', cleanupSearchEvents);
+})
+function doProjectSearch() {
+    
+    var url = '/site/search';
+
+    //If search term is not same as watermark
+    if($('#searchsite').val() != 'Search all projects')    
+    {        
+        url = url + '?query=' + encodeURIComponent($('#searchsite').val());
+    }
+
+    
+    var callback = '';
+    if (callback.length > 0 && eval('typeof ' + callback) != 'undefined')
+        url += eval(callback + '()');
+
+    window.location.href = url;
+    return false;
+}
+</script>
+                </div>
+            </div>
+            
+            <div id="wrap">
+                
+    <div id="sub_heading" class="row">
+        
+        <div id="ProjectHeader">
+            <div id="project_title_row" class="row">
+                <div id="project_logo">
+                    
+    
+    <h1><a href="http://z3.codeplex.com/"><img src="http://download-codeplex.sec.s-msft.com/Download?ProjectName=z3&DownloadId=491381&Build=20552" alt="Z3" /></a></h1>
+
+                </div>
+            </div>
+        </div>
+        
+        <div id="ProjectDetailsDiv">
+            
+        </div>
+		<div class="clear"></div>
+        
+
+<ul id="page_box_links">
+	<li id="homeTabCell" style="width: 63px;"><a id="homeTab" href="http://z3.codeplex.com/" class="box_home">home</a><div></div></li>
+    
+	<li id="sourceTabCell" style="width:113px;"><a id="sourceTab" href="http://z3.codeplex.com/SourceControl/latest" class="box_source">source code</a><div></div></li>
+    
+	<li id="releasesTabCell" style="width:105px;"><a id="releasesTab" href="http://z3.codeplex.com/releases" class="box_downloads">downloads</a><div></div></li>
+    
+    <li id="documentationTabCell" style="width:143px;"><a id="documentationTab" href="http://z3.codeplex.com/documentation" class="box_documentation">documentation</a><div></div></li>
+    
+	<li id="discussionTabCell" style="width:112px;"><a id="discussionTab" href="http://z3.codeplex.com/discussions" class="discussions_active">discussions</a><div></div></li>
+    
+	<li id="workItemsTabCell" style="width:70px;"><a id="workItemsTab" href="http://z3.codeplex.com/workitem/list/basic" class="box_issue">issues</a><div></div></li>
+    
+	<li id="peopleTabCell" style="width:70px;"><a id="peopleTab" href="http://z3.codeplex.com/team/view" class="box_people">people</a><div></div></li>
+	<li id="licenseTabCell" style="width:70px;"><a id="licenseTab" href="http://z3.codeplex.com/license" class="box_license">license</a><div></div></li>
+    
+    <span class="stretch"></span>
+</ul>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#page_box_links').applyLastClassToList();
+    });
+</script>
+		    <div class="clear"></div>
+            
+     <td>
+       
+
+<div>
+    
+    <div id="actionBar" class="action_bar">
+        <ul id="actionBar_ul" class="actionBar_sublinks subtab_right" style="vertical-align: middle;">
+
+            
+
+                <li id="li_actionbar_creatediscussion" data-action-id="actionbar_creatediscussion" data-action-type="Navigate" class="actionBar_sublinks" data-options-id="3270538c-b859-4e78-92e6-8a65cb9b8e12">
+                
+                    <script class="options" defer="defer" id="3270538c-b859-4e78-92e6-8a65cb9b8e12" type="application/json">{"navigate-url":"http://z3.codeplex.com/discussions/create"}</script> 
+                    
+                    <div class="actionBar_custom_content"></div>
+
+                    <a href="#" id="actionbar_creatediscussion" title="Start a New Thread" class="action_bar_item_link">
+                        <img id="img_actionbar_creatediscussion" class="action_bar_item_image" src="http://download-codeplex.sec.s-msft.com/Images/v20552/actionbar_newitem.png" style="vertical-align: middle" />
+                        New Thread
+                    </a>
+
+                </li>
+
+            
+
+                <li id="li_actionbar_subscribe" data-action-id="actionbar_subscribe" data-action-type="PopUp" class="actionBar_sublinks" data-options-id="0fe7b501-5cf7-4896-ab4b-80798d70358b">
+                
+                    <script class="options" defer="defer" id="0fe7b501-5cf7-4896-ab4b-80798d70358b" type="application/json">{}</script> 
+                    
+                    <div class="actionBar_custom_content">
+
+<div id="rssHoverDiv" class="HoverPanel LeftHoverWidth" style="display: none">
+        <ul id="3_FeedsPanel" class="RssFeedsPanel">
+            <li>
+                <a id="ProjectRssLink" href="http://z3.codeplex.com/project/feeds/rss" class="ArrowSmall NoUnderline">All Project Updates</a>
+            </li>
+            
+            <li>
+                <a id="DiscussionRssLink" href="http://z3.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2fforum%2fz3" class="ArrowSmall NoUnderline">Discussions</a>
+            </li>
+            
+            <li>
+                <a id="IssueTrackerRssLink" href="http://z3.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2fworkitem%2fz3" class="ArrowSmall NoUnderline">Issue Tracker</a>
+            </li>
+            
+            <li>
+                <a id="ReleasesRssLink" href="http://z3.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2frelease%2fz3" class="ArrowSmall NoUnderline">Downloads</a>
+            </li>
+            <li>
+                <a id="ReviewsRssLink" href="http://z3.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2freview%2fz3" class="ArrowSmall NoUnderline">Reviews</a>
+            </li>
+            
+            <li>
+                <a id="SourceControlRssLink" href="http://z3.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2fsourcecontrol%2fz3" class="ArrowSmall NoUnderline">Source Code</a>
+            </li>
+            <li>
+                <a id="WikiRssLink" href="http://z3.codeplex.com/project/feeds/rss?ProjectRSSFeed=codeplex%3a%2f%2fwiki%2fz3" class="ArrowSmall NoUnderline">Wiki &amp; Documentation</a>
+            </li>
+        </ul>
+</div></div>
+
+                    <a href="#" id="actionbar_subscribe" title="Subscribe to project updates in RSS feeds." class="action_bar_item_link">
+                        <img id="img_actionbar_subscribe" class="action_bar_item_image" src="http://download-codeplex.sec.s-msft.com/Images/v20552/actionbar_subscribe.png" style="vertical-align: middle" />
+                        Subscribe
+                    </a>
+
+                </li>
+
+            
+        </ul>
+    </div>
+</div>
+     </td>
+
+        
+
+    </div>
+    
+    
+<div class="Threads">
+    <div class="ViewThread">
+        
+        
+        
+            <h1 class="page_title WordWrapBreakWord">
+                using &#39;solve&#39; for real vector variables
+            </h1>
+
+            <!-- Private Discussion header -->
+            
+
+            <!-- Posts List Header: Topics and Wiki Link -->
+            <table class="PostsListHeader">
+                <tr>
+                    <td>
+                     
+                    </td>
+                    <td>
+                        <div class="WikiLink">
+                            <span title="Paste this into a wiki page to link to this discussion">
+                                Wiki Link: [discussion:405738]
+                            </span>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+
+            <!-- The list of posts -->
+            
+
+<div id="discussionsPostList" data-options-id="611f9127-797d-48f9-b95b-a08652b84df0">
+    <script class="options" defer="defer" id="611f9127-797d-48f9-b95b-a08652b84df0" type="application/json">{"threadUrl":"http://z3.codeplex.com/discussions/405738","showEditor":false}</script>
+
+    <div class="Posts" style="margin-top: 10px;">
+    
+
+<table cellpadding="0" cellspacing="0" style="width: 100%; margin-bottom: 0px; table-layout:fixed">
+    
+
+<tr id="PostPanel" class="Post" d:forid="951983">
+    <td id="PostDetailsCell_951983" style="vertical-align: top; border:solid #BBB 1px; border-bottom:none; border-left:none; border-top:none; width: 114px" class="Post">
+        <div class="Details">
+            <a name="post951983"></a>
+            <div class="UserName" style="white-space: pre-wrap;word-wrap: break-word;"><a class="UserProfileLink" href="http://www.codeplex.com/site/users/view/blurium">blurium</a></div>
+            <div class="UserRole"></div>
+            <div  style="white-space:normal" class="SubText"><span class="smartDate" title="12/5/2012 11:21:30 PM" LocalTimeTicks="1354778490">Dec 5, 2012 at 11:21 PM</span></div>
+            
+        </div>
+    </td>
+    <td id="PostContent_951983" style="width: 100%; vertical-align: top;" class="discussionListContent WordWrapBreakWord Post " data-markdown="&#32;I&#32;was&#32;wondering&#32;if&#32;there&#32;is&#32;any&#32;way&#32;to&#32;use&#32;the&#32;solve&#32;function&#32;for&#32;real&#32;vector&#32;variables&#32;.&#32;For&#32;example&#32;when&#32;I&#32;have&#32;the&#32;code&#58;&#32;&#32;c1&#61;&#32;np.random.random_integers&#40;-5,5,size&#61;&#40;1,N&#41;&#41;&#32;x&#32;&#61;&#32;RealVector&#40;&#39;x&#39;,&#32;N&#41;&#32;solve&#40;c1&#42;x&#38;gt&#59;0&#41;&#38;nbsp&#59;&#32;I&#32;get&#32;the&#32;error&#58;&#32;&#38;quot&#59;z3types.Z3Exception&#58;&#32;&#39;True,&#32;False&#32;pr&#32;Z3&#32;Boolean&#32;expression&#32;expected&#39;&#32;&#32;Thanks,&#38;nbsp&#59;&#32;">
+    
+<p>I was wondering if there is any way to use the solve function for real vector variables .</p>
+<p>For example when I have the code:<br>
+<br>
+c1= np.random.random_integers(-5,5,size=(1,N))</p>
+<p>x = RealVector('x', N)</p>
+<p>solve(c1*x&gt;0)&nbsp;</p>
+<p>I get the error: &quot;z3types.Z3Exception: 'True, False pr Z3 Boolean expression expected'<br>
+<br>
+Thanks,&nbsp;</p>
+
+    
+    </td>
+    <td style="vertical-align: top; width: 134px;" class="Post">
+        
+        <div class="Options" style="margin: 8px;">
+            
+        </div>
+        
+    </td>
+</tr>
+        <tr><td colspan="3"><div class="PostSeparator"></div></td></tr>
+        
+
+<tr id="PostPanel" class="Post" d:forid="951986">
+    <td id="PostDetailsCell_951986" style="vertical-align: top; border:solid #BBB 1px; border-bottom:none; border-left:none; border-top:none; width: 114px" class="TeamPost">
+        <div class="Details">
+            <a name="post951986"></a>
+            <div class="UserName" style="white-space: pre-wrap;word-wrap: break-word;"><a class="UserProfileLink" href="http://www.codeplex.com/site/users/view/leodemoura">leodemoura</a></div>
+            <div class="UserRole">Coordinator</div>
+            <div  style="white-space:normal" class="SubText"><span class="smartDate" title="12/5/2012 11:36:06 PM" LocalTimeTicks="1354779366">Dec 5, 2012 at 11:36 PM</span></div>
+            
+        </div>
+    </td>
+    <td id="PostContent_951986" style="width: 100%; vertical-align: top;" class="discussionListContent WordWrapBreakWord Post " data-markdown="&#32;When&#32;you&#32;write&#32;&#38;quot&#59;c1&#42;x&#38;quot&#59;,&#32;do&#32;you&#32;mean&#32;the&#32;dot&#32;product&#32;of&#32;the&#32;vectors&#32;c1&#32;and&#32;x&#63;&#32;If&#32;that&#32;is&#32;the&#32;case,&#32;we&#32;can&#32;define&#32;the&#32;dot&#32;product&#32;function&#32;and&#32;write&#32;the&#32;problem&#32;as&#58;&#32;from&#32;z3&#32;import&#32;&#42;&#32;import&#32;random&#32;def&#32;dot_product&#40;V1,&#32;V2&#41;&#58;&#32;&#38;nbsp&#59;&#38;nbsp&#59;&#38;nbsp&#59;&#32;return&#32;Sum&#40;&#91;x&#42;y&#32;for&#32;x,&#32;y&#32;in&#32;zip&#40;V1,&#32;V2&#41;&#93;&#41;&#32;N&#32;&#61;&#32;4&#32;c&#32;&#61;&#32;&#91;&#32;random.randint&#40;-5,&#32;5&#41;&#32;for&#32;i&#32;in&#32;range&#40;N&#41;&#32;&#93;&#32;x&#32;&#61;&#32;RealVector&#40;&#39;x&#39;,&#32;N&#41;&#32;print&#32;dot_product&#40;c,&#32;x&#41;&#32;solve&#40;dot_product&#40;c,&#32;x&#41;&#32;&#38;gt&#59;&#32;0&#41;&#32;&#38;nbsp&#59;&#32;">
+    
+<p>When you write &quot;c1*x&quot;, do you mean the dot product of the vectors c1 and x?</p>
+<p>If that is the case, we can define the dot product function and write the problem as:</p>
+<p>from z3 import *<br>
+import random</p>
+<p>def dot_product(V1, V2):<br>
+&nbsp;&nbsp;&nbsp; return Sum([x*y for x, y in zip(V1, V2)])</p>
+<p>N = 4<br>
+c = [ random.randint(-5, 5) for i in range(N) ]<br>
+x = RealVector('x', N)<br>
+print dot_product(c, x)<br>
+solve(dot_product(c, x) &gt; 0)</p>
+<p>&nbsp;</p>
+
+    
+    </td>
+    <td style="vertical-align: top; width: 134px;" class="Post">
+        
+        <div class="Options" style="margin: 8px;">
+            
+        </div>
+        
+    </td>
+</tr>
+</table>
+    </div>
+
+    
+        <div class="StandardMarginTop">
+            <a href="https://www.codeplex.com/site/login?RedirectUrl=http%3a%2f%2fz3.codeplex.com%2fdiscussions%2f405738">
+                Sign in to post message or set email notifications
+            </a>
+        </div>
+    
+
+
+    <div id="PostEditorContainer">
+        <a name="editor"></a>
+        <div id="Editor" style="display: none;">
+            
+
+<div class="MarkdownEditor" data-options-id="eea6d4e7-dff7-4497-9cb4-83479e8bf2cf">
+    <script class="options" defer="defer" id="eea6d4e7-dff7-4497-9cb4-83479e8bf2cf" type="application/json">{"maxLength":10000,"styleSheetLocation":""}</script>
+
+    <div class="MarkdownEditorControls">
+        <a href="#" tabindex="-1" class="control md_help" title="Markdown Syntax Guide"></a>
+        <div class="control md_divider"></div>
+        <a href="#" tabindex="-1" class="control md_header" title="Insert Header (CTRL + H)"></a>
+        <a href="#" tabindex="-1" class="control md_code" title="Insert Code (CTRL + K)"></a>
+        <a href="#" tabindex="-1" class="control md_quote" title="Insert Quote (CTRL + Q)"></a>
+        <a href="#" tabindex="-1" class="control md_img" title="Insert Img (CTRL + G)"></a>
+        <a href="#" tabindex="-1" class="control md_link" title="Insert Link (CTRL + L)"></a>
+        <a href="#" tabindex="-1" class="control md_ulist" title="Unordered List (CTRL + U)"></a>
+        <a href="#" tabindex="-1" class="control md_olist" title="Ordered List (CTRL + O)"></a>
+        <a href="#" tabindex="-1" class="control md_italics" title="Italic Text (CTRL + I)"></a>
+        <a href="#" tabindex="-1" class="control md_bold" title="Bold Text (CTRL + B)"></a>
+    </div>
+
+    
+
+<div class="tab_control">
+    <!-- Generate the basic HTML for the tabs. -->
+    
+        <div id="Compose"
+              class="tab selected"
+              data-custom-header-id=""
+              data-tab-contents-id="compose_contents_0d850882-b141-4bc3-9916-1d0b097e5249">
+            Compose
+        </div>
+    
+        <div id="Preview"
+              class="tab "
+              data-custom-header-id=""
+              data-tab-contents-id="preview_contents_c7b587aa-9284-4773-9a85-fa2186573bc6">
+            Preview
+        </div>
+    
+    <div class="clear"></div>
+</div>
+
+
+    <div id="compose_contents_0d850882-b141-4bc3-9916-1d0b097e5249" class="compose_tab_content">
+        <textarea class=" MarkdownEditorDimensions" cols="20" id="MarkdownEditor" name="content" rows="2">
+</textarea>
+        <div class="ClearBoth"></div>
+
+        <div class="markdownGuide" style="display: none">
+            <table>
+                <tr>
+                    <td class="markdownGuideColumn">
+                        <h1>Text Formatting</h1>
+                        <div># Header 1</div>
+                        <div>## Header 2</div>
+                        <br />
+                        <div>*italics* (or _italics_)</div>
+                        <div>**bold** (or __bold__)</div>
+                    </td>
+                    <td class="markdownGuideColumn">
+                        <h1>Lists</h1>
+                        <div>* Unordered List</div>
+                        <div>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp * SubItem</div>
+                        <br />
+                        <div>1. Ordered List</div>
+                        <div>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 1. SubItem</div>
+                    </td>
+                    <td class="markdownGuideColumn">
+                        <h1>Quotes</h1>
+                        <div>> Lorem ipsum</div>
+                        <div>dolor sitamet </div>
+                        <div>non. Lectus at</div>
+                        <div>nam nunc...</div>
+                    </td>
+                    <td class="markdownGuideColumn">
+                        <h1>Code</h1>
+                        <div>`Inline Code`</div>
+                        <br />
+                        <div>``` C#</div>
+                        <div>if (foo==bar)</div>
+                        <div>&nbsp&nbsp&nbsp&nbsp&nbsp&nbspbar++</div>
+                        <div>```</div>
+                    </td>
+                    <td class="markdownGuideColumn">
+                        <h1>References</h1>
+                        <div>[Link Text](URL)</div>
+                        <br />
+                        <div>![Image](URL)</div>
+                        <br />
+                        <a class="Reference" target="_blank" href="http://codeplex.codeplex.com/wikipage?title=Markdown&referringTitle=Documentation">Markdown Reference</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div id="preview_contents_c7b587aa-9284-4773-9a85-fa2186573bc6" class="preview_tab_content markDownOutput">
+        
+            <div></div>
+        
+    </div>
+    <div class="clear"></div>
+</div>
+
+            <div style="padding-top: 6px;">
+                <input type="button" id="SaveButton" value="Save" class="ok" />
+                <input type="button" id="CancelButton" value="Cancel" class="cancel" />
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="DeletePostPanel" class="modal" style="display:none">
+    <div class="row">
+        <h2>Delete Post <a href="javascript:return false;" class="close">X</a></h2>
+    </div>
+    <div class="modal_info">
+        <p>Are you sure you want to delete this post? You will not be able to recover it later.</p>
+        <p class="modal_buttons">
+            <input type="button" id="ClosePostCancel" value="Cancel" class="cancel" />
+            <input type="button" id="ClosePostOk" value="Delete" class="ok" />
+        </p>
+        <div class="ClearBoth"></div>
+    </div>
+</div>
+
+        
+            <!-- Email notification / Subscription details -->
+            
+    </div>
+</div>
+    
+<div id="DeleteThreadPanel" class="modal" style="display:none">
+    <div class="row">
+        <h2>Delete Thread <a href="javascript:return false;" class="close">X</a></h2>
+    </div>
+    <div class="modal_info">
+        <p>Are you sure you want to delete this thread? You will not be able to recover it later.</p>
+        <p class="modal_buttons">
+            <input type="button" id="CloseThreadCancel" value="Cancel" class="cancel" />
+            <input type="button" id="CloseThreadOk" value="Delete" class="ok" />
+        </p>
+        <div class="ClearBoth"></div>
+    </div>
+</div>
+
+<script type="text/javascript" language="javascript">
+    $(function () {
+
+        if ($('#DeleteThreadLink')) {
+            $('#DeleteThreadLink').click(function () {
+                OpenDialog('#DeleteThreadPanel', true, '41em');
+            });
+        }
+        
+        $('#DeleteThreadPanel #CloseThreadOk').click(function () {
+            var url = 'http://z3.codeplex.com/discussions/405738';
+            $.ajax({
+                url: url,
+                type: 'DELETE',
+                success: function (x) {
+                    location.href = x.RedirectUrl;
+                }
+            });
+        });
+    });
+</script>
+
+
+        
+        
+                
+                <div class="clear"></div>
+                
+                <div id="footer">
+                    <div class="row">
+                        <hr />
+                        <ul>
+                            <li>© 2006-2013 Microsoft</li>
+                            <li><a href="http://www.codeplex.com/site/help">Get Help</a></li>
+                            <li><a href="/site/legal/privacy">Privacy Statement</a></li>
+                            <li><a href="http://www.codeplex.com/site/legal/terms">Terms of Use</a></li>
+                            <li><a href="http://www.codeplex.com/site/legal/conduct">Code of Conduct</a></li>
+                            <li><a href="http://www.lakequincy.com" target="_blank">Advertise With Us</a></li>
+                            <li>Version 6.4.2013.20552</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </body>
+
+</html>
