@@ -4,11 +4,11 @@ SRC=$1
 shift
 LIBS=$@
 
-PROGUARD="java -classpath /home/shashi/workspace/saaas/bin/: proguard.ProGuard"
-REMAP="java -cp /home/shashi/workspace/saaas/bin:/home/shashi/workspace/saaas/lib/* proguard.remap.XMLTranslator"
-DIFF="java -cp /home/shashi/workspace/saaas/bin:/home/shashi/workspace/saaas/lib/* proguard.remap.XMLDiff"
+PROGUARD="java -classpath /home/soham/workspace/saaas/bin/: proguard.ProGuard"
+REMAP="java -cp /home/soham/workspace/saaas/bin:/home/soham/workspace/saaas/lib/*:. proguard.remap.XMLTranslator"
+DIFF="java -cp /home/soham/workspace/saaas/bin:/home/soham/workspace/saaas/lib/dom4j-1.6.1.jar proguard.remap.XMLDiff"
 
-JD_GUI=/home/soham/M.E\ Project/jd-gui/jd-gui
+JD_GUI=./jd-gui/jd-gui
 FINDBUGS="findbugs/bin/findbugs"
 
 echo Source: $SRC
@@ -37,7 +37,7 @@ for lib in $LIBS; do
 done
 
 echo running proguard: $proguard_command
-$proguard_command &&
+$proguard_command > proguard_output.txt &&
 
 if is_jar "$SRC"; then 
 	$JD_GUI "$SRC" "$DEST" 2> /dev/null &
@@ -45,19 +45,24 @@ else
 	$JD_GUI "$SRC"/* "$DEST"/*  2> /dev/null &
 fi
 
-rm /tmp/bugreport_*
+rm /home/soham/M.E_Project/saaas/reports/bugreport_*
 echo Running findbugs on original code.
-findbugs_command="$FINDBUGS -textui -effort:min -xml -output /tmp/bugreport_original1.xml $SRC" &&
+findbugs_command="$FINDBUGS -textui -effort:min -xml -output /home/soham/M.E_Project/saaas/reports/bugreport_original.xml $SRC" &&
 
 $findbugs_command                   
 echo Running findbugs on obfuscated code
-findbugs_command="$FINDBUGS -textui -effort:min -xml -output /tmp/bugreport_obfuscated1.xml $DEST" &&
+findbugs_command="$FINDBUGS -textui -effort:min -xml -output /home/soham/M.E_Project/saaas/reports/bugreport_obfuscated.xml $DEST" &&
 $findbugs_command
 
 echo Converting report on obfuscated file.
-$REMAP /tmp/bugreport_obfuscated1.xml /tmp/proguard_map1.txt /tmp/new_report1.xml &&
+$REMAP /home/soham/M.E_Project/saaas/reports/bugreport_obfuscated.xml /tmp/proguard_map.txt /tmp/new_report.xml > remap.txt &&
+echo Done Converting report on obfuscated file.
 
-sudo $DIFF /tmp/bugreport_original1.xml /tmp/new_report1.xml /tmp/missing1.xml /tmp/extra1.xml
+len=$SRC | wc -c
+b="\/"
+appnd=$SRC | grep -o "$b.*"
 
-$FINDBUGS /tmp/extra1.xml &
-$FINDBUGS /tmp/missing1.xml &
+$DIFF /home/soham/M.E_Project/saaas/reports/bugreport_original.xml /tmp/new_report.xml /home/soham/M.E_Project/saaas/reports/missing_tomcat.xml /home/soham/M.E_Project/saaas/reports/extra_tomcat.xml
+
+$FINDBUGS /home/soham/M.E_Project/saaas/reports/extra_tomcat.xml &
+$FINDBUGS /home/soham/M.E_Project/saaas/reports/missing_tomcat.xml &
