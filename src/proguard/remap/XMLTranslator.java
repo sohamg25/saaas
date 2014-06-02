@@ -149,7 +149,12 @@ public class XMLTranslator {
 /*Changed here*/			String oldMethod = reverseMap.getOriginalMethodName(className.getValue(), methodName.getValue(), signature.getValue());
 			methodName.setValue(oldMethod);
 
-			translateClassName(method);
+			//Changed here
+			//translateClassName(method);
+			for (Iterator j = method.elementIterator(SOURCE_LINE); j.hasNext(); ) {
+				Element classElem = (Element) j.next();
+				translateClassName(classElem);
+			}
 		}
 		
 		for (Iterator i = item.elementIterator(FIELD); i.hasNext(); ) {
@@ -171,6 +176,11 @@ public class XMLTranslator {
 			fieldName.setValue(oldName);
 
 			translateClassName(field);
+		}
+		
+		for (Iterator i = item.elementIterator(SOURCE_LINE); i.hasNext(); ) {
+			Element classElem = (Element) i.next();
+			translateClassName(classElem);
 		}
 	}
 
