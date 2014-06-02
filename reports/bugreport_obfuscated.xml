@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<BugCollection version="2.0.2" sequence="0" timestamp="1401555692000" analysisTimestamp="1401555727147" release="">
+<BugCollection version="2.0.2" sequence="0" timestamp="1401693396000" analysisTimestamp="1401693477238" release="">
   <Project projectName="">
     <Jar>tsp/java-tsp-1.3.obf.jar</Jar>
   </Project>
@@ -928,10 +928,10 @@
     </Method>
     <LocalVariable name="errorID" register="2" pc="37" role="LOCAL_VARIABLE_NAMED"/>
     <SourceLine classname="com.lowagie.text.ImgPostscript" start="133" end="133" startBytecode="36" endBytecode="36" sourcefile="ImgPostscript.java" sourcepath="com/lowagie/text/ImgPostscript.java"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="errorID"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
     <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
     <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="errorID"/>
   </BugInstance>
   <BugInstance type="DM_DEFAULT_ENCODING" priority="1" abbrev="Dm" category="I18N">
     <Class classname="com.lowagie.text.ImgPostscript">
@@ -1346,9 +1346,9 @@
     </Method>
     <LocalVariable name="vo" register="4" pc="54" role="LOCAL_VARIABLE_NAMED"/>
     <SourceLine classname="com.lowagie.text.pdf.AcroFields" start="1381" end="1381" startBytecode="52" endBytecode="52" sourcefile="AcroFields.java" sourcepath="com/lowagie/text/pdf/AcroFields.java"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="vo"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
     <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="vo"/>
   </BugInstance>
   <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" abbrev="DLS" category="STYLE">
     <Class classname="com.lowagie.text.pdf.AcroFields">
@@ -1359,9 +1359,9 @@
     </Method>
     <LocalVariable name="fd" register="2" pc="5" role="LOCAL_VARIABLE_NAMED"/>
     <SourceLine classname="com.lowagie.text.pdf.AcroFields" start="902" end="902" startBytecode="4" endBytecode="4" sourcefile="AcroFields.java" sourcepath="com/lowagie/text/pdf/AcroFields.java"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="fd"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
     <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="fd"/>
   </BugInstance>
   <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" abbrev="DLS" category="STYLE">
     <Class classname="com.lowagie.text.pdf.AcroFields">
@@ -1372,9 +1372,9 @@
     </Method>
     <LocalVariable name="fd" register="2" pc="5" role="LOCAL_VARIABLE_NAMED"/>
     <SourceLine classname="com.lowagie.text.pdf.AcroFields" start="918" end="918" startBytecode="4" endBytecode="4" sourcefile="AcroFields.java" sourcepath="com/lowagie/text/pdf/AcroFields.java"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="fd"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
     <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="fd"/>
   </BugInstance>
   <BugInstance type="DM_NUMBER_CTOR" priority="2" abbrev="Bx" category="PERFORMANCE">
     <Class classname="com.lowagie.text.pdf.AcroFields">
@@ -1506,9 +1506,9 @@
     </Method>
     <LocalVariable name="fullCode" register="6" pc="71" role="LOCAL_VARIABLE_NAMED"/>
     <SourceLine classname="com.lowagie.text.pdf.BarcodeCodabar" start="315" end="315" startBytecode="69" endBytecode="69" sourcefile="BarcodeCodabar.java" sourcepath="com/lowagie/text/pdf/BarcodeCodabar.java"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="fullCode"/>
     <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
     <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="fullCode"/>
   </BugInstance>
   <BugInstance type="SF_SWITCH_NO_DEFAULT" priority="2" abbrev="SF" category="STYLE">
     <Class classname="com.lowagie.text.pdf.BarcodeEAN">
@@ -1735,10 +1735,10 @@
     </Method>
     <LocalVariable name="major" register="2" pc="33" role="LOCAL_VARIABLE_NAMED"/>
     <SourceLine classname="com.lowagie.text.pdf.CFFFont" start="1038" end="1038" startBytecode="32" endBytecode="32" sourcefile="CFFFont.java" sourcepath="com/lowagie/text/pdf/CFFFont.java"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="major"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
     <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
     <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="major"/>
   </BugInstance>
   <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" abbrev="DLS" category="STYLE">
     <Class classname="com.lowagie.text.pdf.CFFFont">
@@ -1749,10 +1749,10 @@
     </Method>
     <LocalVariable name="minor" register="3" pc="38" role="LOCAL_VARIABLE_NAMED"/>
     <SourceLine classname="com.lowagie.text.pdf.CFFFont" start="1039" end="1039" startBytecode="37" endBytecode="37" sourcefile="CFFFont.java" sourcepath="com/lowagie/text/pdf/CFFFont.java"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="minor"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
     <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
     <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="minor"/>
   </BugInstance>
   <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" abbrev="DLS" category="STYLE">
     <Class classname="com.lowagie.text.pdf.CFFFont">
@@ -1763,10 +1763,10 @@
     </Method>
     <LocalVariable name="format" register="2" pc="10" role="LOCAL_VARIABLE_NAMED"/>
     <SourceLine classname="com.lowagie.text.pdf.CFFFont" start="1182" end="1182" startBytecode="9" endBytecode="9" sourcefile="CFFFont.java" sourcepath="com/lowagie/text/pdf/CFFFont.java"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="format"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
     <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
     <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="format"/>
   </BugInstance>
   <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" abbrev="DLS" category="STYLE">
     <Class classname="com.lowagie.text.pdf.CFFFont">
@@ -1777,10 +1777,10 @@
     </Method>
     <LocalVariable name="major" register="4" pc="66" role="LOCAL_VARIABLE_NAMED"/>
     <SourceLine classname="com.lowagie.text.pdf.CFFFont" start="708" end="708" startBytecode="64" endBytecode="64" sourcefile="CFFFont.java" sourcepath="com/lowagie/text/pdf/CFFFont.java"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="major"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
     <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
     <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="major"/>
   </BugInstance>
   <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" abbrev="DLS" category="STYLE">
     <Class classname="com.lowagie.text.pdf.CFFFont">
@@ -1791,10 +1791,10 @@
     </Method>
     <LocalVariable name="minor" register="5" pc="72" role="LOCAL_VARIABLE_NAMED"/>
     <SourceLine classname="com.lowagie.text.pdf.CFFFont" start="709" end="709" startBytecode="70" endBytecode="70" sourcefile="CFFFont.java" sourcepath="com/lowagie/text/pdf/CFFFont.java"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="minor"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
     <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
     <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="minor"/>
   </BugInstance>
   <BugInstance type="DLS_DEAD_LOCAL_STORE_SHADOWS_FIELD" priority="1" abbrev="DLS" category="STYLE">
     <Class classname="com.lowagie.text.pdf.CFFFont">
@@ -1808,10 +1808,10 @@
       <SourceLine classname="com.lowagie.text.pdf.CFFFont" sourcefile="CFFFont.java" sourcepath="com/lowagie/text/pdf/CFFFont.java"/>
     </Field>
     <SourceLine classname="com.lowagie.text.pdf.CFFFont" start="711" end="711" startBytecode="82" endBytecode="82" sourcefile="CFFFont.java" sourcepath="com/lowagie/text/pdf/CFFFont.java"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="offSize"/>
     <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.SHADOWS_FIELD" value="true"/>
     <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.SHADOWS_FIELD" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="offSize"/>
   </BugInstance>
   <BugInstance type="DLS_DEAD_LOCAL_STORE_SHADOWS_FIELD" priority="1" abbrev="DLS" category="STYLE">
     <Class classname="com.lowagie.text.pdf.CFFFont">
@@ -1825,11 +1825,11 @@
       <SourceLine classname="com.lowagie.text.pdf.CFFFont" sourcefile="CFFFont.java" sourcepath="com/lowagie/text/pdf/CFFFont.java"/>
     </Field>
     <SourceLine classname="com.lowagie.text.pdf.CFFFont" start="267" end="267" startBytecode="26" endBytecode="26" sourcefile="CFFFont.java" sourcepath="com/lowagie/text/pdf/CFFFont.java"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="nextIndexOffset"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.TWO_STORES_MULTIPLE_LOADS" value="true"/>
     <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.SINGLE_DEAD_INCREMENT" value="true"/>
     <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.SHADOWS_FIELD" value="true"/>
     <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_INCREMENT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.TWO_STORES_MULTIPLE_LOADS" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="nextIndexOffset"/>
     <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.IS_PARAMETER" value="true"/>
   </BugInstance>
   <BugInstance type="DM_NUMBER_CTOR" priority="2" abbrev="Bx" category="PERFORMANCE">
@@ -1977,10 +1977,10 @@
     </Method>
     <LocalVariable name="major" register="1" pc="10" role="LOCAL_VARIABLE_NAMED"/>
     <SourceLine classname="com.lowagie.text.pdf.CFFFontSubset" start="1212" end="1212" startBytecode="9" endBytecode="9" sourcefile="CFFFontSubset.java" sourcepath="com/lowagie/text/pdf/CFFFontSubset.java"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="major"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
     <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
     <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="major"/>
   </BugInstance>
   <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" abbrev="DLS" category="STYLE">
     <Class classname="com.lowagie.text.pdf.CFFFontSubset">
@@ -1991,10 +1991,10 @@
     </Method>
     <LocalVariable name="minor" register="2" pc="15" role="LOCAL_VARIABLE_NAMED"/>
     <SourceLine classname="com.lowagie.text.pdf.CFFFontSubset" start="1213" end="1213" startBytecode="14" endBytecode="14" sourcefile="CFFFontSubset.java" sourcepath="com/lowagie/text/pdf/CFFFontSubset.java"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="minor"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
     <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
     <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="minor"/>
   </BugInstance>
   <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" abbrev="DLS" category="STYLE">
     <Class classname="com.lowagie.text.pdf.CFFFontSubset">
@@ -2005,10 +2005,10 @@
     </Method>
     <LocalVariable name="offSize" register="4" pc="26" role="LOCAL_VARIABLE_NAMED"/>
     <SourceLine classname="com.lowagie.text.pdf.CFFFontSubset" start="1215" end="1215" startBytecode="24" endBytecode="24" sourcefile="CFFFontSubset.java" sourcepath="com/lowagie/text/pdf/CFFFontSubset.java"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="offSize"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
     <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
     <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="offSize"/>
   </BugInstance>
   <BugInstance type="DM_NUMBER_CTOR" priority="2" abbrev="Bx" category="PERFORMANCE">
     <Class classname="com.lowagie.text.pdf.CFFFontSubset">
@@ -2532,9 +2532,9 @@
     </Method>
     <LocalVariable name="tmp" register="5" pc="184" role="LOCAL_VARIABLE_NAMED"/>
     <SourceLine classname="com.lowagie.text.pdf.PdfCell" start="782" end="782" startBytecode="182" endBytecode="182" sourcefile="PdfCell.java" sourcepath="com/lowagie/text/pdf/PdfCell.java"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="tmp"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
     <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="tmp"/>
   </BugInstance>
   <BugInstance type="SF_SWITCH_NO_DEFAULT" priority="2" abbrev="SF" category="STYLE">
     <Class classname="com.lowagie.text.pdf.PdfCell">
@@ -2815,9 +2815,9 @@
     </Method>
     <LocalVariable name="pageObj" register="9" pc="160" role="LOCAL_VARIABLE_NAMED"/>
     <SourceLine classname="com.lowagie.text.pdf.PdfCopy" start="345" end="345" startBytecode="158" endBytecode="158" sourcefile="PdfCopy.java" sourcepath="com/lowagie/text/pdf/PdfCopy.java"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="pageObj"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
     <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="pageObj"/>
   </BugInstance>
   <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" abbrev="DLS" category="STYLE">
     <Class classname="com.lowagie.text.pdf.PdfCopy">
@@ -2828,9 +2828,9 @@
     </Method>
     <LocalVariable name="myObj" register="9" pc="159" role="LOCAL_VARIABLE_NAMED"/>
     <SourceLine classname="com.lowagie.text.pdf.PdfCopy" start="385" end="385" startBytecode="157" endBytecode="157" sourcefile="PdfCopy.java" sourcepath="com/lowagie/text/pdf/PdfCopy.java"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="myObj"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
     <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="myObj"/>
   </BugInstance>
   <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" abbrev="DLS" category="STYLE">
     <Class classname="com.lowagie.text.pdf.PdfCopy">
@@ -2841,9 +2841,9 @@
     </Method>
     <LocalVariable name="theObj" register="6" pc="96" role="LOCAL_VARIABLE_NAMED"/>
     <SourceLine classname="com.lowagie.text.pdf.PdfCopy" start="194" end="194" startBytecode="94" endBytecode="94" sourcefile="PdfCopy.java" sourcepath="com/lowagie/text/pdf/PdfCopy.java"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="theObj"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
     <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="theObj"/>
   </BugInstance>
   <BugInstance type="URF_UNREAD_PUBLIC_OR_PROTECTED_FIELD" priority="2" abbrev="UrF" category="STYLE">
     <Class classname="com.lowagie.text.pdf.PdfCopy">
@@ -2938,9 +2938,9 @@
     </Method>
     <LocalVariable name="h" register="2" pc="33" role="LOCAL_VARIABLE_NAMED"/>
     <SourceLine classname="com.lowagie.text.pdf.PdfDocument" start="2262" end="2262" startBytecode="32" endBytecode="32" sourcefile="PdfDocument.java" sourcepath="com/lowagie/text/pdf/PdfDocument.java"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="h"/>
     <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
     <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="h"/>
   </BugInstance>
   <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" abbrev="DLS" category="STYLE">
     <Class classname="com.lowagie.text.pdf.PdfDocument">
@@ -2951,9 +2951,9 @@
     </Method>
     <LocalVariable name="pageReference" register="5" pc="531" role="LOCAL_VARIABLE_NAMED"/>
     <SourceLine classname="com.lowagie.text.pdf.PdfDocument" start="810" end="810" startBytecode="529" endBytecode="529" sourcefile="PdfDocument.java" sourcepath="com/lowagie/text/pdf/PdfDocument.java"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="pageReference"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.TWO_STORES_MULTIPLE_LOADS" value="true"/>
     <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.TWO_STORES_MULTIPLE_LOADS" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="pageReference"/>
   </BugInstance>
   <BugInstance type="FE_FLOATING_POINT_EQUALITY" priority="1" abbrev="FE" category="STYLE">
     <Class classname="com.lowagie.text.pdf.PdfDocument">
@@ -3134,10 +3134,10 @@
     </Method>
     <LocalVariable name="pNumber" register="2" pc="24" role="LOCAL_VARIABLE_NAMED"/>
     <SourceLine classname="com.lowagie.text.pdf.PdfICCBased" start="66" end="66" startBytecode="23" endBytecode="23" sourcefile="PdfICCBased.java" sourcepath="com/lowagie/text/pdf/PdfICCBased.java"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="pNumber"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
     <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
     <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.KILLED_BY_SUBSEQUENT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="pNumber"/>
   </BugInstance>
   <BugInstance type="SBSC_USE_STRINGBUFFER_CONCATENATION" priority="2" abbrev="SBSC" category="PERFORMANCE">
     <Class classname="com.lowagie.text.pdf.PdfImage">
@@ -3194,9 +3194,9 @@
     </Method>
     <LocalVariable name="fails" register="4" pc="21" role="LOCAL_VARIABLE_NAMED"/>
     <SourceLine classname="com.lowagie.text.pdf.PdfPKCS7" start="615" end="615" startBytecode="19" endBytecode="19" sourcefile="PdfPKCS7.java" sourcepath="com/lowagie/text/pdf/PdfPKCS7.java"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="fails"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
     <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="fails"/>
   </BugInstance>
   <BugInstance type="EI_EXPOSE_REP2" priority="2" abbrev="EI2" category="MALICIOUS_CODE">
     <Class classname="com.lowagie.text.pdf.PdfPKCS7">
@@ -3371,10 +3371,10 @@
     </Method>
     <SourceLine classname="com.lowagie.text.pdf.PdfPatternPainter" start="67" end="67" startBytecode="2" endBytecode="2" sourcefile="PdfPatternPainter.java" sourcepath="com/lowagie/text/pdf/PdfPatternPainter.java"/>
     <Int value="1" role="INT_NULL_ARG"/>
-    <Property name="edu.umd.cs.findbugs.detect.NullArgumentWarningProperty.ARG_DEFINITELY_NULL" value="true"/>
-    <Property name="edu.umd.cs.findbugs.detect.NullArgumentWarningProperty.ACTUAL_PARAMETER_GUARANTEED_NULL" value="true"/>
     <Property name="edu.umd.cs.findbugs.detect.NullArgumentWarningProperty.ALL_DANGEROUS_TARGETS" value="true"/>
     <Property name="edu.umd.cs.findbugs.detect.NullArgumentWarningProperty.MONOMORPHIC_CALL_SITE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.NullArgumentWarningProperty.ARG_DEFINITELY_NULL" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.NullArgumentWarningProperty.ACTUAL_PARAMETER_GUARANTEED_NULL" value="true"/>
   </BugInstance>
   <BugInstance type="DE_MIGHT_IGNORE" priority="2" abbrev="DE" category="BAD_PRACTICE">
     <Class classname="com.lowagie.text.pdf.PdfReader">
@@ -3424,8 +3424,8 @@
     </Method>
     <LocalVariable name="vp" register="4" pc="233" role="LOCAL_VARIABLE_NAMED"/>
     <SourceLine classname="com.lowagie.text.pdf.PdfReader" start="2419" end="2419" startBytecode="231" endBytecode="231" sourcefile="PdfReader.java" sourcepath="com/lowagie/text/pdf/PdfReader.java"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="vp"/>
     <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="vp"/>
   </BugInstance>
   <BugInstance type="DM_NUMBER_CTOR" priority="2" abbrev="Bx" category="PERFORMANCE">
     <Class classname="com.lowagie.text.pdf.PdfReader">
@@ -3842,8 +3842,8 @@
     </Method>
     <LocalVariable name="reader" register="8" pc="133" role="LOCAL_VARIABLE_NAMED"/>
     <SourceLine classname="com.lowagie.text.pdf.PdfSignatureAppearance" start="739" end="739" startBytecode="131" endBytecode="131" sourcefile="PdfSignatureAppearance.java" sourcepath="com/lowagie/text/pdf/PdfSignatureAppearance.java"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="reader"/>
     <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="reader"/>
   </BugInstance>
   <BugInstance type="EI_EXPOSE_REP" priority="2" abbrev="EI" category="MALICIOUS_CODE">
     <Class classname="com.lowagie.text.pdf.PdfSignatureAppearance">
@@ -4096,9 +4096,9 @@
     </Method>
     <LocalVariable name="cobj" register="4" pc="152" role="LOCAL_VARIABLE_NAMED"/>
     <SourceLine classname="com.lowagie.text.pdf.PdfWriter" start="1561" end="1561" startBytecode="476" endBytecode="476" sourcefile="PdfWriter.java" sourcepath="com/lowagie/text/pdf/PdfWriter.java"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="cobj"/>
     <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
     <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.MANY_STORES" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="cobj"/>
   </BugInstance>
   <BugInstance type="SF_SWITCH_NO_DEFAULT" priority="2" abbrev="SF" category="STYLE">
     <Class classname="com.lowagie.text.pdf.PdfWriter">
@@ -4333,9 +4333,9 @@
     </Method>
     <LocalVariable name="h" register="5" pc="145" role="LOCAL_VARIABLE_NAMED"/>
     <SourceLine classname="com.lowagie.text.pdf.PushbuttonField" start="334" end="334" startBytecode="143" endBytecode="143" sourcefile="PushbuttonField.java" sourcepath="com/lowagie/text/pdf/PushbuttonField.java"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="h"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.TWO_STORES_MULTIPLE_LOADS" value="true"/>
     <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.TWO_STORES_MULTIPLE_LOADS" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="h"/>
   </BugInstance>
   <BugInstance type="SF_SWITCH_FALLTHROUGH" priority="2" abbrev="SF" category="STYLE">
     <Class classname="com.lowagie.text.pdf.PushbuttonField">
@@ -4364,9 +4364,9 @@
     </Method>
     <LocalVariable name="ht" register="11" pc="167" role="LOCAL_VARIABLE_NAMED"/>
     <SourceLine classname="com.lowagie.text.pdf.RadioCheckField" start="234" end="234" startBytecode="165" endBytecode="165" sourcefile="RadioCheckField.java" sourcepath="com/lowagie/text/pdf/RadioCheckField.java"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="ht"/>
     <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
     <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="ht"/>
   </BugInstance>
   <BugInstance type="SF_SWITCH_NO_DEFAULT" priority="2" abbrev="SF" category="STYLE">
     <Class classname="com.lowagie.text.pdf.RadioCheckField">
@@ -4507,10 +4507,10 @@
     </Method>
     <LocalVariable name="st" register="5" pc="35" role="LOCAL_VARIABLE_NAMED"/>
     <SourceLine classname="com.lowagie.text.pdf.SimpleXMLParser" start="200" end="200" startBytecode="33" endBytecode="33" sourcefile="SimpleXMLParser.java" sourcepath="com/lowagie/text/pdf/SimpleXMLParser.java"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="st"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
     <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
     <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.KILLED_BY_SUBSEQUENT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="st"/>
   </BugInstance>
   <BugInstance type="DM_NUMBER_CTOR" priority="2" abbrev="Bx" category="PERFORMANCE">
     <Class classname="com.lowagie.text.pdf.SimpleXMLParser">
@@ -5319,8 +5319,8 @@
     </Method>
     <LocalVariable name="imSize" register="13" pc="166" role="LOCAL_VARIABLE_NAMED"/>
     <SourceLine classname="com.lowagie.text.pdf.codec.BmpImage" start="1028" end="1028" startBytecode="164" endBytecode="164" sourcefile="BmpImage.java" sourcepath="com/lowagie/text/pdf/codec/BmpImage.java"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="imSize"/>
     <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="imSize"/>
   </BugInstance>
   <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" abbrev="DLS" category="STYLE">
     <Class classname="com.lowagie.text.pdf.codec.BmpImage">
@@ -5331,8 +5331,8 @@
     </Method>
     <LocalVariable name="max" register="16" pc="189" role="LOCAL_VARIABLE_NAMED"/>
     <SourceLine classname="com.lowagie.text.pdf.codec.BmpImage" start="1034" end="1034" startBytecode="187" endBytecode="187" sourcefile="BmpImage.java" sourcepath="com/lowagie/text/pdf/codec/BmpImage.java"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="max"/>
     <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="max"/>
   </BugInstance>
   <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" abbrev="DLS" category="STYLE">
     <Class classname="com.lowagie.text.pdf.codec.BmpImage">
@@ -5343,9 +5343,9 @@
     </Method>
     <LocalVariable name="padding" register="2" pc="38" role="LOCAL_VARIABLE_NAMED"/>
     <SourceLine classname="com.lowagie.text.pdf.codec.BmpImage" start="1131" end="1131" startBytecode="37" endBytecode="37" sourcefile="BmpImage.java" sourcepath="com/lowagie/text/pdf/codec/BmpImage.java"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="padding"/>
     <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
     <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="padding"/>
   </BugInstance>
   <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" abbrev="DLS" category="STYLE">
     <Class classname="com.lowagie.text.pdf.codec.BmpImage">
@@ -5356,9 +5356,9 @@
     </Method>
     <LocalVariable name="padding" register="2" pc="38" role="LOCAL_VARIABLE_NAMED"/>
     <SourceLine classname="com.lowagie.text.pdf.codec.BmpImage" start="1083" end="1083" startBytecode="37" endBytecode="37" sourcefile="BmpImage.java" sourcepath="com/lowagie/text/pdf/codec/BmpImage.java"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="padding"/>
     <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
     <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="padding"/>
   </BugInstance>
   <BugInstance type="DM_NUMBER_CTOR" priority="2" abbrev="Bx" category="PERFORMANCE">
     <Class classname="com.lowagie.text.pdf.codec.BmpImage">
@@ -5462,9 +5462,9 @@
     </Method>
     <LocalVariable name="pi" register="19" pc="205" role="LOCAL_VARIABLE_NAMED"/>
     <SourceLine classname="com.lowagie.text.pdf.codec.GifImage" start="427" end="427" startBytecode="203" endBytecode="203" sourcefile="GifImage.java" sourcepath="com/lowagie/text/pdf/codec/GifImage.java"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="pi"/>
     <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
     <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="pi"/>
   </BugInstance>
   <BugInstance type="EI_EXPOSE_REP2" priority="2" abbrev="EI2" category="MALICIOUS_CODE">
     <Class classname="com.lowagie.text.pdf.codec.GifImage">
@@ -5912,9 +5912,9 @@
     </Method>
     <LocalVariable name="field" register="20" pc="271" role="LOCAL_VARIABLE_NAMED"/>
     <SourceLine classname="com.lowagie.text.pdf.codec.TiffImage" start="149" end="149" startBytecode="269" endBytecode="269" sourcefile="TiffImage.java" sourcepath="com/lowagie/text/pdf/codec/TiffImage.java"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="field"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
     <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="field"/>
   </BugInstance>
   <BugInstance type="REC_CATCH_EXCEPTION" priority="2" abbrev="REC" category="STYLE">
     <Class classname="com.lowagie.text.pdf.codec.TiffImage">
@@ -6123,9 +6123,9 @@
     </Method>
     <LocalVariable name="data" register="2" pc="6" role="LOCAL_VARIABLE_NAMED"/>
     <SourceLine classname="com.lowagie.text.pdf.codec.postscript.PAContext$65" start="1407" end="1407" startBytecode="5" endBytecode="5" sourcefile="PAContext.java" sourcepath="com/lowagie/text/pdf/codec/postscript/PAContext.java"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="data"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
     <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="data"/>
   </BugInstance>
   <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" abbrev="DLS" category="STYLE">
     <Class classname="com.lowagie.text.pdf.codec.postscript.PAContext$66">
@@ -6136,9 +6136,9 @@
     </Method>
     <LocalVariable name="data" register="2" pc="6" role="LOCAL_VARIABLE_NAMED"/>
     <SourceLine classname="com.lowagie.text.pdf.codec.postscript.PAContext$66" start="1417" end="1417" startBytecode="5" endBytecode="5" sourcefile="PAContext.java" sourcepath="com/lowagie/text/pdf/codec/postscript/PAContext.java"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="data"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
     <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="data"/>
   </BugInstance>
   <BugInstance type="DM_NUMBER_CTOR" priority="2" abbrev="Bx" category="PERFORMANCE">
     <Class classname="com.lowagie.text.pdf.codec.postscript.PAContext$70">
@@ -6184,9 +6184,9 @@
     </Method>
     <LocalVariable name="data" register="2" pc="6" role="LOCAL_VARIABLE_NAMED"/>
     <SourceLine classname="com.lowagie.text.pdf.codec.postscript.PAContext$79" start="1669" end="1669" startBytecode="5" endBytecode="5" sourcefile="PAContext.java" sourcepath="com/lowagie/text/pdf/codec/postscript/PAContext.java"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="data"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
     <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="data"/>
   </BugInstance>
   <BugInstance type="DM_NUMBER_CTOR" priority="2" abbrev="Bx" category="PERFORMANCE">
     <Class classname="com.lowagie.text.pdf.codec.postscript.PAContext$80">
@@ -6266,9 +6266,9 @@
     </Method>
     <LocalVariable name="e" register="2" pc="5" role="LOCAL_VARIABLE_NAMED"/>
     <SourceLine classname="com.lowagie.text.pdf.codec.postscript.PAParser" start="18" end="18" startBytecode="4" endBytecode="4" sourcefile="PAParser.java" sourcepath="com/lowagie/text/pdf/codec/postscript/PAParser.java"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="e"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
     <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="e"/>
   </BugInstance>
   <BugInstance type="NM_METHOD_NAMING_CONVENTION" priority="2" abbrev="Nm" category="BAD_PRACTICE">
     <Class classname="com.lowagie.text.pdf.codec.postscript.PAParser">
@@ -6479,9 +6479,9 @@
     </Method>
     <LocalVariable name="state" register="2" pc="13" role="LOCAL_VARIABLE_NAMED"/>
     <SourceLine classname="com.lowagie.text.pdf.codec.wmf.MetaState" start="201" end="201" startBytecode="12" endBytecode="12" sourcefile="MetaState.java" sourcepath="com/lowagie/text/pdf/codec/wmf/MetaState.java"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="state"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
     <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="state"/>
   </BugInstance>
   <BugInstance type="NM_FIELD_NAMING_CONVENTION" priority="2" abbrev="Nm" category="BAD_PRACTICE">
     <Class classname="com.lowagie.text.pdf.codec.wmf.MetaState">
@@ -6660,10 +6660,10 @@
     </Method>
     <LocalVariable name="i" register="1" pc="9" role="LOCAL_VARIABLE_NAMED"/>
     <SourceLine classname="com.lowagie.text.pdf.hyphenation.TernaryTree$Iterator" start="509" end="509" startBytecode="8" endBytecode="8" sourcefile="TernaryTree.java" sourcepath="com/lowagie/text/pdf/hyphenation/TernaryTree.java"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="i"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
     <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
     <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.KILLED_BY_SUBSEQUENT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="i"/>
   </BugInstance>
   <BugInstance type="DM_STRING_CTOR" priority="2" abbrev="Dm" category="PERFORMANCE">
     <Class classname="com.lowagie.text.pdf.hyphenation.TernaryTree$Iterator">
@@ -8985,9 +8985,9 @@
     </Method>
     <LocalVariable name="toolbox" register="1" pc="12" role="LOCAL_VARIABLE_NAMED"/>
     <SourceLine classname="com.lowagie.tools.Toolbox" start="99" end="99" startBytecode="11" endBytecode="11" sourcefile="Toolbox.java" sourcepath="com/lowagie/tools/Toolbox.java"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="toolbox"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
     <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="toolbox"/>
   </BugInstance>
   <BugInstance type="DM_EXIT" priority="2" abbrev="Dm" category="BAD_PRACTICE">
     <Class classname="com.lowagie.tools.Toolbox">
@@ -9368,9 +9368,9 @@
     </Method>
     <LocalVariable name="diff1" register="5" pc="12" role="LOCAL_VARIABLE_NAMED"/>
     <SourceLine classname="examples.functionFinder.test.FitnessValueTest" start="140" end="140" startBytecode="10" endBytecode="10" sourcefile="FitnessValueTest.java" sourcepath="examples/functionFinder/test/FitnessValueTest.java"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="diff1"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
     <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="diff1"/>
   </BugInstance>
   <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" abbrev="DLS" category="STYLE">
     <Class classname="examples.functionFinder.test.FunctionBuilderTest">
@@ -9381,9 +9381,9 @@
     </Method>
     <LocalVariable name="elements" register="1" pc="8" role="LOCAL_VARIABLE_NAMED"/>
     <SourceLine classname="examples.functionFinder.test.FunctionBuilderTest" start="49" end="49" startBytecode="7" endBytecode="7" sourcefile="FunctionBuilderTest.java" sourcepath="examples/functionFinder/test/FunctionBuilderTest.java"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="elements"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
     <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="elements"/>
   </BugInstance>
   <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" abbrev="DLS" category="STYLE">
     <Class classname="examples.functionFinder.test.FunctionBuilderTest">
@@ -9394,9 +9394,9 @@
     </Method>
     <LocalVariable name="element" register="2" pc="26" role="LOCAL_VARIABLE_NAMED"/>
     <SourceLine classname="examples.functionFinder.test.FunctionBuilderTest" start="51" end="51" startBytecode="19" endBytecode="19" sourcefile="FunctionBuilderTest.java" sourcepath="examples/functionFinder/test/FunctionBuilderTest.java"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="element"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
     <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.EXCEPTION_HANDLER" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="element"/>
   </BugInstance>
   <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" abbrev="DLS" category="STYLE">
     <Class classname="examples.functionFinder.test.GeneExtractorTest">
@@ -9408,9 +9408,9 @@
     <LocalVariable name="restTiefe" register="12" pc="180" role="LOCAL_VARIABLE_NAMED"/>
     <SourceLine classname="examples.functionFinder.test.GeneExtractorTest" start="195" end="195" startBytecode="178" endBytecode="178" sourcefile="GeneExtractorTest.java" sourcepath="examples/functionFinder/test/GeneExtractorTest.java"/>
     <SourceLine classname="examples.functionFinder.test.GeneExtractorTest" start="192" end="192" startBytecode="165" endBytecode="165" sourcefile="GeneExtractorTest.java" sourcepath="examples/functionFinder/test/GeneExtractorTest.java" role="SOURCE_LINE_ANOTHER_INSTANCE"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="restTiefe"/>
     <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
     <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="restTiefe"/>
   </BugInstance>
   <BugInstance type="MS_FINAL_PKGPROTECT" priority="2" abbrev="MS" category="MALICIOUS_CODE">
     <Class classname="examples.knapsack.KnapsackMain">
@@ -12600,10 +12600,10 @@
     </Method>
     <LocalVariable name="c" register="3" pc="26" role="LOCAL_VARIABLE_NAMED"/>
     <SourceLine classname="org.apache.tools.bzip2.CBZip2OutputStream" start="982" end="982" startBytecode="25" endBytecode="25" sourcefile="CBZip2OutputStream.java" sourcepath="org/apache/tools/bzip2/CBZip2OutputStream.java"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.COPY_VALUE" value="true"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="c"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.TWO_STORES_MULTIPLE_LOADS" value="true"/>
     <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.COPY_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.TWO_STORES_MULTIPLE_LOADS" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="c"/>
     <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.IS_PARAMETER" value="true"/>
   </BugInstance>
   <BugInstance type="IM_AVERAGE_COMPUTATION_COULD_OVERFLOW" priority="2" abbrev="IM" category="STYLE">
@@ -13122,9 +13122,9 @@
     </Method>
     <LocalVariable name="fitnessImpr" register="3" pc="35" role="LOCAL_VARIABLE_NAMED"/>
     <SourceLine classname="org.jgap.audit.Evaluator" start="230" end="230" startBytecode="34" endBytecode="34" sourcefile="Evaluator.java" sourcepath="org/jgap/audit/Evaluator.java"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="fitnessImpr"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
     <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="fitnessImpr"/>
   </BugInstance>
   <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" abbrev="DLS" category="STYLE">
     <Class classname="org.jgap.audit.Evaluator">
@@ -13135,10 +13135,10 @@
     </Method>
     <LocalVariable name="numRuns" register="5" pc="61" role="LOCAL_VARIABLE_NAMED"/>
     <SourceLine classname="org.jgap.audit.Evaluator" start="234" end="234" startBytecode="59" endBytecode="59" sourcefile="Evaluator.java" sourcepath="org/jgap/audit/Evaluator.java"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="numRuns"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
     <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
     <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="numRuns"/>
   </BugInstance>
   <BugInstance type="DM_STRING_CTOR" priority="2" abbrev="Dm" category="PERFORMANCE">
     <Class classname="org.jgap.audit.Evaluator">
@@ -13488,11 +13488,11 @@
     </Method>
     <LocalVariable name="operatorsFound" register="4" pc="139" role="LOCAL_VARIABLE_NAMED"/>
     <SourceLine classname="org.jgap.ext.JGAPActuator" start="127" end="127" startBytecode="136" endBytecode="136" sourcefile="JGAPActuator.java" sourcepath="org/jgap/ext/JGAPActuator.java"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="operatorsFound"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.TWO_STORES_MULTIPLE_LOADS" value="true"/>
     <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.SINGLE_DEAD_INCREMENT" value="true"/>
     <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
     <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_INCREMENT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.TWO_STORES_MULTIPLE_LOADS" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="operatorsFound"/>
   </BugInstance>
   <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" abbrev="DLS" category="STYLE">
     <Class classname="org.jgap.ext.JGAPActuator">
@@ -13503,8 +13503,8 @@
     </Method>
     <LocalVariable name="slotsIterator" register="3" pc="312" role="LOCAL_VARIABLE_NAMED"/>
     <SourceLine classname="org.jgap.ext.JGAPActuator" start="157" end="157" startBytecode="311" endBytecode="311" sourcefile="JGAPActuator.java" sourcepath="org/jgap/ext/JGAPActuator.java"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="slotsIterator"/>
     <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="slotsIterator"/>
   </BugInstance>
   <BugInstance type="URF_UNREAD_FIELD" priority="2" abbrev="UrF" category="PERFORMANCE">
     <Class classname="org.jgap.ext.JGAPActuator">
@@ -13524,8 +13524,8 @@
     </Method>
     <LocalVariable name="func" register="4" pc="24" role="LOCAL_VARIABLE_NAMED"/>
     <SourceLine classname="org.jgap.ext.JGAPBestChromosomeDisplayManager" start="36" end="36" startBytecode="22" endBytecode="22" sourcefile="JGAPBestChromosomeDisplayManager.java" sourcepath="org/jgap/ext/JGAPBestChromosomeDisplayManager.java"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="func"/>
     <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="func"/>
   </BugInstance>
   <BugInstance type="URF_UNREAD_FIELD" priority="2" abbrev="UrF" category="PERFORMANCE">
     <Class classname="org.jgap.ext.JGAPSystem">
@@ -13718,9 +13718,9 @@
     </Method>
     <LocalVariable name="implementingClasses" register="9" pc="153" role="LOCAL_VARIABLE_NAMED"/>
     <SourceLine classname="org.jgap.util.ClassKit" start="251" end="251" startBytecode="151" endBytecode="151" sourcefile="ClassKit.java" sourcepath="org/jgap/util/ClassKit.java"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="implementingClasses"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
     <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="implementingClasses"/>
   </BugInstance>
   <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" abbrev="DLS" category="STYLE">
     <Class classname="org.jgap.util.ClassKit">
@@ -13731,10 +13731,10 @@
     </Method>
     <LocalVariable name="ucl" register="5" pc="75" role="LOCAL_VARIABLE_NAMED"/>
     <SourceLine classname="org.jgap.util.ClassKit" start="240" end="240" startBytecode="85" endBytecode="85" sourcefile="ClassKit.java" sourcepath="org/jgap/util/ClassKit.java"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="ucl"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.KILLED_BY_SUBSEQUENT_STORE" value="true"/>
-    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
     <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.EXCEPTION_HANDLER" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.KILLED_BY_SUBSEQUENT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="ucl"/>
   </BugInstance>
   <BugInstance type="DM_STRING_CTOR" priority="2" abbrev="Dm" category="PERFORMANCE">
     <Class classname="org.jgap.util.ClassKit">
@@ -13841,7 +13841,7 @@
     <Class classname="org.saiko.ai.genetics.tsp.Report">
       <SourceLine classname="org.saiko.ai.genetics.tsp.Report" start="69" end="462" sourcefile="Report.java" sourcepath="org/saiko/ai/genetics/tsp/Report.java"/>
     </Class>
-    <Method classname="org.saiko.ai.genetics.tsp.Report" name="suhnXnltxu" signature="(Ljava/io/File;[Lorg/saiko/ai/genetics/tsp/City;Ljava/awt/image/BufferedImage;Ljava/util/Map;Ljava/util/Map;)V" isStatic="false">
+    <Method classname="org.saiko.ai.genetics.tsp.Report" name="scqhOhreow" signature="(Ljava/io/File;[Lorg/saiko/ai/genetics/tsp/City;Ljava/awt/image/BufferedImage;Ljava/util/Map;Ljava/util/Map;)V" isStatic="false">
       <SourceLine classname="org.saiko.ai.genetics.tsp.Report" start="102" end="266" startBytecode="0" endBytecode="2181" sourcefile="Report.java" sourcepath="org/saiko/ai/genetics/tsp/Report.java"/>
     </Method>
     <SourceLine classname="org.saiko.ai.genetics.tsp.Report" start="233" end="233" startBytecode="1003" endBytecode="1003" sourcefile="Report.java" sourcepath="org/saiko/ai/genetics/tsp/Report.java"/>
@@ -13850,7 +13850,7 @@
     <Class classname="org.saiko.ai.genetics.tsp.Report">
       <SourceLine classname="org.saiko.ai.genetics.tsp.Report" start="69" end="462" sourcefile="Report.java" sourcepath="org/saiko/ai/genetics/tsp/Report.java"/>
     </Class>
-    <Method classname="org.saiko.ai.genetics.tsp.Report" name="onTlnnBtqztnnu" signature="(Lcom/lowagie/text/pdf/PdfWriter;Lcom/lowagie/text/Document;)V" isStatic="false">
+    <Method classname="org.saiko.ai.genetics.tsp.Report" name="otErhtReqlkhtw" signature="(Lcom/lowagie/text/pdf/PdfWriter;Lcom/lowagie/text/Document;)V" isStatic="false">
       <SourceLine classname="org.saiko.ai.genetics.tsp.Report" start="288" end="327" startBytecode="0" endBytecode="595" sourcefile="Report.java" sourcepath="org/saiko/ai/genetics/tsp/Report.java"/>
     </Method>
     <SourceLine classname="org.saiko.ai.genetics.tsp.Report" start="324" end="324" startBytecode="351" endBytecode="351" sourcefile="Report.java" sourcepath="org/saiko/ai/genetics/tsp/Report.java"/>
@@ -13859,7 +13859,7 @@
     <Class classname="org.saiko.ai.genetics.tsp.Report">
       <SourceLine classname="org.saiko.ai.genetics.tsp.Report" start="69" end="462" sourcefile="Report.java" sourcepath="org/saiko/ai/genetics/tsp/Report.java"/>
     </Class>
-    <Method classname="org.saiko.ai.genetics.tsp.Report" name="suhnXnltxu" signature="(Ljava/io/File;[Lorg/saiko/ai/genetics/tsp/City;Ljava/awt/image/BufferedImage;Ljava/util/Map;Ljava/util/Map;)V" isStatic="false">
+    <Method classname="org.saiko.ai.genetics.tsp.Report" name="scqhOhreow" signature="(Ljava/io/File;[Lorg/saiko/ai/genetics/tsp/City;Ljava/awt/image/BufferedImage;Ljava/util/Map;Ljava/util/Map;)V" isStatic="false">
       <SourceLine classname="org.saiko.ai.genetics.tsp.Report" start="102" end="266" startBytecode="0" endBytecode="2181" sourcefile="Report.java" sourcepath="org/saiko/ai/genetics/tsp/Report.java"/>
     </Method>
     <SourceLine classname="org.saiko.ai.genetics.tsp.Report" start="137" end="137" startBytecode="232" endBytecode="232" sourcefile="Report.java" sourcepath="org/saiko/ai/genetics/tsp/Report.java"/>
@@ -13868,7 +13868,7 @@
     <Class classname="org.saiko.ai.genetics.tsp.Report">
       <SourceLine classname="org.saiko.ai.genetics.tsp.Report" start="69" end="462" sourcefile="Report.java" sourcepath="org/saiko/ai/genetics/tsp/Report.java"/>
     </Class>
-    <Method classname="org.saiko.ai.genetics.tsp.Report" name="suhnXnltxu" signature="(Ljava/io/File;[Lorg/saiko/ai/genetics/tsp/City;Ljava/awt/image/BufferedImage;Ljava/util/Map;Ljava/util/Map;)V" isStatic="false">
+    <Method classname="org.saiko.ai.genetics.tsp.Report" name="scqhOhreow" signature="(Ljava/io/File;[Lorg/saiko/ai/genetics/tsp/City;Ljava/awt/image/BufferedImage;Ljava/util/Map;Ljava/util/Map;)V" isStatic="false">
       <SourceLine classname="org.saiko.ai.genetics.tsp.Report" start="102" end="266" startBytecode="0" endBytecode="2181" sourcefile="Report.java" sourcepath="org/saiko/ai/genetics/tsp/Report.java"/>
     </Method>
     <SourceLine classname="org.saiko.ai.genetics.tsp.Report" start="138" end="138" startBytecode="288" endBytecode="288" sourcefile="Report.java" sourcepath="org/saiko/ai/genetics/tsp/Report.java"/>
@@ -13878,7 +13878,7 @@
     <Class classname="org.saiko.ai.genetics.tsp.TSP">
       <SourceLine classname="org.saiko.ai.genetics.tsp.TSP" start="77" end="685" sourcefile="TSP.java" sourcepath="org/saiko/ai/genetics/tsp/TSP.java"/>
     </Class>
-    <Method classname="org.saiko.ai.genetics.tsp.TSP" name="ltubQuuuni" signature="([Lorg/saiko/ai/genetics/tsp/City;Z)V" isStatic="false">
+    <Method classname="org.saiko.ai.genetics.tsp.TSP" name="lecrQtwthc" signature="([Lorg/saiko/ai/genetics/tsp/City;Z)V" isStatic="false">
       <SourceLine classname="org.saiko.ai.genetics.tsp.TSP" start="215" end="284" startBytecode="0" endBytecode="859" sourcefile="TSP.java" sourcepath="org/saiko/ai/genetics/tsp/TSP.java"/>
     </Method>
     <SourceLine classname="org.saiko.ai.genetics.tsp.TSP" start="282" end="282" startBytecode="402" endBytecode="402" sourcefile="TSP.java" sourcepath="org/saiko/ai/genetics/tsp/TSP.java"/>
@@ -13896,7 +13896,7 @@
     <Class classname="org.saiko.ai.genetics.tsp.TSP">
       <SourceLine classname="org.saiko.ai.genetics.tsp.TSP" start="77" end="685" sourcefile="TSP.java" sourcepath="org/saiko/ai/genetics/tsp/TSP.java"/>
     </Class>
-    <Field classname="org.saiko.ai.genetics.tsp.TSP" name="eneunnQkuiini" signature="[Ljava/lang/Class;" isStatic="true">
+    <Field classname="org.saiko.ai.genetics.tsp.TSP" name="etvtthQwccchc" signature="[Ljava/lang/Class;" isStatic="true">
       <SourceLine classname="org.saiko.ai.genetics.tsp.TSP" sourcefile="TSP.java" sourcepath="org/saiko/ai/genetics/tsp/TSP.java"/>
     </Field>
     <SourceLine classname="org.saiko.ai.genetics.tsp.TSP" start="95" end="95" startBytecode="29" endBytecode="29" sourcefile="TSP.java" sourcepath="org/saiko/ai/genetics/tsp/TSP.java"/>
@@ -13905,7 +13905,7 @@
     <Class classname="org.saiko.ai.genetics.tsp.TSP">
       <SourceLine classname="org.saiko.ai.genetics.tsp.TSP" start="77" end="685" sourcefile="TSP.java" sourcepath="org/saiko/ai/genetics/tsp/TSP.java"/>
     </Class>
-    <Field classname="org.saiko.ai.genetics.tsp.TSP" name="mulLukni" signature="[Ljava/lang/String;" isStatic="true">
+    <Field classname="org.saiko.ai.genetics.tsp.TSP" name="mcrItwhc" signature="[Ljava/lang/String;" isStatic="true">
       <SourceLine classname="org.saiko.ai.genetics.tsp.TSP" sourcefile="TSP.java" sourcepath="org/saiko/ai/genetics/tsp/TSP.java"/>
     </Field>
     <SourceLine classname="org.saiko.ai.genetics.tsp.TSP" start="107" end="107" startBytecode="104" endBytecode="104" sourcefile="TSP.java" sourcepath="org/saiko/ai/genetics/tsp/TSP.java"/>
@@ -13923,10 +13923,10 @@
     <Class classname="org.saiko.ai.genetics.tsp.TSPChromosome">
       <SourceLine classname="org.saiko.ai.genetics.tsp.TSPChromosome" start="68" end="141" sourcefile="TSPChromosome.java" sourcepath="org/saiko/ai/genetics/tsp/TSPChromosome.java"/>
     </Class>
-    <Method classname="org.saiko.ai.genetics.tsp.TSPChromosome" name="getQuuuni" signature="()[Lorg/saiko/ai/genetics/tsp/City;" isStatic="false">
+    <Method classname="org.saiko.ai.genetics.tsp.TSPChromosome" name="getQtwthc" signature="()[Lorg/saiko/ai/genetics/tsp/City;" isStatic="false">
       <SourceLine classname="org.saiko.ai.genetics.tsp.TSPChromosome" start="141" end="141" startBytecode="0" endBytecode="46" sourcefile="TSPChromosome.java" sourcepath="org/saiko/ai/genetics/tsp/TSPChromosome.java"/>
     </Method>
-    <Field classname="org.saiko.ai.genetics.tsp.TSPChromosome" name="cuuuni" signature="[Lorg/saiko/ai/genetics/tsp/City;" isStatic="false">
+    <Field classname="org.saiko.ai.genetics.tsp.TSPChromosome" name="ctwthc" signature="[Lorg/saiko/ai/genetics/tsp/City;" isStatic="false">
       <SourceLine classname="org.saiko.ai.genetics.tsp.TSPChromosome" sourcefile="TSPChromosome.java" sourcepath="org/saiko/ai/genetics/tsp/TSPChromosome.java"/>
     </Field>
     <SourceLine classname="org.saiko.ai.genetics.tsp.TSPChromosome" start="141" end="141" startBytecode="4" endBytecode="4" sourcefile="TSPChromosome.java" sourcepath="org/saiko/ai/genetics/tsp/TSPChromosome.java"/>
@@ -13935,7 +13935,7 @@
     <Class classname="org.saiko.ai.genetics.tsp.TSPGui">
       <SourceLine classname="org.saiko.ai.genetics.tsp.TSPGui" start="71" end="465" sourcefile="TSPGui.java" sourcepath="org/saiko/ai/genetics/tsp/TSPGui.java"/>
     </Class>
-    <Method classname="org.saiko.ai.genetics.tsp.TSPGui" name="txuniltxtHuxuzukN" signature="(I)I" isStatic="false">
+    <Method classname="org.saiko.ai.genetics.tsp.TSPGui" name="toctcieokQtowlcwS" signature="(I)I" isStatic="false">
       <SourceLine classname="org.saiko.ai.genetics.tsp.TSPGui" start="282" end="283" startBytecode="0" endBytecode="89" sourcefile="TSPGui.java" sourcepath="org/saiko/ai/genetics/tsp/TSPGui.java"/>
     </Method>
     <SourceLine classname="org.saiko.ai.genetics.tsp.TSPGui" start="282" end="282" startBytecode="6" endBytecode="6" sourcefile="TSPGui.java" sourcepath="org/saiko/ai/genetics/tsp/TSPGui.java"/>
@@ -13944,7 +13944,7 @@
     <Class classname="org.saiko.ai.genetics.tsp.TSPMenu">
       <SourceLine classname="org.saiko.ai.genetics.tsp.TSPMenu" start="117" end="1536" sourcefile="TSPMenu.java" sourcepath="org/saiko/ai/genetics/tsp/TSPMenu.java"/>
     </Class>
-    <Method classname="org.saiko.ai.genetics.tsp.TSPMenu" name="aquutnUotzu" signature="(Ljava/awt/event/ActionEvent;)V" isStatic="false">
+    <Method classname="org.saiko.ai.genetics.tsp.TSPMenu" name="aqwtetCselw" signature="(Ljava/awt/event/ActionEvent;)V" isStatic="false">
       <SourceLine classname="org.saiko.ai.genetics.tsp.TSPMenu" start="1477" end="1490" startBytecode="0" endBytecode="221" sourcefile="TSPMenu.java" sourcepath="org/saiko/ai/genetics/tsp/TSPMenu.java"/>
     </Method>
     <Method classname="java.io.InputStreamReader" name="&lt;init&gt;" signature="(Ljava/io/InputStream;)V" isStatic="false" role="METHOD_CALLED">
@@ -13956,7 +13956,7 @@
     <Class classname="org.saiko.ai.genetics.tsp.TSPMenu">
       <SourceLine classname="org.saiko.ai.genetics.tsp.TSPMenu" start="117" end="1536" sourcefile="TSPMenu.java" sourcepath="org/saiko/ai/genetics/tsp/TSPMenu.java"/>
     </Class>
-    <Method classname="org.saiko.ai.genetics.tsp.TSPMenu" name="akuenUnsu" signature="(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/String;" isStatic="false">
+    <Method classname="org.saiko.ai.genetics.tsp.TSPMenu" name="awtvtWhtw" signature="(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/String;" isStatic="false">
       <SourceLine classname="org.saiko.ai.genetics.tsp.TSPMenu" start="543" end="563" startBytecode="0" endBytecode="315" sourcefile="TSPMenu.java" sourcepath="org/saiko/ai/genetics/tsp/TSPMenu.java"/>
     </Method>
     <SourceLine classname="org.saiko.ai.genetics.tsp.TSPMenu" start="546" end="546" startBytecode="8" endBytecode="8" sourcefile="TSPMenu.java" sourcepath="org/saiko/ai/genetics/tsp/TSPMenu.java"/>
@@ -13965,7 +13965,7 @@
     <Class classname="org.saiko.ai.genetics.tsp.TSPMenu">
       <SourceLine classname="org.saiko.ai.genetics.tsp.TSPMenu" start="117" end="1536" sourcefile="TSPMenu.java" sourcepath="org/saiko/ai/genetics/tsp/TSPMenu.java"/>
     </Class>
-    <Method classname="org.saiko.ai.genetics.tsp.TSPMenu" name="aquutnSTKXnltxu" signature="(Ljava/lang/String;)V" isStatic="false">
+    <Method classname="org.saiko.ai.genetics.tsp.TSPMenu" name="aqwtetTKWOhreow" signature="(Ljava/lang/String;)V" isStatic="false">
       <SourceLine classname="org.saiko.ai.genetics.tsp.TSPMenu" start="1117" end="1252" startBytecode="0" endBytecode="1529" sourcefile="TSPMenu.java" sourcepath="org/saiko/ai/genetics/tsp/TSPMenu.java"/>
     </Method>
     <SourceLine classname="org.saiko.ai.genetics.tsp.TSPMenu" start="1182" end="1182" startBytecode="383" endBytecode="383" sourcefile="TSPMenu.java" sourcepath="org/saiko/ai/genetics/tsp/TSPMenu.java"/>
@@ -13981,24 +13981,24 @@
     <SourceLine classname="org.saiko.ai.genetics.tsp.TSPMenu$2" start="931" end="931" startBytecode="1" endBytecode="1" sourcefile="TSPMenu.java" sourcepath="org/saiko/ai/genetics/tsp/TSPMenu.java"/>
   </BugInstance>
   <BugInstance type="EI_EXPOSE_REP2" priority="2" abbrev="EI2" category="MALICIOUS_CODE">
-    <Class classname="org.saiko.ai.genetics.tsp.eneunni.jeulQxtiithnx.JGapGreedyCrossoverEngine">
-      <SourceLine classname="org.saiko.ai.genetics.tsp.eneunni.jeulQxtiithnx.JGapGreedyCrossoverEngine" start="73" end="282" sourcefile="JGapGreedyCrossoverEngine.java" sourcepath="org/saiko/ai/genetics/tsp/eneunni/jeulQxtiithnx/JGapGreedyCrossoverEngine.java"/>
+    <Class classname="org.saiko.ai.genetics.tsp.etvtthc.jvcrQoecceqho.JGapGreedyCrossoverEngine">
+      <SourceLine classname="org.saiko.ai.genetics.tsp.etvtthc.jvcrQoecceqho.JGapGreedyCrossoverEngine" start="73" end="282" sourcefile="JGapGreedyCrossoverEngine.java" sourcepath="org/saiko/ai/genetics/tsp/etvtthc/jvcrQoecceqho/JGapGreedyCrossoverEngine.java"/>
     </Class>
-    <Method classname="org.saiko.ai.genetics.tsp.eneunni.jeulQxtiithnx.JGapGreedyCrossoverEngine" name="inuuuukunn" signature="(Lorg/saiko/ai/genetics/tsp/TSPConfiguration;[Lorg/saiko/ai/genetics/tsp/City;)V" isStatic="false">
-      <SourceLine classname="org.saiko.ai.genetics.tsp.eneunni.jeulQxtiithnx.JGapGreedyCrossoverEngine" start="102" end="131" startBytecode="0" endBytecode="403" sourcefile="JGapGreedyCrossoverEngine.java" sourcepath="org/saiko/ai/genetics/tsp/eneunni/jeulQxtiithnx/JGapGreedyCrossoverEngine.java"/>
+    <Method classname="org.saiko.ai.genetics.tsp.etvtthc.jvcrQoecceqho.JGapGreedyCrossoverEngine" name="ittwtcwtjh" signature="(Lorg/saiko/ai/genetics/tsp/TSPConfiguration;[Lorg/saiko/ai/genetics/tsp/City;)V" isStatic="false">
+      <SourceLine classname="org.saiko.ai.genetics.tsp.etvtthc.jvcrQoecceqho.JGapGreedyCrossoverEngine" start="102" end="131" startBytecode="0" endBytecode="403" sourcefile="JGapGreedyCrossoverEngine.java" sourcepath="org/saiko/ai/genetics/tsp/etvtthc/jvcrQoecceqho/JGapGreedyCrossoverEngine.java"/>
     </Method>
-    <Field classname="org.saiko.ai.genetics.tsp.eneunni.jeulQxtiithnx.JGapGreedyCrossoverEngine" name="oxueunukQuuuni" signature="[Lorg/saiko/ai/genetics/tsp/City;" isStatic="false">
-      <SourceLine classname="org.saiko.ai.genetics.tsp.eneunni.jeulQxtiithnx.JGapGreedyCrossoverEngine" sourcefile="JGapGreedyCrossoverEngine.java" sourcepath="org/saiko/ai/genetics/tsp/eneunni/jeulQxtiithnx/JGapGreedyCrossoverEngine.java"/>
+    <Field classname="org.saiko.ai.genetics.tsp.etvtthc.jvcrQoecceqho.JGapGreedyCrossoverEngine" name="ootvttcwQtwthc" signature="[Lorg/saiko/ai/genetics/tsp/City;" isStatic="false">
+      <SourceLine classname="org.saiko.ai.genetics.tsp.etvtthc.jvcrQoecceqho.JGapGreedyCrossoverEngine" sourcefile="JGapGreedyCrossoverEngine.java" sourcepath="org/saiko/ai/genetics/tsp/etvtthc/jvcrQoecceqho/JGapGreedyCrossoverEngine.java"/>
     </Field>
     <LocalVariable name="cities" register="2" pc="2" role="LOCAL_VARIABLE_NAMED"/>
-    <SourceLine classname="org.saiko.ai.genetics.tsp.eneunni.jeulQxtiithnx.JGapGreedyCrossoverEngine" start="102" end="102" startBytecode="2" endBytecode="2" sourcefile="JGapGreedyCrossoverEngine.java" sourcepath="org/saiko/ai/genetics/tsp/eneunni/jeulQxtiithnx/JGapGreedyCrossoverEngine.java"/>
+    <SourceLine classname="org.saiko.ai.genetics.tsp.etvtthc.jvcrQoecceqho.JGapGreedyCrossoverEngine" start="102" end="102" startBytecode="2" endBytecode="2" sourcefile="JGapGreedyCrossoverEngine.java" sourcepath="org/saiko/ai/genetics/tsp/etvtthc/jvcrQoecceqho/JGapGreedyCrossoverEngine.java"/>
   </BugInstance>
   <BugInstance type="UMAC_UNCALLABLE_METHOD_OF_ANONYMOUS_CLASS" priority="1" abbrev="UMAC" category="CORRECTNESS">
-    <Class classname="org.saiko.ai.genetics.tsp.eneunni.jeulQxtiithnx.JGapGreedyCrossoverEngine$1">
-      <SourceLine classname="org.saiko.ai.genetics.tsp.eneunni.jeulQxtiithnx.JGapGreedyCrossoverEngine$1" start="1" end="172" sourcefile="JGapGreedyCrossoverEngine.java" sourcepath="org/saiko/ai/genetics/tsp/eneunni/jeulQxtiithnx/JGapGreedyCrossoverEngine.java"/>
+    <Class classname="org.saiko.ai.genetics.tsp.etvtthc.jvcrQoecceqho.JGapGreedyCrossoverEngine$1">
+      <SourceLine classname="org.saiko.ai.genetics.tsp.etvtthc.jvcrQoecceqho.JGapGreedyCrossoverEngine$1" start="1" end="172" sourcefile="JGapGreedyCrossoverEngine.java" sourcepath="org/saiko/ai/genetics/tsp/etvtthc/jvcrQoecceqho/JGapGreedyCrossoverEngine.java"/>
     </Class>
-    <Method classname="org.saiko.ai.genetics.tsp.eneunni.jeulQxtiithnx.JGapGreedyCrossoverEngine$1" name="ehukzuun" signature="(Lorg/jgap/Chromosome;)D" isStatic="false">
-      <SourceLine classname="org.saiko.ai.genetics.tsp.eneunni.jeulQxtiithnx.JGapGreedyCrossoverEngine$1" start="163" end="172" startBytecode="0" endBytecode="182" sourcefile="JGapGreedyCrossoverEngine.java" sourcepath="org/saiko/ai/genetics/tsp/eneunni/jeulQxtiithnx/JGapGreedyCrossoverEngine.java"/>
+    <Method classname="org.saiko.ai.genetics.tsp.etvtthc.jvcrQoecceqho.JGapGreedyCrossoverEngine$1" name="eqcwlcwh" signature="(Lorg/jgap/Chromosome;)D" isStatic="false">
+      <SourceLine classname="org.saiko.ai.genetics.tsp.etvtthc.jvcrQoecceqho.JGapGreedyCrossoverEngine$1" start="163" end="172" startBytecode="0" endBytecode="182" sourcefile="JGapGreedyCrossoverEngine.java" sourcepath="org/saiko/ai/genetics/tsp/etvtthc/jvcrQoecceqho/JGapGreedyCrossoverEngine.java"/>
     </Method>
     <Class classname="org.jgap.FitnessFunction" role="CLASS_SUPERCLASS">
       <SourceLine classname="org.jgap.FitnessFunction" start="32" end="106" sourcefile="FitnessFunction.java" sourcepath="org/jgap/FitnessFunction.java"/>
@@ -14032,7 +14032,7 @@
     <MissingClass>org.jgap.impl.RandomGeneratorForTest</MissingClass>
     <MissingClass>org.jgap.supergenes.AbstractSupergeneTest</MissingClass>
   </Errors>
-  <FindBugsSummary timestamp="Sat, 31 May 2014 22:31:32 +0530" total_classes="1519" referenced_classes="2389" total_bugs="1222" total_size="109480" num_packages="91" vm_version="24.45-b08" cpu_seconds="89.91" clock_seconds="32.63" peak_mbytes="619.94" alloc_mbytes="683.00" gc_seconds="2.64" priority_2="960" priority_1="262">
+  <FindBugsSummary timestamp="Mon, 2 Jun 2014 12:46:36 +0530" total_classes="1519" referenced_classes="2389" total_bugs="1222" total_size="109480" num_packages="91" vm_version="24.51-b03" cpu_seconds="195.84" clock_seconds="75.74" peak_mbytes="568.43" alloc_mbytes="683.00" gc_seconds="6.46" priority_2="960" priority_1="262">
     <PackageStats package="com.lowagie.bc.asn1" total_bugs="23" total_types="52" total_size="1963" priority_2="15" priority_1="8">
       <ClassStats class="com.lowagie.bc.asn1.ASN1Encodable" sourceFile="ASN1Encodable.java" interface="false" size="18" bugs="0"/>
       <ClassStats class="com.lowagie.bc.asn1.ASN1EncodableVector" sourceFile="ASN1EncodableVector.java" interface="false" size="3" bugs="0"/>
@@ -15696,84 +15696,85 @@
       <ClassStats class="org.saiko.ai.genetics.tsp.TSPMenu$7" sourceFile="TSPMenu.java" interface="false" size="8" bugs="0"/>
       <ClassStats class="org.saiko.ai.genetics.tsp.TSPMenu$8" sourceFile="TSPMenu.java" interface="false" size="14" bugs="0"/>
       <ClassStats class="org.saiko.ai.genetics.tsp.TSPMenu$9" sourceFile="TSPMenu.java" interface="false" size="15" bugs="0"/>
-      <ClassStats class="org.saiko.ai.genetics.tsp.TSPMenu$JUnuuukuuinbQtnqpOtsTnnzUunt" sourceFile="TSPMenu.java" interface="false" size="13" bugs="0"/>
-      <ClassStats class="org.saiko.ai.genetics.tsp.TSPMenu$JUnuuukuuinbTnnz" sourceFile="TSPMenu.java" interface="false" size="13" bugs="0"/>
-      <ClassStats class="org.saiko.ai.genetics.tsp.TSPMenu$JUnuuukuuinbTnnzUunt" sourceFile="TSPMenu.java" interface="false" size="13" bugs="0"/>
-      <ClassStats class="org.saiko.ai.genetics.tsp.TSPMenu$JUnuuukuuinbXubutOzuutnTnnzUunt" sourceFile="TSPMenu.java" interface="false" size="13" bugs="0"/>
+      <ClassStats class="org.saiko.ai.genetics.tsp.TSPMenu$JCtwtcwtcchrKhtl" sourceFile="TSPMenu.java" interface="false" size="13" bugs="0"/>
+      <ClassStats class="org.saiko.ai.genetics.tsp.TSPMenu$JCtwtcwtcchrKhtlTwhk" sourceFile="TSPMenu.java" interface="false" size="13" bugs="0"/>
+      <ClassStats class="org.saiko.ai.genetics.tsp.TSPMenu$JCtwtcwtcchrOcrteSlwwetKhtlTwhk" sourceFile="TSPMenu.java" interface="false" size="13" bugs="0"/>
+      <ClassStats class="org.saiko.ai.genetics.tsp.TSPMenu$JCtwtcwtcchrQvhqbSetKhtlTwhk" sourceFile="TSPMenu.java" interface="false" size="13" bugs="0"/>
       <ClassStats class="org.saiko.ai.genetics.tsp.TSPMenuTests" sourceFile="TSPMenuTests.java" interface="false" size="22" bugs="0"/>
     </PackageStats>
-    <PackageStats package="org.saiko.ai.genetics.tsp.eneunni.cxtiithnx" total_bugs="0" total_types="2" total_size="91">
-      <ClassStats class="org.saiko.ai.genetics.tsp.eneunni.cxtiithnx.GreedyCrossoverEngine" sourceFile="GreedyCrossoverEngine.java" interface="false" size="71" bugs="0"/>
-      <ClassStats class="org.saiko.ai.genetics.tsp.eneunni.cxtiithnx.GreedyCrossoverEngineTests" sourceFile="GreedyCrossoverEngineTests.java" interface="false" size="20" bugs="0"/>
+    <PackageStats package="org.saiko.ai.genetics.tsp.etvtthc.coecceqho" total_bugs="0" total_types="2" total_size="91">
+      <ClassStats class="org.saiko.ai.genetics.tsp.etvtthc.coecceqho.GreedyCrossoverEngine" sourceFile="GreedyCrossoverEngine.java" interface="false" size="71" bugs="0"/>
+      <ClassStats class="org.saiko.ai.genetics.tsp.etvtthc.coecceqho.GreedyCrossoverEngineTests" sourceFile="GreedyCrossoverEngineTests.java" interface="false" size="20" bugs="0"/>
     </PackageStats>
-    <PackageStats package="org.saiko.ai.genetics.tsp.eneunni.cxtiithnxTuoxub2tlu" total_bugs="0" total_types="1" total_size="52">
-      <ClassStats class="org.saiko.ai.genetics.tsp.eneunni.cxtiithnxTuoxub2tlu.GreedyCrossoverHibrid2OptEngine" sourceFile="GreedyCrossoverHibrid2OptEngine.java" interface="false" size="52" bugs="0"/>
+    <PackageStats package="org.saiko.ai.genetics.tsp.etvtthc.coecceqhoVtsotr2erw" total_bugs="0" total_types="1" total_size="52">
+      <ClassStats class="org.saiko.ai.genetics.tsp.etvtthc.coecceqhoVtsotr2erw.GreedyCrossoverHibrid2OptEngine" sourceFile="GreedyCrossoverHibrid2OptEngine.java" interface="false" size="52" bugs="0"/>
     </PackageStats>
-    <PackageStats package="org.saiko.ai.genetics.tsp.eneunni.jeulQxtiithnx" total_bugs="2" total_types="3" total_size="119" priority_2="1" priority_1="1">
-      <ClassStats class="org.saiko.ai.genetics.tsp.eneunni.jeulQxtiithnx.JGapGreedyCrossoverEngine" sourceFile="JGapGreedyCrossoverEngine.java" interface="false" size="87" bugs="1" priority_2="1"/>
-      <ClassStats class="org.saiko.ai.genetics.tsp.eneunni.jeulQxtiithnx.JGapGreedyCrossoverEngine$1" sourceFile="JGapGreedyCrossoverEngine.java" interface="false" size="13" bugs="1" priority_1="1"/>
-      <ClassStats class="org.saiko.ai.genetics.tsp.eneunni.jeulQxtiithnx.JGapGreedyCrossoverEngineTests" sourceFile="JGapGreedyCrossoverEngineTests.java" interface="false" size="19" bugs="0"/>
+    <PackageStats package="org.saiko.ai.genetics.tsp.etvtthc.jvcrQoecceqho" total_bugs="2" total_types="3" total_size="119" priority_2="1" priority_1="1">
+      <ClassStats class="org.saiko.ai.genetics.tsp.etvtthc.jvcrQoecceqho.JGapGreedyCrossoverEngine" sourceFile="JGapGreedyCrossoverEngine.java" interface="false" size="87" bugs="1" priority_2="1"/>
+      <ClassStats class="org.saiko.ai.genetics.tsp.etvtthc.jvcrQoecceqho.JGapGreedyCrossoverEngine$1" sourceFile="JGapGreedyCrossoverEngine.java" interface="false" size="13" bugs="1" priority_1="1"/>
+      <ClassStats class="org.saiko.ai.genetics.tsp.etvtthc.jvcrQoecceqho.JGapGreedyCrossoverEngineTests" sourceFile="JGapGreedyCrossoverEngineTests.java" interface="false" size="19" bugs="0"/>
     </PackageStats>
-    <PackageStats package="org.saiko.ai.genetics.tsp.eneunni.sutlknZnuinsTzuuutx" total_bugs="0" total_types="5" total_size="160">
-      <ClassStats class="org.saiko.ai.genetics.tsp.eneunni.sutlknZnuinsTzuuutx.SimpleUnisexMutatorEngine" sourceFile="SimpleUnisexMutatorEngine.java" interface="false" size="98" bugs="0"/>
-      <ClassStats class="org.saiko.ai.genetics.tsp.eneunni.sutlknZnuinsTzuuutx.SimpleUnisexMutatorEngine$1" sourceFile="SimpleUnisexMutatorEngine.java" interface="false" size="17" bugs="0"/>
-      <ClassStats class="org.saiko.ai.genetics.tsp.eneunni.sutlknZnuinsTzuuutx.SimpleUnisexMutatorEngine$2" sourceFile="SimpleUnisexMutatorEngine.java" interface="false" size="10" bugs="0"/>
-      <ClassStats class="org.saiko.ai.genetics.tsp.eneunni.sutlknZnuinsTzuuutx.SimpleUnisexMutatorEngine$3" sourceFile="SimpleUnisexMutatorEngine.java" interface="false" size="15" bugs="0"/>
-      <ClassStats class="org.saiko.ai.genetics.tsp.eneunni.sutlknZnuinsTzuuutx.SimpleUnisexMutatorEngineTests" sourceFile="SimpleUnisexMutatorEngineTests.java" interface="false" size="20" bugs="0"/>
+    <PackageStats package="org.saiko.ai.genetics.tsp.etvtthc.stkrwhLttchtKlwcweo" total_bugs="0" total_types="5" total_size="160">
+      <ClassStats class="org.saiko.ai.genetics.tsp.etvtthc.stkrwhLttchtKlwcweo.SimpleUnisexMutatorEngine" sourceFile="SimpleUnisexMutatorEngine.java" interface="false" size="98" bugs="0"/>
+      <ClassStats class="org.saiko.ai.genetics.tsp.etvtthc.stkrwhLttchtKlwcweo.SimpleUnisexMutatorEngine$1" sourceFile="SimpleUnisexMutatorEngine.java" interface="false" size="17" bugs="0"/>
+      <ClassStats class="org.saiko.ai.genetics.tsp.etvtthc.stkrwhLttchtKlwcweo.SimpleUnisexMutatorEngine$2" sourceFile="SimpleUnisexMutatorEngine.java" interface="false" size="10" bugs="0"/>
+      <ClassStats class="org.saiko.ai.genetics.tsp.etvtthc.stkrwhLttchtKlwcweo.SimpleUnisexMutatorEngine$3" sourceFile="SimpleUnisexMutatorEngine.java" interface="false" size="15" bugs="0"/>
+      <ClassStats class="org.saiko.ai.genetics.tsp.etvtthc.stkrwhLttchtKlwcweo.SimpleUnisexMutatorEngineTests" sourceFile="SimpleUnisexMutatorEngineTests.java" interface="false" size="20" bugs="0"/>
     </PackageStats>
-    <PackageStats package="org.saiko.ai.genetics.tsp.eneunni.sutlknZnuinsTzuuutxTuoxub2Tlu" total_bugs="0" total_types="1" total_size="10">
-      <ClassStats class="org.saiko.ai.genetics.tsp.eneunni.sutlknZnuinsTzuuutxTuoxub2Tlu.SimpleUnisexMutatorHibrid2OptEngine" sourceFile="SimpleUnisexMutatorHibrid2OptEngine.java" interface="false" size="10" bugs="0"/>
+    <PackageStats package="org.saiko.ai.genetics.tsp.etvtthc.stkrwhLttchtKlwcweoVtsotr2Erw" total_bugs="0" total_types="1" total_size="10">
+      <ClassStats class="org.saiko.ai.genetics.tsp.etvtthc.stkrwhLttchtKlwcweoVtsotr2Erw.SimpleUnisexMutatorHibrid2OptEngine" sourceFile="SimpleUnisexMutatorHibrid2OptEngine.java" interface="false" size="10" bugs="0"/>
     </PackageStats>
     <PackageStats package="org.saiko.ant" total_bugs="0" total_types="1" total_size="26">
       <ClassStats class="org.saiko.ant.BuildProperyTask" sourceFile="BuildProperyTask.java" interface="false" size="26" bugs="0"/>
     </PackageStats>
-    <PackageStats package="org.saiko.anu" total_bugs="0" total_types="1" total_size="25">
-      <ClassStats class="org.saiko.anu.BuildProperyTask" sourceFile="BuildProperyTask.java" interface="false" size="25" bugs="0"/>
+    <PackageStats package="org.saiko.atw" total_bugs="0" total_types="1" total_size="25">
+      <ClassStats class="org.saiko.atw.BuildProperyTask" sourceFile="BuildProperyTask.java" interface="false" size="25" bugs="0"/>
     </PackageStats>
     <FindBugsProfile>
-      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="2437" invocations="12721" avgMicrosecondsPerInvocation="191" maxMicrosecondsPerInvocation="324199" standardDeviationMircosecondsPerInvocation="3017"/>
-      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="1835" invocations="6329" avgMicrosecondsPerInvocation="289" maxMicrosecondsPerInvocation="110612" standardDeviationMircosecondsPerInvocation="1859"/>
-      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="1547" invocations="12721" avgMicrosecondsPerInvocation="121" maxMicrosecondsPerInvocation="55488" standardDeviationMircosecondsPerInvocation="626"/>
-      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="1371" invocations="12721" avgMicrosecondsPerInvocation="107" maxMicrosecondsPerInvocation="181591" standardDeviationMircosecondsPerInvocation="1634"/>
-      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="1285" invocations="4210" avgMicrosecondsPerInvocation="305" maxMicrosecondsPerInvocation="27919" standardDeviationMircosecondsPerInvocation="789"/>
-      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="1191" invocations="2389" avgMicrosecondsPerInvocation="498" maxMicrosecondsPerInvocation="49633" standardDeviationMircosecondsPerInvocation="2056"/>
-      <ClassProfile name="edu.umd.cs.findbugs.detect.StreamResourceTracker" totalMilliseconds="969" invocations="2058" avgMicrosecondsPerInvocation="470" maxMicrosecondsPerInvocation="27629" standardDeviationMircosecondsPerInvocation="1263"/>
-      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="962" invocations="15900" avgMicrosecondsPerInvocation="60" maxMicrosecondsPerInvocation="162825" standardDeviationMircosecondsPerInvocation="1315"/>
-      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ConstantDataflowFactory" totalMilliseconds="899" invocations="12721" avgMicrosecondsPerInvocation="70" maxMicrosecondsPerInvocation="177323" standardDeviationMircosecondsPerInvocation="1603"/>
-      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison$SpecialTypeAnalysis" totalMilliseconds="867" invocations="9261" avgMicrosecondsPerInvocation="93" maxMicrosecondsPerInvocation="7841" standardDeviationMircosecondsPerInvocation="242"/>
-      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="790" invocations="12738" avgMicrosecondsPerInvocation="62" maxMicrosecondsPerInvocation="158125" standardDeviationMircosecondsPerInvocation="1494"/>
-      <ClassProfile name="edu.umd.cs.findbugs.detect.FindOpenStream" totalMilliseconds="464" invocations="1519" avgMicrosecondsPerInvocation="305" maxMicrosecondsPerInvocation="15836" standardDeviationMircosecondsPerInvocation="1076"/>
-      <ClassProfile name="edu.umd.cs.findbugs.detect.CalledMethods" totalMilliseconds="437" invocations="2389" avgMicrosecondsPerInvocation="183" maxMicrosecondsPerInvocation="222965" standardDeviationMircosecondsPerInvocation="4572"/>
-      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.TypeQualifierNullnessAnnotationDatabase" totalMilliseconds="414" invocations="178824" avgMicrosecondsPerInvocation="2" maxMicrosecondsPerInvocation="138198" standardDeviationMircosecondsPerInvocation="326"/>
-      <ClassProfile name="edu.umd.cs.findbugs.detect.UnreadFields" totalMilliseconds="405" invocations="1519" avgMicrosecondsPerInvocation="267" maxMicrosecondsPerInvocation="8106" standardDeviationMircosecondsPerInvocation="492"/>
-      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="400" invocations="2389" avgMicrosecondsPerInvocation="167" maxMicrosecondsPerInvocation="30266" standardDeviationMircosecondsPerInvocation="836"/>
-      <ClassProfile name="edu.umd.cs.findbugs.detect.FindInconsistentSync2" totalMilliseconds="399" invocations="1519" avgMicrosecondsPerInvocation="262" maxMicrosecondsPerInvocation="24776" standardDeviationMircosecondsPerInvocation="988"/>
-      <ClassProfile name="edu.umd.cs.findbugs.detect.DumbMethods" totalMilliseconds="388" invocations="1519" avgMicrosecondsPerInvocation="255" maxMicrosecondsPerInvocation="53258" standardDeviationMircosecondsPerInvocation="1440"/>
-      <ClassProfile name="edu.umd.cs.findbugs.ba.obl.ObligationAnalysis" totalMilliseconds="378" invocations="3985" avgMicrosecondsPerInvocation="94" maxMicrosecondsPerInvocation="7459" standardDeviationMircosecondsPerInvocation="266"/>
-      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.LiveLocalStoreDataflowFactory" totalMilliseconds="372" invocations="12708" avgMicrosecondsPerInvocation="29" maxMicrosecondsPerInvocation="30252" standardDeviationMircosecondsPerInvocation="281"/>
-      <ClassProfile name="edu.umd.cs.findbugs.detect.URLProblems" totalMilliseconds="352" invocations="1519" avgMicrosecondsPerInvocation="232" maxMicrosecondsPerInvocation="15237" standardDeviationMircosecondsPerInvocation="582"/>
-      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="344" invocations="13155" avgMicrosecondsPerInvocation="26" maxMicrosecondsPerInvocation="28289" standardDeviationMircosecondsPerInvocation="346"/>
-      <ClassProfile name="edu.umd.cs.findbugs.detect.DefaultEncodingDetector" totalMilliseconds="337" invocations="1519" avgMicrosecondsPerInvocation="222" maxMicrosecondsPerInvocation="23126" standardDeviationMircosecondsPerInvocation="781"/>
-      <ClassProfile name="edu.umd.cs.findbugs.detect.FindDeadLocalStores" totalMilliseconds="337" invocations="1519" avgMicrosecondsPerInvocation="222" maxMicrosecondsPerInvocation="25831" standardDeviationMircosecondsPerInvocation="898"/>
-      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNullDeref$CheckCallSitesAndReturnInstructions" totalMilliseconds="327" invocations="12721" avgMicrosecondsPerInvocation="25" maxMicrosecondsPerInvocation="10275" standardDeviationMircosecondsPerInvocation="108"/>
-      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="309" invocations="2572" avgMicrosecondsPerInvocation="120" maxMicrosecondsPerInvocation="25115" standardDeviationMircosecondsPerInvocation="590"/>
-      <ClassProfile name="edu.umd.cs.findbugs.detect.LoadOfKnownNullValue" totalMilliseconds="285" invocations="1519" avgMicrosecondsPerInvocation="188" maxMicrosecondsPerInvocation="27650" standardDeviationMircosecondsPerInvocation="775"/>
-      <ClassProfile name="edu.umd.cs.findbugs.detect.FindBadCast2" totalMilliseconds="265" invocations="1519" avgMicrosecondsPerInvocation="174" maxMicrosecondsPerInvocation="17110" standardDeviationMircosecondsPerInvocation="869"/>
-      <ClassProfile name="edu.umd.cs.findbugs.detect.FindPuzzlers" totalMilliseconds="259" invocations="1519" avgMicrosecondsPerInvocation="170" maxMicrosecondsPerInvocation="19429" standardDeviationMircosecondsPerInvocation="603"/>
-      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison" totalMilliseconds="245" invocations="1519" avgMicrosecondsPerInvocation="161" maxMicrosecondsPerInvocation="12118" standardDeviationMircosecondsPerInvocation="459"/>
-      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="242" invocations="4214" avgMicrosecondsPerInvocation="57" maxMicrosecondsPerInvocation="9897" standardDeviationMircosecondsPerInvocation="155"/>
-      <ClassProfile name="edu.umd.cs.findbugs.detect.RuntimeExceptionCapture" totalMilliseconds="236" invocations="1519" avgMicrosecondsPerInvocation="155" maxMicrosecondsPerInvocation="4406" standardDeviationMircosecondsPerInvocation="312"/>
-      <ClassProfile name="edu.umd.cs.findbugs.detect.SwitchFallthrough" totalMilliseconds="228" invocations="1519" avgMicrosecondsPerInvocation="150" maxMicrosecondsPerInvocation="29590" standardDeviationMircosecondsPerInvocation="827"/>
-      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="223" invocations="4105" avgMicrosecondsPerInvocation="54" maxMicrosecondsPerInvocation="24712" standardDeviationMircosecondsPerInvocation="621"/>
-      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="221" invocations="2389" avgMicrosecondsPerInvocation="92" maxMicrosecondsPerInvocation="10676" standardDeviationMircosecondsPerInvocation="340"/>
-      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="212" invocations="2389" avgMicrosecondsPerInvocation="89" maxMicrosecondsPerInvocation="36059" standardDeviationMircosecondsPerInvocation="780"/>
-      <ClassProfile name="edu.umd.cs.findbugs.detect.MethodReturnCheck" totalMilliseconds="204" invocations="1519" avgMicrosecondsPerInvocation="134" maxMicrosecondsPerInvocation="3372" standardDeviationMircosecondsPerInvocation="272"/>
-      <ClassProfile name="edu.umd.cs.findbugs.detect.FindSelfComparison" totalMilliseconds="194" invocations="1519" avgMicrosecondsPerInvocation="127" maxMicrosecondsPerInvocation="3649" standardDeviationMircosecondsPerInvocation="272"/>
-      <ClassProfile name="edu.umd.cs.findbugs.detect.InfiniteRecursiveLoop" totalMilliseconds="193" invocations="1519" avgMicrosecondsPerInvocation="127" maxMicrosecondsPerInvocation="37914" standardDeviationMircosecondsPerInvocation="993"/>
-      <ClassProfile name="edu.umd.cs.findbugs.detect.FindHEmismatch" totalMilliseconds="189" invocations="1519" avgMicrosecondsPerInvocation="124" maxMicrosecondsPerInvocation="3611" standardDeviationMircosecondsPerInvocation="248"/>
-      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNullDeref" totalMilliseconds="188" invocations="1519" avgMicrosecondsPerInvocation="123" maxMicrosecondsPerInvocation="3059" standardDeviationMircosecondsPerInvocation="204"/>
-      <ClassProfile name="edu.umd.cs.findbugs.detect.InfiniteLoop" totalMilliseconds="185" invocations="1519" avgMicrosecondsPerInvocation="121" maxMicrosecondsPerInvocation="3857" standardDeviationMircosecondsPerInvocation="256"/>
-      <ClassProfile name="edu.umd.cs.findbugs.detect.FindFloatEquality" totalMilliseconds="182" invocations="1519" avgMicrosecondsPerInvocation="120" maxMicrosecondsPerInvocation="32999" standardDeviationMircosecondsPerInvocation="869"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="4790" invocations="12721" avgMicrosecondsPerInvocation="376" maxMicrosecondsPerInvocation="61515" standardDeviationMircosecondsPerInvocation="1685"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="4460" invocations="6329" avgMicrosecondsPerInvocation="704" maxMicrosecondsPerInvocation="280822" standardDeviationMircosecondsPerInvocation="5065"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="4044" invocations="12721" avgMicrosecondsPerInvocation="317" maxMicrosecondsPerInvocation="429945" standardDeviationMircosecondsPerInvocation="3977"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="3338" invocations="12721" avgMicrosecondsPerInvocation="262" maxMicrosecondsPerInvocation="395565" standardDeviationMircosecondsPerInvocation="3729"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="3060" invocations="4210" avgMicrosecondsPerInvocation="726" maxMicrosecondsPerInvocation="200350" standardDeviationMircosecondsPerInvocation="3476"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="2837" invocations="2389" avgMicrosecondsPerInvocation="1187" maxMicrosecondsPerInvocation="83784" standardDeviationMircosecondsPerInvocation="4188"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison$SpecialTypeAnalysis" totalMilliseconds="2405" invocations="9261" avgMicrosecondsPerInvocation="259" maxMicrosecondsPerInvocation="322016" standardDeviationMircosecondsPerInvocation="3411"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.StreamResourceTracker" totalMilliseconds="2282" invocations="2058" avgMicrosecondsPerInvocation="1108" maxMicrosecondsPerInvocation="81464" standardDeviationMircosecondsPerInvocation="2773"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="2237" invocations="15900" avgMicrosecondsPerInvocation="140" maxMicrosecondsPerInvocation="287161" standardDeviationMircosecondsPerInvocation="2401"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ConstantDataflowFactory" totalMilliseconds="1608" invocations="12721" avgMicrosecondsPerInvocation="126" maxMicrosecondsPerInvocation="34131" standardDeviationMircosecondsPerInvocation="534"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="1311" invocations="12738" avgMicrosecondsPerInvocation="102" maxMicrosecondsPerInvocation="49695" standardDeviationMircosecondsPerInvocation="719"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindOpenStream" totalMilliseconds="1306" invocations="1519" avgMicrosecondsPerInvocation="859" maxMicrosecondsPerInvocation="445339" standardDeviationMircosecondsPerInvocation="11590"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.DumbMethods" totalMilliseconds="1191" invocations="1519" avgMicrosecondsPerInvocation="784" maxMicrosecondsPerInvocation="65047" standardDeviationMircosecondsPerInvocation="3024"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.LiveLocalStoreDataflowFactory" totalMilliseconds="1080" invocations="12708" avgMicrosecondsPerInvocation="85" maxMicrosecondsPerInvocation="333422" standardDeviationMircosecondsPerInvocation="2962"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.UnreadFields" totalMilliseconds="1008" invocations="1519" avgMicrosecondsPerInvocation="663" maxMicrosecondsPerInvocation="61410" standardDeviationMircosecondsPerInvocation="1948"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="947" invocations="2389" avgMicrosecondsPerInvocation="396" maxMicrosecondsPerInvocation="49398" standardDeviationMircosecondsPerInvocation="1799"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BadResultSetAccess" totalMilliseconds="930" invocations="1519" avgMicrosecondsPerInvocation="612" maxMicrosecondsPerInvocation="525912" standardDeviationMircosecondsPerInvocation="13491"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.URLProblems" totalMilliseconds="906" invocations="1519" avgMicrosecondsPerInvocation="596" maxMicrosecondsPerInvocation="37418" standardDeviationMircosecondsPerInvocation="1421"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.obl.ObligationAnalysis" totalMilliseconds="808" invocations="3985" avgMicrosecondsPerInvocation="202" maxMicrosecondsPerInvocation="54778" standardDeviationMircosecondsPerInvocation="1015"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindInconsistentSync2" totalMilliseconds="804" invocations="1519" avgMicrosecondsPerInvocation="529" maxMicrosecondsPerInvocation="31016" standardDeviationMircosecondsPerInvocation="1389"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.RepeatedConditionals" totalMilliseconds="804" invocations="1519" avgMicrosecondsPerInvocation="529" maxMicrosecondsPerInvocation="344321" standardDeviationMircosecondsPerInvocation="8846"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.DefaultEncodingDetector" totalMilliseconds="786" invocations="1519" avgMicrosecondsPerInvocation="517" maxMicrosecondsPerInvocation="26769" standardDeviationMircosecondsPerInvocation="1382"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindDeadLocalStores" totalMilliseconds="687" invocations="1519" avgMicrosecondsPerInvocation="452" maxMicrosecondsPerInvocation="46138" standardDeviationMircosecondsPerInvocation="1565"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.LoadOfKnownNullValue" totalMilliseconds="648" invocations="1519" avgMicrosecondsPerInvocation="426" maxMicrosecondsPerInvocation="63462" standardDeviationMircosecondsPerInvocation="1751"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNullDeref$CheckCallSitesAndReturnInstructions" totalMilliseconds="645" invocations="12721" avgMicrosecondsPerInvocation="50" maxMicrosecondsPerInvocation="6624" standardDeviationMircosecondsPerInvocation="137"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="640" invocations="13155" avgMicrosecondsPerInvocation="48" maxMicrosecondsPerInvocation="54560" standardDeviationMircosecondsPerInvocation="484"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NumberConstructor" totalMilliseconds="626" invocations="1519" avgMicrosecondsPerInvocation="412" maxMicrosecondsPerInvocation="330138" standardDeviationMircosecondsPerInvocation="8525"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindPuzzlers" totalMilliseconds="592" invocations="1519" avgMicrosecondsPerInvocation="389" maxMicrosecondsPerInvocation="35774" standardDeviationMircosecondsPerInvocation="1283"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CalledMethods" totalMilliseconds="586" invocations="2389" avgMicrosecondsPerInvocation="245" maxMicrosecondsPerInvocation="48106" standardDeviationMircosecondsPerInvocation="1289"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison" totalMilliseconds="586" invocations="1519" avgMicrosecondsPerInvocation="386" maxMicrosecondsPerInvocation="38999" standardDeviationMircosecondsPerInvocation="1494"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.TypeQualifierNullnessAnnotationDatabase" totalMilliseconds="560" invocations="178824" avgMicrosecondsPerInvocation="3" maxMicrosecondsPerInvocation="2695" standardDeviationMircosecondsPerInvocation="13"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.RuntimeExceptionCapture" totalMilliseconds="555" invocations="1519" avgMicrosecondsPerInvocation="365" maxMicrosecondsPerInvocation="9022" standardDeviationMircosecondsPerInvocation="705"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.MethodReturnCheck" totalMilliseconds="550" invocations="1519" avgMicrosecondsPerInvocation="362" maxMicrosecondsPerInvocation="52638" standardDeviationMircosecondsPerInvocation="1493"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindBadCast2" totalMilliseconds="547" invocations="1519" avgMicrosecondsPerInvocation="360" maxMicrosecondsPerInvocation="32501" standardDeviationMircosecondsPerInvocation="1721"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindHEmismatch" totalMilliseconds="522" invocations="1519" avgMicrosecondsPerInvocation="344" maxMicrosecondsPerInvocation="57295" standardDeviationMircosecondsPerInvocation="1580"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.InfiniteLoop" totalMilliseconds="519" invocations="1519" avgMicrosecondsPerInvocation="341" maxMicrosecondsPerInvocation="45388" standardDeviationMircosecondsPerInvocation="1340"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="518" invocations="2572" avgMicrosecondsPerInvocation="201" maxMicrosecondsPerInvocation="21416" standardDeviationMircosecondsPerInvocation="595"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.SwitchFallthrough" totalMilliseconds="516" invocations="1519" avgMicrosecondsPerInvocation="339" maxMicrosecondsPerInvocation="17969" standardDeviationMircosecondsPerInvocation="853"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindSelfComparison" totalMilliseconds="504" invocations="1519" avgMicrosecondsPerInvocation="332" maxMicrosecondsPerInvocation="12825" standardDeviationMircosecondsPerInvocation="710"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.InfiniteRecursiveLoop" totalMilliseconds="504" invocations="1519" avgMicrosecondsPerInvocation="332" maxMicrosecondsPerInvocation="99216" standardDeviationMircosecondsPerInvocation="2600"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNullDeref" totalMilliseconds="468" invocations="1519" avgMicrosecondsPerInvocation="308" maxMicrosecondsPerInvocation="49132" standardDeviationMircosecondsPerInvocation="1326"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="465" invocations="4214" avgMicrosecondsPerInvocation="110" maxMicrosecondsPerInvocation="855" standardDeviationMircosecondsPerInvocation="67"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="446" invocations="2389" avgMicrosecondsPerInvocation="187" maxMicrosecondsPerInvocation="22845" standardDeviationMircosecondsPerInvocation="722"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BadSyntaxForRegularExpression" totalMilliseconds="443" invocations="1519" avgMicrosecondsPerInvocation="291" maxMicrosecondsPerInvocation="70644" standardDeviationMircosecondsPerInvocation="1872"/>
     </FindBugsProfile>
   </FindBugsSummary>
   <ClassFeatures></ClassFeatures>
