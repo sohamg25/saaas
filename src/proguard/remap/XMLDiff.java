@@ -79,6 +79,7 @@ public class XMLDiff {
 
 		// key will have the format:
 		//		category:lineStart:lineEnd:bugType:className:method:field
+		//		key format changed to category:bugtype:className:method:field
 		StringBuilder key = new StringBuilder();
 
 		Attribute category = item.attribute("category");
@@ -94,7 +95,7 @@ public class XMLDiff {
 			key.append(":");
 		}
 
-		for (Iterator i = item.elementIterator(SOURCE_LINE); i.hasNext(); ) {
+		/*for (Iterator i = item.elementIterator(SOURCE_LINE); i.hasNext(); ) {
 			Element ln = (Element) i.next();
 			Attribute start = ln.attribute("start");
 			Attribute end = ln.attribute("end");
@@ -103,7 +104,7 @@ public class XMLDiff {
 			key.append(":");
 			key.append(end.getValue());
 			key.append(":");
-		}
+		}*/
 		
 		for (Iterator i = item.elementIterator(LOCAL_VARIABLE); i.hasNext(); ) {
 			Element lv = (Element) i.next();

@@ -24,7 +24,7 @@
 }
 
 -keepclassmembers class *$* {
-    public double evaluate(***);
+    public * evaluate(***);
 }
 
 # Keep - Applications. Keep all application classes, along with their 'main'
