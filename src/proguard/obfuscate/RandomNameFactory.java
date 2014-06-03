@@ -121,6 +121,8 @@ public class RandomNameFactory implements NameFactory
 			return name;
 		if(name.equals("serialVersionUID"))
 			return name;
+		/*if(name.equals("evaluate"))
+			return name;*/
 		else if(name.length()>3 && (name.substring(0, 3).equalsIgnoreCase("set") || name.substring(0, 3).equalsIgnoreCase("get"))){
 			i=3;
 			newName+=name.substring(0, 3);

@@ -13,6 +13,7 @@
 -keepattributes Exceptions,InnerClasses,Signature,Deprecated,SourceFile,LineNumberTable,LocalVariable*Table,*Annotation*,Synthetic,EnclosingMethod
 -dontnote
 -dontwarn
+-printseed /tmp/proguard_seed.txt
 -dump /tmp/dump.txt
 
 -keepclassmembers class * {
@@ -44,6 +45,10 @@
     private void readObject(java.io.ObjectInputStream);
     java.lang.Object writeReplace();
     java.lang.Object readResolve();
+}
+
+-keepclassmembers class *$* {
+
 }
 
 # Also keep - Database drivers. Keep all implementations of java.sql.Driver.
